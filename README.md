@@ -7,7 +7,7 @@ Keeping track and visualizing data from the Cook County Medical Examiner.
 - [Docker](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-### 🚀 Quick start
+### 🚀 Quick start for local dev
 
 1. Grab the repo:
 
@@ -16,7 +16,16 @@ Keeping track and visualizing data from the Cook County Medical Examiner.
     cd medical-examiner-data
     ```
 
-2. Start developing
+2. Create a `.env` (dotenv) file in your root project directory with the following configuration:
+
+    ```
+    # Cook County Data Portal API keys
+    API_APP_TOKEN=<your token>
+    ```
+
+    To make a new app token, you'll have to create an account at https://datacatalog.cookcountyil.gov/
+
+3. Start developing
 
     ```shell
     docker-compose up --build

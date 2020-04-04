@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-apiserver',
       options: {
-        name: 'Cases',
+        name: 'cases',
         url: 'https://datacatalog.cookcountyil.gov/resource/cjeq-bs86.json?$limit=100000',
         method: 'GET',
         auth: false,
