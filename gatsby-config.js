@@ -2,7 +2,7 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `how to recharts`,
+    title: `Cook County Medical Examiner Data`,
     description: ``,
     author: `@beamalsky`,
   },
