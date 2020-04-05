@@ -1,12 +1,30 @@
-name: Fetch latest data and commit
+name: Build and Deploy to Gatsby every two hours
 
 on: push
+  # 1. Trigger the workflow every 2 hours
+  # schedule:
+    # - cron: "0 */2 * * *"
 
 jobs:
   build:
+    # 2. Using the latest Ubuntu image
     runs-on: ubuntu-latest
+
     steps:
+      # Check out the current repository code
       - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      # 3. https://github.com/actions/setup-node#usage
+      - uses: actions/setup-node@v1
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          node-version: "12.x"
+      - run: yarn install
+      # This triggers `gatsby build` script in "package.json"
+      - run: yarn run build
+      # 4. Deploy the gatsby build to Netlify
+      - uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        with:
+          # 5. "gatsby build" creates "public" folder, which is what we are deploying
+          args: deploy --dir=public --prod
+          secrets: '["NETLIFY_AUTH_TOKEN"]'
