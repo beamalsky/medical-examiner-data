@@ -5,7 +5,7 @@ on:
   push:
   # trigger every 5 minutes
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   build:
