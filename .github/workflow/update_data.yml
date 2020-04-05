@@ -1,5 +1,5 @@
 # adapted from https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
-name: Update API data and deploy on a schedule
+name: Update API data and deploy
 
 on: push
   # trigger the workflow every 2 hours
@@ -24,7 +24,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/data/cases.json
           git commit -m "Add changes" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
