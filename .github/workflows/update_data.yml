@@ -2,9 +2,10 @@
 name: Update API data and deploy on a schedule
 
 on:
+  push:
   # trigger every hour
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: '5 * * * * *'
 
 jobs:
   build:
