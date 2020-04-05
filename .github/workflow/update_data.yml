@@ -1,9 +1,6 @@
 name: Fetch latest data and commit
 
-on:
-  repository_dispatch:
-  schedule:
-    - cron:  '*/5 * * * *'
+on: push
 
 jobs:
   build:
