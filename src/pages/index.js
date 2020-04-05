@@ -9,8 +9,10 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Home" />
+
       <MixedBarChart
         data={data}
+        title="Reported Deaths Over Time"
       />
     </Layout>
   )

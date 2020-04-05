@@ -1,6 +1,6 @@
 # Cook County Medical Examiner Data
 
-Keeping track and visualizing data from the Cook County Medical Examiner.
+Keeping track of and visualizing data from the Cook County Medical Examiner.
 
 ### 💾 Requirements
 
@@ -86,4 +86,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ### 💫 TK: Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+All commits to master are currently deployed via Netlify to [here](https://5e8917722d813b000735920d--thirsty-wilson-4a2654.netlify.com/).

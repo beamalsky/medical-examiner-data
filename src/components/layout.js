@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "./header"
+import Footer from "../components/footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -35,8 +36,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer></footer>
       </div>
+      <Footer />
     </>
   )
 }
