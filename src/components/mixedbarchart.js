@@ -75,8 +75,15 @@ const stripYear = (date) => {
 }
 
 const MixedBarChart = (props) => {
+  var dataCVCombined = props.data.cases_cv.nodes.concat(
+    props.data.cases_cv_a.nodes
+  ).concat(
+    props.data.cases_cv_b.nodes
+  )
+  
+  var dataCV = countKeys(dataCVCombined, false)
+
   var data2020 = countKeys(props.data.cases_2020.nodes, false)
-  var dataCV = countKeys(props.data.cases_cv.nodes, false)
 
   var dataHistorical_days = countKeys(props.data.cases_historical.nodes, true)
   var dataHistorical_dates = countKeys(props.data.cases_historical.nodes, false)
