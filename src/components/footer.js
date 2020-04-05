@@ -14,6 +14,7 @@ const Contain = styled.div`
   p {
     text-align: center;
     padding: 10px 0;
+    margin-bottom: 0;
   }
 `
 
