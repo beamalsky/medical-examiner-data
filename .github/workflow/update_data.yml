@@ -1,10 +1,10 @@
 # adapted from https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
 name: Update API data and deploy
 
-on: push
+on:
   # trigger the workflow every 2 hours
-  # schedule:
-  #   - cron: "0 */2 * * *"
+  schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
   build:
