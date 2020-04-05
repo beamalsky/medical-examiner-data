@@ -2,30 +2,27 @@
 name: Update API data and deploy on a schedule
 
 on: push
-  # 1. Trigger the workflow every 2 hours
-  # schedule:
-    # - cron: "0 */2 * * *"
+  # trigger every hour
+  schedule:
+    - cron: "0 */1 * * *"
 
 jobs:
   build:
-    # 2. Using the latest Ubuntu image
     runs-on: ubuntu-latest
 
     steps:
-      # Check out the current repository code
       - uses: actions/checkout@v1
-      # 3. https://github.com/actions/setup-node#usage
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
       - run: yarn install
       # This triggers `gatsby build` script in "package.json"
       - run: yarn run build
-      # Commit and push files
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add .
           git commit -m "Add changes" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
