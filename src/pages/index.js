@@ -103,7 +103,6 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Home" />
-
       <MixedBarChart
         data={dataHistorical}
         title="Reported Deaths Over Time"
@@ -112,7 +111,6 @@ const IndexPage = ({data}) => {
         <Bar dataKey="2020 Deaths" stackId="a" fill="#d5644b"/>
         <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
       </MixedBarChart>
-
     </Layout>
   )
 }

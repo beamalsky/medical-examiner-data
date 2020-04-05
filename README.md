@@ -1,6 +1,6 @@
 # Cook County Medical Examiner Data
 
-Keeping track of and visualizing data from the Cook County Medical Examiner.
+Keeping track of and visualizing reports from the Cook County Medical Examiner. Data pulled from the [Cook County Data Portal](https://datacatalog.cookcountyil.gov/resource/cjeq-bs86) hourly.
 
 ### 💾 Requirements
 

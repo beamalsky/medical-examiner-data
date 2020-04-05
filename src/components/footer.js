@@ -19,7 +19,10 @@ const Footer = () => {
   return (
     <Foot>
       <Contain>
-        <p>Put some footer text here</p>
+        <p>
+          A work in progress by <a href="https://twitter.com/beamalsky">Bea Malsky</a>.
+          Open source code <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
+        </p>
       </Contain>
     </Foot>
   )
