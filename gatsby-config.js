@@ -38,7 +38,7 @@ module.exports = {
         auth: false,
         headers: {
           'Content-Type': 'application/json',
-          'X-App-Token': process.env.API_APP_TOKEN
+          'X-App-Token': secrets.API_APP_TOKEN
         },
         localSave: true,
         path: `${__dirname}/src/data/`,
