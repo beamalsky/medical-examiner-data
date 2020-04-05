@@ -10,10 +10,12 @@ const CustomTooltip = ({ active, payload, label }) => {
 
     return <TooltipWrapper>
       <h3>{label}</h3>
-      <p>{payload[0]['dataKey']}: <b>{payload[0]['value']}</b></p>
       <p>
         {payload[1]['dataKey']}: <b>{payload[1]['value'] + cv_deaths}</b> <br />
-        <i>{cv_deaths} recorded as a COVID-19 death</i>
+        <i>{cv_deaths} recorded as COVID-19</i>
+      </p>
+      <p>
+        Historical average: <b>{payload[0]['value']}</b>
       </p>
     </TooltipWrapper>
   }
@@ -33,8 +35,28 @@ const TooltipWrapper = styled.div`
   }
 `
 
-const countKeys = (data) => {
-  var keys = data.map(function(value, index) {return stripYear(value['death_date'])})
+const countKeys = (data, strip) => {
+  if (strip) {
+    var keys = data.map(function(value, index) {return stripYear(value['death_date'])})
+  } else {
+    var keys = data.map(function(value, index) {return value['death_date']})
+  }
+
+  var counts = {}
+
+  keys.forEach(function(key, index) {
+      if (key in counts) {
+          counts[key] += 1;
+      } else {
+          counts[key] = 1;
+      }
+  })
+
+  return counts
+}
+
+const countDays = (data) => {
+  var keys = Object.entries(data).map(obj => {return stripYear(obj[0])})
   var counts = {}
 
   keys.forEach(function(key, index) {
@@ -53,34 +75,39 @@ const stripYear = (date) => {
 }
 
 const MixedBarChart = (props) => {
-  var data2020 = countKeys(props.data.cases_2020.nodes)
-  var dataCV = countKeys(props.data.cases_cv.nodes)
-  var data2019 = countKeys(props.data.cases_2019.nodes)
+  var data2020 = countKeys(props.data.cases_2020.nodes, false)
+  var dataCV = countKeys(props.data.cases_cv.nodes, false)
+
+  var dataHistorical_days = countKeys(props.data.cases_historical.nodes, true)
+  var dataHistorical_dates = countKeys(props.data.cases_historical.nodes, false)
+  var dataHistorical_frequency = countDays(dataHistorical_dates)
 
   var data2020 = Object.entries(data2020).map(
     obj => {
       return {
-        day: obj[0],
+        date: obj[0],
+        day: stripYear(obj[0]),
         cases: obj[1]
       }
     }
   )
 
-  var finalData = {}
+  var mergedData = {}
 
   Object.entries(data2020).forEach(function (value) {
-    var day = value[1]['day']
+    var date = value[1]['date'] // YYYY-MM-DD
+    var day = value[1]['day'] // MM-DD
 
-    finalData[value[0]] = {
+    mergedData[value[0]] = {
       'day': day,
-      '2020 Deaths': value[1]['cases'] - (dataCV[day] || 0),
-      'Recorded COVID-19 Deaths': dataCV[day],
-      '2019 Deaths': data2019[day]
+      '2020 Deaths': value[1]['cases'] - (dataCV[date] || 0),
+      'COVID-19': dataCV[date],
+      'Average Deaths': dataHistorical_days[day] / dataHistorical_frequency[day]
     }
 
   })
 
-  finalData = Object.keys(finalData).map(i => finalData[i])
+  mergedData = Object.keys(mergedData).map(i => mergedData[i])
 
   return (
     <div style={{ width: '100%', height: 300, margin: '0 1rem 2rem 0rem' }}>
@@ -89,7 +116,7 @@ const MixedBarChart = (props) => {
         <BarChart
           width={700}
           height={600}
-          data={finalData}
+          data={mergedData}
           margin={{
             top: 20, right: 20, left: -5, bottom: 5,
           }}
@@ -99,9 +126,9 @@ const MixedBarChart = (props) => {
           <YAxis />
           <Tooltip content={<CustomTooltip/>} />
           <Legend/>
-          <Bar dataKey="2019 Deaths" fill="#d5c17e"/>
+          <Bar dataKey="Average Deaths" fill="#d5c17e"/>
           <Bar dataKey="2020 Deaths" stackId="a" fill="#d5644b"/>
-          <Bar dataKey="Recorded COVID-19 Deaths" stackId="a" fill="#934534"/>
+          <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
         </BarChart>
       </ResponsiveContainer>
     </div>
