@@ -184,14 +184,13 @@ const IndexPage = ({data}) => {
   )
 
   const last_updated = data.cases_2020.nodes[data.cases_2020.nodes.length - 1].death_date
-  console.log(dataCVGenderArray)
 
   return (
     <Layout>
       <SEO title="Home" />
 
-      <Row>
-        <Col style={{textAlign: "center", margin: "auto"}}>
+      <Row style={{ marginBottom: '2rem' }}>
+        <Col style={{textAlign: "center", margin: "auto"}} xs={12} md={6}>
           <h3>
             Total deaths <br />attributed to COVID-19:
           </h3>
@@ -200,7 +199,7 @@ const IndexPage = ({data}) => {
           </h1>
           <p><i>Last updated <br />{last_updated}</i></p>
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <MixedBarChart
             data={dataHistorical}
             title="Deaths attributed to COVID-19 by day"
@@ -231,7 +230,7 @@ const IndexPage = ({data}) => {
       </Row>
 
       <Row style={{ marginTop: '4rem', marginBottom: '2rem' }}>
-        <Col>
+        <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVRaceArray}
             title="Deaths attributed to COVID-19 by Race"
@@ -243,7 +242,7 @@ const IndexPage = ({data}) => {
             the Cook County Medical Examiner records Latino people as White.
           </p>
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVGenderArray}
             title="Deaths attributed to COVID-19 by Gender"
