@@ -1,9 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Bar } from 'recharts'
-import { Col, Row } from 'react-bootstrap'
+import { Col, Row, Form } from 'react-bootstrap'
 import styled from 'styled-components'
 
+import VizContext from "../context/vizcontext"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
@@ -51,10 +52,10 @@ const stripYear = (date) => {
 }
 
 const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv.nodes.concat(
-    data.cases_cv_a.nodes
+  const dataCVCombined = data.cases_cv_filtered.concat(
+    data.cases_cv_a_filtered
   ).concat(
-    data.cases_cv_b.nodes
+    data.cases_cv_b_filtered
   )
 
   return dataCVCombined
@@ -62,10 +63,10 @@ const getCVData = (data) => {
 
 const getHistoricalData = (data) => {
   const dataCV = countKeys(getCVData(data), 'death_date', false)
-  var data2020 = countKeys(data.cases_2020.nodes, 'death_date', false)
+  var data2020 = countKeys(data.cases_2020_filtered, 'death_date', false)
 
-  const dataHistorical_days = countKeys(data.cases_historical.nodes, 'death_date', true)
-  const dataHistorical_dates = countKeys(data.cases_historical.nodes, 'death_date', false)
+  const dataHistorical_days = countKeys(data.cases_historical_filtered, 'death_date', true)
+  const dataHistorical_dates = countKeys(data.cases_historical_filtered, 'death_date', false)
   const dataHistorical_frequency = countDays(dataHistorical_dates)
 
   data2020 = Object.entries(data2020).map(
@@ -159,7 +160,27 @@ const TooltipWrapper = styled.div`
   }
 `
 
-const IndexPage = ({data}) => {
+const IndexPageWithContext = (props) => {
+  var data = props.data
+
+  if (props.vizState.location === 'Cook County') {
+    console.log("hello there")
+    data.cases_cv_filtered = data.cases_cv.nodes
+    console.log(data.cases_cv_filtered)
+    data.cases_cv_a_filtered = data.cases_cv_a.nodes
+    data.cases_cv_b_filtered = data.cases_cv_b.nodes
+    data.cases_2020_filtered = data.cases_2020.nodes
+    data.cases_historical_filtered = data.cases_historical.nodes
+  } else {
+    const city = props.vizState.location
+
+    data.cases_cv_filtered = data.cases_cv.nodes.filter(d => d.residence_city === city)
+    data.cases_cv_a_filtered = data.cases_cv_a.nodes.filter(d => d.residence_city === city)
+    data.cases_cv_b_filtered = data.cases_cv_b.nodes.filter(d => d.residence_city === city)
+    data.cases_2020_filtered = data.cases_2020.nodes.filter(d => d.residence_city === city)
+    data.cases_historical_filtered = data.cases_historical.nodes.filter(d => d.residence_city === city)
+  }
+
   const dataHistorical = getHistoricalData(data)
   const dataCV = getCVData(data)
 
@@ -183,7 +204,7 @@ const IndexPage = ({data}) => {
     }
   )
 
-  const last_updated = data.cases_2020.nodes[data.cases_2020.nodes.length - 1].death_date
+  const last_updated = props.data.cases_2020_filtered[props.data.cases_2020_filtered.length - 1].death_date
 
   return (
     <Layout>
@@ -191,6 +212,18 @@ const IndexPage = ({data}) => {
 
       <Row style={{ marginBottom: '2rem' }}>
         <Col style={{textAlign: "center", margin: "auto"}} xs={12} md={6}>
+          <Form>
+            <Form.Group controlId="exampleForm.ControlSelect1" style={{ width: '40%', margin: '0 auto' }}>
+              <Form.Control
+                as="select"
+                onChange={e => props.vizState.setLocation(e.target.value)}
+              >
+                <option value="Cook County">All of Cook County</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Forest Park">Forest Park</option>
+              </Form.Control>
+            </Form.Group>
+          </Form>
           <h3>
             Total deaths <br />attributed to COVID-19:
           </h3>
@@ -255,6 +288,19 @@ const IndexPage = ({data}) => {
   )
 }
 
+const IndexPage = ({data}) => {
+  return (
+    <VizContext.Consumer>
+      {vizState => (
+        <IndexPageWithContext
+          data={data}
+          vizState={vizState}
+        />
+      )}
+    </VizContext.Consumer>
+  )
+}
+
 export default IndexPage
 
 export const query = graphql`
@@ -272,6 +318,7 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
         age
         race
         primarycause
@@ -293,6 +340,7 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
         age
         race
         primarycause
@@ -314,6 +362,7 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
         age
         race
         primarycause
@@ -334,6 +383,7 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
         age
         race
         primarycause
@@ -353,6 +403,7 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
         age
         race
         primarycause
