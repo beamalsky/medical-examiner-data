@@ -213,14 +213,13 @@ const IndexPageWithContext = (props) => {
       <Row style={{ marginBottom: '2rem' }}>
         <Col style={{textAlign: "center", margin: "auto"}} xs={12} md={6}>
           <Form>
-            <Form.Group controlId="exampleForm.ControlSelect1" style={{ width: '40%', margin: '0 auto' }}>
+            <Form.Group controlId="exampleForm.ControlSelect1" style={{ width: '300px', margin: '0 auto' }}>
               <Form.Control
                 as="select"
                 onChange={e => props.vizState.setLocation(e.target.value)}
               >
                 <option value="Cook County">All of Cook County</option>
                 <option value="Chicago">Chicago</option>
-                <option value="Forest Park">Forest Park</option>
               </Form.Control>
             </Form.Group>
           </Form>
@@ -235,7 +234,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <MixedBarChart
             data={dataHistorical}
-            title="Deaths attributed to COVID-19 by day"
+            title={`Deaths attribued to COVID-19 in ${props.vizState.location} by day`}
             tooltip=<CVTooltip/>
           >
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
@@ -247,14 +246,14 @@ const IndexPageWithContext = (props) => {
         <Col>
           <MixedBarChart
             data={dataHistorical}
-            title="All reported deaths by day"
+            title={`All reported deaths in ${props.vizState.location} by day`}
             tooltip=<HistoricalTooltip/>
           >
             <Bar dataKey="Average Deaths" fill="#d5c17e"/>
             <Bar dataKey="2020 Deaths" stackId="a" fill="#d5644b"/>
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
           </MixedBarChart>
-          <p style={{ fontFamily: "sans-serif", margin: '3rem 2rem 0rem' }}>
+          <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
             It's possible that deaths from COVID-19 are and will continue to be undercounted, as <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html">the
             New York Times has reported</a>. Note the gap in the chart above between COVID-19 deaths
             and abnormally high daily death rates.
@@ -266,7 +265,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVRaceArray}
-            title="Deaths attributed to COVID-19 by Race"
+            title={`Deaths attributed to COVID-19 by race in ${props.vizState.location}`}
             tooltip=<DemoTooltip/>
             color="#77b88f"
           />
@@ -278,7 +277,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVGenderArray}
-            title="Deaths attributed to COVID-19 by Gender"
+            title={`Deaths attributed to COVID-19 by gender in ${props.vizState.location}`}
             tooltip=<DemoTooltip/>
             color="#788fb9"
           />
