@@ -222,10 +222,10 @@ const IndexPage = ({data}) => {
             <Bar dataKey="2020 Deaths" stackId="a" fill="#d5644b"/>
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
           </MixedBarChart>
-          <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
+          <p style={{ fontFamily: "sans-serif", margin: '3rem 2rem 0rem' }}>
             It's possible that deaths from COVID-19 are and will continue to be underreported, as
-            <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html">
-            the New York Times has reported</a>. Note the gap in the chart above between COVID-19 deaths
+            <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html"> the
+            New York Times has reported</a>. Note the gap in the chart above between COVID-19 deaths
             and abnormally high daily death rates.
           </p>
         </Col>
@@ -240,8 +240,8 @@ const IndexPage = ({data}) => {
             color="#77b88f"
           />
           <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
-            Take this race data with a grain of salt. As noted by <a href="https://twitter.com/matt_kiefer/status/1246280125290864640">Matt Kiefer</a> and Joe Ward,
-            the Cook County Medical Examiner records Latino people as White (<a href="https://www.dnainfo.com/chicago/20150826/pilsen/cook-county-morgue-calls-latinos-white-making-data-on-gun-violence-flawed/">link</a>).
+            Take this race data with a grain of salt. As noted by <a href="https://twitter.com/matt_kiefer/status/1246280125290864640">Matt Kiefer</a> and <a href="https://www.dnainfo.com/chicago/20150826/pilsen/cook-county-morgue-calls-latinos-white-making-data-on-gun-violence-flawed/">Joe Ward</a>,
+            the Cook County Medical Examiner records Latino people as White.
           </p>
         </Col>
         <Col>
