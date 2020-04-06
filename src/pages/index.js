@@ -223,8 +223,7 @@ const IndexPage = ({data}) => {
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
           </MixedBarChart>
           <p style={{ fontFamily: "sans-serif", margin: '3rem 2rem 0rem' }}>
-            It's possible that deaths from COVID-19 are and will continue to be underreported, as
-            <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html"> the
+            It's possible that deaths from COVID-19 are and will continue to be underreported, as <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html">the
             New York Times has reported</a>. Note the gap in the chart above between COVID-19 deaths
             and abnormally high daily death rates.
           </p>
