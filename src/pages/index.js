@@ -7,7 +7,7 @@ import styled from 'styled-components'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
-import CustomPieChart from "../components/custompiechart"
+import ActivePieChart from "../components/activepiechart"
 
 const countKeys = (data, groupKey, strip) => {
   var keys
@@ -134,6 +134,19 @@ const CVTooltip = ({ active, payload, label }) => {
   return null
 }
 
+const DemoTooltip = ({ active, payload, label }) => {
+  if (active) {
+    return <TooltipWrapper>
+      <h3>{payload[0]['payload']['race']}</h3>
+      <p>
+        <b>{payload[0]['value']}</b> recorded COVID-19 deaths
+      </p>
+    </TooltipWrapper>
+  }
+
+  return null
+}
+
 const TooltipWrapper = styled.div`
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px dotted #999;
@@ -154,7 +167,7 @@ const IndexPage = ({data}) => {
   const dataCVRaceArray = Object.entries(dataCVRace).map(
     obj => {
       return {
-        race: obj[0],
+        name: obj[0],
         value: obj[1]
       }
     }
@@ -164,14 +177,14 @@ const IndexPage = ({data}) => {
   const dataCVGenderArray = Object.entries(dataCVGender).map(
     obj => {
       return {
-        race: obj[0],
+        name: obj[0],
         value: obj[1]
       }
     }
   )
 
   const last_updated = data.cases_2020.nodes[data.cases_2020.nodes.length - 1].death_date
-  console.log(last_updated)
+  console.log(dataCVGenderArray)
 
   return (
     <Layout>
@@ -209,9 +222,37 @@ const IndexPage = ({data}) => {
             <Bar dataKey="2020 Deaths" stackId="a" fill="#d5644b"/>
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
           </MixedBarChart>
+          <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
+            It's possible that deaths from COVID-19 are and will continue to be underreported, as
+            <a href="https://www.nytimes.com/2020/04/05/us/coronavirus-deaths-undercount.html">
+            the New York Times has reported</a>. Note the gap in the chart above between COVID-19 deaths
+            and abnormally high daily death rates.
+          </p>
         </Col>
       </Row>
 
+      <Row style={{ marginTop: '4rem', marginBottom: '2rem' }}>
+        <Col>
+          <ActivePieChart
+            data={dataCVRaceArray}
+            title="Deaths attributed to COVID-19 by Race"
+            tooltip=<DemoTooltip/>
+            color="#77b88f"
+          />
+          <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
+            Take this race data with a grain of salt. As noted by <a href="https://twitter.com/matt_kiefer/status/1246280125290864640">Matt Kiefer</a> and Joe Ward,
+            the Cook County Medical Examiner records Latino people as White (<a href="https://www.dnainfo.com/chicago/20150826/pilsen/cook-county-morgue-calls-latinos-white-making-data-on-gun-violence-flawed/">link</a>).
+          </p>
+        </Col>
+        <Col>
+          <ActivePieChart
+            data={dataCVGenderArray}
+            title="Deaths attributed to COVID-19 by Gender"
+            tooltip=<DemoTooltip/>
+            color="#788fb9"
+          />
+        </Col>
+      </Row>
     </Layout>
   )
 }

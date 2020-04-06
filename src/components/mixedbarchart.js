@@ -1,13 +1,12 @@
-import React, { PureComponent } from 'react';
-import styled from 'styled-components'
+import React from 'react';
 import {
-  ResponsiveContainer, BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+  ResponsiveContainer, BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts'
 
 
 const MixedBarChart = (props) => {
   return (
-    <div style={{ height: 300, margin: '0 1rem 2rem 0rem' }}>
+    <div style={{ height: 250, margin: '0 1rem 2rem 0rem' }}>
       <h4>{props.title}</h4>
       <ResponsiveContainer>
         <BarChart

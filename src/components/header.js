@@ -5,9 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#f6ecea`,
-      marginBottom: `3rem`,
-      textAlign: "center"
+      background: `#faf1ef`,
+      marginBottom: `2rem`,
+      textAlign: "center",
     }}
   >
     <div
@@ -29,10 +29,10 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <p style= {{
-        'font-family': 'sans-serif',
-        'font-size': '0.8rem',
-        'margin-bottom': 0,
-        'margin-top': '0.7rem'
+        fontFamily: 'sans-serif',
+        fontSize: '0.8rem',
+        marginBottom: 0,
+        marginTop: '0.7rem'
       }}
       >
         A work in progress by <a href="https://twitter.com/beamalsky">Bea Malsky</a>. Updates hourly with data from the <a href="https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86">Cook County Medical Examiner</a>.

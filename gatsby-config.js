@@ -2,7 +2,7 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `Cook County Medical Examiner Data`,
+    title: `Coronavirus Deaths in Cook County`,
     description: ``,
     author: `@beamalsky`,
   },
