@@ -164,9 +164,7 @@ const IndexPageWithContext = (props) => {
   var data = props.data
 
   if (props.vizState.location === 'Cook County') {
-    console.log("hello there")
     data.cases_cv_filtered = data.cases_cv.nodes
-    console.log(data.cases_cv_filtered)
     data.cases_cv_a_filtered = data.cases_cv_a.nodes
     data.cases_cv_b_filtered = data.cases_cv_b.nodes
     data.cases_2020_filtered = data.cases_2020.nodes
