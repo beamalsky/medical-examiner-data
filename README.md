@@ -86,4 +86,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ### 💫 TK: Deploy
 
-All commits to master are currently deployed via Netlify to https://medical-examiner.netlify.com/.
+All commits to master are currently deployed via Netlify.
