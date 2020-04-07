@@ -642,3 +642,6 @@ button {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+.leaflet-container {
+  height: 500px;
+}
