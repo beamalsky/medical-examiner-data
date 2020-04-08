@@ -305,6 +305,7 @@ const IndexPage = ({data}) => {
           />
         )}
       </VizContext.Consumer>
+      <hr />
       <ZipMap
         title={`Deaths attributed to COVID-19 in Chicago by zip code`}
         data={dataZip}
