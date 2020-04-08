@@ -104,19 +104,27 @@ const getHistoricalData = (data) => {
 
 }
 
+const attemptLower = (string) => {
+    if (string) {
+      return string.toLowerCase()
+    } else {
+      return ''
+    }
+}
+
 const filterData = (data, city) => {
-  if (city === 'Cook County') {
+  if (city === 'cook county') {
     data.cases_cv_filtered = data.cases_cv.nodes
     data.cases_cv_a_filtered = data.cases_cv_a.nodes
     data.cases_cv_b_filtered = data.cases_cv_b.nodes
     data.cases_2020_filtered = data.cases_2020.nodes
     data.cases_historical_filtered = data.cases_historical.nodes
   } else {
-    data.cases_cv_filtered = data.cases_cv.nodes.filter(d => d.residence_city === city)
-    data.cases_cv_a_filtered = data.cases_cv_a.nodes.filter(d => d.residence_city === city)
-    data.cases_cv_b_filtered = data.cases_cv_b.nodes.filter(d => d.residence_city === city)
-    data.cases_2020_filtered = data.cases_2020.nodes.filter(d => d.residence_city === city)
-    data.cases_historical_filtered = data.cases_historical.nodes.filter(d => d.residence_city === city)
+    data.cases_cv_filtered = data.cases_cv.nodes.filter(d => attemptLower(d.residence_city) === city)
+    data.cases_cv_a_filtered = data.cases_cv_a.nodes.filter(d => attemptLower(d.residence_city) === city)
+    data.cases_cv_b_filtered = data.cases_cv_b.nodes.filter(d => attemptLower(d.residence_city) === city)
+    data.cases_2020_filtered = data.cases_2020.nodes.filter(d => attemptLower(d.residence_city) === city)
+    data.cases_historical_filtered = data.cases_historical.nodes.filter(d => attemptLower(d.residence_city) === city)
   }
 }
 
@@ -219,8 +227,8 @@ const IndexPageWithContext = (props) => {
                 as="select"
                 onChange={e => props.vizState.setLocation(e.target.value)}
               >
-                <option value="Cook County">All of Cook County</option>
-                <option value="Chicago">Chicago</option>
+                <option value="cook county">All of Cook County</option>
+                <option value="chicago">Chicago</option>
               </Form.Control>
             </Form.Group>
           </Form>
@@ -289,7 +297,7 @@ const IndexPageWithContext = (props) => {
 }
 
 const IndexPage = ({data}) => {
-  filterData(data, 'Chicago')
+  filterData(data, 'chicago')
 
   const dataCV = getCVData(data)
   const dataZip = countKeys(dataCV, 'residence_zip', false)

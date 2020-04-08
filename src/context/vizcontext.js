@@ -1,7 +1,7 @@
 import React from "react"
 
 const defaultState = {
-  location: "Cook County",
+  location: "cook county",
   setLocation: () => {},
 }
 
@@ -9,7 +9,7 @@ const VizContext = React.createContext(defaultState)
 
 class VizProvider extends React.Component {
   state = {
-    location: "Cook County"
+    location: "cook county"
   }
 
   render () {
