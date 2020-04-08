@@ -104,6 +104,22 @@ const getHistoricalData = (data) => {
 
 }
 
+const filterData = (data, city) => {
+  if (city === 'Cook County') {
+    data.cases_cv_filtered = data.cases_cv.nodes
+    data.cases_cv_a_filtered = data.cases_cv_a.nodes
+    data.cases_cv_b_filtered = data.cases_cv_b.nodes
+    data.cases_2020_filtered = data.cases_2020.nodes
+    data.cases_historical_filtered = data.cases_historical.nodes
+  } else {
+    data.cases_cv_filtered = data.cases_cv.nodes.filter(d => d.residence_city === city)
+    data.cases_cv_a_filtered = data.cases_cv_a.nodes.filter(d => d.residence_city === city)
+    data.cases_cv_b_filtered = data.cases_cv_b.nodes.filter(d => d.residence_city === city)
+    data.cases_2020_filtered = data.cases_2020.nodes.filter(d => d.residence_city === city)
+    data.cases_historical_filtered = data.cases_historical.nodes.filter(d => d.residence_city === city)
+  }
+}
+
 const HistoricalTooltip = ({ active, payload, label }) => {
   if (active) {
     const cv_deaths = payload[2] ? payload[2]['value'] : 0
@@ -166,23 +182,7 @@ const TooltipWrapper = styled.div`
 const IndexPageWithContext = (props) => {
   var data = props.data
 
-  if (props.vizState.location === 'Cook County') {
-    console.log("hello there")
-    data.cases_cv_filtered = data.cases_cv.nodes
-    console.log(data.cases_cv_filtered)
-    data.cases_cv_a_filtered = data.cases_cv_a.nodes
-    data.cases_cv_b_filtered = data.cases_cv_b.nodes
-    data.cases_2020_filtered = data.cases_2020.nodes
-    data.cases_historical_filtered = data.cases_historical.nodes
-  } else {
-    const city = props.vizState.location
-
-    data.cases_cv_filtered = data.cases_cv.nodes.filter(d => d.residence_city === city)
-    data.cases_cv_a_filtered = data.cases_cv_a.nodes.filter(d => d.residence_city === city)
-    data.cases_cv_b_filtered = data.cases_cv_b.nodes.filter(d => d.residence_city === city)
-    data.cases_2020_filtered = data.cases_2020.nodes.filter(d => d.residence_city === city)
-    data.cases_historical_filtered = data.cases_historical.nodes.filter(d => d.residence_city === city)
-  }
+  filterData(data, props.vizState.location)
 
   const dataHistorical = getHistoricalData(data)
   const dataCV = getCVData(data)
@@ -207,12 +207,10 @@ const IndexPageWithContext = (props) => {
     }
   )
 
-  const last_updated = props.data.cases_2020_filtered[props.data.cases_2020_filtered.length - 1].death_date
+  const last_updated = props.data.cases_2020.nodes[props.data.cases_2020.nodes.length - 1].death_date
 
   return (
-    <Layout>
-      <SEO title="Home" />
-
+<>
       <Row style={{ marginBottom: '2rem' }}>
         <Col style={{textAlign: "center", margin: "auto"}} xs={12} md={6}>
           <Form>
@@ -268,7 +266,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVRaceArray}
-            title={`Deaths attributed to COVID-19 by race in ${props.vizState.location}`}
+            title={`Deaths attributed to COVID-19 in ${props.vizState.location} by race`}
             tooltip=<DemoTooltip/>
             color="#77b88f"
           />
@@ -280,31 +278,38 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVGenderArray}
-            title={`Deaths attributed to COVID-19 by gender in ${props.vizState.location}`}
+            title={`Deaths attributed to COVID-19 in ${props.vizState.location} by gender`}
             tooltip=<DemoTooltip/>
             color="#788fb9"
           />
         </Col>
       </Row>
-
-      <ZipMap
-        
-      />
-
-    </Layout>
+    </>
   )
 }
 
 const IndexPage = ({data}) => {
+  filterData(data, 'Chicago')
+
+  const dataCV = getCVData(data)
+  const dataZip = countKeys(dataCV, 'residence_zip', false)
+
   return (
-    <VizContext.Consumer>
-      {vizState => (
-        <IndexPageWithContext
-          data={data}
-          vizState={vizState}
-        />
-      )}
-    </VizContext.Consumer>
+    <Layout>
+      <SEO title="Home" />
+      <VizContext.Consumer>
+        {vizState => (
+          <IndexPageWithContext
+            data={data}
+            vizState={vizState}
+          />
+        )}
+      </VizContext.Consumer>
+      <ZipMap
+        title={`Deaths attributed to COVID-19 in Chicago by zip code`}
+        data={dataZip}
+      />
+    </Layout>
   )
 }
 
@@ -332,6 +337,7 @@ export const query = graphql`
         primarycause_linea
         primarycause_lineb
         gender
+        residence_zip
       }
     },
     cases_cv_a: allCases(
@@ -354,6 +360,7 @@ export const query = graphql`
         primarycause_linea
         primarycause_lineb
         gender
+        residence_zip
       }
     },
     cases_cv_b: allCases(
@@ -376,6 +383,7 @@ export const query = graphql`
         primarycause_linea
         primarycause_lineb
         gender
+        residence_zip
       }
     },
     cases_2020: allCases(
