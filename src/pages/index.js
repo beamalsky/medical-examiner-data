@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { Bar } from 'recharts'
 import { Col, Row, Form } from 'react-bootstrap'
 import styled from 'styled-components'
+import { capfirst } from 'journalize'
 
 import VizContext from "../context/vizcontext"
 import Layout from "../components/layout"
@@ -113,7 +114,7 @@ const attemptLower = (string) => {
 }
 
 const filterData = (data, city) => {
-  if (city === 'cook county') {
+  if (city === 'Cook County') {
     data.cases_cv_filtered = data.cases_cv.nodes
     data.cases_cv_a_filtered = data.cases_cv_a.nodes
     data.cases_cv_b_filtered = data.cases_cv_b.nodes
@@ -227,7 +228,7 @@ const IndexPageWithContext = (props) => {
                 as="select"
                 onChange={e => props.vizState.setLocation(e.target.value)}
               >
-                <option value="cook county">All of Cook County</option>
+                <option value="Cook County">All of Cook County</option>
                 <option value="chicago">Chicago</option>
               </Form.Control>
             </Form.Group>
@@ -243,7 +244,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <MixedBarChart
             data={dataHistorical}
-            title={`Deaths attribued to COVID-19 in ${props.vizState.location} by day`}
+            title={`Deaths attribued to COVID-19 in ${capfirst(props.vizState.location)} by day`}
             tooltip=<CVTooltip/>
           >
             <Bar dataKey="COVID-19" stackId="a" fill="#934534"/>
@@ -255,7 +256,7 @@ const IndexPageWithContext = (props) => {
         <Col>
           <MixedBarChart
             data={dataHistorical}
-            title={`All reported deaths in ${props.vizState.location} by day`}
+            title={`All reported deaths in ${capfirst(props.vizState.location)} by day`}
             tooltip=<HistoricalTooltip/>
           >
             <Bar dataKey="Average Deaths" fill="#d5c17e"/>
@@ -274,7 +275,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVRaceArray}
-            title={`Deaths attributed to COVID-19 in ${props.vizState.location} by race`}
+            title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by race`}
             tooltip=<DemoTooltip/>
             color="#77b88f"
           />
@@ -286,7 +287,7 @@ const IndexPageWithContext = (props) => {
         <Col xs={12} md={6}>
           <ActivePieChart
             data={dataCVGenderArray}
-            title={`Deaths attributed to COVID-19 in ${props.vizState.location} by gender`}
+            title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by gender`}
             tooltip=<DemoTooltip/>
             color="#788fb9"
           />

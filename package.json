@@ -16,6 +16,7 @@
     "gatsby-source-apiserver": "^2.1.4",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-sharp": "^2.3.19",
+    "journalize": "^2.2.1",
     "leaflet": "^1.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

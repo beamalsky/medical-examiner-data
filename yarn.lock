@@ -7774,6 +7774,11 @@ jimp@^0.6.4:
     core-js "^2.5.7"
     regenerator-runtime "^0.13.3"
 
+journalize@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/journalize/-/journalize-2.2.1.tgz#80a7ec8ecc7aa1b51f006710f18906cda1bdcab4"
+  integrity sha512-7iAY3nXecncMyFwjc0Q+LGonELPPXN9Ut0HECrCvgWviGIMSZy9ewikeR8LERsN+OVXiwVZPLR+kPYtT5RGfXQ==
+
 jpeg-js@^0.3.4:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.3.7.tgz#471a89d06011640592d314158608690172b1028d"

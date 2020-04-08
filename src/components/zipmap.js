@@ -7,8 +7,8 @@ import zipGeoJSON from '../data/chicago_zip_codes.js'
 
 const style = {
     fillColor: '#cdcac2',
-    weight: 1,
-    opacity: 1,
+    weight: 0.8,
+    opacity: 0.7,
     color: 'black',
     dashArray: '3',
     fillOpacity: 0.8
@@ -41,8 +41,8 @@ export default class ZipMap extends PureComponent {
           scrollWheelZoom={false}
         >
           <TileLayer
-            attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-            url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+            attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
             data={zipGeoJSON}
