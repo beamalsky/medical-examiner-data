@@ -6,12 +6,12 @@ import zipGeoJSON from '../data/chicago_zip_codes.js'
 
 
 const style = {
-    fillColor: '#F28F3B',
+    fillColor: '#cdcac2',
     weight: 1,
     opacity: 1,
     color: 'black',
     dashArray: '3',
-    fillOpacity: 0.7
+    fillOpacity: 0.8
 }
 
 export default class ZipMap extends PureComponent {
@@ -27,7 +27,7 @@ export default class ZipMap extends PureComponent {
 
     zipGeoJSON.features.map(
       obj => {
-        obj.properties.value = dataCV[obj.properties.zip] ? dataCV[obj.properties.zip] : 0
+        obj.properties.value = dataCV[obj.properties.zip]
         return obj
       }
     )
@@ -39,11 +39,10 @@ export default class ZipMap extends PureComponent {
           center={position}
           zoom={this.state.zoom}
           scrollWheelZoom={false}
-          touchZoom={false}
         >
           <TileLayer
-            attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+            url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
             data={zipGeoJSON}
@@ -52,7 +51,7 @@ export default class ZipMap extends PureComponent {
             steps={10}
             mode='e'
             style={style}
-            onEachFeature={(feature, layer) => layer.bindPopup(`<b>${feature.properties.zip}</b> <br /> Deaths: ${feature.properties.value}`)}
+            onEachFeature={(feature, layer) => layer.bindPopup(`<b>${feature.properties.zip}</b> <br /> Deaths: ${feature.properties.value ? feature.properties.value : 0}`)}
             ref={(el) => this.choropleth = el.leafletElement}
           />
         </Map>
