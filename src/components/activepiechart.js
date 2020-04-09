@@ -1,6 +1,6 @@
 // based on http://recharts.org/en-US/examples/CustomActiveShapePieChart
 import React, { PureComponent } from 'react'
-import { ResponsiveContainer, PieChart, Pie, Sector } from 'recharts'
+import { ResponsiveContainer, PieChart, Pie, Sector, Cell, Legend } from 'recharts'
 
 const renderActiveShape = (props) => {
   const RADIAN = Math.PI / 180;
@@ -63,7 +63,7 @@ export default class ActivePieChart extends PureComponent {
 
   render() {
     return (
-      <div style={{ width: '100%', height: 300 }}>
+      <div style={{ width: '100%', height: 350 }}>
         <h4>{this.props.title}</h4>
         <ResponsiveContainer>
           <PieChart>
@@ -73,10 +73,18 @@ export default class ActivePieChart extends PureComponent {
               data={this.props.data}
               innerRadius={70}
               outerRadius={100}
-              fill={this.props.color}
               dataKey="value"
               onMouseEnter={this.onPieEnter}
-            />
+            >
+              {
+                this.props.data.map(
+                  (entry, index) => <Cell
+                    fill={this.props.colors[index % this.props.colors.length]}
+                  />
+                )
+              }
+            </Pie>
+            <Legend />
           </PieChart>
         </ResponsiveContainer>
       </div>
