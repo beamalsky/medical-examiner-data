@@ -11,8 +11,7 @@ import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
 import ActivePieChart from "../components/activepiechart"
 import ZipMap from "../components/zipmap"
-
-// import geojson from "../src/data/crimes_by_district.geojson"
+import CommunityAreaMap from "../components/communityareamap"
 
 const countKeys = (data, groupKey, strip) => {
   var keys
@@ -315,10 +314,25 @@ const IndexPage = ({data}) => {
         )}
       </VizContext.Consumer>
       <hr />
-      <ZipMap
-        title={`Deaths attributed to COVID-19 in Chicago by zip code`}
-        data={dataZip}
-      />
+
+      <Row style={{ marginTop: '4rem', marginBottom: '2rem' }}>
+
+        <Col xs={12} md={6}>
+          <ZipMap
+            title={`Deaths attributed to COVID-19 in Chicago by zip code`}
+            data={dataZip}
+          />
+        </Col>
+
+        <Col xs={12} md={6}>
+          <CommunityAreaMap
+            title={`Deaths attributed to COVID-19 in Chicago by neighborhood`}
+            data={dataCV}
+          />
+        </Col>
+
+      </Row>
+
     </Layout>
   )
 }
@@ -348,6 +362,8 @@ export const query = graphql`
         primarycause_lineb
         gender
         residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_a: allCases(
@@ -371,6 +387,8 @@ export const query = graphql`
         primarycause_lineb
         gender
         residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_b: allCases(
@@ -394,6 +412,8 @@ export const query = graphql`
         primarycause_lineb
         gender
         residence_zip
+        latitude
+        longitude
       }
     },
     cases_2020: allCases(

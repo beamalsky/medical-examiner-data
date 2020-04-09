@@ -2,8 +2,7 @@ import React, { PureComponent } from 'react';
 import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
-import zipGeoJSON from '../data/chicago_zip_codes.js'
-
+import chicagoGeoJSON from '../data/chicago_zip_codes.js'
 
 const style = {
     fillColor: '#cdcac2',
@@ -25,7 +24,7 @@ export default class ZipMap extends PureComponent {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
 
-    zipGeoJSON.features.map(
+    chicagoGeoJSON.features.map(
       obj => {
         obj.properties.value = dataCV[obj.properties.zip]
         return obj
@@ -45,7 +44,7 @@ export default class ZipMap extends PureComponent {
             url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
-            data={zipGeoJSON}
+            data={chicagoGeoJSON}
             valueProperty={(feature) => feature.properties.value}
             scale={['#d5c17e', '#801902']}
             steps={10}
