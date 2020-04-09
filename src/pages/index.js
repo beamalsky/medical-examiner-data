@@ -320,10 +320,6 @@ const IndexPageWithContext = (props) => {
             tooltip=<DemoTooltip/>
             colors={['#4c765c', '#77b88f', '#8bd7a7', '#b7f0cc', '#314d3b']}
           />
-          <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
-            Take this race data with a grain of salt. As noted by <a href="https://twitter.com/matt_kiefer/status/1246280125290864640">Matt Kiefer</a> and <a href="https://www.dnainfo.com/chicago/20150826/pilsen/cook-county-morgue-calls-latinos-white-making-data-on-gun-violence-flawed/">Joe Ward</a>,
-            the Cook County Medical Examiner records Latino people as White.
-          </p>
         </Col>
         <Col xs={12} md={6}>
           <ActivePieChart
