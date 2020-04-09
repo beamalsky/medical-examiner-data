@@ -653,3 +653,14 @@ button {
 .leaflet-popup-content {
   font-size: 0.9rem;
 }
+.recharts-legend-item {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.recharts-legend-item-text {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+.recharts-surface {
+  margin-bottom: 3px;
+}

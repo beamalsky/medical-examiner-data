@@ -83,9 +83,6 @@ const getHistoricalData = (data) => {
     }
   )
 
-  // Take off the current day to avoid reporting partial data
-  // data2020.pop()
-
   var mergedData = {}
 
   Object.entries(data2020).forEach(function (value) {
@@ -103,6 +100,67 @@ const getHistoricalData = (data) => {
 
   return Object.keys(mergedData).map(i => mergedData[i])
 
+}
+
+const getRaceData = (data) => {
+  var keys
+
+  keys = data.map(function(value, index) {
+    if (value.latino) {
+      return 'Latinx'
+    } else if (value.race == null) {
+      return 'Unknown'
+    } else {
+      return value['race']
+    }
+  })
+
+  var counts = {}
+
+  keys.forEach(function(key, index) {
+      if (key in counts) {
+          counts[key] += 1;
+      } else {
+          counts[key] = 1;
+      }
+  })
+
+  return objectToArray(counts)
+}
+
+const getGenderData = (data) => {
+  var keys
+
+  keys = data.map(function(value, index) {
+    if (value.gender == null) {
+      return 'Unknown'
+    } else {
+      return value['gender']
+    }
+  })
+
+  var counts = {}
+
+  keys.forEach(function(key, index) {
+      if (key in counts) {
+          counts[key] += 1;
+      } else {
+          counts[key] = 1;
+      }
+  })
+
+  return objectToArray(counts)
+}
+
+const objectToArray = (obj) => {
+  return Object.entries(obj).map(
+    obj => {
+      return {
+        name: obj[0],
+        value: obj[1]
+      }
+    }
+  )
 }
 
 const attemptLower = (string) => {
@@ -196,25 +254,8 @@ const IndexPageWithContext = (props) => {
   const dataHistorical = getHistoricalData(data)
   const dataCV = getCVData(data)
 
-  const dataCVRace = countKeys(dataCV, 'race', false)
-  const dataCVRaceArray = Object.entries(dataCVRace).map(
-    obj => {
-      return {
-        name: obj[0],
-        value: obj[1]
-      }
-    }
-  )
-
-  const dataCVGender = countKeys(dataCV, 'gender', false)
-  const dataCVGenderArray = Object.entries(dataCVGender).map(
-    obj => {
-      return {
-        name: obj[0],
-        value: obj[1]
-      }
-    }
-  )
+  const dataCVRaceArray = getRaceData(dataCV)
+  const dataCVGenderArray = getGenderData(dataCV)
 
   const last_updated = props.data.cases_2020.nodes[props.data.cases_2020.nodes.length - 1].death_date
 
@@ -277,7 +318,7 @@ const IndexPageWithContext = (props) => {
             data={dataCVRaceArray}
             title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by race`}
             tooltip=<DemoTooltip/>
-            color="#77b88f"
+            colors={['#4c765c', '#77b88f', '#8bd7a7', '#b7f0cc', '#314d3b']}
           />
           <p style={{ fontFamily: "sans-serif", marginTop: '3rem' }}>
             Take this race data with a grain of salt. As noted by <a href="https://twitter.com/matt_kiefer/status/1246280125290864640">Matt Kiefer</a> and <a href="https://www.dnainfo.com/chicago/20150826/pilsen/cook-county-morgue-calls-latinos-white-making-data-on-gun-violence-flawed/">Joe Ward</a>,
@@ -289,7 +330,7 @@ const IndexPageWithContext = (props) => {
             data={dataCVGenderArray}
             title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by gender`}
             tooltip=<DemoTooltip/>
-            color="#788fb9"
+            colors={['#788fb9', '#a8bee7', '#536380']}
           />
         </Col>
       </Row>
@@ -343,6 +384,7 @@ export const query = graphql`
         residence_city
         age
         race
+        latino
         primarycause
         primarycause_linea
         primarycause_lineb
@@ -366,6 +408,7 @@ export const query = graphql`
         residence_city
         age
         race
+        latino
         primarycause
         primarycause_linea
         primarycause_lineb
@@ -389,6 +432,7 @@ export const query = graphql`
         residence_city
         age
         race
+        latino
         primarycause
         primarycause_linea
         primarycause_lineb
