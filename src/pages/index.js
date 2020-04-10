@@ -5,12 +5,12 @@ import { Col, Row, Form } from 'react-bootstrap'
 import styled from 'styled-components'
 import { capfirst } from 'journalize'
 
+import getCVData from "../utils/getcvdata"
 import VizContext from "../context/vizcontext"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
 import ActivePieChart from "../components/activepiechart"
-import ZipMap from "../components/zipmap"
 import CommunityAreaMap from "../components/communityareamap"
 
 const countKeys = (data, groupKey, strip) => {
@@ -52,16 +52,6 @@ const countDays = (data) => {
 
 const stripYear = (date) => {
   return date.substr(date.indexOf('-')+1)
-}
-
-const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv_filtered.concat(
-    data.cases_cv_a_filtered
-  ).concat(
-    data.cases_cv_b_filtered
-  )
-
-  return dataCVCombined
 }
 
 const getHistoricalData = (data) => {
@@ -317,7 +307,7 @@ const IndexPageWithContext = (props) => {
             data={dataCVRaceArray}
             title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by race`}
             tooltip=<DemoTooltip/>
-            colors={['#4c765c', '#77b88f', '#8bd7a7', '#b7f0cc', '#314d3b']}
+            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14', '#000000']}
           />
         </Col>
         <Col xs={12} md={6}>
@@ -337,7 +327,6 @@ const IndexPage = ({data}) => {
   filterData(data, 'chicago')
 
   const dataCV = getCVData(data)
-  const dataZip = countKeys(dataCV, 'residence_zip', false)
 
   return (
     <Layout>
@@ -353,18 +342,11 @@ const IndexPage = ({data}) => {
       <hr />
 
       <Row style={{ marginTop: '4rem', marginBottom: '2rem' }}>
-
-        <Col xs={12} md={6}>
-          <ZipMap
-            title={`Deaths attributed to COVID-19 in Chicago by zip code`}
-            data={dataZip}
-          />
-        </Col>
-
-        <Col xs={12} md={6}>
+        <Col xs={12}>
           <CommunityAreaMap
             title={`Deaths attributed to COVID-19 in Chicago by neighborhood`}
             data={dataCV}
+            geojson={data.community_areas}
           />
         </Col>
 
@@ -494,6 +476,20 @@ export const query = graphql`
         primarycause
         primarycause_linea
         gender
+      }
+    }
+    community_areas:allGeoJson(limit: 10) {
+      nodes {
+        features {
+          type
+          properties {
+            community
+          }
+          geometry {
+            coordinates
+            type
+          }
+        }
       }
     }
   }

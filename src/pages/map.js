@@ -1,46 +1,19 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import ZipMap from "../components/zipmap"
+import ZipMap from "../components/communityareamap"
+import getCVData from "../utils/getcvdata"
 import "../components/layout.css"
 
-const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv.nodes.concat(
-    data.cases_cv_a.nodes
-  ).concat(
-    data.cases_cv_b.nodes
-  )
-
-  return dataCVCombined
-}
-
-const countKeys = (data, groupKey) => {
-  var keys
-
-  keys = data.map(function(value, index) {return value[groupKey]})
-
-  var counts = {}
-
-  keys.forEach(function(key, index) {
-      if (key in counts) {
-          counts[key] += 1;
-      } else {
-          counts[key] = 1;
-      }
-  })
-
-  return counts
-}
 
 const MapPage = ({data}) => {
-
   const dataCV = getCVData(data)
-  const dataZip = countKeys(dataCV, 'residence_zip', false)
 
   return (
     <ZipMap
-      title={`Deaths attributed to COVID-19 in Chicago by zip code`}
-      data={dataZip}
+      title={`Deaths attributed to COVID-19 by community area`}
+      data={dataCV}
+      geojson={data.community_areas}
     />
   )
 }
@@ -62,15 +35,11 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_a: allCases(
@@ -86,15 +55,11 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_b: allCases(
@@ -110,15 +75,25 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
+      }
+    }
+    community_areas:allGeoJson(limit: 10) {
+      nodes {
+        features {
+          type
+          properties {
+            community
+          }
+          geometry {
+            coordinates
+            type
+          }
+        }
       }
     }
   }

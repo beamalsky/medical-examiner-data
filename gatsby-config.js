@@ -9,15 +9,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -49,6 +40,15 @@ module.exports = {
       options: {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojson`,
+        path: `${__dirname}/src/data/chicago_community_areas.geojson`,
+        ignore: [`**/\cases*`], // ignore CCME cases data
+      },
+    },
+    'gatsby-transformer-geojson'
   ],
 }
