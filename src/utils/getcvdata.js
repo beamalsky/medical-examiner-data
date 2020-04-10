@@ -1,9 +1,11 @@
-const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv.nodes.concat(
-    data.cases_cv_a.nodes
+const getCVData = (data_source_1, data_source_2, data_source_3) => {
+  const dataCVCombined = data_source_1.concat(
+    data_source_2
   ).concat(
-    data.cases_cv_b.nodes
+    data_source_3
   )
+
+  dataCVCombined.sort((a, b) => (a.death_date > b.death_date) ? 1 : -1)
 
   return dataCVCombined
 }

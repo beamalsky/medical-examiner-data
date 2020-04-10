@@ -2,7 +2,7 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `Coronavirus Deaths in Cook County`,
+    title: `Chicago COVID-19 Deaths`,
     description: ``,
     author: `@beamalsky`,
   },
