@@ -307,7 +307,7 @@ const IndexPageWithContext = (props) => {
             data={dataCVRaceArray}
             title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by race`}
             tooltip=<DemoTooltip/>
-            colors={['#4c765c', '#77b88f', '#8bd7a7', '#b7f0cc', '#314d3b']}
+            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14']}
           />
         </Col>
         <Col xs={12} md={6}>
