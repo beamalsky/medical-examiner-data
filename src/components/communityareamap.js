@@ -6,10 +6,10 @@ import Choropleth from 'react-leaflet-choropleth'
 
 const style = {
     fillColor: '#e4e1d8',
-    weight: 0.6,
+    weight: 0.4,
     opacity: 0.7,
     color: 'black',
-    dashArray: '3',
+    // dashArray: '3',
     fillOpacity: 0.9
 }
 
