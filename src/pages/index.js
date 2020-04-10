@@ -307,7 +307,7 @@ const IndexPageWithContext = (props) => {
             data={dataCVRaceArray}
             title={`Deaths attributed to COVID-19 in ${capfirst(props.vizState.location)} by race`}
             tooltip=<DemoTooltip/>
-            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14']}
+            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14', '#000000']}
           />
         </Col>
         <Col xs={12} md={6}>
@@ -346,6 +346,7 @@ const IndexPage = ({data}) => {
           <CommunityAreaMap
             title={`Deaths attributed to COVID-19 in Chicago by neighborhood`}
             data={dataCV}
+            geojson={data.community_areas}
           />
         </Col>
 
@@ -475,6 +476,28 @@ export const query = graphql`
         primarycause
         primarycause_linea
         gender
+      }
+    }
+    community_areas:allGeoJson(limit: 10) {
+      nodes {
+        features {
+          type
+          properties {
+            area
+            area_num_1
+            area_numbe
+            comarea
+            comarea_id
+            perimeter
+            community
+            shape_area
+            shape_len
+          }
+          geometry {
+            coordinates
+            type
+          }
+        }
       }
     }
   }

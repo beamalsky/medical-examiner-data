@@ -40,6 +40,15 @@ module.exports = {
       options: {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojson`,
+        path: `${__dirname}/src/data/chicago_community_areas.geojson`,
+        ignore: [`**/\cases*`], // ignore CCME cases data
+      },
+    },
+    'gatsby-transformer-geojson'
   ],
 }
