@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import ZipMap from "../components/zipmap"
+import "../components/layout.css"
 
 const getCVData = (data) => {
   const dataCVCombined = data.cases_cv.nodes.concat(
