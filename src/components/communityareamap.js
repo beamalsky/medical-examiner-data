@@ -43,35 +43,35 @@ export default class CommunityAreaMap extends PureComponent {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
 
-    console.log("community areas:")
-    console.log(this.props.geojson.nodes)
-    // chicagoCommunityAreasGeoJSON.features.map(
-    //   obj => {
-    //     obj.properties.value = 0
-    //
-    //     dataCV.forEach(function(record, index) {
-    //
-    //       obj.geometry.coordinates.forEach(function(polygon, index) {
-    //         const pointInside = inside([record.longitude, record.latitude], polygon[0])
-    //         if (pointInside) {
-    //           obj.properties.value = obj.properties.value + 1
-    //         }
-    //       })
-    //
-    //     })
-    //
-    //     if (obj.properties.value === 0) {
-    //       obj.properties.value = undefined
-    //     }
-    //
-    //     return obj
-    //   }
-    // )
+    const communityAreasGeoJSON = this.props.geojson.nodes[0]
+
+    communityAreasGeoJSON.features.map(
+      obj => {
+        obj.properties.value = 0
+
+        dataCV.forEach(function(record, index) {
+
+          obj.geometry.coordinates.forEach(function(polygon, index) {
+            const pointInside = inside([record.longitude, record.latitude], polygon[0])
+            if (pointInside) {
+              obj.properties.value = obj.properties.value + 1
+            }
+          })
+
+        })
+
+        if (obj.properties.value === 0) {
+          obj.properties.value = undefined
+        }
+
+        return obj
+      }
+    )
 
     return (
       <div style={{ width: '100%' }}>
         <h4>{this.props.title}</h4>
-        {/* <Map
+        <Map
           center={position}
           zoom={this.state.zoom}
           scrollWheelZoom={false}
@@ -81,7 +81,7 @@ export default class CommunityAreaMap extends PureComponent {
             url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
-            data={chicagoCommunityAreasGeoJSON}
+            data={communityAreasGeoJSON}
             valueProperty={(feature) => feature.properties.value}
             scale={['#d5c17e', '#a01f03']}
             steps={7}
@@ -90,7 +90,7 @@ export default class CommunityAreaMap extends PureComponent {
             onEachFeature={(feature, layer) => layer.bindPopup(`<b>${feature.properties.community}</b> <br /> Deaths: ${feature.properties.value ? feature.properties.value : 0}`)}
             ref={(el) => this.choropleth = el.leafletElement}
           />
-        </Map> */}
+        </Map>
       </div>
     )
   }

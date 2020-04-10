@@ -13,6 +13,7 @@ const MapPage = ({data}) => {
     <ZipMap
       title={`Deaths attributed to COVID-19 by community area`}
       data={dataCV}
+      geojson={data.community_areas}
     />
   )
 }
@@ -79,6 +80,20 @@ export const query = graphql`
         primarycause_lineb
         latitude
         longitude
+      }
+    }
+    community_areas:allGeoJson(limit: 10) {
+      nodes {
+        features {
+          type
+          properties {
+            community
+          }
+          geometry {
+            coordinates
+            type
+          }
+        }
       }
     }
   }

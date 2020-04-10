@@ -483,15 +483,7 @@ export const query = graphql`
         features {
           type
           properties {
-            area
-            area_num_1
-            area_numbe
-            comarea
-            comarea_id
-            perimeter
             community
-            shape_area
-            shape_len
           }
           geometry {
             coordinates
