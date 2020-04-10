@@ -1,13 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Bar } from 'recharts'
+import { Area } from 'recharts'
 import { Col, Row } from 'react-bootstrap'
 
 import getCVData from "../utils/getcvdata"
 import countKeys from "../utils/countkeys"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import MixedBarChart from "../components/mixedbarchart"
+import ShadedAreaChart from "../components/shadedareachart"
 import CVTooltip from "../components/cvtooltip"
 import ActivePieChart from "../components/activepiechart"
 import CommunityAreaMap from "../components/communityareamap"
@@ -128,13 +128,13 @@ const IndexPage = ({data}) => {
 
       <Row>
         <Col style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <MixedBarChart
+          <ShadedAreaChart
             data={CVDataByDate}
             title={`COVID-19 deaths in Chicago by day`}
             tooltip=<CVTooltip/>
           >
-            <Bar dataKey="COVID-19" stackId="a" fill="#d5644b"/>
-          </MixedBarChart>
+            <Area dataKey="COVID-19" fill="#d5644b" stroke="#a01f03" type="natural" />
+          </ShadedAreaChart>
         </Col>
       </Row>
 
