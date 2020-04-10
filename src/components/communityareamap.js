@@ -5,12 +5,12 @@ import Choropleth from 'react-leaflet-choropleth'
 import chicagoCommunityAreasGeoJSON from '../data/chicago_community_areas.js'
 
 const style = {
-    fillColor: '#cdcac2',
-    weight: 0.8,
+    fillColor: '#e4e1d8',
+    weight: 0.5,
     opacity: 0.7,
     color: 'black',
     dashArray: '3',
-    fillOpacity: 0.8
+    fillOpacity: 0.9
 }
 
 const inside = (point, vs) => {
@@ -24,7 +24,7 @@ const inside = (point, vs) => {
         var xi = vs[i][0], yi = vs[i][1];
         var xj = vs[j][0], yj = vs[j][1];
 
-        var intersect = ((yi > y) != (yj > y))
+        var intersect = ((yi > y) !== (yj > y))
             && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
         if (intersect) inside = !inside;
     }
@@ -50,13 +50,17 @@ export default class CommunityAreaMap extends PureComponent {
         dataCV.forEach(function(record, index) {
 
           obj.geometry.coordinates.forEach(function(polygon, index) {
-            const pointInside = inside([record.longitude, record.latitude], polygon [0])
+            const pointInside = inside([record.longitude, record.latitude], polygon[0])
             if (pointInside) {
               obj.properties.value = obj.properties.value + 1
             }
           })
 
         })
+
+        if (obj.properties.value === 0) {
+          obj.properties.value = undefined
+        }
 
         return obj
       }
@@ -77,8 +81,8 @@ export default class CommunityAreaMap extends PureComponent {
           <Choropleth
             data={chicagoCommunityAreasGeoJSON}
             valueProperty={(feature) => feature.properties.value}
-            scale={['#d5c17e', '#801902']}
-            steps={10}
+            scale={['#d5c17e', '#a01f03']}
+            steps={7}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(`<b>${feature.properties.community}</b> <br /> Deaths: ${feature.properties.value ? feature.properties.value : 0}`)}

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import ZipMap from "../components/zipmap"
+import ZipMap from "../components/communityareamap"
 import "../components/layout.css"
 
 const getCVData = (data) => {
@@ -14,33 +14,15 @@ const getCVData = (data) => {
   return dataCVCombined
 }
 
-const countKeys = (data, groupKey) => {
-  var keys
-
-  keys = data.map(function(value, index) {return value[groupKey]})
-
-  var counts = {}
-
-  keys.forEach(function(key, index) {
-      if (key in counts) {
-          counts[key] += 1;
-      } else {
-          counts[key] = 1;
-      }
-  })
-
-  return counts
-}
 
 const MapPage = ({data}) => {
 
   const dataCV = getCVData(data)
-  const dataZip = countKeys(dataCV, 'residence_zip', false)
 
   return (
     <ZipMap
-      title={`Deaths attributed to COVID-19 in Chicago by zip code`}
-      data={dataZip}
+      title={`Deaths attributed to COVID-19 by community area`}
+      data={dataCV}
     />
   )
 }

@@ -10,7 +10,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
 import ActivePieChart from "../components/activepiechart"
-import ZipMap from "../components/zipmap"
 import CommunityAreaMap from "../components/communityareamap"
 
 const countKeys = (data, groupKey, strip) => {
@@ -337,7 +336,6 @@ const IndexPage = ({data}) => {
   filterData(data, 'chicago')
 
   const dataCV = getCVData(data)
-  const dataZip = countKeys(dataCV, 'residence_zip', false)
 
   return (
     <Layout>
@@ -353,15 +351,7 @@ const IndexPage = ({data}) => {
       <hr />
 
       <Row style={{ marginTop: '4rem', marginBottom: '2rem' }}>
-
-        <Col xs={12} md={6}>
-          <ZipMap
-            title={`Deaths attributed to COVID-19 in Chicago by zip code`}
-            data={dataZip}
-          />
-        </Col>
-
-        <Col xs={12} md={6}>
+        <Col xs={12}>
           <CommunityAreaMap
             title={`Deaths attributed to COVID-19 in Chicago by neighborhood`}
             data={dataCV}
