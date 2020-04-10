@@ -12,8 +12,6 @@ import MixedBarChart from "../components/mixedbarchart"
 import ActivePieChart from "../components/activepiechart"
 import ZipMap from "../components/zipmap"
 
-// import geojson from "../src/data/crimes_by_district.geojson"
-
 const countKeys = (data, groupKey, strip) => {
   var keys
 
