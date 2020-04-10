@@ -7,7 +7,11 @@ import "../components/layout.css"
 
 
 const MapPage = ({data}) => {
-  const dataCV = getCVData(data)
+  const dataCV = getCVData(
+    data.cases_cv.nodes,
+    data.cases_cv_a.nodes,
+    data.cases_cv_b.nodes
+  )
 
   return (
     <ZipMap
