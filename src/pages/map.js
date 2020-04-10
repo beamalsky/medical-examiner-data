@@ -2,21 +2,11 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import ZipMap from "../components/communityareamap"
+import getCVData from "../utils/getcvdata"
 import "../components/layout.css"
-
-const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv.nodes.concat(
-    data.cases_cv_a.nodes
-  ).concat(
-    data.cases_cv_b.nodes
-  )
-
-  return dataCVCombined
-}
 
 
 const MapPage = ({data}) => {
-
   const dataCV = getCVData(data)
 
   return (
@@ -44,15 +34,11 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_a: allCases(
@@ -68,15 +54,11 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
       }
     },
     cases_cv_b: allCases(
@@ -92,15 +74,11 @@ export const query = graphql`
       nodes {
         id
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        age
-        race
-        latino
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        latitude
+        longitude
       }
     }
   }

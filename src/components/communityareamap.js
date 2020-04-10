@@ -6,7 +6,7 @@ import chicagoCommunityAreasGeoJSON from '../data/chicago_community_areas.js'
 
 const style = {
     fillColor: '#e4e1d8',
-    weight: 0.5,
+    weight: 0.6,
     opacity: 0.7,
     color: 'black',
     dashArray: '3',

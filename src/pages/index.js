@@ -5,6 +5,7 @@ import { Col, Row, Form } from 'react-bootstrap'
 import styled from 'styled-components'
 import { capfirst } from 'journalize'
 
+import getCVData from "../utils/getcvdata"
 import VizContext from "../context/vizcontext"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -51,16 +52,6 @@ const countDays = (data) => {
 
 const stripYear = (date) => {
   return date.substr(date.indexOf('-')+1)
-}
-
-const getCVData = (data) => {
-  const dataCVCombined = data.cases_cv_filtered.concat(
-    data.cases_cv_a_filtered
-  ).concat(
-    data.cases_cv_b_filtered
-  )
-
-  return dataCVCombined
 }
 
 const getHistoricalData = (data) => {
