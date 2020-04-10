@@ -36,7 +36,7 @@ export default class CommunityAreaMap extends PureComponent {
   state = {
     lat: 41.83,
     lng: -87.72,
-    zoom: 10,
+    zoom: 10.25,
   }
 
   render() {
@@ -75,6 +75,7 @@ export default class CommunityAreaMap extends PureComponent {
           center={position}
           zoom={this.state.zoom}
           scrollWheelZoom={false}
+          zoomSnap={0.25}
         >
           <TileLayer
             attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

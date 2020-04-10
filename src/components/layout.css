@@ -643,7 +643,7 @@ button {
   border-color: #f8f9fa;
 }
 .leaflet-container {
-  height: 475px;
+  height: 600px;
 }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
   background: rgba(255, 255, 255, 0.8);
