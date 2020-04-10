@@ -43,16 +43,6 @@ export default class CommunityAreaMap extends PureComponent {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
 
-    var polygon = [ [ 1, 1 ], [ 1, 2 ], [ 2, 2 ], [ 2, 1 ] ]
-
-    console.log(polygon)
-
-    console.dir([
-        inside([ 1.5, 1.5 ], polygon),
-        inside([ 4.9, 1.2 ], polygon),
-        inside([ 1.8, 1.1 ], polygon)
-    ])
-
     chicagoCommunityAreasGeoJSON.features.map(
       obj => {
         obj.properties.value = 0
