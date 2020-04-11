@@ -174,7 +174,7 @@ export const query = graphql`
         }
       ) {
       nodes {
-        id
+        casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
         age
@@ -201,7 +201,7 @@ export const query = graphql`
         }
       ) {
       nodes {
-        id
+        casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
         age
@@ -228,7 +228,7 @@ export const query = graphql`
         }
       ) {
       nodes {
-        id
+        casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
         age
@@ -243,7 +243,7 @@ export const query = graphql`
         longitude
       }
     },
-    community_areas:allGeoJson(limit: 10) {
+    community_areas:allGeoJson {
       nodes {
         features {
           type

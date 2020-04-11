@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
-// import chicagoCommunityAreasGeoJSON from '../data/chicago_community_areas.js'
+import savedNeighborhoods from "../data/saved_neighborhoods"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -45,18 +45,42 @@ export default class CommunityAreaMap extends PureComponent {
 
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
 
+    // var saved_neighborhoods = {}
+
     communityAreasGeoJSON.features.map(
       obj => {
         obj.properties.value = 0
 
         dataCV.forEach(function(record, index) {
+          var includesPoint = false
 
-          obj.geometry.coordinates.forEach(function(polygon, index) {
-            const pointInside = inside([record.longitude, record.latitude], polygon[0])
-            if (pointInside) {
-              obj.properties.value = obj.properties.value + 1
-            }
-          })
+          if (
+            savedNeighborhoods[record.casenumber] &&
+            savedNeighborhoods[record.casenumber].neighborhood === obj.properties.community &&
+            savedNeighborhoods[record.casenumber].latitude === record.latitude &&
+            savedNeighborhoods[record.casenumber].longitude === record.longitude
+          ) {
+            includesPoint = true
+          } else {
+            obj.geometry.coordinates.forEach(function(polygon) {
+              const pointInside = inside([record.longitude, record.latitude], polygon[0])
+              if (pointInside) {
+                includesPoint = true
+              }
+            })
+          }
+
+          if (includesPoint) {
+            obj.properties.value = obj.properties.value + 1
+
+            // Use this to update saved_neighborhoods.json
+            // and improve performance of this function
+            // saved_neighborhoods[record.casenumber] = {
+            //   'latitude': record.latitude,
+            //   'longitude': record.longitude,
+            //   'neighborhood': obj.properties.community
+            // }
+          }
 
         })
 
@@ -67,6 +91,8 @@ export default class CommunityAreaMap extends PureComponent {
         return obj
       }
     )
+
+    // console.log(saved_neighborhoods)
 
     return (
       <div style={{ width: '100%' }}>
