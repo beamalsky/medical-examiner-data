@@ -16,6 +16,7 @@ const style = {
 const inside = (point, vs) => {
     // ray-casting algorithm based on
     // http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
+    console.log("calling inside")
 
     var x = point[0], y = point[1];
 
@@ -42,55 +43,59 @@ export default class CommunityAreaMap extends PureComponent {
   render() {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
-
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
 
     // var saved_neighborhoods = {}
 
-    communityAreasGeoJSON.features.map(
-      obj => {
-        obj.properties.value = 0
+    dataCV.forEach(function(record) {
+      var savedRecord = savedNeighborhoods[record.casenumber]
+      if (
+        savedRecord &&
+        savedRecord.latitude === record.latitude &&
+        savedRecord.longitude === record.longitude
+      ) {
+        var community = savedNeighborhoods[record.casenumber].community
 
-        dataCV.forEach(function(record, index) {
+        communityAreasGeoJSON.features.some(function (feature) {
+          if (feature.properties.community === community) {
+            if (feature.properties.value) {
+              feature.properties.value += 1
+            } else {
+              feature.properties.value = 1
+            }
+            return true
+          }
+        })
+      } else {
+        communityAreasGeoJSON.features.some(function (feature) {
           var includesPoint = false
 
-          if (
-            savedNeighborhoods[record.casenumber] &&
-            savedNeighborhoods[record.casenumber].neighborhood === obj.properties.community &&
-            savedNeighborhoods[record.casenumber].latitude === record.latitude &&
-            savedNeighborhoods[record.casenumber].longitude === record.longitude
-          ) {
-            includesPoint = true
-          } else {
-            obj.geometry.coordinates.forEach(function(polygon) {
-              const pointInside = inside([record.longitude, record.latitude], polygon[0])
-              if (pointInside) {
-                includesPoint = true
-              }
-            })
-          }
+          feature.geometry.coordinates.some(function(polygon) {
+            const pointInside = inside([record.longitude, record.latitude], polygon[0])
+            if (pointInside) {
+              includesPoint = true
+              return includesPoint
+            }
+          })
 
           if (includesPoint) {
-            obj.properties.value = obj.properties.value + 1
+            if (feature.properties.value) {
+              feature.properties.value += 1
+            } else {
+              feature.properties.value = 1
+            }
 
             // Use this to update saved_neighborhoods.json
             // and improve performance of this function
             // saved_neighborhoods[record.casenumber] = {
             //   'latitude': record.latitude,
             //   'longitude': record.longitude,
-            //   'neighborhood': obj.properties.community
+            //   'community': feature.properties.community
             // }
           }
-
         })
-
-        if (obj.properties.value === 0) {
-          obj.properties.value = undefined
-        }
-
-        return obj
       }
-    )
+    })
 
     // console.log(saved_neighborhoods)
 
