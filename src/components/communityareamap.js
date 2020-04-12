@@ -3,7 +3,6 @@ import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
 import savedNeighborhoods from "../data/saved_neighborhoods"
-import capop from "../data/community_area_populations"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -33,24 +32,28 @@ const inside = (point, vs) => {
     return inside;
 }
 
+const round = (num) => {
+  return Math.round(num * 10) / 10
+}
+
+const getPopUpText = (properties) => {
+  const community = properties.community
+  const deaths = properties.value ? properties.value : 0
+  const per_capita = properties.value ? round(properties.value * 100000 / properties.population) : 0
+  return `<b>${community}</b><br />${per_capita} per 100,000 residents<br />Total deaths: ${deaths}`
+}
+
 export default class CommunityAreaMap extends PureComponent {
   state = {
     lat: 41.83,
     lng: -87.72,
-    zoom: 10.25,
+    zoom: 10,
   }
 
   render() {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
-
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
-
-    communityAreasGeoJSON.features.forEach(function(feature) {
-      var community = feature.properties.community.toLowerCase()
-      var capop_feature = capop.filter(d => d.GEOG.toLowerCase() === community)[0]
-      feature.properties.population = capop_feature.TOT_POP
-    })
 
     // var saved_neighborhoods = {}
 
@@ -121,12 +124,12 @@ export default class CommunityAreaMap extends PureComponent {
           />
           <Choropleth
             data={communityAreasGeoJSON}
-            valueProperty={(feature) => feature.properties.value}
+            valueProperty={(feature) => (feature.properties.value / feature.properties.population)}
             scale={['#d5c17e', '#a01f03']}
             steps={7}
             mode='e'
             style={style}
-            onEachFeature={(feature, layer) => layer.bindPopup(`<b>${feature.properties.community}</b> <br /> Deaths: ${feature.properties.value ? feature.properties.value : 0}`)}
+            onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
             ref={(el) => this.choropleth = el.leafletElement}
           />
         </Map>

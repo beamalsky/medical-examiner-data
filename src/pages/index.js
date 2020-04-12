@@ -108,7 +108,7 @@ const IndexPage = ({data}) => {
       <Row style={{ marginBottom: '2rem' }}>
         <Col xs={12} md={8}>
           <CommunityAreaMap
-            title={`COVID-19 deaths by Chicago neighborhood`}
+            title={`COVID-19 deaths by Chicago neighborhood (per capita)`}
             data={dataCV}
             geojson={data.community_areas}
           />
@@ -249,6 +249,7 @@ export const query = graphql`
           type
           properties {
             community
+            population
           }
           geometry {
             coordinates
