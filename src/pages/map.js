@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import ZipMap from "../components/communityareamap"
+import CommunityAreaMap from "../components/communityareamap"
 import getCVData from "../utils/getcvdata"
 import "../components/layout.css"
 
@@ -14,8 +14,8 @@ const MapPage = ({data}) => {
   )
 
   return (
-    <ZipMap
-      title={`Deaths attributed to COVID-19 by community area`}
+    <CommunityAreaMap
+      title={`COVID-19 deaths by Chicago neighborhood (per capita)`}
       data={dataCV}
       geojson={data.community_areas}
     />
@@ -92,6 +92,7 @@ export const query = graphql`
           type
           properties {
             community
+            population
           }
           geometry {
             coordinates
