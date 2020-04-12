@@ -3,6 +3,7 @@ import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
 import savedNeighborhoods from "../data/saved_neighborhoods"
+import capop from "../data/community_area_populations"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -42,7 +43,14 @@ export default class CommunityAreaMap extends PureComponent {
   render() {
     const position = [this.state.lat, this.state.lng]
     const dataCV = this.props.data
+
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
+
+    communityAreasGeoJSON.features.forEach(function(feature) {
+      var community = feature.properties.community.toLowerCase()
+      var capop_feature = capop.filter(d => d.GEOG.toLowerCase() === community)[0]
+      feature.properties.population = capop_feature.TOT_POP
+    })
 
     // var saved_neighborhoods = {}
 
