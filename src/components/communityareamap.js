@@ -38,8 +38,8 @@ const round = (num) => {
 const getPopUpText = (properties) => {
   const community = properties.community
   const deaths = properties.value ? properties.value : 0
-  const per_capita = properties.value ? round(properties.value * 100000 / properties.population) : 0
-  return `<b>${community}</b><br />${per_capita} per 100,000 residents<br />Total deaths: ${deaths}`
+  const per_capita = properties.value ? round(properties.value * 10000 / properties.population) : 0
+  return `<b>${community}</b><br />${per_capita} per 10,000 residents<br />Total deaths: ${deaths}`
 }
 
 export default class CommunityAreaMap extends PureComponent {
