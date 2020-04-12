@@ -106,7 +106,7 @@ const IndexPage = ({data}) => {
       <SEO title="Home" />
 
       <Row style={{ marginBottom: '2rem' }}>
-        <Col style={{ margin: "2rem auto", padding: "0 3rem" }} xs={12} md={7}>
+        <Col style={{ margin: "1rem auto", padding: "0 2rem" }} xs={12} md={7}>
           <div style={{ textAlign: "center" }}>
             <h1>
               Coronavirus Deaths in Chicago’s Neighborhoods
