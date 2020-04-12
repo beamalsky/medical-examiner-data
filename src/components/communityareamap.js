@@ -3,6 +3,7 @@ import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
 import savedNeighborhoods from "../data/saved_neighborhoods"
+import DataTable from "../components/datatable"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -38,7 +39,7 @@ const round = (num) => {
 const getPopUpText = (properties) => {
   const community = properties.community
   const deaths = properties.value ? properties.value : 0
-  const per_capita = properties.value ? round(properties.value * 10000 / properties.population) : 0
+  const per_capita = properties.per_capita
   return `<b>${community}</b><br />${per_capita} per 10,000 residents<br />Total deaths: ${deaths}`
 }
 
@@ -46,7 +47,7 @@ export default class CommunityAreaMap extends PureComponent {
   state = {
     lat: 41.83,
     lng: -87.72,
-    zoom: 10.5,
+    zoom: 10.25,
   }
 
   render() {
@@ -106,11 +107,17 @@ export default class CommunityAreaMap extends PureComponent {
       }
     })
 
+    communityAreasGeoJSON.features.map(
+      feature => {
+        feature.properties.per_capita =  feature.properties.value ? round(feature.properties.value * 10000 / feature.properties.population) : 0
+        return feature
+      }
+    )
+
     // console.log(saved_neighborhoods)
 
     return (
       <div style={{ width: '100%' }}>
-        <h4>{this.props.title}</h4>
         <Map
           center={position}
           zoom={this.state.zoom}
@@ -126,14 +133,19 @@ export default class CommunityAreaMap extends PureComponent {
           <Choropleth
             data={communityAreasGeoJSON}
             valueProperty={(feature) => (feature.properties.value / feature.properties.population)}
-            scale={['#e7d28f', '#a01f03']}
-            steps={15}
+            scale={this.props.colors}
+            steps={7}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
             ref={(el) => this.choropleth = el.leafletElement}
           />
         </Map>
+        <br />
+        <h4 style={{ textAlign: "center"}}>{this.props.title}</h4>
+        <DataTable
+          data={communityAreasGeoJSON}
+        />
       </div>
     )
   }

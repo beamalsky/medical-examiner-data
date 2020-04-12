@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#faf1ef`,
+      background: `white`,
       marginBottom: `2rem`,
       textAlign: "center",
     }}
@@ -25,18 +25,9 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          SSW Nameplate Goes Here
         </Link>
       </h1>
-      <p style= {{
-        fontFamily: 'sans-serif',
-        fontSize: '0.8rem',
-        marginBottom: 0,
-        marginTop: '0.7rem'
-      }}
-      >
-        A work in progress by <a href="https://twitter.com/beamalsky">Bea Malsky</a>. Updates hourly with data from the <a href="https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86">Cook County Medical Examiner</a>.
-      </p>
     </div>
   </header>
 )

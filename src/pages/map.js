@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import CommunityAreaMap from "../components/communityareamap"
 import getCVData from "../utils/getcvdata"
-import "../components/layout.css"
+import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
@@ -15,9 +15,10 @@ const MapPage = ({data}) => {
 
   return (
     <CommunityAreaMap
-      title={`COVID-19 deaths by Chicago neighborhood (per capita)`}
+      title={`Deaths by Chicago neighborhood, per capita`}
       data={dataCV}
       geojson={data.community_areas}
+      colors={['#e7d28f', '#a01f03']}
     />
   )
 }

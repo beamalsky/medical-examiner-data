@@ -106,53 +106,66 @@ const IndexPage = ({data}) => {
       <SEO title="Home" />
 
       <Row style={{ marginBottom: '2rem' }}>
-        <Col xs={12} md={8}>
-          <CommunityAreaMap
-            title={`COVID-19 deaths by Chicago neighborhood (per capita)`}
-            data={dataCV}
-            geojson={data.community_areas}
-          />
-        </Col>
-        <Col style={{ margin: "auto"}} xs={12} md={4}>
+        <Col style={{ margin: "2rem auto", padding: "0 3rem" }} xs={12} md={7}>
           <div style={{ textAlign: "center" }}>
+            <h1>
+              Coronavirus Deaths in Chicago’s Neighborhoods
+            </h1>
+            <h3>
+              <i>A Live Tracker</i>
+            </h3>
+            <p>
+              By Bea Malsky
+            </p>
+            <p style={{ textAlign: "justify" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper et magna id ultricies. Vestibulum ac dui lectus. Ut volutpat sapien nec semper egestas. Donec fermentum nulla quis justo auctor, ultrices mattis ante volutpat. Sed fermentum faucibus feugiat. Aliquam quam dui, blandit ut metus viverra, ornare commodo nisi. Vestibulum scelerisque dolor vitae aliquam convallis. Nam vitae efficitur turpis, in cursus sapien.
+            </p>
+            <hr />
             <h4>
-              Total deaths <br />attributed to COVID-19 <br />in Chicago:
+              Total deaths attributed <br />to COVID-19 in Chicago:
             </h4>
-            <h1 style={{color: "#77b88f"}}>
+            <h1 style={{color: 'white'}}>
+              <span style={{backgroundColor: 'black', padding: '7px'}}>
                {dataCV.length}
+              </span>
             </h1>
             <p><i>Last updated <br />{last_updated}</i></p>
+            <hr />
+            <div style={{ margin: "4rem 0" }}>
+              <ActivePieChart
+                data={dataCVRace}
+                title={`COVID-19 deaths in Chicago by race`}
+                colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
+              />
+            </div>
+            <hr />
+            <div style={{ margin: "4rem 0" }}>
+              <ShadedAreaChart
+                data={CVDataByDate}
+                title={`COVID-19 deaths in Chicago by day`}
+                tooltip=<CVTooltip/>
+              >
+                <Area dataKey="COVID-19" fill="#d5644b" stroke="#a01f03" type="natural" />
+              </ShadedAreaChart>
+            </div>
+            <hr />
+            <div style={{ margin: "2rem 0" }}>
+              <p style={{ textAlign: "justify" }}>
+                Duis ex augue, dictum in aliquam eu, auctor a massa. Suspendisse nulla orci, sagittis in imperdiet non, iaculis sed massa. Curabitur vitae mauris quis metus condimentum condimentum. Etiam urna augue, consectetur nec risus ac, sagittis interdum ipsum. Suspendisse ante massa, ultricies et accumsan sit amet, tempor quis dui. Phasellus accumsan rhoncus orci, nec luctus dui tincidunt vitae. Suspendisse purus leo, iaculis eget orci in, auctor luctus eros. Suspendisse faucibus nec lacus et sagittis. Suspendisse potenti. Donec a consectetur erat, sit amet convallis est. Suspendisse at pellentesque erat, et imperdiet nunc. Pellentesque nec aliquet odio. Sed ligula ex, iaculis vitae aliquet nec, mattis eu odio. Fusce vel rutrum erat.
+              </p>
+            </div>
           </div>
         </Col>
-      </Row>
 
-      <Row>
-        <Col style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ShadedAreaChart
-            data={CVDataByDate}
-            title={`COVID-19 deaths in Chicago by day`}
-            tooltip=<CVTooltip/>
-          >
-            <Area dataKey="COVID-19" fill="#d5644b" stroke="#a01f03" type="natural" />
-          </ShadedAreaChart>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col xs={12} md={6} style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ActivePieChart
-            data={dataCVRace}
-            title={`COVID-19 deaths in Chicago by race`}
-            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14', '#000000']}
+        <Col xs={12} md={5}>
+          <CommunityAreaMap
+            title={`Deaths by Chicago neighborhood, per capita`}
+            data={dataCV}
+            geojson={data.community_areas}
+            colors={['#e7d28f', '#a01f03']}
           />
         </Col>
-        <Col xs={12} md={6} style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ActivePieChart
-            data={dataCVGender}
-            title={`COVID-19 deaths in Chicago by gender`}
-            colors={['#788fb9', '#a8bee7', '#536380']}
-          />
-        </Col>
+
       </Row>
     </Layout>
   )
