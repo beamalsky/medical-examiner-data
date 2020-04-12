@@ -424,6 +424,13 @@ table {
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
+  font-size: 0.8rem;
+}
+.table td {
+  padding: 0.3rem 0.75rem;
+}
+th {
+  line-height: normal;
 }
 fieldset {
   margin-left: 0;
@@ -487,12 +494,6 @@ hr {
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
   height: 1px;
-}
-.table {
-  font-size: 0.8rem;
-}
-.table td {
-  padding: 0.3rem 0.75rem;
 }
 address {
   margin-left: 0;
@@ -645,4 +646,20 @@ button {
 }
 .recharts-surface {
   margin-bottom: 3px;
+}
+.pagination {
+  font-size: 0.8rem;
+  margin: 0 3rem 0rem 3rem
+}
+.page-link {
+  color: #788fb9;
+  font-weight: 700;
+}
+.page-item.active .page-link {
+  background-color: #788fb9;
+  border-color: #788fb9;
+}
+.react-bs-table-csv-btn {
+  background-color: #788fb9;
+  color: white;
 }

@@ -2,6 +2,7 @@ import React from "react"
 
 import BootstrapTable from 'react-bootstrap-table-next'
 import ToolkitProvider, { CSVExport } from 'react-bootstrap-table2-toolkit'
+import paginationFactory from 'react-bootstrap-table2-paginator';
 
 const { ExportCSVButton } = CSVExport
 
@@ -49,6 +50,34 @@ const defaultSorted = [{
   order: 'desc'
 }];
 
+const paginationOptions = {
+  paginationSize: 30,
+  // alwaysShowAllBtns: true, // Always show next and previous button
+  withFirstAndLast: false, // Hide the going to First and Last page button
+  hideSizePerPage: true, // Hide the sizePerPage dropdown always
+  disablePageTitle: true,
+  sizePerPageList: [{
+    text: '30', value: 30
+  }] // A numeric array is also available. the purpose of above example is custom the text
+}
+
+const CustomExportCSVButton = (props) => {
+  const handleClick = () => {
+    props.onExport();
+  };
+  return (
+    <div style={{textAlign: 'right'}}>
+      <button
+        className="btn"
+        onClick={ handleClick }
+        style={{backgroundColor: '#f4f4f4', fontSize: '0.8rem'}}
+      >
+        ↓ Download neighborhood data
+      </button>
+    </div>
+  );
+};
+
 const DataTable = (props) => {
   const data = props.data
 
@@ -82,12 +111,11 @@ const DataTable = (props) => {
               defaultSorted={defaultSorted}
               bordered={false}
               scrollY={true}
+              pagination={paginationFactory(paginationOptions)}
             />
-            <ExportCSVButton
+            <CustomExportCSVButton
               { ...props.csvProps }
-            >
-              Export full data
-            </ExportCSVButton>
+            />
           </div>
         )
       }
