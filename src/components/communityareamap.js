@@ -9,7 +9,6 @@ const style = {
     weight: 0.4,
     opacity: 0.7,
     color: 'black',
-    // dashArray: '3',
     fillOpacity: 0.9
 }
 
@@ -47,7 +46,7 @@ export default class CommunityAreaMap extends PureComponent {
   state = {
     lat: 41.83,
     lng: -87.72,
-    zoom: 10,
+    zoom: 10.5,
   }
 
   render() {
@@ -117,6 +116,8 @@ export default class CommunityAreaMap extends PureComponent {
           zoom={this.state.zoom}
           scrollWheelZoom={false}
           zoomSnap={0.25}
+          tap={false}
+          touchZoom={true}
         >
           <TileLayer
             attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -125,8 +126,8 @@ export default class CommunityAreaMap extends PureComponent {
           <Choropleth
             data={communityAreasGeoJSON}
             valueProperty={(feature) => (feature.properties.value / feature.properties.population)}
-            scale={['#d5c17e', '#a01f03']}
-            steps={7}
+            scale={['#e7d28f', '#a01f03']}
+            steps={15}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
