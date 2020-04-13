@@ -636,6 +636,9 @@ button {
 .leaflet-popup-content {
   font-size: 0.9rem;
 }
+.leaflet-control-attribution {
+  font-size: 0.5rem !important;
+}
 .recharts-legend-item {
   margin-left: 5px;
   margin-top: 10px;

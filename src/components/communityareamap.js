@@ -155,7 +155,7 @@ export default class CommunityAreaMap extends PureComponent {
           />
         </Map>
         <br />
-        <h4 style={{ textAlign: "center"}}>{this.props.title}</h4>
+        <h4 style={{ textAlign: "left"}}>{this.props.title}</h4>
         <div style={{ textAlign: "right" }}>
           <small>No location yet listed for {no_location_count} records</small>
         </div>
