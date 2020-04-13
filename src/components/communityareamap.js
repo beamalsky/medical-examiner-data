@@ -134,7 +134,7 @@ export default class CommunityAreaMap extends PureComponent {
         <h4 style={{
           textAlign: "center",
           marginBottom: "-2rem",
-          marginLeft: "6.5rem",
+          marginLeft: "5rem",
           zIndex: "999",
           position: "relative",
           backgroundColor: "white",

@@ -666,3 +666,11 @@ button {
   background-color: #788fb9;
   color: white;
 }
+.main-text-column {
+  margin: 4rem auto;
+}
+@media (max-width: 850px) {
+  .main-text-column {
+    margin: 0 auto;
+  }
+}

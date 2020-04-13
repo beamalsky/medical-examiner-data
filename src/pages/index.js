@@ -111,7 +111,7 @@ const IndexPage = ({data}) => {
       <SEO title="Home" />
 
       <Row style={{ marginBottom: '2rem' }}>
-        <Col style={{ margin: "1rem auto", padding: "0 3rem" }} xs={12} md={7}>
+        <Col className="main-text-column" xs={12} md={6}>
           <div style={{ textAlign: "center" }}>
             <h1>
               COVID-19 Deaths in Chicago’s Neighborhoods
@@ -123,7 +123,7 @@ const IndexPage = ({data}) => {
               By Bea Malsky
             </p>
             <p style={{ textAlign: "justify" }}>
-              Chicago is a city of socially knit neighborhoods, not precisely boxed zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is distributed along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
+              Chicago is a city of socially knit neighborhoods, not precisely boxed zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way illness appears along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
             </p>
             <hr />
             <h4 style={{ lineHeight: "1.3" }}>
@@ -136,12 +136,24 @@ const IndexPage = ({data}) => {
             </h1>
             <p><i>Last updated {last_updated}</i></p>
             <hr />
+            <div style={{ margin: "2rem 0" }}>
+              <p style={{ textAlign: "justify" }}>
+                All data shown is pulled from Cook County Medical Examiner records released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
+              </p>
+            </div>
+            <hr />
             <div style={{ margin: "4rem 0" }}>
               <ActivePieChart
                 data={dataCVRace}
                 title={`COVID-19 deaths in Chicago by race`}
                 colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
               />
+            </div>
+            <hr />
+            <div style={{ margin: "2rem 0" }}>
+              <p style={{ textAlign: "justify" }}>
+                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true in the Latinx category.
+              </p>
             </div>
             <hr />
             <div style={{ margin: "4rem 0" }}>
@@ -155,12 +167,6 @@ const IndexPage = ({data}) => {
             </div>
             <hr />
             <div style={{ margin: "2rem 0" }}>
-              <p style={{ textAlign: "justify" }}>
-                All data shown is pulled from Cook County Medical Examiner records released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address.
-              </p>
-              <p style={{ textAlign: "justify" }}>
-                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true in the Latinx category.
-              </p>
               <p style={{ textAlign: "justify" }}>
                 As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
               </p>
