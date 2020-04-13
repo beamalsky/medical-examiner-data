@@ -1,13 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Area } from 'recharts'
+import { Bar } from 'recharts'
 import { Col, Row } from 'react-bootstrap'
 
 import getCVData from "../utils/getcvdata"
 import countKeys from "../utils/countkeys"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ShadedAreaChart from "../components/shadedareachart"
+import MixedBarChart from "../components/mixedbarchart"
 import CVTooltip from "../components/cvtooltip"
 import ActivePieChart from "../components/activepiechart"
 import CommunityAreaMap from "../components/communityareamap"
@@ -78,9 +78,12 @@ const getCVDataByDate = (data) => {
 
   dataCV = Object.entries(dataCV).map(
     obj => {
+      console.log(obj[0])
+      var date = new Date(Date.parse(obj[0]))
+      var date_processed = date.toLocaleString('default', { month: 'long', day: 'numeric' })
       return {
-        'day': obj[0],
-        'COVID-19': obj[1]
+        'day': date_processed,
+        'Reported deaths': obj[1]
       }
     }
   )
@@ -107,7 +110,7 @@ const IndexPage = ({data}) => {
       <SEO title="Home" />
 
       <Row style={{ marginBottom: '2rem' }}>
-        <Col style={{ margin: "1rem auto", padding: "0 2rem" }} xs={12} md={7}>
+        <Col style={{ margin: "1rem auto", padding: "0 3rem" }} xs={12} md={7}>
           <div style={{ textAlign: "center" }}>
             <h1>
               COVID-19 Deaths in Chicago’s Neighborhoods
@@ -119,7 +122,7 @@ const IndexPage = ({data}) => {
               By Bea Malsky
             </p>
             <p style={{ textAlign: "justify" }}>
-              Chicago is a city of socially knit neighborhoods, not of precisely boxed off zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is allocated along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
+              Chicago is a city of socially knit neighborhoods, not precisely boxed zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is distributed along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
             </p>
             <hr />
             <h4>
@@ -141,18 +144,24 @@ const IndexPage = ({data}) => {
             </div>
             <hr />
             <div style={{ margin: "4rem 0" }}>
-              <ShadedAreaChart
+              <MixedBarChart
                 data={CVDataByDate}
                 title={`COVID-19 deaths in Chicago by day`}
                 tooltip=<CVTooltip/>
               >
-                <Area dataKey="COVID-19" fill="#d5644b" stroke="#a01f03" type="natural" />
-              </ShadedAreaChart>
+                <Bar dataKey="Reported deaths" fill="#d5644b" type="natural" />
+              </MixedBarChart>
             </div>
             <hr />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }}>
-                All data shown is from the Cook County Medical Examiner (CCME), which is kept up to date on the Chicago Data Portal. As part of this live tracker, we are keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified.
+                All data shown is pulled from the Cook County Medical Examiner, which is released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address.
+              </p>
+              <p style={{ textAlign: "justify" }}>
+                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for "Latino" that can be true or false. For this project, we are including any record where Latino is true in the "Latinx" category.
+              </p>
+              <p style={{ textAlign: "justify" }}>
+                As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
               </p>
             </div>
           </div>
