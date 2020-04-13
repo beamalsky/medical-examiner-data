@@ -78,7 +78,6 @@ const getCVDataByDate = (data) => {
 
   dataCV = Object.entries(dataCV).map(
     obj => {
-      console.log(obj[0])
       var date = new Date(Date.parse(obj[0]))
       var date_processed = date.toLocaleString('default', { month: 'long', day: 'numeric' })
       return {
@@ -155,10 +154,10 @@ const IndexPage = ({data}) => {
             <hr />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }}>
-                All data shown is pulled from the Cook County Medical Examiner, which is released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address.
+                All data shown is pulled from Cook County Medical Examiner records released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address.
               </p>
               <p style={{ textAlign: "justify" }}>
-                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for "Latino" that can be true or false. For this project, we are including any record where Latino is true in the "Latinx" category.
+                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true in the Latinx category.
               </p>
               <p style={{ textAlign: "justify" }}>
                 As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.

@@ -56,14 +56,18 @@ export default class CommunityAreaMap extends PureComponent {
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
 
     // var saved_neighborhoods = {}
+    var no_location = []
 
     dataCV.forEach(function(record) {
+      var location_found = false
+
       var savedRecord = savedNeighborhoods[record.casenumber]
       if (
         savedRecord &&
         savedRecord.latitude === record.latitude &&
         savedRecord.longitude === record.longitude
       ) {
+        var location_found = true
         var community = savedNeighborhoods[record.casenumber].community
 
         communityAreasGeoJSON.features.some(function (feature) {
@@ -81,7 +85,7 @@ export default class CommunityAreaMap extends PureComponent {
           var includesPoint = false
 
           feature.geometry.coordinates.some(function(polygon) {
-            const pointInside = inside([record.longitude, record.latitude], polygon[0])
+            var pointInside = inside([record.longitude, record.latitude], polygon[0])
             if (pointInside) {
               includesPoint = true
               return includesPoint
@@ -89,6 +93,7 @@ export default class CommunityAreaMap extends PureComponent {
           })
 
           if (includesPoint) {
+            location_found = true
             if (feature.properties.value) {
               feature.properties.value += 1
             } else {
@@ -105,7 +110,15 @@ export default class CommunityAreaMap extends PureComponent {
           }
         })
       }
+
+      if (location_found) {
+        // pass
+      } else {
+        no_location.push(record)
+      }
     })
+
+    const no_location_count = no_location.length
 
     communityAreasGeoJSON.features.map(
       feature => {
@@ -143,6 +156,9 @@ export default class CommunityAreaMap extends PureComponent {
         </Map>
         <br />
         <h4 style={{ textAlign: "center"}}>{this.props.title}</h4>
+        <div style={{ textAlign: "right" }}>
+          <small>No location yet listed for {no_location_count} records</small>
+        </div>
         <DataTable
           data={communityAreasGeoJSON}
           last_updated={this.props.last_updated}
