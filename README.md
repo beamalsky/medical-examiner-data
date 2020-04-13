@@ -16,16 +16,7 @@ Keeping track of and visualizing reports from the Cook County Medical Examiner. 
     cd medical-examiner-data
     ```
 
-2. Create a `.env` (dotenv) file in your root project directory with the following configuration:
-
-    ```
-    # Cook County Data Portal API keys
-    API_APP_TOKEN=<your token>
-    ```
-
-    To make a new app token, you'll have to create an account at https://datacatalog.cookcountyil.gov/
-
-3. Start developing
+2. Start developing
 
     ```shell
     docker-compose up --build
@@ -86,4 +77,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ### 💫 TK: Deploy
 
-All commits to master are currently deployed via Netlify.
+This app is deployed via Netlify to **[covid19neighborhoods.southsideweekly.com](https://covid19neighborhoods.southsideweekly.com/)**

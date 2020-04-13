@@ -126,7 +126,7 @@ const IndexPage = ({data}) => {
               Chicago is a city of socially knit neighborhoods, not precisely boxed zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is distributed along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
             </p>
             <hr />
-            <h4>
+            <h4 style={{ lineHeight: "1.3" }}>
               Total deaths attributed <br />to COVID-19 in Chicago:
             </h4>
             <h1 style={{color: 'white'}}>
