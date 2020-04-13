@@ -58,6 +58,12 @@ module.exports = {
         ignore: [`**/\cases*`], // ignore CCME cases data
       },
     },
-    'gatsby-transformer-geojson'
+    'gatsby-transformer-geojson',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-30162627-3",
+      },
+    },
   ],
 }
