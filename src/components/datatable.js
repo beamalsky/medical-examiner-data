@@ -96,9 +96,10 @@ const DataTable = (props) => {
       keyField="community"
       data={rows}
       columns={columns}
-      exportCSV={
-        {fileName: `Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`}
-      }
+      exportCSV={{
+        fileName: `Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`,
+        blobType: 'text/csv;charset=ansi'
+      }}
     >
       {
         props => (
