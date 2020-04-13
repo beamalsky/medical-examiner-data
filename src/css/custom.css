@@ -202,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: monospace, monospace;
+  font-family: sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -424,6 +424,13 @@ table {
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
+  font-size: 0.8rem;
+}
+.table td {
+  padding: 0.3rem 0.75rem;
+}
+th {
+  line-height: normal;
 }
 fieldset {
   margin-left: 0;
@@ -566,30 +573,6 @@ abbr[title] {
   cursor: help;
   text-decoration: none;
 }
-thead {
-  text-align: left;
-}
-td,
-th {
-  text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
-  font-feature-settings: "tnum";
-  -moz-font-feature-settings: "tnum";
-  -ms-font-feature-settings: "tnum";
-  -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
-}
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
-}
 tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
@@ -653,6 +636,9 @@ button {
 .leaflet-popup-content {
   font-size: 0.9rem;
 }
+.leaflet-control-attribution {
+  font-size: 0.5rem !important;
+}
 .recharts-legend-item {
   margin-left: 5px;
   margin-top: 10px;
@@ -663,4 +649,20 @@ button {
 }
 .recharts-surface {
   margin-bottom: 3px;
+}
+.pagination {
+  font-size: 0.8rem;
+  margin: 0 3rem 0rem 3rem
+}
+.page-link {
+  color: #788fb9;
+  font-weight: 700;
+}
+.page-item.active .page-link {
+  background-color: #788fb9;
+  border-color: #788fb9;
+}
+.react-bs-table-csv-btn {
+  background-color: #788fb9;
+  color: white;
 }

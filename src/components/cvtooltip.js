@@ -8,7 +8,7 @@ const CVTooltip = ({ active, payload, label }) => {
     return <TooltipWrapperStyle>
       <h3>{label}</h3>
       <p>
-        <b>{cv_deaths}</b> recorded COVID-19 deaths
+        Reported COVID-19 deaths: <b>{cv_deaths}</b>
       </p>
     </TooltipWrapperStyle>
   }

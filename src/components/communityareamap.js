@@ -3,6 +3,7 @@ import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
 import savedNeighborhoods from "../data/saved_neighborhoods"
+import DataTable from "../components/datatable"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -37,16 +38,16 @@ const round = (num) => {
 
 const getPopUpText = (properties) => {
   const community = properties.community
-  const deaths = properties.value ? properties.value : 0
-  const per_capita = properties.value ? round(properties.value * 10000 / properties.population) : 0
-  return `<b>${community}</b><br />${per_capita} per 10,000 residents<br />Total deaths: ${deaths}`
+  const per_capita = properties.per_capita ? `<br />${properties.per_capita} per 10,000 residents` : ''
+  const deaths = properties.value ? `Total deaths: ${properties.value}` : 'No deaths reported'
+  return `<b>${community}</b><br />${deaths}${per_capita}`
 }
 
 export default class CommunityAreaMap extends PureComponent {
   state = {
     lat: 41.83,
     lng: -87.72,
-    zoom: 10.5,
+    zoom: 10.25,
   }
 
   render() {
@@ -55,14 +56,18 @@ export default class CommunityAreaMap extends PureComponent {
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
 
     // var saved_neighborhoods = {}
+    var no_location = []
 
     dataCV.forEach(function(record) {
+      var location_found = false
+
       var savedRecord = savedNeighborhoods[record.casenumber]
       if (
         savedRecord &&
         savedRecord.latitude === record.latitude &&
         savedRecord.longitude === record.longitude
       ) {
+        var location_found = true
         var community = savedNeighborhoods[record.casenumber].community
 
         communityAreasGeoJSON.features.some(function (feature) {
@@ -80,7 +85,7 @@ export default class CommunityAreaMap extends PureComponent {
           var includesPoint = false
 
           feature.geometry.coordinates.some(function(polygon) {
-            const pointInside = inside([record.longitude, record.latitude], polygon[0])
+            var pointInside = inside([record.longitude, record.latitude], polygon[0])
             if (pointInside) {
               includesPoint = true
               return includesPoint
@@ -88,6 +93,7 @@ export default class CommunityAreaMap extends PureComponent {
           })
 
           if (includesPoint) {
+            location_found = true
             if (feature.properties.value) {
               feature.properties.value += 1
             } else {
@@ -104,13 +110,27 @@ export default class CommunityAreaMap extends PureComponent {
           }
         })
       }
+
+      if (location_found) {
+        // pass
+      } else {
+        no_location.push(record)
+      }
     })
+
+    const no_location_count = no_location.length
+
+    communityAreasGeoJSON.features.map(
+      feature => {
+        feature.properties.per_capita =  feature.properties.value ? round(feature.properties.value * 10000 / feature.properties.population) : 0
+        return feature
+      }
+    )
 
     // console.log(saved_neighborhoods)
 
     return (
       <div style={{ width: '100%' }}>
-        <h4>{this.props.title}</h4>
         <Map
           center={position}
           zoom={this.state.zoom}
@@ -126,14 +146,23 @@ export default class CommunityAreaMap extends PureComponent {
           <Choropleth
             data={communityAreasGeoJSON}
             valueProperty={(feature) => (feature.properties.value / feature.properties.population)}
-            scale={['#e7d28f', '#a01f03']}
-            steps={15}
+            scale={this.props.colors}
+            steps={7}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
             ref={(el) => this.choropleth = el.leafletElement}
           />
         </Map>
+        <br />
+        <h4 style={{ textAlign: "left"}}>{this.props.title}</h4>
+        <div style={{ textAlign: "right" }}>
+          <small>No location yet listed for {no_location_count} records</small>
+        </div>
+        <DataTable
+          data={communityAreasGeoJSON}
+          last_updated={this.props.last_updated}
+        />
       </div>
     )
   }

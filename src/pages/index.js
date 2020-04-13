@@ -1,13 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Area } from 'recharts'
+import { Bar } from 'recharts'
 import { Col, Row } from 'react-bootstrap'
 
 import getCVData from "../utils/getcvdata"
 import countKeys from "../utils/countkeys"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ShadedAreaChart from "../components/shadedareachart"
+import MixedBarChart from "../components/mixedbarchart"
 import CVTooltip from "../components/cvtooltip"
 import ActivePieChart from "../components/activepiechart"
 import CommunityAreaMap from "../components/communityareamap"
@@ -78,9 +78,13 @@ const getCVDataByDate = (data) => {
 
   dataCV = Object.entries(dataCV).map(
     obj => {
+      var date = new Date(Date.parse(obj[0]))
+      // date parsing is off by one. correct is here
+      date.setDate(date.getDate() + 1)
+      var date_processed = (date).toLocaleString('default', { month: 'long', day: 'numeric' })
       return {
-        'day': obj[0],
-        'COVID-19': obj[1]
+        'day': date_processed,
+        'Reported deaths': obj[1]
       }
     }
   )
@@ -99,60 +103,81 @@ const IndexPage = ({data}) => {
   const dataCVRace = getRaceData(dataCV)
   const dataCVGender = getGenderData(dataCV)
 
-  const last_updated = dataCV[dataCV.length - 1].death_date
+  const last_updated_raw = new Date(Date.parse(data.all_cases.nodes[0].death_date))
+  const last_updated = last_updated_raw.toLocaleString()
 
   return (
     <Layout>
       <SEO title="Home" />
 
       <Row style={{ marginBottom: '2rem' }}>
-        <Col xs={12} md={8}>
-          <CommunityAreaMap
-            title={`COVID-19 deaths by Chicago neighborhood (per capita)`}
-            data={dataCV}
-            geojson={data.community_areas}
-          />
-        </Col>
-        <Col style={{ margin: "auto"}} xs={12} md={4}>
+        <Col style={{ margin: "1rem auto", padding: "0 3rem" }} xs={12} md={7}>
           <div style={{ textAlign: "center" }}>
-            <h4>
-              Total deaths <br />attributed to COVID-19 <br />in Chicago:
-            </h4>
-            <h1 style={{color: "#77b88f"}}>
-               {dataCV.length}
+            <h1>
+              COVID-19 Deaths in Chicago’s Neighborhoods
             </h1>
-            <p><i>Last updated <br />{last_updated}</i></p>
+            <h3>
+              <i>A Live Tracker</i>
+            </h3>
+            <p>
+              By Bea Malsky
+            </p>
+            <p style={{ textAlign: "justify" }}>
+              Chicago is a city of socially knit neighborhoods, not precisely boxed zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is distributed along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
+            </p>
+            <hr />
+            <h4>
+              Total deaths attributed <br />to COVID-19 in Chicago:
+            </h4>
+            <h1 style={{color: 'white'}}>
+              <span style={{backgroundColor: 'black', padding: '7px'}}>
+               {dataCV.length}
+              </span>
+            </h1>
+            <p><i>Last updated {last_updated}</i></p>
+            <hr />
+            <div style={{ margin: "4rem 0" }}>
+              <ActivePieChart
+                data={dataCVRace}
+                title={`COVID-19 deaths in Chicago by race`}
+                colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
+              />
+            </div>
+            <hr />
+            <div style={{ margin: "4rem 0" }}>
+              <MixedBarChart
+                data={CVDataByDate}
+                title={`COVID-19 deaths in Chicago by day`}
+                tooltip=<CVTooltip/>
+              >
+                <Bar dataKey="Reported deaths" fill="#d5644b" type="natural" />
+              </MixedBarChart>
+            </div>
+            <hr />
+            <div style={{ margin: "2rem 0" }}>
+              <p style={{ textAlign: "justify" }}>
+                All data shown is pulled from Cook County Medical Examiner records released through the Chicago Data Portal. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address.
+              </p>
+              <p style={{ textAlign: "justify" }}>
+                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true in the Latinx category.
+              </p>
+              <p style={{ textAlign: "justify" }}>
+                As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
+              </p>
+            </div>
           </div>
         </Col>
-      </Row>
 
-      <Row>
-        <Col style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ShadedAreaChart
-            data={CVDataByDate}
-            title={`COVID-19 deaths in Chicago by day`}
-            tooltip=<CVTooltip/>
-          >
-            <Area dataKey="COVID-19" fill="#d5644b" stroke="#a01f03" type="natural" />
-          </ShadedAreaChart>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col xs={12} md={6} style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ActivePieChart
-            data={dataCVRace}
-            title={`COVID-19 deaths in Chicago by race`}
-            colors={['#4c765c', '#77b88f', '#b7f0cc', '#dbdfdc', '#314d3b', '#111a14', '#000000']}
+        <Col xs={12} md={5}>
+          <CommunityAreaMap
+            title={`Per capita COVID-19 deaths by Chicago neighborhood`}
+            data={dataCV}
+            geojson={data.community_areas}
+            colors={['#e7d28f', '#a01f03']}
+            last_updated={last_updated}
           />
         </Col>
-        <Col xs={12} md={6} style={{ marginTop: '2em', marginBottom: '2rem' }}>
-          <ActivePieChart
-            data={dataCVGender}
-            title={`COVID-19 deaths in Chicago by gender`}
-            colors={['#788fb9', '#a8bee7', '#536380']}
-          />
-        </Col>
+
       </Row>
     </Layout>
   )
@@ -256,6 +281,19 @@ export const query = graphql`
             type
           }
         }
+      }
+    },
+    all_cases: allCases(
+        filter: {
+          death_date: {gte: "2020-04-10"}
+        },
+        sort: {
+          fields: death_date,
+          order: DESC
+        }
+      ) {
+      nodes {
+        death_date
       }
     }
   }
