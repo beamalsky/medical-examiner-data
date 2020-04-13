@@ -145,6 +145,7 @@ export default class CommunityAreaMap extends PureComponent {
         <h4 style={{ textAlign: "center"}}>{this.props.title}</h4>
         <DataTable
           data={communityAreasGeoJSON}
+          last_updated={this.props.last_updated}
         />
       </div>
     )

@@ -99,7 +99,8 @@ const IndexPage = ({data}) => {
   const dataCVRace = getRaceData(dataCV)
   const dataCVGender = getGenderData(dataCV)
 
-  const last_updated = dataCV[dataCV.length - 1].death_date
+  const last_updated_raw = new Date(Date.parse(data.all_cases.nodes[0].death_date))
+  const last_updated = last_updated_raw.toLocaleString()
 
   return (
     <Layout>
@@ -109,7 +110,7 @@ const IndexPage = ({data}) => {
         <Col style={{ margin: "1rem auto", padding: "0 2rem" }} xs={12} md={7}>
           <div style={{ textAlign: "center" }}>
             <h1>
-              Coronavirus Deaths in Chicago’s Neighborhoods
+              COVID-19 Deaths in Chicago’s Neighborhoods
             </h1>
             <h3>
               <i>A Live Tracker</i>
@@ -118,7 +119,7 @@ const IndexPage = ({data}) => {
               By Bea Malsky
             </p>
             <p style={{ textAlign: "justify" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper et magna id ultricies. Vestibulum ac dui lectus. Ut volutpat sapien nec semper egestas. Donec fermentum nulla quis justo auctor, ultrices mattis ante volutpat. Sed fermentum faucibus feugiat. Aliquam quam dui, blandit ut metus viverra, ornare commodo nisi. Vestibulum scelerisque dolor vitae aliquam convallis. Nam vitae efficitur turpis, in cursus sapien.
+              Chicago is a city of socially knit neighborhoods, not of precisely boxed off zip codes or uniform experience. In order to understand the public health of our city and to properly advocate for just allocation of care and resources, we must see clearly the way health is allocated along lines of disparity. This live tracker of COVID-19 deaths by community area is intended for use as a tool toward those ends.
             </p>
             <hr />
             <h4>
@@ -129,7 +130,7 @@ const IndexPage = ({data}) => {
                {dataCV.length}
               </span>
             </h1>
-            <p><i>Last updated <br />{last_updated}</i></p>
+            <p><i>Last updated {last_updated}</i></p>
             <hr />
             <div style={{ margin: "4rem 0" }}>
               <ActivePieChart
@@ -151,7 +152,7 @@ const IndexPage = ({data}) => {
             <hr />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }}>
-                Duis ex augue, dictum in aliquam eu, auctor a massa. Suspendisse nulla orci, sagittis in imperdiet non, iaculis sed massa. Curabitur vitae mauris quis metus condimentum condimentum. Etiam urna augue, consectetur nec risus ac, sagittis interdum ipsum. Suspendisse ante massa, ultricies et accumsan sit amet, tempor quis dui. Phasellus accumsan rhoncus orci, nec luctus dui tincidunt vitae. Suspendisse purus leo, iaculis eget orci in, auctor luctus eros. Suspendisse faucibus nec lacus et sagittis. Suspendisse potenti. Donec a consectetur erat, sit amet convallis est. Suspendisse at pellentesque erat, et imperdiet nunc. Pellentesque nec aliquet odio. Sed ligula ex, iaculis vitae aliquet nec, mattis eu odio. Fusce vel rutrum erat.
+                All data shown is from the Cook County Medical Examiner (CCME), which is kept up to date on the Chicago Data Portal. As part of this live tracker, we are keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified.
               </p>
             </div>
           </div>
@@ -159,10 +160,11 @@ const IndexPage = ({data}) => {
 
         <Col xs={12} md={5}>
           <CommunityAreaMap
-            title={`Deaths by Chicago neighborhood, per capita`}
+            title={`Per capita COVID-19 deaths by Chicago neighborhood`}
             data={dataCV}
             geojson={data.community_areas}
             colors={['#e7d28f', '#a01f03']}
+            last_updated={last_updated}
           />
         </Col>
 
@@ -269,6 +271,19 @@ export const query = graphql`
             type
           }
         }
+      }
+    },
+    all_cases: allCases(
+        filter: {
+          death_date: {gte: "2020-04-10"}
+        },
+        sort: {
+          fields: death_date,
+          order: DESC
+        }
+      ) {
+      nodes {
+        death_date
       }
     }
   }
