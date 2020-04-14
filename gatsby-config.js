@@ -6,7 +6,7 @@ module.exports = {
     description: `A live tracker by Bea Malsky`,
     twitterUsername: `@beamalsky`,
     url: "https://covid19neighborhoods.southsideweekly.com", // No trailing slash allowed!
-    image: "/images/card.png"
+    image: "/card.png"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
