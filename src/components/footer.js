@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <Foot>
       <Contain>
-        <p>
+        <p class="footer">
           This is a special project for the <a href="https://southsideweekly.com/">South Side Weekly</a> by <a href="https://twitter.com/beamalsky">Bea Malsky</a> based
           on live data from the <a href="https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86">Cook County Medical Examiner</a>.
           Open source code can be found <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
