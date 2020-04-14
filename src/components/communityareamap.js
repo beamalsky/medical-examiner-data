@@ -168,7 +168,7 @@ export default class CommunityAreaMap extends PureComponent {
         </Map>
         <br />
         <div style={{ textAlign: "right" }}>
-          <small>No location yet listed for <b>{no_location_count}</b> records</small>
+          <small>No location yet listed for <b>{no_location_count}</b> death records</small>
         </div>
         <DataTable
           data={communityAreasGeoJSON}
