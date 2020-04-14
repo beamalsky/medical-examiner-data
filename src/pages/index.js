@@ -150,7 +150,7 @@ const IndexPage = ({data}) => {
                 As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
               </p>
             </div>
-            <div class="break">✶ ✶ ✶ ✶</div>
+            <div className="break">✶ ✶ ✶ ✶</div>
           </div>
         </Col>
 

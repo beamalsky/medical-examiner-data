@@ -55,6 +55,7 @@ export default class CommunityAreaMap extends PureComponent {
     const dataCV = this.props.data
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
 
+    // const savedNeighborhoods = {}
     // var saved_neighborhoods = {}
     var no_location = []
 

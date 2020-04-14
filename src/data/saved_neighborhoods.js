@@ -39,6 +39,11 @@ const savedNeighborhoods = {
     "longitude": "-87.78113616245273",
     "community": "NORWOOD PARK"
   },
+  "ME2020-02372": {
+    "latitude": "41.73823979454474",
+    "longitude": "-87.64209824003318",
+    "community": "AUBURN GRESHAM"
+  },
   "ME2020-01802": {
     "latitude": "41.76694222037898",
     "longitude": "-87.64696389267688",
@@ -269,6 +274,11 @@ const savedNeighborhoods = {
     "longitude": "-87.66493778713685",
     "community": "WEST ENGLEWOOD"
   },
+  "ME2020-02401": {
+    "latitude": "41.881737079465765",
+    "longitude": "-87.73100594528749",
+    "community": "WEST GARFIELD PARK"
+  },
   "ME2020-02270": {
     "latitude": "41.906896190161795",
     "longitude": "-87.75350270266959",
@@ -404,6 +414,11 @@ const savedNeighborhoods = {
     "longitude": "-87.61230309335724",
     "community": "GRAND BOULEVARD"
   },
+  "ME2020-02343": {
+    "latitude": "41.878338753429446",
+    "longitude": "-87.7433759686315",
+    "community": "AUSTIN"
+  },
   "ME2020-01970": {
     "latitude": "41.942027352786084",
     "longitude": "-87.76434441983382",
@@ -422,6 +437,11 @@ const savedNeighborhoods = {
   "ME2020-02011": {
     "latitude": "41.777303582899535",
     "longitude": "-87.69628194112052",
+    "community": "CHICAGO LAWN"
+  },
+  "ME2020-02429": {
+    "latitude": "41.77222660825368",
+    "longitude": "-87.69938131813669",
     "community": "CHICAGO LAWN"
   },
   "ME2020-01955": {
@@ -448,6 +468,11 @@ const savedNeighborhoods = {
     "latitude": "41.969410193584295",
     "longitude": "-87.65120786064999",
     "community": "UPTOWN"
+  },
+  "ME2020-02427": {
+    "latitude": "41.83235968259783",
+    "longitude": "-87.62218970356373",
+    "community": "DOUGLAS"
   },
   "ME2020-01926": {
     "latitude": "41.76444787417066",
@@ -589,15 +614,35 @@ const savedNeighborhoods = {
     "longitude": "-87.73280567826286",
     "community": "NORTH PARK"
   },
+  "ME2020-02364": {
+    "latitude": "41.87399659970159",
+    "longitude": "-87.67582894185863",
+    "community": "NEAR WEST SIDE"
+  },
   "ME2020-02070": {
     "latitude": "41.76861197054607",
     "longitude": "-87.57441566320459",
     "community": "SOUTH SHORE"
   },
+  "ME2020-02065": {
+    "latitude": "41.93745130067653",
+    "longitude": "-87.72832669998463",
+    "community": "AVONDALE"
+  },
   "ME2020-02061": {
     "latitude": "41.87703285090582",
     "longitude": "-87.71293709586112",
     "community": "EAST GARFIELD PARK"
+  },
+  "ME2020-02072": {
+    "latitude": "41.86302329381713",
+    "longitude": "-87.73209337145163",
+    "community": "NORTH LAWNDALE"
+  },
+  "ME2020-02416": {
+    "latitude": "41.94587930923836",
+    "longitude": "-87.76220206503845",
+    "community": "PORTAGE PARK"
   },
   "ME2020-02110": {
     "latitude": "41.75348273463494",
@@ -634,6 +679,11 @@ const savedNeighborhoods = {
     "longitude": "-87.60635889315127",
     "community": "CHATHAM"
   },
+  "ME2020-02479": {
+    "latitude": "41.72469463286833",
+    "longitude": "-87.6579708358484",
+    "community": "WASHINGTON HEIGHTS"
+  },
   "ME2020-02146": {
     "latitude": "41.77821170119494",
     "longitude": "-87.67121357975176",
@@ -654,6 +704,11 @@ const savedNeighborhoods = {
     "longitude": "-87.64860236966135",
     "community": "WASHINGTON HEIGHTS"
   },
+  "ME2020-02367": {
+    "latitude": "41.87399659970159",
+    "longitude": "-87.67582894185863",
+    "community": "NEAR WEST SIDE"
+  },
   "ME2020-02102": {
     "latitude": "41.90836905342639",
     "longitude": "-87.7753077258583",
@@ -673,6 +728,11 @@ const savedNeighborhoods = {
     "latitude": "41.69517975345641",
     "longitude": "-87.63853644504943",
     "community": "ROSELAND"
+  },
+  "ME2020-02087": {
+    "latitude": "41.951530353818065",
+    "longitude": "-87.70456164588164",
+    "community": "IRVING PARK"
   },
   "ME2020-02242": {
     "latitude": "41.99859272235078",
@@ -704,6 +764,11 @@ const savedNeighborhoods = {
     "longitude": "-87.71285409737786",
     "community": "HUMBOLDT PARK"
   },
+  "ME2020-02271": {
+    "latitude": "41.891469022192894",
+    "longitude": "-87.7531010505513",
+    "community": "AUSTIN"
+  },
   "ME2020-02226": {
     "latitude": "41.967432243651835",
     "longitude": "-87.73448301875115",
@@ -724,10 +789,20 @@ const savedNeighborhoods = {
     "longitude": "-87.6566558678561",
     "community": "WEST PULLMAN"
   },
+  "ME2020-02181": {
+    "latitude": "41.722016707185674",
+    "longitude": "-87.65654186215644",
+    "community": "WASHINGTON HEIGHTS"
+  },
   "ME2020-02170": {
     "latitude": "41.7278852100166",
     "longitude": "-87.65094756770938",
     "community": "WASHINGTON HEIGHTS"
+  },
+  "ME2020-02406": {
+    "latitude": "41.92935980939301",
+    "longitude": "-87.74309658140584",
+    "community": "BELMONT CRAGIN"
   },
   "ME2020-02275": {
     "latitude": "41.75507296116493",
@@ -759,6 +834,11 @@ const savedNeighborhoods = {
     "longitude": "-87.65319654254728",
     "community": "MORGAN PARK"
   },
+  "ME2020-02447": {
+    "latitude": "41.961626817365875",
+    "longitude": "-87.64869325217857",
+    "community": "UPTOWN"
+  },
   "ME2020-02260": {
     "latitude": "42.01160697179338",
     "longitude": "-87.69213170911492",
@@ -779,10 +859,20 @@ const savedNeighborhoods = {
     "longitude": "-87.62218970356373",
     "community": "DOUGLAS"
   },
+  "ME2020-02403": {
+    "latitude": "41.743634566845984",
+    "longitude": "-87.56395499485879",
+    "community": "SOUTH CHICAGO"
+  },
   "ME2020-02299": {
     "latitude": "41.655406516423696",
     "longitude": "-87.59652156495932",
     "community": "RIVERDALE"
+  },
+  "ME2020-02399": {
+    "latitude": "41.932444898298854",
+    "longitude": "-87.64790068822188",
+    "community": "LINCOLN PARK"
   },
   "ME2020-02276": {
     "latitude": "41.9875502856688",
@@ -814,6 +904,11 @@ const savedNeighborhoods = {
     "longitude": "-87.5689320420698",
     "community": "SOUTH SHORE"
   },
+  "ME2020-02446": {
+    "latitude": "41.964631690786284",
+    "longitude": "-87.66430691626883",
+    "community": "UPTOWN"
+  },
   "ME2020-02346": {
     "latitude": "41.90638761508217",
     "longitude": "-87.76483922857913",
@@ -823,6 +918,16 @@ const savedNeighborhoods = {
     "latitude": "41.681488003926965",
     "longitude": "-87.62240900145986",
     "community": "WEST PULLMAN"
+  },
+  "ME2020-02454": {
+    "latitude": "41.924509424605546",
+    "longitude": "-87.65975493577079",
+    "community": "LINCOLN PARK"
+  },
+  "ME2020-02273": {
+    "latitude": "41.970066641920546",
+    "longitude": "-87.76996768001828",
+    "community": "JEFFERSON PARK"
   },
   "ME2020-02278": {
     "latitude": "41.99592576729369",
@@ -844,6 +949,26 @@ const savedNeighborhoods = {
     "longitude": "-87.69888336547464",
     "community": "LINCOLN SQUARE"
   },
+  "ME2020-02653": {
+    "latitude": "41.81308368848137",
+    "longitude": "-87.60389791612519",
+    "community": "KENWOOD"
+  },
+  "ME2020-02448": {
+    "latitude": "41.97219362734049",
+    "longitude": "-87.65659565130808",
+    "community": "UPTOWN"
+  },
+  "ME2020-02414": {
+    "latitude": "41.853939236305244",
+    "longitude": "-87.66681299202965",
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  "ME2020-02379": {
+    "latitude": "41.92984626502724",
+    "longitude": "-87.72547854540785",
+    "community": "LOGAN SQUARE"
+  },
   "ME2020-02356": {
     "latitude": "41.820866536857366",
     "longitude": "-87.61432565362233",
@@ -857,6 +982,16 @@ const savedNeighborhoods = {
   "ME2020-02361": {
     "latitude": "42.01160697179338",
     "longitude": "-87.69213170911492",
+    "community": "WEST RIDGE"
+  },
+  "ME2020-02411": {
+    "latitude": "41.71594982636267",
+    "longitude": "-87.59934863394099",
+    "community": "PULLMAN"
+  },
+  "ME2020-02366": {
+    "latitude": "41.99580005944473",
+    "longitude": "-87.69965159832832",
     "community": "WEST RIDGE"
   },
   "ME2020-02334": {
@@ -873,6 +1008,351 @@ const savedNeighborhoods = {
     "latitude": "41.72551666754061",
     "longitude": "-87.58001993187662",
     "community": "CALUMET HEIGHTS"
+  },
+  "ME2020-02325": {
+    "latitude": "41.70227941654054",
+    "longitude": "-87.64725893796924",
+    "community": "WASHINGTON HEIGHTS"
+  },
+  "ME2020-02581": {
+    "latitude": "41.9241884614275",
+    "longitude": "-87.66077902632509",
+    "community": "LINCOLN PARK"
+  },
+  "ME2020-02466": {
+    "latitude": "41.84060902464788",
+    "longitude": "-87.69311280857697",
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  "ME2020-02497": {
+    "latitude": "41.932686459595274",
+    "longitude": "-87.64797644487399",
+    "community": "LINCOLN PARK"
+  },
+  "ME2020-02459": {
+    "latitude": "41.79400960790154",
+    "longitude": "-87.62356084785529",
+    "community": "WASHINGTON PARK"
+  },
+  "ME2020-02456": {
+    "latitude": "41.91990143588429",
+    "longitude": "-87.76802478296925",
+    "community": "BELMONT CRAGIN"
+  },
+  "ME2020-02452": {
+    "latitude": "41.89604230980813",
+    "longitude": "-87.72849430418282",
+    "community": "HUMBOLDT PARK"
+  },
+  "ME2020-02437": {
+    "latitude": "41.94013125634423",
+    "longitude": "-87.64242490495789",
+    "community": "LAKE VIEW"
+  },
+  "ME2020-02439": {
+    "latitude": "41.740859293579106",
+    "longitude": "-87.70284487182984",
+    "community": "ASHBURN"
+  },
+  "ME2020-02641": {
+    "latitude": "41.75411729551793",
+    "longitude": "-87.61041851192155",
+    "community": "GREATER GRAND CROSSING"
+  },
+  "ME2020-02443": {
+    "latitude": "41.666279080474744",
+    "longitude": "-87.635430363331",
+    "community": "WEST PULLMAN"
+  },
+  "ME2020-02444": {
+    "latitude": "41.91000078794885",
+    "longitude": "-87.77266232192788",
+    "community": "AUSTIN"
+  },
+  "ME2020-02435": {
+    "latitude": "41.93800424341424",
+    "longitude": "-87.74529092221769",
+    "community": "BELMONT CRAGIN"
+  },
+  "ME2020-02417": {
+    "latitude": "41.6711146245234",
+    "longitude": "-87.62272770301963",
+    "community": "WEST PULLMAN"
+  },
+  "ME2020-02398": {
+    "latitude": "41.84136674947282",
+    "longitude": "-87.69519846935877",
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  "ME2020-02392": {
+    "latitude": "41.90487981467886",
+    "longitude": "-87.6300870443765",
+    "community": "NEAR NORTH SIDE"
+  },
+  "ME2020-02395": {
+    "latitude": "41.79282341456486",
+    "longitude": "-87.67091580887782",
+    "community": "WEST ENGLEWOOD"
+  },
+  "ME2020-02669": {
+    "latitude": "41.77543987862285",
+    "longitude": "-87.68863640420608",
+    "community": "CHICAGO LAWN"
+  },
+  "ME2020-02654": {
+    "latitude": "41.988170870396935",
+    "longitude": "-87.65540243289186",
+    "community": "EDGEWATER"
+  },
+  "ME2020-02629": {
+    "latitude": "41.7161908955328",
+    "longitude": "-87.57479898235013",
+    "community": "SOUTH DEERING"
+  },
+  "ME2020-02496": {
+    "latitude": "41.778746272898495",
+    "longitude": "-87.70530011821751",
+    "community": "CHICAGO LAWN"
+  },
+  "ME2020-02498": {
+    "latitude": "41.767419346512455",
+    "longitude": "-87.58118623514571",
+    "community": "SOUTH SHORE"
+  },
+  "ME2020-02483": {
+    "latitude": "41.74899422000894",
+    "longitude": "-87.59876900135899",
+    "community": "CHATHAM"
+  },
+  "ME2020-02547": {
+    "latitude": "41.98584899060472",
+    "longitude": "-87.65574872825083",
+    "community": "EDGEWATER"
+  },
+  "ME2020-02542": {
+    "latitude": "41.925570099323515",
+    "longitude": "-87.76633604719125",
+    "community": "BELMONT CRAGIN"
+  },
+  "ME2020-02538": {
+    "latitude": "41.77659652548211",
+    "longitude": "-87.63716796285512",
+    "community": "ENGLEWOOD"
+  },
+  "ME2020-02532": {
+    "latitude": "41.910354466071475",
+    "longitude": "-87.69586530007355",
+    "community": "WEST TOWN"
+  },
+  "ME2020-02529": {
+    "latitude": "41.71103733838863",
+    "longitude": "-87.62234056547565",
+    "community": "ROSELAND"
+  },
+  "ME2020-02528": {
+    "latitude": "41.80654468995108",
+    "longitude": "-87.6853330048386",
+    "community": "BRIGHTON PARK"
+  },
+  "ME2020-02523": {
+    "latitude": "41.769432233981796",
+    "longitude": "-87.65880353661451",
+    "community": "WEST ENGLEWOOD"
+  },
+  "ME2020-02531": {
+    "latitude": "41.786940161791414",
+    "longitude": "-87.69754703442136",
+    "community": "GAGE PARK"
+  },
+  "ME2020-02499": {
+    "latitude": "41.76863488454543",
+    "longitude": "-87.67516841322472",
+    "community": "WEST ENGLEWOOD"
+  },
+  "ME2020-02501": {
+    "latitude": "41.79642952835556",
+    "longitude": "-87.66976583462647",
+    "community": "NEW CITY"
+  },
+  "ME2020-02660": {
+    "latitude": "41.730857045310614",
+    "longitude": "-87.60282470524199",
+    "community": "CHATHAM"
+  },
+  "ME2020-02521": {
+    "latitude": "41.925570099323515",
+    "longitude": "-87.76633604719125",
+    "community": "BELMONT CRAGIN"
+  },
+  "ME2020-02579": {
+    "latitude": "41.75921855326917",
+    "longitude": "-87.55974875263131",
+    "community": "SOUTH SHORE"
+  },
+  "ME2020-02603": {
+    "latitude": "41.8732935707916",
+    "longitude": "-87.67568235649973",
+    "community": "NEAR WEST SIDE"
+  },
+  "ME2020-02601": {
+    "latitude": "41.72579376564157",
+    "longitude": "-87.58245121713934",
+    "community": "CALUMET HEIGHTS"
+  },
+  "ME2020-02596": {
+    "latitude": "41.97196287950704",
+    "longitude": "-87.68870759641135",
+    "community": "LINCOLN SQUARE"
+  },
+  "ME2020-02593": {
+    "latitude": "41.96343664022086",
+    "longitude": "-87.75378775494609",
+    "community": "PORTAGE PARK"
+  },
+  "ME2020-02604": {
+    "latitude": "41.88566022094135",
+    "longitude": "-87.61470788207338",
+    "community": "LOOP"
+  },
+  "ME2020-02586": {
+    "latitude": "41.878587167869696",
+    "longitude": "-87.750280148657",
+    "community": "AUSTIN"
+  },
+  "ME2020-02577": {
+    "latitude": "41.84060902464788",
+    "longitude": "-87.69311280857697",
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  "ME2020-02572": {
+    "latitude": "41.917253763205224",
+    "longitude": "-87.64340518241326",
+    "community": "LINCOLN PARK"
+  },
+  "ME2020-02580": {
+    "latitude": "41.7646280912893",
+    "longitude": "-87.68427778272056",
+    "community": "CHICAGO LAWN"
+  },
+  "ME2020-02568": {
+    "latitude": "41.88236631883752",
+    "longitude": "-87.68315042475871",
+    "community": "NEAR WEST SIDE"
+  },
+  "ME2020-02644": {
+    "latitude": "41.925570099323515",
+    "longitude": "-87.76633604719125",
+    "community": "BELMONT CRAGIN"
+  },
+  "ME2020-02555": {
+    "latitude": "41.81075854159382",
+    "longitude": "-87.75172966219621",
+    "community": "GARFIELD RIDGE"
+  },
+  "ME2020-02553": {
+    "latitude": "41.7419037990794",
+    "longitude": "-87.65445367879745",
+    "community": "AUBURN GRESHAM"
+  },
+  "ME2020-02578": {
+    "latitude": "41.75224111066013",
+    "longitude": "-87.57607250210553",
+    "community": "SOUTH SHORE"
+  },
+  "ME2020-02599": {
+    "latitude": "41.924509424605546",
+    "longitude": "-87.65975493577079",
+    "community": "LINCOLN PARK"
+  },
+  "ME2020-02597": {
+    "latitude": "41.92421335663908",
+    "longitude": "-87.79900111110243",
+    "community": "MONTCLARE"
+  },
+  "ME2020-02600": {
+    "latitude": "41.975143957650374",
+    "longitude": "-87.78817604405843",
+    "community": "NORWOOD PARK"
+  },
+  "ME2020-02589": {
+    "latitude": "41.6952196631653",
+    "longitude": "-87.64909563606889",
+    "community": "MORGAN PARK"
+  },
+  "ME2020-02590": {
+    "latitude": "41.68770130661418",
+    "longitude": "-87.68032464063742",
+    "community": "MORGAN PARK"
+  },
+  "ME2020-02595": {
+    "latitude": "41.68770130661418",
+    "longitude": "-87.68032464063742",
+    "community": "MORGAN PARK"
+  },
+  "ME2020-02569": {
+    "latitude": "41.918941296581764",
+    "longitude": "-87.73566601732306",
+    "community": "HERMOSA"
+  },
+  "ME2020-02566": {
+    "latitude": "41.7791310155769",
+    "longitude": "-87.59586883039762",
+    "community": "WOODLAWN"
+  },
+  "ME2020-02628": {
+    "latitude": "41.75447542457077",
+    "longitude": "-87.61023599122045",
+    "community": "GREATER GRAND CROSSING"
+  },
+  "ME2020-02638": {
+    "latitude": "41.71103733838863",
+    "longitude": "-87.62234056547565",
+    "community": "ROSELAND"
+  },
+  "ME2020-02656": {
+    "latitude": "41.881826688800714",
+    "longitude": "-87.7486468030038",
+    "community": "AUSTIN"
+  },
+  "ME2020-02662": {
+    "latitude": "41.850975120253786",
+    "longitude": "-87.7088104193866",
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  "ME2020-02636": {
+    "latitude": "41.88384745527767",
+    "longitude": "-87.69874812651226",
+    "community": "EAST GARFIELD PARK"
+  },
+  "ME2020-02630": {
+    "latitude": "41.91748997672505",
+    "longitude": "-87.70264264755478",
+    "community": "LOGAN SQUARE"
+  },
+  "ME2020-02645": {
+    "latitude": "41.76039615278159",
+    "longitude": "-87.70243866189728",
+    "community": "CHICAGO LAWN"
+  },
+  "ME2020-02617": {
+    "latitude": "41.95958803131358",
+    "longitude": "-87.72786014695642",
+    "community": "IRVING PARK"
+  },
+  "ME2020-02613": {
+    "latitude": "41.884741359047254",
+    "longitude": "-87.66290611790342",
+    "community": "NEAR WEST SIDE"
+  },
+  "ME2020-02612": {
+    "latitude": "41.69059506889062",
+    "longitude": "-87.67991505798129",
+    "community": "MORGAN PARK"
+  },
+  "ME2020-02633": {
+    "latitude": "41.76940046616837",
+    "longitude": "-87.60859168445755",
+    "community": "WOODLAWN"
   }
 }
 
