@@ -1,10 +1,8 @@
 import React from "react"
 
 import BootstrapTable from 'react-bootstrap-table-next'
-import ToolkitProvider, { CSVExport } from 'react-bootstrap-table2-toolkit'
+import ToolkitProvider from 'react-bootstrap-table2-toolkit'
 import paginationFactory from 'react-bootstrap-table2-paginator';
-
-const { ExportCSVButton } = CSVExport
 
 const columns = [
   {

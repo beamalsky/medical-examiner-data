@@ -67,7 +67,7 @@ export default class CommunityAreaMap extends PureComponent {
         savedRecord.latitude === record.latitude &&
         savedRecord.longitude === record.longitude
       ) {
-        var location_found = true
+        location_found = true
         var community = savedNeighborhoods[record.casenumber].community
 
         communityAreasGeoJSON.features.some(function (feature) {
@@ -166,10 +166,10 @@ export default class CommunityAreaMap extends PureComponent {
             ref={(el) => this.choropleth = el.leafletElement}
           />
         </Map>
+        <br />
         <div style={{ textAlign: "right" }}>
           <small>No location yet listed for <b>{no_location_count}</b> records</small>
         </div>
-        <br />
         <DataTable
           data={communityAreasGeoJSON}
           last_updated={this.props.last_updated}

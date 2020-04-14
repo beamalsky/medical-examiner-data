@@ -38,30 +38,6 @@ const getRaceData = (data) => {
   return objectToArray(counts)
 }
 
-const getGenderData = (data) => {
-  var keys
-
-  keys = data.map(function(value, index) {
-    if (value.gender == null) {
-      return 'Unknown'
-    } else {
-      return value['gender']
-    }
-  })
-
-  var counts = {}
-
-  keys.forEach(function(key, index) {
-      if (key in counts) {
-          counts[key] += 1;
-      } else {
-          counts[key] = 1;
-      }
-  })
-
-  return objectToArray(counts)
-}
-
 const objectToArray = (obj) => {
   return Object.entries(obj).map(
     obj => {
@@ -101,10 +77,8 @@ const IndexPage = ({data}) => {
 
   const CVDataByDate = getCVDataByDate(dataCV)
   const dataCVRace = getRaceData(dataCV)
-  const dataCVGender = getGenderData(dataCV)
 
-  const last_updated_raw = new Date(Date.parse(data.all_cases.nodes[0].death_date))
-  const last_updated = last_updated_raw.toLocaleString()
+  const last_updated = CVDataByDate[CVDataByDate.length - 1].day + ', 2020'
 
   return (
     <Layout>
@@ -152,7 +126,7 @@ const IndexPage = ({data}) => {
             <hr />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }}>
-                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true in the Latinx category.
+                Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true exclusively in the Latinx category.
               </p>
             </div>
             <hr />
@@ -179,7 +153,7 @@ const IndexPage = ({data}) => {
             title={`Per capita COVID-19 deaths by Chicago neighborhood`}
             data={dataCV}
             geojson={data.community_areas}
-            colors={['#e7d28f', '#a01f03']}
+            colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
           />
         </Col>
