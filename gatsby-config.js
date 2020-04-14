@@ -2,9 +2,11 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `Chicago COVID-19 Deaths`,
-    description: ``,
+    title: `COVID-19 Deaths in Chicago’s Neighborhoods`,
+    description: `A live tracker by Bea Malsky`,
     author: `@beamalsky`,
+    url: "https://covid19neighborhoods.southsideweekly.com", // No trailing slash allowed!
+    image: "/images/card.png"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
