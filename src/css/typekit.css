@@ -1,0 +1,103 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * adobe-caslon-pro:
+ *   - http://typekit.com/eulas/000000000000000000012d68
+ *   - http://typekit.com/eulas/000000000000000000012d67
+ *   - http://typekit.com/eulas/000000000000000000012d65
+ *   - http://typekit.com/eulas/000000000000000000012d66
+ * leitura-news:
+ *   - http://typekit.com/eulas/00000000000000000001211d
+ *   - http://typekit.com/eulas/000000000000000000015298
+ *   - http://typekit.com/eulas/00000000000000000001211f
+ *   - http://typekit.com/eulas/000000000000000000012120
+ * news-gothic-std:
+ *   - http://typekit.com/eulas/00000000000000000001316b
+ *   - http://typekit.com/eulas/00000000000000000001316c
+ *   - http://typekit.com/eulas/00000000000000000001316e
+ *   - http://typekit.com/eulas/00000000000000000001316d
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-02-20 01:36:41 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=fwc0dpy&ht=tk&f=6835.6836.6837.6838.8482.8483.8484.8485.14017.14018.14019.14021&a=836608&app=typekit&e=css");
+
+@font-face {
+font-family:"news-gothic-std";
+src:url("https://use.typekit.net/af/6fec89/00000000000000000001316b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/6fec89/00000000000000000001316b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/6fec89/00000000000000000001316b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"news-gothic-std";
+src:url("https://use.typekit.net/af/e3df1b/00000000000000000001316c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/e3df1b/00000000000000000001316c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/e3df1b/00000000000000000001316c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"news-gothic-std";
+src:url("https://use.typekit.net/af/10af2c/00000000000000000001316e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/10af2c/00000000000000000001316e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/10af2c/00000000000000000001316e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"news-gothic-std";
+src:url("https://use.typekit.net/af/a5a677/00000000000000000001316d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a5a677/00000000000000000001316d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a5a677/00000000000000000001316d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-caslon-pro";
+src:url("https://use.typekit.net/af/3cbd9b/000000000000000000012d68/27/l?subset_id=2&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3cbd9b/000000000000000000012d68/27/d?subset_id=2&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3cbd9b/000000000000000000012d68/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-caslon-pro";
+src:url("https://use.typekit.net/af/200aad/000000000000000000012d67/27/l?subset_id=2&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/200aad/000000000000000000012d67/27/d?subset_id=2&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/200aad/000000000000000000012d67/27/a?subset_id=2&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-caslon-pro";
+src:url("https://use.typekit.net/af/ed9e57/000000000000000000012d65/27/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ed9e57/000000000000000000012d65/27/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ed9e57/000000000000000000012d65/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-caslon-pro";
+src:url("https://use.typekit.net/af/d7062a/000000000000000000012d66/27/l?subset_id=2&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/d7062a/000000000000000000012d66/27/d?subset_id=2&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/d7062a/000000000000000000012d66/27/a?subset_id=2&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"leitura-news";
+src:url("https://use.typekit.net/af/bf29c0/00000000000000000001211d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/bf29c0/00000000000000000001211d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/bf29c0/00000000000000000001211d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"leitura-news";
+src:url("https://use.typekit.net/af/c0943a/000000000000000000015298/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/c0943a/000000000000000000015298/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/c0943a/000000000000000000015298/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"leitura-news";
+src:url("https://use.typekit.net/af/cdce62/00000000000000000001211f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/cdce62/00000000000000000001211f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/cdce62/00000000000000000001211f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"leitura-news";
+src:url("https://use.typekit.net/af/7861c0/000000000000000000012120/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/7861c0/000000000000000000012120/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/7861c0/000000000000000000012120/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+.tk-news-gothic-std { font-family: "news-gothic-std",sans-serif; }
+caslonpro { font-family: "adobe-caslon-pro",serif; }
+.tk-leitura-news { font-family: "leitura-news",serif; }

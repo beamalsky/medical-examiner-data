@@ -19,7 +19,7 @@ const SSWNameplate = () => {
       placeholderImage: file(relativePath: { eq: "ssw-nameplate.png" }) {
         childImageSharp {
           fluid(maxWidth: 800) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

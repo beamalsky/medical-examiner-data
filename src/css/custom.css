@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -202,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -232,8 +232,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "adobe-caslon-pro", "adobe-caslon-pro", "Georgia", serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -387,6 +386,9 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  color: #000;
+  font-family: "adobe-caslon-pro", "adobe-caslon-pro", "Georgia", serif;
+  line-height: 1.4;
 }
 figure {
   margin-left: 0;
@@ -425,6 +427,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .table td {
   padding: 0.3rem 0.75rem;
@@ -644,7 +647,7 @@ button {
   margin-top: 10px;
 }
 .recharts-legend-item-text {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.9rem;
 }
 .recharts-surface {
@@ -652,7 +655,7 @@ button {
 }
 .pagination {
   font-size: 0.8rem;
-  margin: 0 3rem 0rem 3rem
+  margin: 0 0rem 0rem 5rem;
 }
 .page-link {
   color: #788fb9;
@@ -664,5 +667,41 @@ button {
 }
 .react-bs-table-csv-btn {
   background-color: #788fb9;
+  color: white;
+}
+.main-text-column {
+  margin: 4rem auto;
+}
+@media (max-width: 850px) {
+  .main-text-column {
+    margin: 0 auto;
+  }
+}
+.byline {
+  font-weight: 500;
+  color: #999;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.dek {
+  font-style: italic;
+  color: #dd2d26;
+  font-family: "adobe-caslon-pro", "adobe-caslon-pro", "Georgia", serif;
+  margin-bottom: 0.7rem;
+}
+.break {
+  margin-bottom: 1.5rem;
+  font-weight: boldest;
+  min-height: 1.5rem;
+  max-height: 1.5rem;
+  color: #dd2d26;
+  text-align: center;
+  width: 100%;
+}
+.narrow {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: white;
 }

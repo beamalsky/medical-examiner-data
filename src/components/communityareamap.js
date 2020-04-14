@@ -67,7 +67,7 @@ export default class CommunityAreaMap extends PureComponent {
         savedRecord.latitude === record.latitude &&
         savedRecord.longitude === record.longitude
       ) {
-        var location_found = true
+        location_found = true
         var community = savedNeighborhoods[record.casenumber].community
 
         communityAreasGeoJSON.features.some(function (feature) {
@@ -131,6 +131,18 @@ export default class CommunityAreaMap extends PureComponent {
 
     return (
       <div style={{ width: '100%' }}>
+        <h4 style={{
+          textAlign: "center",
+          marginBottom: "-2rem",
+          marginLeft: "5rem",
+          zIndex: "999",
+          position: "relative",
+          backgroundColor: "white",
+          padding: "0rem 1rem 1rem 1rem",
+          lineHeight: "1.3"
+        }}>
+          {this.props.title}
+        </h4>
         <Map
           center={position}
           zoom={this.state.zoom}
@@ -155,9 +167,8 @@ export default class CommunityAreaMap extends PureComponent {
           />
         </Map>
         <br />
-        <h4 style={{ textAlign: "left"}}>{this.props.title}</h4>
         <div style={{ textAlign: "right" }}>
-          <small>No location yet listed for {no_location_count} records</small>
+          <small>No location yet listed for <b>{no_location_count}</b> records</small>
         </div>
         <DataTable
           data={communityAreasGeoJSON}
