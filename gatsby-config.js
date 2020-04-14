@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `COVID-19 Deaths in Chicago’s Neighborhoods`,
     description: `A live tracker by Bea Malsky`,
-    author: `@beamalsky`,
+    twitterUsername: `@beamalsky`,
     url: "https://covid19neighborhoods.southsideweekly.com", // No trailing slash allowed!
     image: "/images/card.png"
   },
