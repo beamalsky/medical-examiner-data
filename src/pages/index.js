@@ -78,7 +78,12 @@ const IndexPage = ({data}) => {
   const CVDataByDate = getCVDataByDate(dataCV)
   const dataCVRace = getRaceData(dataCV)
 
-  const last_updated = CVDataByDate[CVDataByDate.length - 1].day + ', 2020'
+  const build_time = data.build_time.nodes[0].buildTime
+  const build_time_parsed = new Date(Date.parse(build_time))
+  const last_updated = build_time_parsed.toLocaleString(
+    'default',
+    { month: 'long', day: 'numeric', year: 'numeric' }
+  )
 
   return (
     <Layout>
@@ -263,18 +268,10 @@ export const query = graphql`
         }
       }
     },
-    all_cases: allCases(
-        filter: {
-          death_date: {gte: "2020-04-10"}
-        },
-        sort: {
-          fields: death_date,
-          order: DESC
-        }
-      ) {
-      nodes {
-        death_date
-      }
+    build_time:allSiteBuildMetadata {
+    nodes {
+      buildTime
     }
+  }
   }
 `
