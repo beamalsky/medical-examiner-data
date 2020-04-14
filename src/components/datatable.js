@@ -10,7 +10,9 @@ const columns = [
     text: 'Community Area',
     sort: true,
     style: {
-      width: '50%'
+      width: '50%',
+      fontWeight: 600,
+      lineHeight: 1.4
     },
     sortCaret: (order, column) => {
       if (!order) return (<span>&nbsp;&nbsp;<font color="gray">↑↓</font></span>);

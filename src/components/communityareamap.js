@@ -45,8 +45,8 @@ const getPopUpText = (properties) => {
 
 export default class CommunityAreaMap extends PureComponent {
   state = {
-    lat: 41.83,
-    lng: -87.72,
+    lat: 41.84,
+    lng: -87.73,
     zoom: 10.25,
   }
 
@@ -152,8 +152,8 @@ export default class CommunityAreaMap extends PureComponent {
           touchZoom={true}
         >
           <TileLayer
-            attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
             data={communityAreasGeoJSON}
