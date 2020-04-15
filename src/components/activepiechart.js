@@ -63,7 +63,7 @@ export default class ActivePieChart extends PureComponent {
 
   render() {
     return (
-      <div style={{ width: '100%', height: 350 }}>
+      <div style={{ width: '100%', height: 400 }}>
         <h4>{this.props.title}</h4>
         <ResponsiveContainer>
           <PieChart>
