@@ -4,6 +4,7 @@ import { Bar } from 'recharts'
 import { Col, Row } from 'react-bootstrap'
 
 import getCVData from "../utils/getcvdata"
+import getRaceData from "../utils/getracedata"
 import countKeys from "../utils/countkeys"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,42 +13,6 @@ import CVTooltip from "../components/cvtooltip"
 import ActivePieChart from "../components/activepiechart"
 import CommunityAreaMap from "../components/communityareamap"
 
-const getRaceData = (data) => {
-  var keys
-
-  keys = data.map(function(value, index) {
-    if (value.latino) {
-      return 'Latinx'
-    } else if (value.race == null) {
-      return 'Unknown'
-    } else {
-      return value['race']
-    }
-  })
-
-  var counts = {}
-
-  keys.forEach(function(key, index) {
-      if (key in counts) {
-          counts[key] += 1;
-      } else {
-          counts[key] = 1;
-      }
-  })
-
-  return objectToArray(counts)
-}
-
-const objectToArray = (obj) => {
-  return Object.entries(obj).map(
-    obj => {
-      return {
-        name: obj[0],
-        value: obj[1]
-      }
-    }
-  )
-}
 
 const getCVDataByDate = (data) => {
   var dataCV = countKeys(data, 'death_date', false)
@@ -161,6 +126,7 @@ const IndexPage = ({data}) => {
             geojson={data.community_areas}
             colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
+            show_table={true}
           />
         </Col>
 
@@ -172,7 +138,7 @@ const IndexPage = ({data}) => {
 export default IndexPage
 
 export const query = graphql`
-  query PageQuery {
+  query IndexQuery {
     cases_cv: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
