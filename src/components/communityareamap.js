@@ -153,7 +153,7 @@ export default class CommunityAreaMap extends PureComponent {
           touchZoom={true}
         >
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            attribution='Bea Malsky for <a href="https://southsideweekly.com/">South Side Weekly</a><br />&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
             url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
@@ -168,12 +168,11 @@ export default class CommunityAreaMap extends PureComponent {
           />
         </Map>
         <br />
-        <div style={{ textAlign: "right" }}>
-          <small>No location yet listed for <b>{no_location_count}</b> death records</small>
-        </div>
         <DataTable
           data={communityAreasGeoJSON}
           last_updated={this.props.last_updated}
+          show_table={this.props.show_table}
+          no_location_count={no_location_count}
         />
       </div>
     )

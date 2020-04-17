@@ -79,50 +79,58 @@ const CustomExportCSVButton = (props) => {
 };
 
 const DataTable = (props) => {
-  const data = props.data
+  if (props.show_table) {
+    const data = props.data
 
-  var rows = []
-  data.features.forEach(function (feature) {
-    var row = {
-      "community": feature.properties.community,
-      "per_capita": feature.properties.per_capita,
-      "total": feature.properties.value ? feature.properties.value : 0
-    }
-    rows.push(row)
-  })
-
-  return (
-    <ToolkitProvider
-      keyField="community"
-      data={rows}
-      columns={columns}
-      exportCSV={{
-        fileName: `Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`,
-        blobType: 'text/csv;charset=ansi'
-      }}
-    >
-      {
-        props => (
-          <div>
-            <BootstrapTable
-              { ...props.baseProps }
-              striped
-              hover
-              condensed
-              defaultSorted={defaultSorted}
-              bordered={false}
-              scrollY={true}
-              pagination={paginationFactory(paginationOptions)}
-            />
-            <CustomExportCSVButton
-              { ...props.csvProps }
-            />
-          </div>
-        )
+    var rows = []
+    data.features.forEach(function (feature) {
+      var row = {
+        "community": feature.properties.community,
+        "per_capita": feature.properties.per_capita,
+        "total": feature.properties.value ? feature.properties.value : 0
       }
-    </ToolkitProvider>
+      rows.push(row)
+    })
 
-  )
+    return (
+      <>
+        <div style={{ textAlign: "right" }}>
+          <small>No location yet listed for <b>{props.no_location_count}</b> death records</small>
+        </div>
+        <ToolkitProvider
+          keyField="community"
+          data={rows}
+          columns={columns}
+          exportCSV={{
+            fileName: `Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`,
+            blobType: 'text/csv;charset=ansi'
+          }}
+        >
+          {
+            props => (
+              <div>
+                <BootstrapTable
+                  { ...props.baseProps }
+                  striped
+                  hover
+                  condensed
+                  defaultSorted={defaultSorted}
+                  bordered={false}
+                  scrollY={true}
+                  pagination={paginationFactory(paginationOptions)}
+                />
+                <CustomExportCSVButton
+                  { ...props.csvProps }
+                />
+              </div>
+            )
+          }
+        </ToolkitProvider>
+      </>
+    )
+  } else {
+    return null
+  }
 }
 
 export default DataTable
