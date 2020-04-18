@@ -140,7 +140,8 @@ export default class CommunityAreaMap extends PureComponent {
           position: "relative",
           backgroundColor: "white",
           padding: "0rem 1rem 1rem 1rem",
-          lineHeight: "1.3"
+          lineHeight: "1.3",
+          display: this.props.embed ? "none" : "inherit"
         }}>
           {this.props.title}
         </h4>
@@ -171,7 +172,7 @@ export default class CommunityAreaMap extends PureComponent {
         <DataTable
           data={communityAreasGeoJSON}
           last_updated={this.props.last_updated}
-          show_table={this.props.show_table}
+          embed={this.props.embed}
           no_location_count={no_location_count}
         />
       </div>

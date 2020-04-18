@@ -28,7 +28,7 @@ const MapPage = ({data}) => {
         geojson={data.community_areas}
         colors={['#FFFFD4', '#C83302']}
         last_updated={last_updated}
-        show_table={false}
+        embed={true}
       />
     </>
   )

@@ -22,6 +22,7 @@ const MapPage = ({data}) => {
         data={dataCVRace}
         title={`COVID-19 deaths in Chicago by race`}
         colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
+        embed={true}
       />
     </>
   )
