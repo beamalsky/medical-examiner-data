@@ -79,7 +79,7 @@ const CustomExportCSVButton = (props) => {
 };
 
 const DataTable = (props) => {
-  if (props.show_table) {
+  if (!props.embed) {
     const data = props.data
 
     var rows = []

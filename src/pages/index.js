@@ -91,6 +91,7 @@ const IndexPage = ({data}) => {
                 data={dataCVRace}
                 title={`COVID-19 deaths in Chicago by race`}
                 colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
+                embed={false}
               />
             </div>
             <hr className="narrow" />
@@ -126,7 +127,7 @@ const IndexPage = ({data}) => {
             geojson={data.community_areas}
             colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
-            show_table={true}
+            embed={false}
           />
         </Col>
 
