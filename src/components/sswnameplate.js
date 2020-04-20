@@ -26,7 +26,11 @@ const SSWNameplate = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <a href="https://southsideweekly.com/">
+      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    </a>
+  )
 }
 
 export default SSWNameplate
