@@ -7,7 +7,13 @@ import {
 const MixedBarChart = (props) => {
   return (
     <div style={{ height: 250, margin: '0 1rem 2rem 0rem' }}>
-      <h4>{props.title}</h4>
+      <h4
+        style={{
+          display: props.hide_title ? "none" : "inherit"
+        }}
+      >
+        {props.title}
+      </h4>
       <ResponsiveContainer>
         <BarChart
           width={700}

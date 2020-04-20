@@ -1,8 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import CommunityAreaMap from "../components/communityareamap"
+import ActivePieChart from "../components/activepiechart"
+import EmbedCredit from "../components/embedcredit"
 import getCVData from "../utils/getcvdata"
+import getRaceData from "../utils/getracedata"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
 import "../css/custom.css"
 
@@ -14,17 +16,22 @@ const MapPage = ({data}) => {
     data.cases_cv_b.nodes
   )
 
+  const dataCVRace = getRaceData(dataCV)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
 
   return (
     <>
-      <CommunityAreaMap
-        title={`Per capita COVID-19 deaths by Chicago neighborhood`}
-        data={dataCV}
-        geojson={data.community_areas}
-        colors={['#FFFFD4', '#C83302']}
+      <h4 style={{textAlign: "center"}}>
+        COVID-19 deaths in Chicago by race
+      </h4>
+      <ActivePieChart
+        data={dataCVRace}
+        title={`COVID-19 deaths in Chicago by race`}
+        colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
+        hide_title={true}
+      />
+      <EmbedCredit
         last_updated={last_updated}
-        embed={true}
       />
     </>
   )
@@ -33,7 +40,7 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-  query MapQuery {
+  query RaceWithTextQuery {
     cases_cv: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
@@ -47,12 +54,8 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
+        race
+        latino
       }
     },
     cases_cv_a: allCases(
@@ -68,12 +71,8 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
+        race
+        latino
       }
     },
     cases_cv_b: allCases(
@@ -89,27 +88,8 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
-      }
-    },
-    community_areas:allGeoJson {
-      nodes {
-        features {
-          type
-          properties {
-            community
-            population
-          }
-          geometry {
-            coordinates
-            type
-          }
-        }
+        race
+        latino
       }
     },
     build_time:allSiteBuildMetadata {

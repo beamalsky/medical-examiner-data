@@ -5,7 +5,8 @@ import { Col, Row } from 'react-bootstrap'
 
 import getCVData from "../utils/getcvdata"
 import getRaceData from "../utils/getracedata"
-import countKeys from "../utils/countkeys"
+import getCVDataByDate from "../utils/getcvdatabydate"
+import getLastUpdatedString from "../utils/getlastupdatedstring"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
@@ -13,25 +14,6 @@ import CVTooltip from "../components/cvtooltip"
 import ActivePieChart from "../components/activepiechart"
 import CommunityAreaMap from "../components/communityareamap"
 
-
-const getCVDataByDate = (data) => {
-  var dataCV = countKeys(data, 'death_date', false)
-
-  dataCV = Object.entries(dataCV).map(
-    obj => {
-      var date = new Date(Date.parse(obj[0]))
-      // date parsing is off by one. correct is here
-      date.setDate(date.getDate() + 1)
-      var date_processed = (date).toLocaleString('default', { month: 'long', day: 'numeric' })
-      return {
-        'day': date_processed,
-        'Reported deaths': obj[1]
-      }
-    }
-  )
-
-  return dataCV
-}
 
 const IndexPage = ({data}) => {
   const dataCV = getCVData(
@@ -42,13 +24,7 @@ const IndexPage = ({data}) => {
 
   const CVDataByDate = getCVDataByDate(dataCV)
   const dataCVRace = getRaceData(dataCV)
-
-  const build_time = data.build_time.nodes[0].buildTime
-  const build_time_parsed = new Date(Date.parse(build_time))
-  const last_updated = build_time_parsed.toLocaleString(
-    'default',
-    { month: 'long', day: 'numeric', year: 'numeric' }
-  )
+  const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
 
   return (
     <Layout>
@@ -91,7 +67,7 @@ const IndexPage = ({data}) => {
                 data={dataCVRace}
                 title={`COVID-19 deaths in Chicago by race`}
                 colors={['#d4b9da','#c994c7','#df65b0','#e7298a','#ce1256','#91003f', '#f1eef6']}
-                embed={false}
+                hide_title={false}
               />
             </div>
             <hr className="narrow" />
@@ -106,6 +82,7 @@ const IndexPage = ({data}) => {
                 data={CVDataByDate}
                 title={`COVID-19 deaths in Chicago by day`}
                 tooltip=<CVTooltip/>
+                hide_title={false}
               >
                 <Bar dataKey="Reported deaths" fill="#cd4624" type="natural" />
               </MixedBarChart>
@@ -237,9 +214,9 @@ export const query = graphql`
       }
     },
     build_time:allSiteBuildMetadata {
-    nodes {
-      buildTime
+      nodes {
+        buildTime
+      }
     }
-  }
   }
 `
