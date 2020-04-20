@@ -63,10 +63,10 @@ export default class ActivePieChart extends PureComponent {
 
   render() {
     return (
-      <div style={{ width: '100%', height: 400 }}>
+      <div style={{ width: '100%', height: 375 }}>
         <h4
           style={{
-            display: this.props.embed ? "none" : "inherit"
+            display: this.props.hide_title ? "none" : "inherit"
           }}
         >
           {this.props.title}

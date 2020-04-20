@@ -1,8 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Bar } from 'recharts'
 
-import CommunityAreaMap from "../components/communityareamap"
+import MixedBarChart from "../components/mixedbarchart"
+import EmbedCredit from "../components/embedcredit"
+import CVTooltip from "../components/cvtooltip"
 import getCVData from "../utils/getcvdata"
+import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
 import "../css/custom.css"
 
@@ -14,17 +18,24 @@ const MapPage = ({data}) => {
     data.cases_cv_b.nodes
   )
 
+  const CVDataByDate = getCVDataByDate(dataCV)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
 
   return (
     <>
-      <CommunityAreaMap
-        title={`Per capita COVID-19 deaths by Chicago neighborhood`}
-        data={dataCV}
-        geojson={data.community_areas}
-        colors={['#FFFFD4', '#C83302']}
+      <h4 style={{textAlign: "center"}}>
+        COVID-19 deaths in Chicago by day
+      </h4>
+      <MixedBarChart
+        data={CVDataByDate}
+        title={`COVID-19 deaths in Chicago by day`}
+        tooltip=<CVTooltip/>
+        hide_title={true}
+      >
+        <Bar dataKey="Reported deaths" fill="#cd4624" type="natural" />
+      </MixedBarChart>
+      <EmbedCredit
         last_updated={last_updated}
-        embed={true}
       />
     </>
   )
@@ -33,7 +44,7 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-  query MapQuery {
+  query DateWithTextQuery {
     cases_cv: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
@@ -47,12 +58,7 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
+        death_date(formatString: "YYYY-MM-DD")
       }
     },
     cases_cv_a: allCases(
@@ -68,12 +74,7 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
+        death_date(formatString: "YYYY-MM-DD")
       }
     },
     cases_cv_b: allCases(
@@ -89,27 +90,7 @@ export const query = graphql`
       ) {
       nodes {
         casenumber
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        residence_zip
-        latitude
-        longitude
-      }
-    },
-    community_areas:allGeoJson {
-      nodes {
-        features {
-          type
-          properties {
-            community
-            population
-          }
-          geometry {
-            coordinates
-            type
-          }
-        }
+        death_date(formatString: "YYYY-MM-DD")
       }
     },
     build_time:allSiteBuildMetadata {

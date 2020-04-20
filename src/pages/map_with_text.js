@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import CommunityAreaMap from "../components/communityareamap"
+import EmbedCredit from "../components/embedcredit"
 import getCVData from "../utils/getcvdata"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
 import "../css/custom.css"
@@ -18,6 +19,9 @@ const MapPage = ({data}) => {
 
   return (
     <>
+      <h4 style={{textAlign: "center"}}>
+        Per capita COVID-19 deaths by Chicago neighborhood
+      </h4>
       <CommunityAreaMap
         title={`Per capita COVID-19 deaths by Chicago neighborhood`}
         data={dataCV}
@@ -26,6 +30,9 @@ const MapPage = ({data}) => {
         last_updated={last_updated}
         embed={true}
       />
+      <EmbedCredit
+        last_updated={last_updated}
+      />
     </>
   )
 }
@@ -33,7 +40,7 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-  query MapQuery {
+  query MapWithTextQuery {
     cases_cv: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
