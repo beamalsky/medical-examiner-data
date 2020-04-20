@@ -154,7 +154,7 @@ export default class CommunityAreaMap extends PureComponent {
           touchZoom={true}
         >
           <TileLayer
-            attribution='Bea Malsky for <a href="https://southsideweekly.com/">South Side Weekly</a><br />&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            attribution='Bea Malsky for <a href="https://southsideweekly.com/" target="_parent">South Side Weekly</a><br />&copy; <a href="https://www.openstreetmap.org/copyright" target="_parent">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_parent">CARTO</a>'
             url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
           />
           <Choropleth
