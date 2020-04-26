@@ -46,8 +46,8 @@ export const query = graphql`
     cases_cv: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
-          primarycause: {regex: "/.*COVID.*/"}
-          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+          primarycause: {regex: "/.*(COVID|Covid|covid).*/"}
+          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
         },
         sort: {
           fields: death_date,
@@ -72,8 +72,8 @@ export const query = graphql`
     cases_cv_a: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
-          primarycause_linea: {regex: "/.*COVID.*/"}
-          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+          primarycause_linea: {regex: "/.*(COVID|Covid|covid).*/"}
+          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
         },
         sort: {
           fields: death_date,
@@ -98,8 +98,8 @@ export const query = graphql`
     cases_cv_b: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
-          primarycause_lineb: {regex: "/.*COVID.*/"}
-          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+          primarycause_lineb: {regex: "/.*(COVID|Covid|covid).*/"}
+          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
         },
         sort: {
           fields: death_date,
@@ -124,8 +124,8 @@ export const query = graphql`
     cases_cv_c: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
-          primarycause_linec: {regex: "/.*COVID.*/"}
-          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+          primarycause_linec: {regex: "/.*(COVID|Covid|covid).*/"}
+          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
         },
         sort: {
           fields: death_date,
@@ -150,8 +150,8 @@ export const query = graphql`
     cases_cv_secondary: allCases(
         filter: {
           death_date: {gte: "2020-01-01"},
-          secondarycause: {regex: "/.*COVID.*/"}
-          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+          secondarycause: {regex: "/.*(COVID|Covid|covid).*/"}
+          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
         },
         sort: {
           fields: death_date,
