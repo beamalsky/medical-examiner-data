@@ -15,7 +15,9 @@ const MapPage = ({data}) => {
   const dataCV = getCVData(
     data.cases_cv.nodes,
     data.cases_cv_a.nodes,
-    data.cases_cv_b.nodes
+    data.cases_cv_b.nodes,
+    data.cases_cv_c.nodes,
+    data.cases_cv_secondary.nodes
   )
 
   const CVDataByDate = getCVDataByDate(dataCV)
@@ -59,6 +61,16 @@ export const query = graphql`
       nodes {
         casenumber
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
       }
     },
     cases_cv_a: allCases(
@@ -75,6 +87,16 @@ export const query = graphql`
       nodes {
         casenumber
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
       }
     },
     cases_cv_b: allCases(
@@ -91,6 +113,68 @@ export const query = graphql`
       nodes {
         casenumber
         death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
+      }
+    },
+    cases_cv_c: allCases(
+        filter: {
+          death_date: {gte: "2020-01-01"},
+          primarycause_linec: {regex: "/.*COVID.*/"}
+          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+        },
+        sort: {
+          fields: death_date,
+          order: ASC
+        }
+      ) {
+      nodes {
+        casenumber
+        death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
+      }
+    },
+    cases_cv_secondary: allCases(
+        filter: {
+          death_date: {gte: "2020-01-01"},
+          secondarycause: {regex: "/.*COVID.*/"}
+          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+        },
+        sort: {
+          fields: death_date,
+          order: ASC
+        }
+      ) {
+      nodes {
+        casenumber
+        death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
       }
     },
     build_time:allSiteBuildMetadata {

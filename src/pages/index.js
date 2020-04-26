@@ -19,7 +19,9 @@ const IndexPage = ({data}) => {
   const dataCV = getCVData(
     data.cases_cv.nodes,
     data.cases_cv_a.nodes,
-    data.cases_cv_b.nodes
+    data.cases_cv_b.nodes,
+    data.cases_cv_c.nodes,
+    data.cases_cv_secondary.nodes
   )
 
   const CVDataByDate = getCVDataByDate(dataCV)
@@ -58,7 +60,7 @@ const IndexPage = ({data}) => {
             <hr className="narrow" />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }} className="narrow">
-                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal. We check for new death records hourly, though CCME generally releases a daily update early every morning. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
+                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal. We check for new death records hourly, though CCME generally releases new data twice a day. We have included death records with COVID-19 listed as a primary or secondary cause. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
               </p>
             </div>
             <hr className="narrow" />
@@ -132,16 +134,15 @@ export const query = graphql`
         casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
-        age
         race
         latino
+        latitude
+        longitude
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
-        latitude
-        longitude
+        primarycause_linec
+        secondarycause
       }
     },
     cases_cv_a: allCases(
@@ -159,16 +160,15 @@ export const query = graphql`
         casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
-        age
         race
         latino
+        latitude
+        longitude
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
-        latitude
-        longitude
+        primarycause_linec
+        secondarycause
       }
     },
     cases_cv_b: allCases(
@@ -186,16 +186,67 @@ export const query = graphql`
         casenumber
         death_date(formatString: "YYYY-MM-DD")
         residence_city
-        age
         race
         latino
+        latitude
+        longitude
         primarycause
         primarycause_linea
         primarycause_lineb
-        gender
-        residence_zip
+        primarycause_linec
+        secondarycause
+      }
+    },
+    cases_cv_c: allCases(
+        filter: {
+          death_date: {gte: "2020-01-01"},
+          primarycause_linec: {regex: "/.*COVID.*/"}
+          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+        },
+        sort: {
+          fields: death_date,
+          order: ASC
+        }
+      ) {
+      nodes {
+        casenumber
+        death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
         latitude
         longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
+      }
+    },
+    cases_cv_secondary: allCases(
+        filter: {
+          death_date: {gte: "2020-01-01"},
+          secondarycause: {regex: "/.*COVID.*/"}
+          residence_city: {regex: "/(CHICAGO|Chicago)/"}
+        },
+        sort: {
+          fields: death_date,
+          order: ASC
+        }
+      ) {
+      nodes {
+        casenumber
+        death_date(formatString: "YYYY-MM-DD")
+        residence_city
+        race
+        latino
+        latitude
+        longitude
+        primarycause
+        primarycause_linea
+        primarycause_lineb
+        primarycause_linec
+        secondarycause
       }
     },
     community_areas:allGeoJson {
