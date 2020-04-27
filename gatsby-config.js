@@ -32,21 +32,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-apiserver',
-      options: {
-        name: 'cases',
-        url: 'https://datacatalog.cookcountyil.gov/resource/cjeq-bs86.json?$limit=100000',
-        method: 'GET',
-        auth: false,
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        localSave: true,
-        path: `${__dirname}/src/data/`,
-        verboseOutput: true
-      },
-    },
-    {
       resolve: 'gatsby-plugin-react-leaflet',
       options: {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
