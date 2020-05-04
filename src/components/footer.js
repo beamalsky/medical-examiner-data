@@ -22,11 +22,18 @@ const Footer = () => {
   return (
     <Foot>
       <Contain>
-        <p className="footer">
-          This is a special project for the <a href="https://southsideweekly.com/">South Side Weekly</a> by <a href="https://twitter.com/beamalsky">Bea Malsky</a> based
-          on live data from the <a href="https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86">Cook County Medical Examiner</a>.
-          Open source code can be found <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
-        </p>
+        <div>
+          <p className="footer pt-4 pb-1">
+            This is a special project for the <a href="https://southsideweekly.com/">South Side Weekly</a> by <a href="https://twitter.com/beamalsky">Bea Malsky</a> based
+            on live data from the <a href="https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86">Cook County Medical Examiner</a>.
+            Open source code can be found <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
+          </p>
+          <p className="footer pb-4 pt-1" style={{fontSize: "15px"}}>
+            <span style={{color: "#dd2d26", fontWeight: "boldest"}}>✶ ✶ </span>
+            <a href="https://southsideweekly.com/donate/">Donate today</a> to support South Side Weekly’s community-focused COVID-19 reporting
+            <span style={{color: "#dd2d26", fontWeight: "boldest"}}> ✶ ✶</span>
+          </p>
+        </div>
       </Contain>
     </Foot>
   )
