@@ -1,0 +1,34 @@
+# Adapted from https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
+name: Remake data and deploy on a schedule
+
+on:
+  on: push
+  # trigger every hour
+  # schedule:
+  #   - cron: '0 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - run: yarn install
+      - run: npm i mapshaper
+      - run: make clean
+      - run: make all
+      # This triggers `gatsby build` script in "package.json"
+      - run: yarn run build
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/data/cases.json
+          git commit -m "Update data with Github Action"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
