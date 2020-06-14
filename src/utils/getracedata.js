@@ -7,7 +7,7 @@ const getRaceData = (data) => {
     } else if (value.race == null) {
       return 'Unknown'
     } else {
-      return value['race']
+      return value.race
     }
   })
 

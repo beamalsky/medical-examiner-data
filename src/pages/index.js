@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import { Bar } from 'recharts'
 import { Col, Row } from 'react-bootstrap'
 
-import getCVData from "../utils/getcvdata"
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
@@ -16,17 +15,10 @@ import CommunityAreaMap from "../components/communityareamap"
 
 
 const IndexPage = ({data}) => {
-  const dataCV = getCVData(
-    data.cases_cv.nodes,
-    data.cases_cv_a.nodes,
-    data.cases_cv_b.nodes,
-    data.cases_cv_c.nodes,
-    data.cases_cv_secondary.nodes
-  )
-
-  const CVDataByDate = getCVDataByDate(dataCV)
-  const dataCVRace = getRaceData(dataCV)
+  const CVDataByDate = getCVDataByDate(data.case_data.nodes)
+  const dataCVRace = getRaceData(data.case_data.nodes)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
+  const totalCount = data.case_data.nodes.length
 
   return (
     <Layout>
@@ -52,15 +44,15 @@ const IndexPage = ({data}) => {
               Total deaths attributed <br />to COVID-19 in Chicago:
             </h4>
             <h1 style={{color: 'white', fontFamily: 'sans-serif' }}>
-              <span style={{backgroundColor: 'black', padding: '7px'}}>
-               {dataCV.length}
+              <span style={{backgroundColor: 'black', padding: '7px 10px'}}>
+               {totalCount}
               </span>
             </h1>
             <p><i>Last updated {last_updated}</i></p>
             <hr className="narrow" />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }} className="narrow">
-                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal. We check for new death records hourly, though CCME generally releases new data twice a day. We have included death records with COVID-19 listed as a primary or secondary cause. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
+                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal and updated every morning. We have included death records with COVID-19 listed as a primary or secondary cause. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
               </p>
             </div>
             <hr className="narrow" />
@@ -102,8 +94,8 @@ const IndexPage = ({data}) => {
         <Col xs={12} md={5}>
           <CommunityAreaMap
             title={`Per capita COVID-19 deaths by Chicago neighborhood`}
-            data={dataCV}
             geojson={data.community_areas}
+            no_location={data.no_location}
             colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
             embed={false}
@@ -119,149 +111,32 @@ export default IndexPage
 
 export const query = graphql`
   query IndexQuery {
-    cases_cv: allCases(
-        filter: {
-          death_date: {gte: "2020-01-01"},
-          primarycause: {regex: "/.*(COVID|Covid|covid).*/"}
-          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
-        },
-        sort: {
-          fields: death_date,
-          order: ASC
-        }
-      ) {
+    case_data:allCasesFilteredJson {
       nodes {
-        casenumber
-        death_date(formatString: "YYYY-MM-DD")
-        residence_city
         race
         latino
-        latitude
-        longitude
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        primarycause_linec
-        secondarycause
-      }
-    },
-    cases_cv_a: allCases(
-        filter: {
-          death_date: {gte: "2020-01-01"},
-          primarycause_linea: {regex: "/.*(COVID|Covid|covid).*/"}
-          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
-        },
-        sort: {
-          fields: death_date,
-          order: ASC
-        }
-      ) {
-      nodes {
-        casenumber
         death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        race
-        latino
-        latitude
-        longitude
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        primarycause_linec
-        secondarycause
-      }
-    },
-    cases_cv_b: allCases(
-        filter: {
-          death_date: {gte: "2020-01-01"},
-          primarycause_lineb: {regex: "/.*(COVID|Covid|covid).*/"}
-          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
-        },
-        sort: {
-          fields: death_date,
-          order: ASC
-        }
-      ) {
-      nodes {
-        casenumber
-        death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        race
-        latino
-        latitude
-        longitude
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        primarycause_linec
-        secondarycause
-      }
-    },
-    cases_cv_c: allCases(
-        filter: {
-          death_date: {gte: "2020-01-01"},
-          primarycause_linec: {regex: "/.*(COVID|Covid|covid).*/"}
-          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
-        },
-        sort: {
-          fields: death_date,
-          order: ASC
-        }
-      ) {
-      nodes {
-        casenumber
-        death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        race
-        latino
-        latitude
-        longitude
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        primarycause_linec
-        secondarycause
-      }
-    },
-    cases_cv_secondary: allCases(
-        filter: {
-          death_date: {gte: "2020-01-01"},
-          secondarycause: {regex: "/.*(COVID|Covid|covid).*/"}
-          residence_city: {regex: "/^(CHICAGO|Chicago)$/"}
-        },
-        sort: {
-          fields: death_date,
-          order: ASC
-        }
-      ) {
-      nodes {
-        casenumber
-        death_date(formatString: "YYYY-MM-DD")
-        residence_city
-        race
-        latino
-        latitude
-        longitude
-        primarycause
-        primarycause_linea
-        primarycause_lineb
-        primarycause_linec
-        secondarycause
       }
     },
     community_areas:allGeoJson {
       nodes {
         features {
           type
+          geometry {
+            type
+            coordinates
+          }
           properties {
             community
             population
-          }
-          geometry {
-            coordinates
-            type
+            value
           }
         }
+      }
+    },
+    no_location:allUnjoinedCasesJson {
+      nodes {
+        casenumber
       }
     },
     build_time:allSiteBuildMetadata {

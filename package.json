@@ -18,11 +18,13 @@
     "gatsby-source-apiserver": "^2.1.4",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-geojson": "^1.0.2",
+    "gatsby-transformer-json": "^2.4.5",
     "gatsby-transformer-sharp": "^2.4.4",
     "journalize": "^2.2.1",
     "leaflet": "^1.6.0",
+    "mapshaper": "^0.5.10",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
+    "react": "^16.13.1",
     "react-bootstrap": "1.0.0",
     "react-bootstrap-table-next": "^4.0.0",
     "react-bootstrap-table2-paginator": "^2.1.2",
@@ -48,7 +50,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "make": "make"
   },
   "repository": {
     "type": "git",

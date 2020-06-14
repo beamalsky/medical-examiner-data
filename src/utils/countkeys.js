@@ -9,6 +9,8 @@ const countKeys = (data, groupKey, strip) => {
     keys = data.map(function(value, index) {return value[groupKey]})
   }
 
+  keys.sort((a, b) => (a > b) ? 1 : -1)
+
   var counts = {}
 
   keys.forEach(function(key, index) {

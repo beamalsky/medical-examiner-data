@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
-import savedNeighborhoods from "../data/saved_neighborhoods"
 import DataTable from "../components/datatable"
 
 const style = {
@@ -11,25 +10,6 @@ const style = {
     opacity: 0.7,
     color: 'black',
     fillOpacity: 0.9
-}
-
-const inside = (point, vs) => {
-    // ray-casting algorithm based on
-    // http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
-
-    var x = point[0], y = point[1];
-
-    var inside = false;
-    for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
-        var xi = vs[i][0], yi = vs[i][1];
-        var xj = vs[j][0], yj = vs[j][1];
-
-        var intersect = ((yi > y) !== (yj > y))
-            && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
-        if (intersect) inside = !inside;
-    }
-
-    return inside;
 }
 
 const round = (num) => {
@@ -52,74 +32,8 @@ export default class CommunityAreaMap extends PureComponent {
 
   render() {
     const position = [this.state.lat, this.state.lng]
-    const dataCV = this.props.data
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
-
-    // const savedNeighborhoods = {}
-    // var saved_neighborhoods = {}
-    var no_location = []
-
-    dataCV.forEach(function(record) {
-      var location_found = false
-
-      var savedRecord = savedNeighborhoods[record.casenumber]
-      if (
-        savedRecord &&
-        savedRecord.latitude === record.latitude &&
-        savedRecord.longitude === record.longitude
-      ) {
-        location_found = true
-        var community = savedNeighborhoods[record.casenumber].community
-
-        communityAreasGeoJSON.features.some(function (feature) {
-          if (feature.properties.community === community) {
-            if (feature.properties.value) {
-              feature.properties.value += 1
-            } else {
-              feature.properties.value = 1
-            }
-            return true
-          }
-        })
-      } else {
-        communityAreasGeoJSON.features.some(function (feature) {
-          var includesPoint = false
-
-          feature.geometry.coordinates.some(function(polygon) {
-            var pointInside = inside([record.longitude, record.latitude], polygon[0])
-            if (pointInside) {
-              includesPoint = true
-              return includesPoint
-            }
-          })
-
-          if (includesPoint) {
-            location_found = true
-            if (feature.properties.value) {
-              feature.properties.value += 1
-            } else {
-              feature.properties.value = 1
-            }
-
-            // Use this to update saved_neighborhoods.json
-            // and improve performance of this function
-            // saved_neighborhoods[record.casenumber] = {
-            //   'latitude': record.latitude,
-            //   'longitude': record.longitude,
-            //   'community': feature.properties.community
-            // }
-          }
-        })
-      }
-
-      if (location_found) {
-        // pass
-      } else {
-        no_location.push(record)
-      }
-    })
-
-    const no_location_count = no_location.length
+    const no_location_count = this.props.no_location.nodes.length
 
     communityAreasGeoJSON.features.map(
       feature => {
@@ -127,8 +41,6 @@ export default class CommunityAreaMap extends PureComponent {
         return feature
       }
     )
-
-    // console.log(saved_neighborhoods)
 
     return (
       <div style={{ width: '100%' }}>
