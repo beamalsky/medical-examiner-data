@@ -1,10 +1,10 @@
 # Adapted from https://sung.codes/blog/2019/12/25/building-gatsby-with-git-hub-actions-and-deploying-to-netlify/
 name: Remake data and deploy on a schedule
 
-on: push
-  # trigger every hour
-  # schedule:
-  #   - cron: '0 * * * *'
+on:
+  # trigger at 5:30PM every day
+  schedule:
+    - cron: '30 17 * * *'
 
 jobs:
   build:
