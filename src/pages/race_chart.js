@@ -2,14 +2,13 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import ActivePieChart from "../components/activepiechart"
-import getCVData from "../utils/getcvdata"
 import getRaceData from "../utils/getracedata"
 import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
-  const dataCVRace = getRaceData(data.race_data.nodes[1].features)
-  
+  const dataCVRace = getRaceData(data.race_data.nodes)
+
   return (
     <>
       <ActivePieChart
@@ -25,16 +24,12 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-query RaceQuery {
-  race_data:allGeoJson{
-    nodes {
-      features {
-        properties {
-          race
-          latino
-        }
+  query RaceQuery {
+    race_data:allCasesFilteredJson {
+      nodes {
+        race
+        latino
       }
     }
   }
-}
 `

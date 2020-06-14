@@ -3,14 +3,13 @@ import { graphql } from "gatsby"
 
 import ActivePieChart from "../components/activepiechart"
 import EmbedCredit from "../components/embedcredit"
-import getCVData from "../utils/getcvdata"
 import getRaceData from "../utils/getracedata"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
 import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
-  const dataCVRace = getRaceData(data.race_data.nodes[1].features)
+  const dataCVRace = getRaceData(data.race_data.nodes)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
 
   return (
@@ -35,14 +34,10 @@ export default MapPage
 
 export const query = graphql`
   query RaceWithTextQuery {
-    race_data:allGeoJson{
+    race_data:allCasesFilteredJson {
       nodes {
-        features {
-          properties {
-            race
-            latino
-          }
-        }
+        race
+        latino
       }
     },
     build_time:allSiteBuildMetadata {

@@ -49,10 +49,25 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `allCases`,
-        path: `${__dirname}/src/data/cases.geojson`
+        path: `${__dirname}/src/data/cases_filtered.json`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `allCases`,
+        path: `${__dirname}/src/data/unjoined_cases.json`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `allCases`,
+        path: `${__dirname}/src/data/community_areas_cases.json`
       },
     },
     'gatsby-transformer-geojson',
+    'gatsby-transformer-json',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

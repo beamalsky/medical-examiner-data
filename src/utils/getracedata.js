@@ -2,12 +2,12 @@ const getRaceData = (data) => {
   var keys
 
   keys = data.map(function(value, index) {
-    if (value.properties.latino) {
+    if (value.latino) {
       return 'Latinx'
-    } else if (value.properties.race == null) {
+    } else if (value.race == null) {
       return 'Unknown'
     } else {
-      return value.properties.race
+      return value.race
     }
   })
 
