@@ -4,8 +4,8 @@ Keeping track of and visualizing reports from the Cook County Medical Examiner. 
 
 ### 💾 Requirements
 
-- [Docker](https://docs.docker.com/install/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/cli/install/)
+- [Mapshaper](https://www.npmjs.com/package/mapshaper)
 
 ### 🚀 Quick start for local dev
 
@@ -16,10 +16,17 @@ Keeping track of and visualizing reports from the Cook County Medical Examiner. 
     cd medical-examiner-data
     ```
 
-2. Start developing
+2. Build your data:
 
     ```shell
-    docker-compose up --build
+    make all
+    ```
+
+3. Start developing
+
+    ```shell
+    yarn install
+    yarn start
     ```
 
     Your site should now be up and running at `http://localhost:8000`.
