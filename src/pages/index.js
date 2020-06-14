@@ -52,7 +52,7 @@ const IndexPage = ({data}) => {
             <hr className="narrow" />
             <div style={{ margin: "2rem 0" }}>
               <p style={{ textAlign: "justify" }} className="narrow">
-                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal. We check for new death records hourly, though CCME generally releases new data twice a day. We have included death records with COVID-19 listed as a primary or secondary cause. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
+                All data shown is pulled from Cook County Medical Examiner (CCME) records released through the Cook County Data Portal and updated every morning. We have included death records with COVID-19 listed as a primary or secondary cause. Neighborhood counts have been calculated from latitudes and longitudes attached to death records. These locations reflect CCME's determination of where the person fell ill. In most cases, it is their home address. CCME also reports that when a person detained at Cook County Jail dies, their location is recorded as the jail's address in Little Village.
               </p>
             </div>
             <hr className="narrow" />
