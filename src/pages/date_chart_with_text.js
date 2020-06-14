@@ -38,7 +38,7 @@ export default MapPage
 
 export const query = graphql`
   query DateWithTextQuery {
-    date_data:allCasesFilteredJson{
+    date_data:allCasesProcessedJson {
       nodes {
         death_date(formatString: "YYYY-MM-DD")
       }

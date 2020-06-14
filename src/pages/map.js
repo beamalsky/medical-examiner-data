@@ -3,18 +3,20 @@ import { graphql } from "gatsby"
 
 import CommunityAreaMap from "../components/communityareamap"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
+import countNoLocation from "../utils/countNoLocation"
 import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
+  const no_location = countNoLocation(data.case_data.nodes)
 
   return (
     <>
       <CommunityAreaMap
         title={`Per capita COVID-19 deaths by Chicago neighborhood`}
         geojson={data.community_areas}
-        no_location={data.no_location}
+        no_location={no_location}
         colors={['#FFFFD4', '#C83302']}
         last_updated={last_updated}
         embed={true}
@@ -43,9 +45,9 @@ export const query = graphql`
         }
       }
     },
-    no_location:allUnjoinedCasesJson {
+    case_data:allCasesProcessedJson {
       nodes {
-        casenumber
+        community
       }
     },
     build_time:allSiteBuildMetadata {

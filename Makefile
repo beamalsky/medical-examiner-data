@@ -1,6 +1,5 @@
 GENERATED_FILES = src/data/final/community_areas_processed.geojson \
-src/data/final/unjoined_cases.json src/data/final/cases_processed.json \
-src/data/intermediate/cases_filtered.geojson
+src/data/final/cases_processed.json src/data/intermediate/cases_filtered.geojson
 
 all: $(GENERATED_FILES)
 
@@ -15,13 +14,6 @@ src/data/final/cases_processed.json: src/data/intermediate/cases_filtered.geojso
 	-join $(filter-out $<,$^) \
 	-filter-fields casenumber,death_date,race,latino,community \
 	-o $@ format=json prettify
-
-src/data/final/unjoined_cases.json: src/data/chicago_community_areas.geojson src/data/intermediate/cases_filtered.geojson
-	mapshaper -i $(filter-out $<,$^) \
-	-join $< calc 'value = count()' \
-	-filter 'value === 0' \
-	-filter-fields casenumber \
-	-o $@ format=json
 
 src/data/final/community_areas_processed.geojson: src/data/chicago_community_areas.geojson src/data/intermediate/cases_filtered.geojson
 	mapshaper -i $< \

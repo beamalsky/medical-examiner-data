@@ -33,7 +33,6 @@ export default class CommunityAreaMap extends PureComponent {
   render() {
     const position = [this.state.lat, this.state.lng]
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
-    const no_location_count = this.props.no_location.nodes.length
 
     communityAreasGeoJSON.features.map(
       feature => {
@@ -85,7 +84,7 @@ export default class CommunityAreaMap extends PureComponent {
           data={communityAreasGeoJSON}
           last_updated={this.props.last_updated}
           embed={this.props.embed}
-          no_location_count={no_location_count}
+          no_location_count={this.props.no_location}
         />
       </div>
     )

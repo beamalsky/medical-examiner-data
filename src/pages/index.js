@@ -6,6 +6,7 @@ import { Col, Row } from 'react-bootstrap'
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
+import countNoLocation from "../utils/countNoLocation"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
@@ -17,6 +18,7 @@ import CommunityAreaMap from "../components/communityareamap"
 const IndexPage = ({data}) => {
   const CVDataByDate = getCVDataByDate(data.case_data.nodes)
   const dataCVRace = getRaceData(data.case_data.nodes)
+  const no_location = countNoLocation(data.case_data.nodes)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
   const totalCount = data.case_data.nodes.length
 
@@ -95,7 +97,7 @@ const IndexPage = ({data}) => {
           <CommunityAreaMap
             title={`Per capita COVID-19 deaths by Chicago neighborhood`}
             geojson={data.community_areas}
-            no_location={data.no_location}
+            no_location={no_location}
             colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
             embed={false}
@@ -111,11 +113,12 @@ export default IndexPage
 
 export const query = graphql`
   query IndexQuery {
-    case_data:allCasesFilteredJson {
+    case_data:allCasesProcessedJson {
       nodes {
         race
         latino
         death_date(formatString: "YYYY-MM-DD")
+        community
       }
     },
     community_areas:allGeoJson {
@@ -132,11 +135,6 @@ export const query = graphql`
             value
           }
         }
-      }
-    },
-    no_location:allUnjoinedCasesJson {
-      nodes {
-        casenumber
       }
     },
     build_time:allSiteBuildMetadata {
