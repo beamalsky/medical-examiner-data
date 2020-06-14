@@ -32,21 +32,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-apiserver',
-      options: {
-        name: 'cases',
-        url: 'https://datacatalog.cookcountyil.gov/resource/cjeq-bs86.json?$limit=100000',
-        method: 'GET',
-        auth: false,
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        localSave: true,
-        path: `${__dirname}/src/data/`,
-        verboseOutput: true
-      },
-    },
-    {
       resolve: 'gatsby-plugin-react-leaflet',
       options: {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
@@ -58,6 +43,13 @@ module.exports = {
         name: `geojson`,
         path: `${__dirname}/src/data/chicago_community_areas.geojson`,
         ignore: [`**/\cases*`], // ignore CCME cases data
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `allCases`,
+        path: `${__dirname}/src/data/cases.geojson`
       },
     },
     'gatsby-transformer-geojson',
