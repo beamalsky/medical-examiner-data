@@ -4,11 +4,13 @@ const countKeys = (data, groupKey, strip) => {
   var keys
 
   if (strip) {
-    keys = data.map(function(value, index) {return stripYear(value[groupKey])})
+    keys = data.map(function(value, index) {return stripYear(value.properties[groupKey])})
   } else {
-    keys = data.map(function(value, index) {return value[groupKey]})
+    keys = data.map(function(value, index) {return value.properties[groupKey]})
   }
 
+  keys.sort((a, b) => (a > b) ? 1 : -1)
+  
   var counts = {}
 
   keys.forEach(function(key, index) {
