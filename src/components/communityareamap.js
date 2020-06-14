@@ -32,18 +32,8 @@ export default class CommunityAreaMap extends PureComponent {
 
   render() {
     const position = [this.state.lat, this.state.lng]
-    const areaCounts = this.props.areaCounts.nodes
     const communityAreasGeoJSON = this.props.geojson.nodes[0]
     const no_location_count = this.props.no_location.nodes.length
-
-    var areaCountsDict = areaCounts.reduce(function(map, obj) {
-        map[obj.community] = obj.value;
-        return map;
-    }, {});
-
-    communityAreasGeoJSON.features.forEach(function(feature) {
-      feature.properties.value = areaCountsDict[feature.properties.community]
-    })
 
     communityAreasGeoJSON.features.map(
       feature => {

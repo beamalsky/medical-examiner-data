@@ -41,29 +41,19 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `geojson`,
-        path: `${__dirname}/src/data/chicago_community_areas.geojson`,
-        ignore: [`**/\cases*`], // ignore CCME cases data
+        path: `${__dirname}/src/data/community_areas_cases.geojson`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `allCases`,
         path: `${__dirname}/src/data/cases_filtered.json`
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `allCases`,
         path: `${__dirname}/src/data/unjoined_cases.json`
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `allCases`,
-        path: `${__dirname}/src/data/community_areas_cases.json`
       },
     },
     'gatsby-transformer-geojson',

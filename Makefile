@@ -1,4 +1,4 @@
-GENERATED_FILES = src/data/cases_filtered.geojson src/data/cases_filtered.json src/data/community_areas_cases.json src/data/unjoined_cases.json
+GENERATED_FILES = src/data/cases_filtered.geojson src/data/cases_filtered.json src/data/community_areas_cases.geojson src/data/unjoined_cases.json
 
 all: $(GENERATED_FILES)
 
@@ -13,11 +13,12 @@ src/data/unjoined_cases.json: src/data/chicago_community_areas.geojson src/data/
 	-filter-fields casenumber \
 	-o $@ format=json
 
-src/data/community_areas_cases.json: src/data/chicago_community_areas.geojson src/data/cases_filtered.geojson
+src/data/community_areas_cases.geojson: src/data/chicago_community_areas.geojson src/data/cases_filtered.geojson
 	mapshaper -i $< \
 	-join $(filter-out $<,$^) calc 'value = count()' \
-	-filter-fields community,value \
-	-o $@ format=json
+	-filter-islands min-area=1km2 \
+	-filter-fields population,community,value \
+	-o $@ format=geojson
 
 src/data/cases_filtered.geojson: src/data/cases.json
 	mapshaper -i $< \

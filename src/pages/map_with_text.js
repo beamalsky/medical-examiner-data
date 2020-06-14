@@ -17,7 +17,6 @@ const MapPage = ({data}) => {
       </h4>
       <CommunityAreaMap
         title={`Per capita COVID-19 deaths by Chicago neighborhood`}
-        areaCounts={data.area_counts}
         geojson={data.community_areas}
         no_location={data.no_location}
         colors={['#FFFFD4', '#C83302']}
@@ -35,23 +34,18 @@ export default MapPage
 
 export const query = graphql`
   query MapWithTextQuery {
-    area_counts:allCommunityAreasCasesJson {
-      nodes {
-        community
-        value
-      }
-    },
     community_areas:allGeoJson {
       nodes {
         features {
           type
+          geometry {
+            type
+            coordinates
+          }
           properties {
             community
             population
-          }
-          geometry {
-            coordinates
-            type
+            value
           }
         }
       }
