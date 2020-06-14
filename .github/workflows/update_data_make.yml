@@ -16,10 +16,9 @@ jobs:
         with:
           node-version: "12.x"
       - run: yarn install
-      - run: npm i mapshaper
+      - run: npm i -g mapshaper
       - run: make clean
       - run: make all
-      # This triggers `gatsby build` script in "package.json"
       - run: yarn run build
       - name: Commit files
         run: |

@@ -67,3 +67,8 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+cases_filtered.geojson
+cases_filtered.json
+community_areas_cases.json
+unjoined_cases.json
