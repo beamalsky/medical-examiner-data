@@ -16,10 +16,10 @@ import CommunityAreaMap from "../components/communityareamap"
 
 
 const IndexPage = ({data}) => {
-  const CVDataByDate = getCVDataByDate(data.case_data.nodes)
+  const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
+  const CVDataByDate = getCVDataByDate(data.case_data.nodes, last_updated)
   const dataCVRace = getRaceData(data.case_data.nodes)
   const no_location = countNoLocation(data.case_data.nodes)
-  const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
   const totalCount = data.case_data.nodes.length
 
   return (

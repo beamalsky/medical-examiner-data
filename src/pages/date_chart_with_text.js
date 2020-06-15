@@ -11,8 +11,8 @@ import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
-  const CVDataByDate = getCVDataByDate(data.date_data.nodes)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
+  const CVDataByDate = getCVDataByDate(data.date_data.nodes, last_updated)
 
   return (
     <>
@@ -41,6 +41,7 @@ export const query = graphql`
     date_data:allCasesProcessedJson {
       nodes {
         death_date(formatString: "YYYY-MM-DD")
+        community
       }
     },
     build_time:allSiteBuildMetadata {
