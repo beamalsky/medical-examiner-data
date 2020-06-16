@@ -1,5 +1,6 @@
 GENERATED_FILES = src/data/final/community_areas_processed.geojson \
 src/data/final/cases_processed.json src/data/intermediate/cases_filtered.geojson
+CASE_FILE = src/data/cases.json
 
 all: $(GENERATED_FILES)
 
@@ -7,7 +8,7 @@ all: $(GENERATED_FILES)
 
 .PHONY:
 clean:
-	rm -f $(GENERATED_FILES)
+	rm -f $(GENERATED_FILES) $(CASE_FILE)
 
 src/data/final/cases_processed.json: src/data/intermediate/cases_filtered.geojson src/data/chicago_community_areas.geojson
 	mapshaper -i $< \
