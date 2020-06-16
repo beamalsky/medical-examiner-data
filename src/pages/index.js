@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap'
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
-import countNoLocation from "../utils/countnolocation"
+import noLocationCount from "../utils/noLocationCount"
 import getMapDates from "../utils/getmapdates"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,8 +21,8 @@ const IndexPage = ({data}) => {
   const dates = getMapDates(last_updated)
   const CVDataByDate = getCVDataByDate(data.case_data.nodes, last_updated)
   const dataCVRace = getRaceData(data.case_data.nodes)
-  const no_location = countNoLocation(data.case_data.nodes)
-  const no_location_recent = countNoLocation(data.case_data.nodes, dates.startDate)
+  const no_location = noLocationCount(data.case_data.nodes)
+  const no_location_recent = noLocationCount(data.case_data.nodes, dates.startDate)
   const totalCount = data.case_data.nodes.length
 
   return (
@@ -101,6 +101,7 @@ const IndexPage = ({data}) => {
             geojson={data.community_areas.nodes[1]}
             no_location={no_location_recent}
             colors={['#FFFFD4', '#C83302']}
+            start_date={dates.startDateFormatted}
             last_updated={last_updated}
             embed={false}
           />

@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
-import { Col, Row } from 'react-bootstrap'
 
 import DataTable from "../components/datatable"
 
@@ -83,6 +82,7 @@ export default class CommunityAreaMap extends PureComponent {
         <br />
         <DataTable
           data={communityAreasGeoJSON}
+          start_date={this.props.start_date}
           last_updated={this.props.last_updated}
           embed={this.props.embed}
           no_location_count={this.props.no_location}

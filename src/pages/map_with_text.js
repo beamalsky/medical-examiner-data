@@ -5,47 +5,28 @@ import { Col, Row } from 'react-bootstrap'
 import CommunityAreaMap from "../components/communityareamap"
 import EmbedCredit from "../components/embedcredit"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
-import countNoLocation from "../utils/countnolocation"
+import noLocationCount from "../utils/noLocationCount"
 import getMapDates from "../utils/getmapdates"
 import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
-  const dates = getMapDates(last_updated)
-  const no_location = countNoLocation(data.case_data.nodes)
-  const no_location_recent = countNoLocation(data.case_data.nodes, dates.startDate)
+  const no_location = noLocationCount(data.case_data.nodes)
 
   return (
     <>
-      <Row>
-        <Col>
-          <h4 style={{textAlign: "center"}}>
-            Recent per capita COVID-19 deaths by Chicago neighborhood ({dates.startDateFormatted}-{dates.endDateFormatted})
-          </h4>
-          <CommunityAreaMap
-            title={`Recent per capita COVID-19 deaths by Chicago neighborhood`}
-            geojson={data.community_areas.nodes[1]}
-            no_location={no_location_recent}
-            colors={['#FFFFD4', '#C83302']}
-            last_updated={last_updated}
-            embed={true}
-          />
-        </Col>
-        <Col>
-          <h4 style={{textAlign: "center"}}>
-            Total per capita COVID-19 deaths by Chicago neighborhood
-          </h4>
-          <CommunityAreaMap
-            title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
-            geojson={data.community_areas.nodes[0]}
-            no_location={no_location}
-            colors={['#FFFFD4', '#C83302']}
-            last_updated={last_updated}
-            embed={true}
-          />
-        </Col>
-      </Row>
+      <h4 style={{textAlign: "center"}}>
+        Total per capita COVID-19 deaths by Chicago neighborhood
+      </h4>
+      <CommunityAreaMap
+        title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
+        geojson={data.community_areas.nodes[0]}
+        no_location={no_location}
+        colors={['#FFFFD4', '#C83302']}
+        last_updated={last_updated}
+        embed={true}
+      />
       <EmbedCredit
         last_updated={last_updated}
       />

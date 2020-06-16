@@ -91,6 +91,8 @@ const DataTable = (props) => {
       rows.push(row)
     })
 
+    const fileName = props.start_date ? `Recorded COVID-19 Deaths ${props.start_date}-${props.last_updated} from CCME` : `Total Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`
+
     return (
       <>
         <div style={{ textAlign: "right" }}>
@@ -101,7 +103,7 @@ const DataTable = (props) => {
           data={rows}
           columns={columns}
           exportCSV={{
-            fileName: `Recorded COVID-19 Deaths as of ${props.last_updated} from CCME`,
+            fileName: fileName,
             blobType: 'text/csv;charset=ansi'
           }}
         >
