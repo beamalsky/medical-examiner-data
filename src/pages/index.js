@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap'
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
-import noLocationCount from "../utils/noLocationCount"
+import noLocationCount from "../utils/nolocationcount"
 import getMapDates from "../utils/getmapdates"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

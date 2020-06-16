@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import CommunityAreaMap from "../components/communityareamap"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
-import noLocationCount from "../utils/noLocationCount"
+import noLocationCount from "../utils/nolocationcount"
 import "../css/custom.css"
 
 

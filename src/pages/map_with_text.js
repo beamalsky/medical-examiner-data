@@ -5,7 +5,7 @@ import { Col, Row } from 'react-bootstrap'
 import CommunityAreaMap from "../components/communityareamap"
 import EmbedCredit from "../components/embedcredit"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
-import noLocationCount from "../utils/noLocationCount"
+import noLocationCount from "../utils/nolocationcount"
 import getMapDates from "../utils/getmapdates"
 import "../css/custom.css"
 
