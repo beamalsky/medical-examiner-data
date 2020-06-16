@@ -34,7 +34,7 @@ export default MapPage
 
 export const query = graphql`
   query RaceWithTextQuery {
-    race_data:allCasesProcessedJson {
+    race_data:allCasesJson {
       nodes {
         race
         latino

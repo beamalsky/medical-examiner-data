@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
+import { Col, Row } from 'react-bootstrap'
 
 import DataTable from "../components/datatable"
 
@@ -32,7 +33,7 @@ export default class CommunityAreaMap extends PureComponent {
 
   render() {
     const position = [this.state.lat, this.state.lng]
-    const communityAreasGeoJSON = this.props.geojson.nodes[0]
+    const communityAreasGeoJSON = this.props.geojson
 
     communityAreasGeoJSON.features.map(
       feature => {

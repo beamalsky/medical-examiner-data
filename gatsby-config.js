@@ -41,13 +41,20 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `geojson`,
-        path: `${__dirname}/src/data/final/community_areas_processed.geojson`,
+        path: `${__dirname}/src/data/final/community_areas.geojson`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/data/final/cases_processed.json`
+        name: `geojson`,
+        path: `${__dirname}/src/data/final/community_areas_recent.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/final/cases.json`
       },
     },
     'gatsby-transformer-geojson',
