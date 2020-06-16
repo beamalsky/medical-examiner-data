@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2020-07809",
+    "death_date": "2020-06-15T14:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-07801",
+    "death_date": "2020-06-15T12:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-07799",
+    "death_date": "2020-06-15T12:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07793",
+    "death_date": "2020-06-12T14:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-07792",
+    "death_date": "2020-06-15T08:26:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-07788",
+    "death_date": "2020-06-15T09:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-07781",
+    "death_date": "2020-06-15T06:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-07776",
+    "death_date": "2020-06-15T02:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07774",
+    "death_date": "2020-06-15T01:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-07762",
+    "death_date": "2020-06-14T16:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2020-07753",
+    "death_date": "2020-06-14T11:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-07751",
+    "death_date": "2020-06-14T10:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2020-07749",
+    "death_date": "2020-06-14T12:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-07739",
+    "death_date": "2020-06-14T06:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2020-07733",
     "death_date": "2020-06-13T19:59:00.000",
     "race": "Black",
@@ -26,6 +124,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-07721",
+    "death_date": "2020-06-13T19:58:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2020-07717",
@@ -63,6 +168,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-07702",
+    "death_date": "2020-06-12T15:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2020-07699",
     "death_date": "2020-06-13T07:25:00.000",
     "race": "White",
@@ -75,6 +187,20 @@
     "race": "Black",
     "latino": false,
     "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-07694",
+    "death_date": "2020-06-13T04:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07693",
+    "death_date": "2020-06-13T05:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-07692",
@@ -317,6 +443,7 @@
   {
     "casenumber": "ME2020-07552",
     "death_date": "2020-06-07T10:04:00.000",
+    "race": "Black",
     "latino": false,
     "community": "EAST SIDE"
   },
@@ -594,6 +721,13 @@
     "community": "BELMONT CRAGIN"
   },
   {
+    "casenumber": "ME2020-07417",
+    "death_date": "2020-06-05T23:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2020-07413",
     "death_date": "2020-05-22T03:50:00.000",
     "race": "White",
@@ -832,6 +966,13 @@
     "community": "SOUTH SHORE"
   },
   {
+    "casenumber": "ME2020-07298",
+    "death_date": "2020-06-06T03:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2020-07296",
     "death_date": "2020-06-06T01:17:00.000",
     "race": "White",
@@ -858,6 +999,13 @@
     "race": "White",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-07279",
+    "death_date": "2020-06-05T19:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2020-07275",
@@ -1649,6 +1797,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-06829",
+    "death_date": "2020-05-30T06:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2020-06816",
@@ -5928,6 +6083,13 @@
     "race": "White",
     "latino": true,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-05205",
+    "death_date": "2020-05-11T00:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HYDE PARK"
   },
   {
     "casenumber": "ME2020-05201",
