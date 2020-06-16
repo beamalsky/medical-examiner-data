@@ -2,9 +2,9 @@
 name: Remake data and deploy on a schedule
 
 on:
-  # trigger at 7:30AM every day
+  # trigger at 7:30AM CT (12:30PM UTC) every day
   schedule:
-    - cron: '30 7 * * *'
+    - cron: '30 12 * * *'
 
 jobs:
   build:
