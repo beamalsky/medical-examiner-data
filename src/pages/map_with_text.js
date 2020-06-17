@@ -24,6 +24,8 @@ const MapPage = ({data}) => {
         colors={['#FFFFD4', '#C83302']}
         last_updated={last_updated}
         embed={true}
+        zoom={9.6}
+        height='350px'
       />
       <EmbedCredit
         last_updated={last_updated}
