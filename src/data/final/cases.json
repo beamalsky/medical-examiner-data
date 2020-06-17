@@ -1,5 +1,60 @@
 [
   {
+    "casenumber": "ME2020-07847",
+    "death_date": "2020-06-15T14:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-07840",
+    "death_date": "2020-06-16T05:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-07834",
+    "death_date": "2020-06-16T01:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-07833",
+    "death_date": "2020-06-16T00:00:00.000",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-07830",
+    "death_date": "2020-06-15T21:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-07825",
+    "death_date": "2020-06-15T20:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07822",
+    "death_date": "2020-06-15T17:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2020-07814",
+    "death_date": "2020-06-15T14:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-07809",
     "death_date": "2020-06-15T14:25:00.000",
     "race": "Black",
@@ -19,6 +74,13 @@
     "race": "White",
     "latino": false,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07798",
+    "death_date": "2020-06-13T22:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-07793",
@@ -54,6 +116,13 @@
     "race": "White",
     "latino": false,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-07775",
+    "death_date": "2020-06-15T01:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2020-07774",
@@ -16057,7 +16126,7 @@
   },
   {
     "casenumber": "ME2020-01876",
-    "death_date": "2020-03-31T23:10:00.000",
+    "death_date": "2020-04-01T23:10:00.000",
     "race": "Black",
     "latino": false,
     "community": "WEST ENGLEWOOD"
