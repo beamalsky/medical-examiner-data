@@ -6,6 +6,8 @@ import { Col, Row } from 'react-bootstrap'
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
+import noLocationCount from "../utils/nolocationcount"
+import getMapDates from "../utils/getmapdates"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MixedBarChart from "../components/mixedbarchart"
@@ -15,9 +17,12 @@ import CommunityAreaMap from "../components/communityareamap"
 
 
 const IndexPage = ({data}) => {
-  const CVDataByDate = getCVDataByDate(data.case_data.nodes)
-  const dataCVRace = getRaceData(data.case_data.nodes)
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
+  const dates = getMapDates(last_updated)
+  const CVDataByDate = getCVDataByDate(data.case_data.nodes, last_updated)
+  const dataCVRace = getRaceData(data.case_data.nodes)
+  const no_location = noLocationCount(data.case_data.nodes)
+  const no_location_recent = noLocationCount(data.case_data.nodes, dates.startDate)
   const totalCount = data.case_data.nodes.length
 
   return (
@@ -70,18 +75,6 @@ const IndexPage = ({data}) => {
                 Keeping data on race is always complicated, and the pie chart above should be taken with a grain of salt. CCME includes a value for race in most death records, and an additional flag for Latino that can be true or false. For this project, we are including any record where Latino is true exclusively in the Latinx category.
               </p>
             </div>
-            <hr className="narrow" />
-            <div style={{ margin: "4rem 0" }}>
-              <MixedBarChart
-                data={CVDataByDate}
-                title={`COVID-19 deaths in Chicago by day`}
-                tooltip=<CVTooltip/>
-                hide_title={false}
-              >
-                <Bar dataKey="Reported deaths" fill="#cd4624" type="natural" />
-              </MixedBarChart>
-            </div>
-            <hr className="narrow" />
             <div style={{ margin: "2rem 0 1rem 0" }}>
               <p style={{ textAlign: "justify" }} className="narrow" >
                 As part of this live tracker we are also keeping records of changes made to CCME data over time in order to create an archive of when death records are created and modified. All code running this site is open source <a href="https://github.com/beamalsky/medical-examiner-data">here</a>.
@@ -92,10 +85,33 @@ const IndexPage = ({data}) => {
         </Col>
 
         <Col xs={12} md={5}>
+          <div style={{ margin: "4rem 0" }}>
+            <MixedBarChart
+              data={CVDataByDate}
+              title={`COVID-19 deaths in Chicago by day`}
+              tooltip=<CVTooltip/>
+              hide_title={false}
+            >
+              <Bar dataKey="Reported deaths" fill="#cd4624" type="natural" />
+            </MixedBarChart>
+          </div>
+          <hr className="narrow" />
           <CommunityAreaMap
-            title={`Per capita COVID-19 deaths by Chicago neighborhood`}
-            geojson={data.community_areas}
-            no_location={data.no_location}
+            title={`Recent per capita COVID-19 deaths by Chicago neighborhood (${dates.startDateFormatted}-${dates.endDateFormatted})`}
+            geojson={data.community_areas.nodes[1]}
+            no_location={no_location_recent}
+            colors={['#FFFFD4', '#C83302']}
+            start_date={dates.startDateFormatted}
+            last_updated={last_updated}
+            embed={false}
+          />
+          <br />
+          <hr className="narrow" />
+          <br />
+          <CommunityAreaMap
+            title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
+            geojson={data.community_areas.nodes[0]}
+            no_location={no_location}
             colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
             embed={false}
@@ -111,11 +127,12 @@ export default IndexPage
 
 export const query = graphql`
   query IndexQuery {
-    case_data:allCasesFilteredJson {
+    case_data:allCasesJson {
       nodes {
         race
         latino
         death_date(formatString: "YYYY-MM-DD")
+        community
       }
     },
     community_areas:allGeoJson {
@@ -132,11 +149,6 @@ export const query = graphql`
             value
           }
         }
-      }
-    },
-    no_location:allUnjoinedCasesJson {
-      nodes {
-        casenumber
       }
     },
     build_time:allSiteBuildMetadata {

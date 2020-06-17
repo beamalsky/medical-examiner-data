@@ -25,7 +25,7 @@ export default MapPage
 
 export const query = graphql`
   query RaceQuery {
-    race_data:allCasesFilteredJson {
+    race_data:allCasesJson {
       nodes {
         race
         latino

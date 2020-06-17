@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `white`,
-      marginBottom: `2rem`,
+      marginBottom: `1rem`,
       textAlign: "center",
     }}
   >
