@@ -1,5 +1,124 @@
 [
   {
+    "casenumber": "ME2020-08046",
+    "death_date": "2020-06-19T21:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08041",
+    "death_date": "2020-06-19T20:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-08039",
+    "death_date": "2020-06-19T18:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08034",
+    "death_date": "2020-06-19T16:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08028",
+    "death_date": "2020-06-19T12:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08024",
+    "death_date": "2020-06-19T10:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-08020",
+    "death_date": "2020-06-19T10:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2020-08013",
+    "death_date": "2020-06-19T09:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08008",
+    "death_date": "2020-06-19T06:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-08007",
+    "death_date": "2020-06-19T06:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-07997",
+    "death_date": "2020-06-19T01:32:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-07993",
+    "death_date": "2020-06-18T22:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-07992",
+    "death_date": "2020-06-17T10:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-07989",
+    "death_date": "2020-06-18T21:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-07984",
+    "death_date": "2020-06-18T18:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-07982",
+    "death_date": "2020-06-18T18:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2020-07981",
+    "death_date": "2020-06-18T16:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2020-07976",
     "death_date": "2020-06-18T14:53:00.000",
     "race": "Black",
@@ -28,6 +147,13 @@
     "community": "AVALON PARK"
   },
   {
+    "casenumber": "ME2020-07950",
+    "death_date": "2020-06-14T02:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2020-07945",
     "death_date": "2020-06-18T04:21:00.000",
     "race": "White",
@@ -40,6 +166,13 @@
     "race": "Black",
     "latino": false,
     "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2020-07943",
+    "death_date": "2020-06-18T04:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-07937",
@@ -94,7 +227,7 @@
     "casenumber": "ME2020-07908",
     "death_date": "2020-06-17T13:20:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "GARFIELD RIDGE"
   },
   {
@@ -543,6 +676,13 @@
     "race": "White",
     "latino": true,
     "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-07679",
+    "death_date": "2020-06-12T19:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-07669",
