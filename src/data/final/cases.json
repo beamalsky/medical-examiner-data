@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2020-08069",
+    "death_date": "2020-06-20T11:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-08065",
+    "death_date": "2020-06-20T10:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08062",
+    "death_date": "2020-06-20T07:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08061",
+    "death_date": "2020-06-20T04:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08060",
+    "death_date": "2020-06-20T07:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-08058",
+    "death_date": "2020-06-20T05:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08056",
+    "death_date": "2020-06-20T01:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2020-08055",
+    "death_date": "2020-06-20T00:01:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-08050",
+    "death_date": "2020-06-19T23:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2020-08046",
     "death_date": "2020-06-19T21:00:00.000",
     "race": "Black",
@@ -145,6 +208,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2020-07957",
+    "death_date": "2020-06-16T22:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-07950",
