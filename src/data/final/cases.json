@@ -1,10 +1,80 @@
 [
   {
+    "casenumber": "ME2020-08149",
+    "death_date": "2020-06-22T05:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-08148",
+    "death_date": "2020-06-22T06:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-08136",
+    "death_date": "2020-06-21T23:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-08116",
     "death_date": "2020-06-21T13:30:00.000",
     "race": "White",
     "latino": true,
     "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-08114",
+    "death_date": "2020-06-21T14:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-08103",
+    "death_date": "2020-06-21T10:42:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-08093",
+    "death_date": "2020-06-21T06:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-08092",
+    "death_date": "2020-06-21T02:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2020-08091",
+    "death_date": "2020-06-21T03:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-08079",
+    "death_date": "2020-06-20T20:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2020-08073",
+    "death_date": "2020-06-20T18:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-08069",
@@ -47,6 +117,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08057",
+    "death_date": "2020-06-20T04:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2020-08056",
@@ -215,6 +292,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2020-07958",
+    "death_date": "2020-06-17T21:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-07957",
@@ -1621,6 +1705,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-07207",
+    "death_date": "2020-06-04T10:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-07201",
@@ -11031,7 +11122,7 @@
   {
     "casenumber": "ME2020-03781",
     "death_date": "2020-04-26T14:40:00.000",
-    "race": "White",
+    "race": "Other",
     "latino": true,
     "community": null
   },
