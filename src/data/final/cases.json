@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-08187",
+    "death_date": "2020-06-23T09:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08184",
+    "death_date": "2020-06-23T05:16:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-08178",
+    "death_date": "2020-06-22T18:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2020-08174",
+    "death_date": "2020-06-22T14:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2020-08149",
     "death_date": "2020-06-22T05:12:00.000",
     "race": "White",
@@ -19,6 +47,27 @@
     "race": "Black",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08133",
+    "death_date": "2020-06-21T21:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-08130",
+    "death_date": "2020-06-21T21:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-08118",
+    "death_date": "2020-06-21T10:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-08116",
@@ -152,6 +201,13 @@
     "race": "Black",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08044",
+    "death_date": "2020-06-19T20:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2020-08041",
@@ -336,6 +392,13 @@
     "community": "IRVING PARK"
   },
   {
+    "casenumber": "ME2020-07938",
+    "death_date": "2020-06-18T06:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2020-07937",
     "death_date": "2020-06-17T21:03:00.000",
     "race": "White",
@@ -460,6 +523,13 @@
     "race": "White",
     "latino": true,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-07867",
+    "death_date": "2020-06-16T15:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-07860",
