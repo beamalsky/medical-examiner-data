@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-08216",
+    "death_date": "2020-06-23T15:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-08210",
+    "death_date": "2020-06-23T15:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-08202",
+    "death_date": "2020-06-23T13:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-08198",
+    "death_date": "2020-06-23T11:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-08187",
     "death_date": "2020-06-23T09:10:00.000",
     "race": "Black",
@@ -26,6 +54,20 @@
     "race": "White",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-08171",
+    "death_date": "2020-06-22T14:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2020-08161",
+    "death_date": "2020-05-31T16:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-08149",
@@ -257,6 +299,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08012",
+    "death_date": "2020-06-18T13:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2020-08008",
@@ -2013,6 +2062,13 @@
     "race": "Black",
     "latino": false,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-07091",
+    "death_date": "2020-06-02T17:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2020-07089",
@@ -6353,7 +6409,7 @@
     "casenumber": "ME2020-05329",
     "death_date": "2020-05-12T09:50:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "LINCOLN SQUARE"
   },
   {
