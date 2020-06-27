@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2020-08315",
+    "death_date": "2020-06-26T02:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08314",
+    "death_date": "2020-06-26T08:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2020-08310",
+    "death_date": "2020-06-26T06:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08305",
+    "death_date": "2020-06-26T03:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08303",
+    "death_date": "2020-06-26T04:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08299",
+    "death_date": "2020-06-26T04:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08293",
+    "death_date": "2020-06-25T21:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-08288",
+    "death_date": "2020-06-25T17:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2020-08285",
     "death_date": "2020-06-25T13:40:00.000",
     "race": "White",
@@ -432,6 +488,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-08011",
+    "death_date": "2020-06-19T09:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-08008",
