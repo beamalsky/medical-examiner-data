@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-08326",
+    "death_date": "2020-06-25T20:17:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08323",
+    "death_date": "2020-06-26T19:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-08319",
+    "death_date": "2020-06-26T16:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2020-08315",
     "death_date": "2020-06-26T02:45:00.000",
     "race": "White",
@@ -14,11 +35,25 @@
     "community": "WOODLAWN"
   },
   {
+    "casenumber": "ME2020-08312",
+    "death_date": "2020-06-26T09:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
     "casenumber": "ME2020-08310",
     "death_date": "2020-06-26T06:07:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08308",
+    "death_date": "2020-06-26T08:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2020-08305",
