@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-08405",
+    "death_date": "2020-06-29T03:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-08398",
+    "death_date": "2020-06-28T20:12:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08388",
+    "death_date": "2020-06-28T17:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-08386",
+    "death_date": "2020-06-28T12:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-08383",
+    "death_date": "2020-06-28T13:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08340",
+    "death_date": "2020-06-27T09:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
     "casenumber": "ME2020-08326",
     "death_date": "2020-06-25T20:17:00.000",
     "race": "Other",
@@ -236,6 +278,13 @@
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-08191",
+    "death_date": "2020-06-22T23:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2020-08189",
@@ -895,6 +944,13 @@
     "community": "MONTCLARE"
   },
   {
+    "casenumber": "ME2020-07811",
+    "death_date": "2020-06-15T14:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-07810",
     "death_date": "2020-06-15T14:56:00.000",
     "race": "Black",
@@ -1425,6 +1481,13 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-07536",
+    "death_date": "2020-06-10T07:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-07528",
