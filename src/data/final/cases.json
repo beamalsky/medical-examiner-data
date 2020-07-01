@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-08443",
+    "death_date": "2020-06-30T01:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08430",
+    "death_date": "2020-06-29T18:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-08426",
+    "death_date": "2020-06-29T18:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08425",
+    "death_date": "2020-06-29T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08423",
+    "death_date": "2020-06-28T10:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
     "casenumber": "ME2020-08405",
     "death_date": "2020-06-29T03:20:00.000",
     "race": "Black",
@@ -283,7 +318,7 @@
     "casenumber": "ME2020-08191",
     "death_date": "2020-06-22T23:58:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "WEST TOWN"
   },
   {
