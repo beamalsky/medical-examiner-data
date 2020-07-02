@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-08469",
+    "death_date": "2020-07-01T03:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2020-08461",
+    "death_date": "2020-06-30T17:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "FULLER PARK"
+  },
+  {
     "casenumber": "ME2020-08443",
     "death_date": "2020-06-30T01:00:00.000",
     "race": "White",
@@ -35,6 +49,27 @@
     "community": "WASHINGTON HEIGHTS"
   },
   {
+    "casenumber": "ME2020-08420",
+    "death_date": "2020-06-29T15:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08419",
+    "death_date": "2020-06-29T15:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08416",
+    "death_date": "2020-06-27T22:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2020-08405",
     "death_date": "2020-06-29T03:20:00.000",
     "race": "Black",
@@ -68,6 +103,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08346",
+    "death_date": "2020-06-27T13:36:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-08340",
@@ -229,13 +271,6 @@
     "race": "Black",
     "latino": false,
     "community": "CHATHAM"
-  },
-  {
-    "casenumber": "ME2020-08258",
-    "death_date": "2020-06-24T20:24:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-08254",
@@ -628,6 +663,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08001",
+    "death_date": "2020-06-19T01:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2020-07997",
@@ -5690,6 +5732,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-05686",
+    "death_date": "2020-05-15T16:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-05685",
