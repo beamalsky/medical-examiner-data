@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-08507",
+    "death_date": "2020-07-02T03:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08503",
+    "death_date": "2020-07-01T20:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2020-08496",
+    "death_date": "2020-07-01T20:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08488",
+    "death_date": "2020-07-01T17:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08479",
+    "death_date": "2020-07-01T13:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2020-08469",
     "death_date": "2020-07-01T03:35:00.000",
     "race": "Black",
@@ -8201,7 +8236,7 @@
     "casenumber": "ME2020-04876",
     "death_date": "2020-05-07T16:51:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": null
   },
   {
