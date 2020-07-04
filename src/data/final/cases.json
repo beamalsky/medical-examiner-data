@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-08541",
+    "death_date": "2020-07-02T19:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08526",
+    "death_date": "2020-07-02T12:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-08525",
+    "death_date": "2020-07-02T13:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-08511",
+    "death_date": "2020-07-01T18:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2020-08507",
     "death_date": "2020-07-02T03:03:00.000",
     "race": "White",
@@ -138,6 +166,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08354",
+    "death_date": "2020-06-27T16:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2020-08346",
