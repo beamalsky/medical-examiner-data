@@ -1,10 +1,45 @@
 [
   {
+    "casenumber": "ME2020-08595",
+    "death_date": "2020-07-04T07:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-08585",
+    "death_date": "2020-07-03T23:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-08570",
+    "death_date": "2020-07-03T16:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08569",
+    "death_date": "2020-07-03T17:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2020-08541",
     "death_date": "2020-07-02T19:05:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-08533",
+    "death_date": "2020-07-02T00:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2020-08526",
