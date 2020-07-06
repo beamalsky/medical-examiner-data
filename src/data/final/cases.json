@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2020-08638",
+    "death_date": "2020-07-05T11:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-08613",
     "death_date": "2020-07-04T17:07:00.000",
     "race": "White",
     "latino": true,
     "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2020-08597",
+    "death_date": "2020-07-04T08:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2020-08595",
@@ -33,6 +47,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-08561",
+    "death_date": "2020-07-03T10:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-08541",
@@ -936,6 +957,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-07924",
+    "death_date": "2020-06-17T18:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-07922",
