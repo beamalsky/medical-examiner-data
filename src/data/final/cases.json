@@ -2225,6 +2225,13 @@
     "community": "MORGAN PARK"
   },
   {
+    "casenumber": "ME2020-07276",
+    "death_date": "2020-06-05T17:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2020-07275",
     "death_date": "2020-06-05T16:49:00.000",
     "race": "White",
