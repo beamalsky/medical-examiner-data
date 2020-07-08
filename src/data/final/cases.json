@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-08668",
+    "death_date": "2020-07-06T15:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08660",
+    "death_date": "2020-07-06T11:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-08638",
     "death_date": "2020-07-05T11:56:00.000",
     "race": "Black",
@@ -17,7 +31,7 @@
     "casenumber": "ME2020-08597",
     "death_date": "2020-07-04T08:00:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "NEW CITY"
   },
   {
@@ -82,6 +96,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-08523",
+    "death_date": "2020-06-26T21:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2020-08511",
@@ -327,6 +348,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-08298",
+    "death_date": "2020-07-01T12:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-08293",
