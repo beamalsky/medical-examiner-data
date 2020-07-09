@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-08763",
+    "death_date": "2020-07-07T19:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-08755",
+    "death_date": "2020-07-08T20:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-08739",
+    "death_date": "2020-07-08T13:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08710",
+    "death_date": "2020-07-07T10:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2020-08668",
     "death_date": "2020-07-06T15:02:00.000",
     "race": "White",
@@ -103,6 +131,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08517",
+    "death_date": "2020-07-01T11:45:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-08511",
@@ -271,6 +306,13 @@
     "race": "White",
     "latino": false,
     "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-08328",
+    "death_date": "2020-06-27T03:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-08326",
