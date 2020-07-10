@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-08804",
+    "death_date": "2020-07-09T10:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-08788",
+    "death_date": "2020-07-09T21:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2020-08787",
+    "death_date": "2020-07-09T21:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08780",
+    "death_date": "2020-07-09T10:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08779",
+    "death_date": "2020-07-09T13:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08765",
+    "death_date": "2020-07-09T09:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2020-08763",
     "death_date": "2020-07-07T19:09:00.000",
     "race": "Black",
@@ -19,6 +61,20 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08723",
+    "death_date": "2020-07-07T15:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-08720",
+    "death_date": "2020-07-08T00:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-08710",
@@ -194,6 +250,13 @@
     "race": "Black",
     "latino": false,
     "community": "FULLER PARK"
+  },
+  {
+    "casenumber": "ME2020-08444",
+    "death_date": "2020-06-30T02:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-08443",
