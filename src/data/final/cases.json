@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-08831",
+    "death_date": "2020-07-10T21:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-08825",
+    "death_date": "2020-07-10T12:36:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08824",
+    "death_date": "2020-07-10T17:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-08804",
     "death_date": "2020-07-09T10:51:00.000",
     "race": "White",
@@ -19,6 +40,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08781",
+    "death_date": "2020-07-09T16:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-08780",
