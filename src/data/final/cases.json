@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-08854",
+    "death_date": "2020-07-11T12:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2020-08850",
+    "death_date": "2020-07-11T09:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2020-08831",
     "death_date": "2020-07-10T21:20:00.000",
     "race": "White",
@@ -58,6 +72,13 @@
   {
     "casenumber": "ME2020-08779",
     "death_date": "2020-07-09T13:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08768",
+    "death_date": "2020-07-09T09:50:00.000",
     "race": "White",
     "latino": true,
     "community": null
