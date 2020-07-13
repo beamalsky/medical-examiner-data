@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-08900",
+    "death_date": "2020-07-13T20:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08882",
+    "death_date": "2020-07-12T09:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-08854",
     "death_date": "2020-07-11T12:34:00.000",
     "race": "White",
@@ -12,6 +26,20 @@
     "race": "Black",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-08843",
+    "death_date": "2020-07-11T07:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08840",
+    "death_date": "2020-07-10T20:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2020-08831",
@@ -33,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08820",
+    "death_date": "2020-07-10T13:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2020-08804",
@@ -112,6 +147,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-08737",
+    "death_date": "2020-07-08T09:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-08723",
     "death_date": "2020-07-07T15:08:00.000",
     "race": "White",
@@ -151,6 +193,13 @@
     "death_date": "2020-07-05T11:56:00.000",
     "race": "Black",
     "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-08620",
+    "death_date": "2020-07-05T01:21:00.000",
+    "race": "White",
+    "latino": true,
     "community": null
   },
   {
@@ -495,6 +544,13 @@
     "race": "White",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-08301",
+    "death_date": "2020-06-26T02:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2020-08299",
