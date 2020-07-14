@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2020-08918",
+    "death_date": "2020-07-13T02:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-08900",
     "death_date": "2020-07-13T20:18:00.000",
     "race": "Black",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08886",
+    "death_date": "2020-07-12T13:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
   },
   {
     "casenumber": "ME2020-08882",
@@ -173,6 +187,13 @@
     "race": "White",
     "latino": true,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-08702",
+    "death_date": "2020-07-01T19:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
   },
   {
     "casenumber": "ME2020-08668",
