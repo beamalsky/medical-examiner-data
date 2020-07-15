@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-08975",
+    "death_date": "2020-07-13T09:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-08972",
+    "death_date": "2020-06-14T02:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-08971",
+    "death_date": "2020-07-15T05:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-08962",
+    "death_date": "2020-07-15T03:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2020-08949",
+    "death_date": "2020-07-14T18:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
     "casenumber": "ME2020-08918",
     "death_date": "2020-07-13T02:05:00.000",
     "race": "White",
@@ -26,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08857",
+    "death_date": "2020-07-12T08:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2020-08854",
@@ -196,6 +238,13 @@
     "community": "WOODLAWN"
   },
   {
+    "casenumber": "ME2020-08675",
+    "death_date": "2020-07-13T14:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-08668",
     "death_date": "2020-07-06T15:02:00.000",
     "race": "White",
@@ -222,6 +271,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08616",
+    "death_date": "2020-07-04T22:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-08613",
