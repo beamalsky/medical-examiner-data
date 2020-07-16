@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-08987",
+    "death_date": "2020-07-15T20:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-08980",
+    "death_date": "2020-07-15T12:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08978",
+    "death_date": "2020-07-14T07:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2020-08975",
     "death_date": "2020-07-13T09:05:00.000",
     "race": "White",
@@ -42,6 +63,13 @@
     "community": "BELMONT CRAGIN"
   },
   {
+    "casenumber": "ME2020-08914",
+    "death_date": "2020-07-02T12:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2020-08900",
     "death_date": "2020-07-13T20:18:00.000",
     "race": "Black",
@@ -61,6 +89,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-08876",
+    "death_date": "2020-07-12T02:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-08857",
@@ -131,6 +166,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-08797",
+    "death_date": "2020-07-02T13:58:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-08788",
