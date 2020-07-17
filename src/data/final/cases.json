@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-09025",
+    "death_date": "2020-07-17T04:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-09007",
+    "death_date": "2020-07-16T15:10:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-08987",
     "death_date": "2020-07-15T20:02:00.000",
     "race": "Black",
@@ -278,13 +292,6 @@
     "race": "Black",
     "latino": false,
     "community": "WOODLAWN"
-  },
-  {
-    "casenumber": "ME2020-08675",
-    "death_date": "2020-07-13T14:05:00.000",
-    "race": "White",
-    "latino": true,
-    "community": null
   },
   {
     "casenumber": "ME2020-08668",
