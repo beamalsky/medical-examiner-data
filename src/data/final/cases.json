@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09060",
+    "death_date": "2020-07-18T11:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2020-09050",
     "death_date": "2020-07-18T04:30:00.000",
     "race": "White",
