@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-09145",
+    "death_date": "2020-07-20T22:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-09143",
+    "death_date": "2020-07-20T20:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-09133",
+    "death_date": "2020-07-20T16:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH DEERING"
+  },
+  {
     "casenumber": "ME2020-09095",
     "death_date": "2020-07-19T15:10:00.000",
     "race": "Black",
@@ -40,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-09041",
+    "death_date": "2020-07-17T18:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-09037",
@@ -11577,7 +11605,7 @@
   },
   {
     "casenumber": "ME2020-03964",
-    "death_date": "2020-04-27T09:20:00.000",
+    "death_date": "2020-04-28T09:20:00.000",
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
