@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-09161",
+    "death_date": "2020-07-21T13:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-09155",
+    "death_date": "2020-07-13T16:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-09145",
     "death_date": "2020-07-20T22:30:00.000",
     "race": "Black",
@@ -418,6 +432,13 @@
     "race": "White",
     "latino": true,
     "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2020-08605",
+    "death_date": "2020-07-04T13:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-08597",
