@@ -100,7 +100,7 @@ const IndexPage = ({data}) => {
             title={`Recent per capita COVID-19 deaths by Chicago neighborhood (${dates.startDateFormatted}-${dates.endDateFormatted})`}
             geojson={data.community_areas.nodes[1]}
             no_location={no_location_recent}
-            colors={['#FFFFD4', '#C83302']}
+            colors={['#FFFFD4', '#de855a']}
             start_date={dates.startDateFormatted}
             last_updated={last_updated}
             embed={false}

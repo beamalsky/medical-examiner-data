@@ -23,7 +23,7 @@ const MapPage = ({data}) => {
         title={`Recent per capita COVID-19 deaths by Chicago neighborhood`}
         geojson={data.community_areas.nodes[1]}
         no_location={no_location_recent}
-        colors={['#FFFFD4', '#C83302']}
+        colors={['#FFFFD4', '#de855a']}
         last_updated={last_updated}
         embed={true}
         zoom={9.6}
