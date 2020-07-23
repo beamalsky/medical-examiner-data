@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09200",
+    "death_date": "2020-07-22T18:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-09161",
     "death_date": "2020-07-21T13:08:00.000",
     "race": "White",
