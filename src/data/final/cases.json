@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09237",
+    "death_date": "2020-07-20T21:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DOUGLAS"
+  },
+  {
     "casenumber": "ME2020-09200",
     "death_date": "2020-07-22T18:28:00.000",
     "race": "White",
