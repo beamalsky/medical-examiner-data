@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-09259",
+    "death_date": "2020-07-25T00:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-09257",
+    "death_date": "2020-07-24T23:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-09249",
+    "death_date": "2020-07-24T17:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2020-09244",
+    "death_date": "2020-07-24T12:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-09237",
     "death_date": "2020-07-20T21:20:00.000",
     "race": "White",
@@ -47,6 +75,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2020-09131",
+    "death_date": "2020-07-20T14:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
   },
   {
     "casenumber": "ME2020-09095",
