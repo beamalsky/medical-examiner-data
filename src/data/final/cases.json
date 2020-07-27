@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-09296",
+    "death_date": "2020-07-26T10:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-09292",
+    "death_date": "2020-07-26T07:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-09291",
+    "death_date": "2020-07-26T04:35:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-09290",
+    "death_date": "2020-07-26T02:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-09272",
+    "death_date": "2020-07-25T12:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-09269",
+    "death_date": "2020-07-25T10:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2020-09259",
     "death_date": "2020-07-25T00:33:00.000",
     "race": "White",
