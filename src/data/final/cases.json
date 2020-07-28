@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-09323",
+    "death_date": "2020-07-27T12:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-09308",
+    "death_date": "2020-07-26T19:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2020-09296",
     "death_date": "2020-07-26T10:10:00.000",
     "race": "White",
@@ -26,6 +40,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-09273",
+    "death_date": "2020-07-25T12:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2020-09272",
@@ -68,6 +89,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-09238",
+    "death_date": "2020-07-22T08:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-09237",
