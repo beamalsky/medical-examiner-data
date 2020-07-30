@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-09375",
+    "death_date": "2020-07-29T16:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-09370",
+    "death_date": "2020-07-29T17:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-09364",
+    "death_date": "2020-07-29T02:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2020-09354",
     "death_date": "2020-07-26T11:30:00.000",
     "race": "Black",
@@ -47,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-09287",
+    "death_date": "2020-07-25T21:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
   },
   {
     "casenumber": "ME2020-09273",
@@ -621,6 +649,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-08530",
+    "death_date": "2020-07-02T15:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2020-08526",
@@ -2601,6 +2636,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-07391",
+    "death_date": "2020-06-07T18:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-07389",
