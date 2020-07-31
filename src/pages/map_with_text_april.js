@@ -5,25 +5,23 @@ import CommunityAreaMap from "../components/communityareamap"
 import EmbedCredit from "../components/embedcredit"
 import getLastUpdatedString from "../utils/getlastupdatedstring"
 import noLocationCount from "../utils/nolocationcount"
-import getMapDates from "../utils/getmapdates"
 import "../css/custom.css"
 
 
 const MapPage = ({data}) => {
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
-  const dates = getMapDates(last_updated)
-  const no_location_recent = noLocationCount(data.case_data.nodes, dates.startDate)
-
+  const no_location = noLocationCount(data.case_data.nodes)
+  
   return (
     <>
       <h4 style={{textAlign: "center"}}>
-        Recent per capita COVID-19 deaths by Chicago neighborhood ({dates.startDateFormatted}-{dates.endDateFormatted})
+        April 2020 per capita COVID-19 deaths by Chicago neighborhood
       </h4>
       <CommunityAreaMap
-        title={`Recent per capita COVID-19 deaths by Chicago neighborhood`}
+        title={`April 2020 per capita COVID-19 deaths by Chicago neighborhood`}
         geojson={data.community_areas.nodes[0].childGeoJson}
-        no_location={no_location_recent}
-        colors={['#FFFFD4', '#de855a']}
+        no_location={no_location}
+        colors={['#FFFFD4', '#C83302']}
         last_updated={last_updated}
         embed={true}
         zoom={9.6}
@@ -39,9 +37,9 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-  query MapWithTextRecentQuery {
+  query MapWithTextAprilQuery {
     community_areas:allFile(
-      filter: {sourceInstanceName: {eq: "geojsonRecent"}}
+      filter: {sourceInstanceName: {eq: "geojsonApril"}}
     ) {
       nodes {
         childGeoJson {
@@ -60,7 +58,7 @@ export const query = graphql`
         }
       }
     },
-    case_data:allCasesJson {
+    case_data:allCasesJson{
       nodes {
         death_date
       }

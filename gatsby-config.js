@@ -40,15 +40,50 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `geojson`,
+        name: `geojsonAll`,
         path: `${__dirname}/src/data/final/community_areas.geojson`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `geojson`,
+        name: `geojsonRecent`,
         path: `${__dirname}/src/data/final/community_areas_recent.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojsonMarch`,
+        path: `${__dirname}/src/data/final/community_areas_march.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojsonApril`,
+        path: `${__dirname}/src/data/final/community_areas_april.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojsonMay`,
+        path: `${__dirname}/src/data/final/community_areas_may.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojsonJune`,
+        path: `${__dirname}/src/data/final/community_areas_june.geojson`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `geojsonJuly`,
+        path: `${__dirname}/src/data/final/community_areas_july.geojson`,
       },
     },
     {
