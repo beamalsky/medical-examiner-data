@@ -14,6 +14,9 @@ all: $(GENERATED_FILES)
 clean:
 	rm -f $(GENERATED_FILES) $(CASE_FILE)
 
+src/data/intermediate/cases_cumulative.csv : src/data/final/cases.json
+	python src/data/scripts/cumulative_cases.py $< > $@
+
 src/data/final/cases.json: src/data/intermediate/cases_filtered.geojson src/data/chicago_community_areas.geojson
 	mapshaper -i $< \
 	-join $(filter-out $<,$^) \
