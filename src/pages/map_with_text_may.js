@@ -12,8 +12,6 @@ const MapPage = ({data}) => {
   const last_updated = getLastUpdatedString(data.build_time.nodes[0].buildTime)
   const no_location = noLocationCount(data.case_data.nodes)
 
-  console.log(data.community_areas.nodes)
-
   return (
     <>
       <h4 style={{textAlign: "center"}}>
@@ -23,7 +21,6 @@ const MapPage = ({data}) => {
         title={`May 2020 per capita COVID-19 deaths by Chicago neighborhood`}
         geojson={data.community_areas.nodes[0].childGeoJson}
         no_location={no_location}
-        colors={['#FFFFD4', '#C83302']}
         last_updated={last_updated}
         embed={true}
         zoom={9.6}

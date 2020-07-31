@@ -100,7 +100,6 @@ const IndexPage = ({data}) => {
             title={`Recent per capita COVID-19 deaths by Chicago neighborhood (${dates.startDateFormatted}-${dates.endDateFormatted})`}
             geojson={data.community_areas_recent.nodes[0].childGeoJson}
             no_location={no_location_recent}
-            colors={['#FFFFD4', '#de855a']}
             start_date={dates.startDateFormatted}
             last_updated={last_updated}
             embed={false}
@@ -112,7 +111,6 @@ const IndexPage = ({data}) => {
             title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
             geojson={data.community_areas_all.nodes[0].childGeoJson}
             no_location={no_location}
-            colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
             embed={false}
           />
