@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09400",
+    "death_date": "2020-07-31T08:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-09375",
     "death_date": "2020-07-29T16:30:00.000",
     "race": "Black",
@@ -5670,6 +5677,13 @@
     "race": "Black",
     "latino": false,
     "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-05968",
+    "death_date": "2020-05-03T16:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-05967",
