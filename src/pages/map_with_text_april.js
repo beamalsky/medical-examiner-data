@@ -15,10 +15,10 @@ const MapPage = ({data}) => {
   return (
     <>
       <h4 style={{textAlign: "center"}}>
-        Total per capita COVID-19 deaths by Chicago neighborhood
+        April 2020 per capita COVID-19 deaths by Chicago neighborhood
       </h4>
       <CommunityAreaMap
-        title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
+        title={`April 2020 per capita COVID-19 deaths by Chicago neighborhood`}
         geojson={data.community_areas.nodes[0].childGeoJson}
         no_location={no_location}
         last_updated={last_updated}
@@ -36,9 +36,9 @@ const MapPage = ({data}) => {
 export default MapPage
 
 export const query = graphql`
-  query MapWithTextQuery {
+  query MapWithTextAprilQuery {
     community_areas:allFile(
-      filter: {sourceInstanceName: {eq: "geojsonRecent"}}
+      filter: {sourceInstanceName: {eq: "geojsonApril"}}
     ) {
       nodes {
         childGeoJson {
@@ -57,7 +57,7 @@ export const query = graphql`
         }
       }
     },
-    case_data:allCasesJson {
+    case_data:allCasesJson{
       nodes {
         death_date
       }

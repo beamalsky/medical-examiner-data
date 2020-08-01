@@ -21,9 +21,8 @@ const MapPage = ({data}) => {
       </h4>
       <CommunityAreaMap
         title={`Recent per capita COVID-19 deaths by Chicago neighborhood`}
-        geojson={data.community_areas.nodes[1]}
+        geojson={data.community_areas.nodes[0].childGeoJson}
         no_location={no_location_recent}
-        colors={['#FFFFD4', '#de855a']}
         last_updated={last_updated}
         embed={true}
         zoom={9.6}
@@ -40,18 +39,22 @@ export default MapPage
 
 export const query = graphql`
   query MapWithTextRecentQuery {
-    community_areas:allGeoJson {
+    community_areas:allFile(
+      filter: {sourceInstanceName: {eq: "geojsonRecent"}}
+    ) {
       nodes {
-        features {
-          type
-          geometry {
+        childGeoJson {
+          features {
             type
-            coordinates
-          }
-          properties {
-            community
-            population
-            value
+            geometry {
+              type
+              coordinates
+            }
+            properties {
+              community
+              population
+              value
+            }
           }
         }
       }

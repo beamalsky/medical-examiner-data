@@ -98,9 +98,8 @@ const IndexPage = ({data}) => {
           <hr className="narrow" />
           <CommunityAreaMap
             title={`Recent per capita COVID-19 deaths by Chicago neighborhood (${dates.startDateFormatted}-${dates.endDateFormatted})`}
-            geojson={data.community_areas.nodes[1]}
+            geojson={data.community_areas_recent.nodes[0].childGeoJson}
             no_location={no_location_recent}
-            colors={['#FFFFD4', '#de855a']}
             start_date={dates.startDateFormatted}
             last_updated={last_updated}
             embed={false}
@@ -110,9 +109,8 @@ const IndexPage = ({data}) => {
           <br />
           <CommunityAreaMap
             title={`Total per capita COVID-19 deaths by Chicago neighborhood`}
-            geojson={data.community_areas.nodes[0]}
+            geojson={data.community_areas_all.nodes[0].childGeoJson}
             no_location={no_location}
-            colors={['#FFFFD4', '#C83302']}
             last_updated={last_updated}
             embed={false}
           />
@@ -135,18 +133,42 @@ export const query = graphql`
         community
       }
     },
-    community_areas:allGeoJson {
+    community_areas_all:allFile(
+      filter: {sourceInstanceName: {eq: "geojsonAll"}}
+    ) {
       nodes {
-        features {
-          type
-          geometry {
+        childGeoJson {
+          features {
             type
-            coordinates
+            geometry {
+              type
+              coordinates
+            }
+            properties {
+              community
+              population
+              value
+            }
           }
-          properties {
-            community
-            population
-            value
+        }
+      }
+    },
+    community_areas_recent:allFile(
+      filter: {sourceInstanceName: {eq: "geojsonRecent"}}
+    ) {
+      nodes {
+        childGeoJson {
+          features {
+            type
+            geometry {
+              type
+              coordinates
+            }
+            properties {
+              community
+              population
+              value
+            }
           }
         }
       }
