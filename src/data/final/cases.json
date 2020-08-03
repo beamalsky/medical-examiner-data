@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2020-09476",
+    "death_date": "2020-08-03T07:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-09468",
+    "death_date": "2020-08-02T17:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-09459",
+    "death_date": "2020-08-02T06:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-09446",
+    "death_date": "2020-08-01T17:42:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-09445",
+    "death_date": "2020-08-01T16:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2020-09400",
     "death_date": "2020-07-31T08:10:00.000",
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-09398",
+    "death_date": "2020-07-31T03:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2020-09375",
@@ -389,7 +431,7 @@
     "death_date": "2020-07-11T07:17:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-08840",
@@ -515,7 +557,7 @@
     "death_date": "2020-07-08T09:03:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2020-08723",
@@ -550,7 +592,7 @@
     "death_date": "2020-07-06T15:02:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "EDISON PARK"
   },
   {
     "casenumber": "ME2020-08667",
@@ -571,7 +613,7 @@
     "death_date": "2020-07-05T11:56:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH DEERING"
   },
   {
     "casenumber": "ME2020-08620",
@@ -641,7 +683,7 @@
     "death_date": "2020-07-03T10:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-08541",
@@ -683,7 +725,7 @@
     "death_date": "2020-06-26T21:48:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-08517",
@@ -921,7 +963,7 @@
     "death_date": "2020-06-26T06:07:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-08308",
@@ -2535,7 +2577,7 @@
   {
     "casenumber": "ME2020-07441",
     "death_date": "2020-06-08T16:39:00.000",
-    "race": "Am. Indian",
+    "race": "Other",
     "latino": false,
     "community": "PORTAGE PARK"
   },
@@ -5005,7 +5047,7 @@
   {
     "casenumber": "ME2020-06218",
     "death_date": "2020-05-22T10:35:00.000",
-    "race": "Am. Indian",
+    "race": "Other",
     "latino": false,
     "community": "NORWOOD PARK"
   },
