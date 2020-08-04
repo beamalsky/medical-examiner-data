@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09502",
+    "death_date": "2020-08-03T17:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2020-09476",
     "death_date": "2020-08-03T07:03:00.000",
     "race": "White",
@@ -33,6 +40,20 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2020-09438",
+    "death_date": "2020-08-01T09:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-09432",
+    "death_date": "2020-08-01T06:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2020-09400",

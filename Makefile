@@ -15,7 +15,7 @@ all: $(GENERATED_FILES)
 
 .PHONY:
 clean:
-	rm src/data/intermediate/* src/data/final/* $(CASE_FILE)
+	rm -f src/data/intermediate/* src/data/final/* $(CASE_FILE)
 
 src/data/intermediate/cases_filtered_march.geojson: src/data/intermediate/cases_filtered.geojson
 	mapshaper -i $< \
