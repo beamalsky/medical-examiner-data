@@ -23,8 +23,8 @@ const MapPage = ({data}) => {
         no_location={no_location}
         last_updated={last_updated}
         embed={true}
-        zoom={9.6}
-        height='350px'
+        zoom={10}
+        height='450px'
       />
       <EmbedCredit
         last_updated={last_updated}

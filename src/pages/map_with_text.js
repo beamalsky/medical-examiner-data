@@ -38,7 +38,7 @@ export default MapPage
 export const query = graphql`
   query MapWithTextQuery {
     community_areas:allFile(
-      filter: {sourceInstanceName: {eq: "geojsonRecent"}}
+      filter: {sourceInstanceName: {eq: "geojsonAll"}}
     ) {
       nodes {
         childGeoJson {
