@@ -3,7 +3,6 @@ import { Map, TileLayer } from 'react-leaflet'
 import Choropleth from 'react-leaflet-choropleth'
 
 import DataTable from "../components/datatable"
-import getMapColors from "../utils/getmapcolors"
 
 const style = {
     fillColor: '#e4e1d8',
@@ -42,6 +41,21 @@ export default class CommunityAreaMap extends PureComponent {
       }
     )
 
+    // this dummy feature introduces an upper bound on all maps
+    // and allows us to keep a constant color scale
+    const scaler = {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "properties": {
+        "per_capita": 15
+      }
+    }
+
+    communityAreasGeoJSON.features.push(scaler)
+
     return (
       <div style={{ width: '100%' }}>
         <h4 style={{
@@ -72,9 +86,9 @@ export default class CommunityAreaMap extends PureComponent {
           />
           <Choropleth
             data={communityAreasGeoJSON}
-            valueProperty={(feature) => (feature.properties.value / feature.properties.population)}
-            scale={getMapColors(communityAreasGeoJSON)}
-            steps={7}
+            valueProperty={(feature) => (feature.properties.per_capita)}
+            scale={['#FFFFD4', '#C83302']}
+            steps={5}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
