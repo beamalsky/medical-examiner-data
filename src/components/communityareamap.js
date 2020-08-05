@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react'
 import { Map, TileLayer } from 'react-leaflet'
-import Choropleth from 'react-leaflet-choropleth'
+// import Choropleth from 'react-leaflet-choropleth'
 
+import Choropleth from "../components/chloropleth"
 import DataTable from "../components/datatable"
 
 const style = {
-    fillColor: '#e4e1d8',
+    fillColor: '#FFFFD4',
     weight: 0.4,
     opacity: 0.7,
     color: 'black',
@@ -36,7 +37,10 @@ export default class CommunityAreaMap extends PureComponent {
 
     communityAreasGeoJSON.features.map(
       feature => {
-        feature.properties.per_capita =  feature.properties.value ? round(feature.properties.value * 10000 / feature.properties.population) : null
+        var per_capita = feature.properties.value ? round(feature.properties.value * 10000 / feature.properties.population) : null
+        if (per_capita) {
+          feature.properties.per_capita = per_capita
+        }
         return feature
       }
     )
@@ -87,7 +91,7 @@ export default class CommunityAreaMap extends PureComponent {
           <Choropleth
             data={communityAreasGeoJSON}
             valueProperty={(feature) => (feature.properties.per_capita)}
-            scale={['#FFFFD4', '#C83302']}
+            scale={['#f3b875', '#C83302', '#992702']}
             steps={5}
             mode='e'
             style={style}
