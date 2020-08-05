@@ -623,6 +623,13 @@
     "community": "NORTH LAWNDALE"
   },
   {
+    "casenumber": "ME2020-08665",
+    "death_date": "2020-07-06T13:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2020-08660",
     "death_date": "2020-07-06T11:37:00.000",
     "race": "White",
