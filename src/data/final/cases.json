@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-09562",
+    "death_date": "2020-08-06T10:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-09550",
+    "death_date": "2020-08-05T17:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-09545",
+    "death_date": "2020-08-05T19:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2020-09502",
     "death_date": "2020-08-03T17:25:00.000",
     "race": "Black",
@@ -128,7 +149,7 @@
   {
     "casenumber": "ME2020-09291",
     "death_date": "2020-07-26T04:35:00.000",
-    "race": "Unknown",
+    "race": "White",
     "latino": true,
     "community": "GAGE PARK"
   },
