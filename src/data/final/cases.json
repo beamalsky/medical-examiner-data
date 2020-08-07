@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-09573",
+    "death_date": "2020-08-06T16:33:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2020-09570",
+    "death_date": "2020-08-06T15:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-09568",
+    "death_date": "2020-08-05T05:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2020-09562",
     "death_date": "2020-08-06T10:25:00.000",
     "race": "White",
@@ -110,6 +131,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2020-09358",
+    "death_date": "2020-07-28T13:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2020-09354",
