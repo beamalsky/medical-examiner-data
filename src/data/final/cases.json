@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09612",
+    "death_date": "2020-08-08T08:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2020-09588",
     "death_date": "2020-08-07T12:05:00.000",
     "race": "White",
@@ -8485,6 +8492,13 @@
     "community": "LINCOLN PARK"
   },
   {
+    "casenumber": "ME2020-05082",
+    "death_date": "2020-05-09T16:13:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2020-05080",
     "death_date": "2020-05-09T15:18:00.000",
     "race": "White",
@@ -8616,6 +8630,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-05042",
+    "death_date": "2020-05-09T08:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-05039",
