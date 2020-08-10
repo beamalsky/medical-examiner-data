@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-09665",
+    "death_date": "2020-08-04T01:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2020-09654",
+    "death_date": "2020-08-09T15:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-09612",
     "death_date": "2020-08-08T08:15:00.000",
     "race": "White",
@@ -52,7 +66,7 @@
     "casenumber": "ME2020-09545",
     "death_date": "2020-08-05T19:08:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "CHICAGO LAWN"
   },
   {
