@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09680",
+    "death_date": "2020-08-10T19:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-09665",
     "death_date": "2020-08-04T01:45:00.000",
     "race": "Black",
@@ -12,6 +19,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-09618",
+    "death_date": "2020-08-08T10:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2020-09612",
