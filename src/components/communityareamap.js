@@ -92,7 +92,7 @@ export default class CommunityAreaMap extends PureComponent {
             data={communityAreasGeoJSON}
             valueProperty={(feature) => (feature.properties.per_capita)}
             scale={['#f3b875', '#C83302', '#992702']}
-            steps={5}
+            steps={7}
             mode='e'
             style={style}
             onEachFeature={(feature, layer) => layer.bindPopup(getPopUpText(feature.properties))}
