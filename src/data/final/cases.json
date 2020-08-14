@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-09766",
+    "death_date": "2020-08-14T09:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-09751",
+    "death_date": "2020-08-13T23:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-09732",
+    "death_date": "2020-08-11T16:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-09726",
+    "death_date": "2020-08-13T01:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
     "casenumber": "ME2020-09703",
     "death_date": "2020-08-11T03:59:00.000",
     "race": "Black",
