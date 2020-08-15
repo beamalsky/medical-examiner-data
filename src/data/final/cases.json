@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09779",
+    "death_date": "2020-08-14T18:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-09766",
     "death_date": "2020-08-14T09:21:00.000",
     "race": "Black",
@@ -173,6 +180,13 @@
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-09453",
+    "death_date": "2020-08-02T00:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HEGEWISCH"
   },
   {
     "casenumber": "ME2020-09446",
