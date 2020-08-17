@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-09844",
+    "death_date": "2020-08-15T04:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-09842",
+    "death_date": "2020-08-17T07:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2020-09831",
+    "death_date": "2020-08-16T16:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2020-09796",
     "death_date": "2020-08-15T13:21:00.000",
     "race": "White",
@@ -1677,7 +1698,7 @@
     "death_date": "2020-06-19T09:28:00.000",
     "race": "White",
     "latino": true,
-    "community": "AUSTIN"
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-08008",
@@ -4921,6 +4942,13 @@
   {
     "casenumber": "ME2020-06367",
     "death_date": "2020-05-24T02:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-06355",
+    "death_date": "2020-05-23T22:31:00.000",
     "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
@@ -13868,7 +13896,7 @@
     "death_date": "2020-04-21T16:44:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2020-03427",
@@ -17396,7 +17424,7 @@
     "death_date": "2020-04-07T16:35:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2020-02211",
