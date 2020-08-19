@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09896",
+    "death_date": "2020-08-18T18:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2020-09862",
     "death_date": "2020-08-17T23:39:00.000",
     "race": "Black",
