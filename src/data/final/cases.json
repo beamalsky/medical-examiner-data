@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-09950",
+    "death_date": "2020-08-21T11:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-09930",
+    "death_date": "2020-08-20T16:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-09924",
+    "death_date": "2020-08-19T12:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-09920",
+    "death_date": "2020-08-20T13:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2020-09910",
     "death_date": "2020-08-19T17:56:00.000",
     "race": "White",
@@ -19,6 +47,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-09899",
+    "death_date": "2020-08-19T12:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
   },
   {
     "casenumber": "ME2020-09896",
@@ -68,6 +103,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-09815",
+    "death_date": "2020-08-15T17:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-09796",
@@ -1291,7 +1333,7 @@
     "casenumber": "ME2020-08298",
     "death_date": "2020-07-01T12:28:00.000",
     "race": "White",
-    "latino": true,
+    "latino": false,
     "community": "ALBANY PARK"
   },
   {
@@ -3656,7 +3698,7 @@
     "casenumber": "ME2020-07041",
     "death_date": "2020-06-02T01:23:00.000",
     "race": "White",
-    "latino": true,
+    "latino": false,
     "community": "WEST TOWN"
   },
   {
