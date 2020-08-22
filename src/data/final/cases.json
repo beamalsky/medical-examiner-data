@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-09963",
+    "death_date": "2020-08-21T21:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-09957",
+    "death_date": "2020-08-21T19:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-09950",
     "death_date": "2020-08-21T11:41:00.000",
     "race": "White",
@@ -11693,7 +11707,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-04108",
