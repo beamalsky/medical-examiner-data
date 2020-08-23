@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-09977",
+    "death_date": "2020-08-22T14:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2020-09963",
     "death_date": "2020-08-21T21:24:00.000",
     "race": "White",
@@ -11707,7 +11714,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "AUSTIN"
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2020-04108",
@@ -12280,7 +12287,7 @@
     "death_date": "2020-04-28T10:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2020-03950",
