@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-10026",
+    "death_date": "2020-08-24T19:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-10025",
+    "death_date": "2020-08-24T17:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-10015",
+    "death_date": "2020-08-15T23:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10013",
+    "death_date": "2020-08-23T14:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2020-10009",
     "death_date": "2020-08-24T09:50:00.000",
     "race": "White",
@@ -10049,7 +10077,7 @@
     "casenumber": "ME2020-04686",
     "death_date": "2020-05-05T13:38:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
