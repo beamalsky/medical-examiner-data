@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10118",
+    "death_date": "2020-08-28T06:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-10100",
+    "death_date": "2020-08-27T13:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2020-10092",
     "death_date": "2020-08-27T10:03:00.000",
     "race": "Black",
