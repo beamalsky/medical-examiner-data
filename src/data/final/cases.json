@@ -189,6 +189,13 @@
     "community": "NORTH PARK"
   },
   {
+    "casenumber": "ME2020-09841",
+    "death_date": "2020-08-17T04:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
     "casenumber": "ME2020-09831",
     "death_date": "2020-08-16T16:08:00.000",
     "race": "Black",
