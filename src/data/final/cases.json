@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10138",
+    "death_date": "2020-08-28T19:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2020-10131",
+    "death_date": "2020-08-28T14:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
     "casenumber": "ME2020-10118",
     "death_date": "2020-08-28T06:59:00.000",
     "race": "White",
@@ -264,6 +278,13 @@
     "race": "White",
     "latino": true,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2020-09720",
+    "death_date": "2020-08-12T13:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
   },
   {
     "casenumber": "ME2020-09703",
