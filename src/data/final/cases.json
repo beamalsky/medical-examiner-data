@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2020-10194",
+    "death_date": "2020-08-29T18:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2020-10193",
+    "death_date": "2020-08-30T03:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-10188",
+    "death_date": "2020-08-30T19:58:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-10186",
+    "death_date": "2020-08-30T11:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10157",
+    "death_date": "2020-08-29T15:53:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2020-10138",
     "death_date": "2020-08-28T19:30:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2020-10133",
+    "death_date": "2020-08-13T14:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2020-10131",
@@ -54,6 +96,13 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2020-10032",
+    "death_date": "2020-08-25T03:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2020-10026",
