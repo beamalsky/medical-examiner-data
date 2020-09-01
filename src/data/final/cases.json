@@ -91,6 +91,13 @@
     "community": "LINCOLN PARK"
   },
   {
+    "casenumber": "ME2020-10050",
+    "death_date": "2020-08-25T16:02:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LOOP"
+  },
+  {
     "casenumber": "ME2020-10047",
     "death_date": "2020-08-25T15:54:00.000",
     "race": "Black",
