@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-10259",
+    "death_date": "2020-09-02T11:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-10251",
+    "death_date": "2020-09-02T23:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-10249",
+    "death_date": "2020-09-01T18:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2020-10244",
+    "death_date": "2020-09-01T19:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-10194",
     "death_date": "2020-08-29T18:00:00.000",
     "race": "White",
