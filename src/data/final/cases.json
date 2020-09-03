@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2020-10266",
+    "death_date": "2020-09-02T13:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-10259",
     "death_date": "2020-09-02T11:46:00.000",
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-10258",
+    "death_date": "2020-09-02T12:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-10251",
@@ -61,6 +75,13 @@
     "race": "Other",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-10151",
+    "death_date": "2020-08-29T12:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2020-10138",
