@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-10295",
+    "death_date": "2020-09-03T18:42:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2020-10266",
     "death_date": "2020-09-02T13:15:00.000",
     "race": "White",
