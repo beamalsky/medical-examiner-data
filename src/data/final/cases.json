@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-10325",
+    "death_date": "2020-09-05T00:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-10312",
+    "death_date": "2020-09-04T12:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-10309",
+    "death_date": "2020-09-03T17:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2020-10295",
     "death_date": "2020-09-03T18:42:00.000",
     "race": "White",
