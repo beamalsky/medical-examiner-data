@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10361",
+    "death_date": "2020-09-06T05:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-10342",
+    "death_date": "2020-09-05T15:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2020-10325",
     "death_date": "2020-09-05T00:41:00.000",
     "race": "White",
