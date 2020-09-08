@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2020-10399",
+    "death_date": "2020-09-07T19:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
     "casenumber": "ME2020-10361",
     "death_date": "2020-09-06T05:00:00.000",
     "race": "White",
     "latino": true,
     "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-10360",
+    "death_date": "2020-09-06T04:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
   },
   {
     "casenumber": "ME2020-10342",
