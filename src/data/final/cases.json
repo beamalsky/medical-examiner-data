@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-10425",
+    "death_date": "2020-09-08T16:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
     "casenumber": "ME2020-10399",
     "death_date": "2020-09-07T19:40:00.000",
     "race": "Black",
