@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10460",
+    "death_date": "2020-09-09T22:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10448",
+    "death_date": "2020-09-09T14:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-10425",
     "death_date": "2020-09-08T16:07:00.000",
     "race": "White",
@@ -61,6 +75,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-10282",
+    "death_date": "2020-09-03T06:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2020-10266",
@@ -473,7 +494,7 @@
     "death_date": "2020-08-09T08:30:00.000",
     "race": "White",
     "latino": true,
-    "community": "CHICAGO LAWN"
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2020-09681",
@@ -1243,7 +1264,7 @@
     "death_date": "2020-07-05T01:21:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-08616",
@@ -2775,7 +2796,7 @@
     "death_date": "2020-06-12T16:25:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEAR WEST SIDE"
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2020-07663",
@@ -2894,7 +2915,7 @@
     "death_date": "2020-06-11T02:40:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR SOUTH SIDE"
+    "community": "ARMOUR SQUARE"
   },
   {
     "casenumber": "ME2020-07580",
@@ -4105,7 +4126,7 @@
     "death_date": "2020-05-30T03:30:00.000",
     "race": "Black",
     "latino": false,
-    "community": "CHICAGO LAWN"
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2020-06988",
@@ -4462,7 +4483,7 @@
     "death_date": "2020-03-25T20:55:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEAR WEST SIDE"
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-06756",
@@ -4965,7 +4986,7 @@
     "death_date": "2020-05-26T13:29:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-06524",
@@ -5637,7 +5658,7 @@
     "death_date": "2020-05-22T13:10:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-06226",
@@ -5840,7 +5861,7 @@
     "death_date": "2020-05-21T15:07:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": "EAST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-06153",
@@ -7682,7 +7703,7 @@
     "death_date": "2020-05-14T01:21:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEAR WEST SIDE"
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-05507",
@@ -8867,7 +8888,7 @@
     "death_date": "2020-05-10T08:22:00.000",
     "race": "Black",
     "latino": false,
-    "community": "DUNNING"
+    "community": null
   },
   {
     "casenumber": "ME2020-05132",
@@ -10134,7 +10155,7 @@
     "death_date": "2020-05-06T04:55:00.000",
     "race": "White",
     "latino": false,
-    "community": "IRVING PARK"
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2020-04733",
@@ -11512,7 +11533,7 @@
     "death_date": "2020-05-01T16:01:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2020-04279",
@@ -12001,7 +12022,7 @@
     "death_date": "2020-04-29T17:50:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR SOUTH SIDE"
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-04098",
@@ -14585,6 +14606,13 @@
     "community": "MORGAN PARK"
   },
   {
+    "casenumber": "ME2020-03324",
+    "death_date": "2020-04-21T11:00:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2020-03323",
     "death_date": "2020-04-09T07:55:00.000",
     "race": "Black",
@@ -15107,7 +15135,7 @@
     "death_date": "2020-04-19T04:35:00.000",
     "race": "Black",
     "latino": false,
-    "community": "ROSELAND"
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2020-03123",
@@ -16710,7 +16738,7 @@
     "death_date": "2020-04-12T18:16:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-02601",
@@ -16843,7 +16871,7 @@
     "death_date": "2020-04-12T06:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-02569",
@@ -17004,7 +17032,7 @@
     "death_date": "2020-04-11T07:45:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2020-02503",
@@ -17137,7 +17165,7 @@
     "death_date": "2020-04-10T18:53:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-02459",
@@ -17214,7 +17242,7 @@
     "death_date": "2020-04-03T11:50:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-02439",
@@ -18187,7 +18215,7 @@
     "death_date": "2020-04-05T11:10:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-02051",
