@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-10498",
+    "death_date": "2020-09-01T21:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-10491",
+    "death_date": "2020-09-11T06:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10480",
+    "death_date": "2020-09-10T14:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-10479",
+    "death_date": "2020-09-10T15:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-10477",
+    "death_date": "2020-09-09T18:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-10476",
+    "death_date": "2020-09-09T14:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-10460",
     "death_date": "2020-09-09T22:01:00.000",
     "race": "White",
@@ -278,6 +320,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-09990",
+    "death_date": "2020-08-23T07:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-09977",
@@ -5554,6 +5603,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-06262",
+    "death_date": "2020-05-22T21:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-06260",
