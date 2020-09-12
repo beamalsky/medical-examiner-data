@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-10512",
+    "death_date": "2020-09-11T17:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-10502",
+    "death_date": "2020-09-11T13:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10499",
+    "death_date": "2020-09-11T10:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-10498",
     "death_date": "2020-09-01T21:17:00.000",
     "race": "Black",
@@ -851,7 +872,7 @@
     "death_date": "2020-07-24T17:13:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEAR WEST SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-09244",
@@ -2628,7 +2649,7 @@
     "death_date": "2020-06-14T16:50:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2020-07753",
@@ -2831,7 +2852,7 @@
     "death_date": "2020-06-12T19:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": "IRVING PARK"
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-07669",
@@ -4175,7 +4196,7 @@
     "death_date": "2020-05-30T03:30:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WEST TOWN"
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-06988",
@@ -10253,7 +10274,7 @@
     "death_date": "2020-05-06T02:19:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR SOUTH SIDE"
+    "community": "ARCHER HEIGHTS"
   },
   {
     "casenumber": "ME2020-04724",
@@ -14799,7 +14820,7 @@
     "death_date": "2020-04-20T23:58:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEAR WEST SIDE"
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2020-03281",
@@ -14890,7 +14911,7 @@
     "death_date": "2020-04-20T14:57:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR SOUTH SIDE"
+    "community": "DOUGLAS"
   },
   {
     "casenumber": "ME2020-03247",
@@ -17340,7 +17361,7 @@
     "death_date": "2020-04-10T10:33:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2020-02420",
@@ -17466,7 +17487,7 @@
     "death_date": "2020-04-06T10:04:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2020-02366",
