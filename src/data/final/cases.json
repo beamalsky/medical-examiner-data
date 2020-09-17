@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-10646",
+    "death_date": "2020-09-16T16:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-10636",
+    "death_date": "2020-09-16T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2020-10630",
+    "death_date": "2020-09-16T04:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-10624",
+    "death_date": "2020-09-15T20:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-10614",
+    "death_date": "2020-09-04T19:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2020-10608",
     "death_date": "2020-09-05T01:34:00.000",
     "race": "Black",
