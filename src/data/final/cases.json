@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-10697",
+    "death_date": "2020-09-18T13:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
+  },
+  {
     "casenumber": "ME2020-10646",
     "death_date": "2020-09-16T16:48:00.000",
     "race": "White",
@@ -278,6 +285,20 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-10209",
+    "death_date": "2020-08-31T13:18:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10195",
+    "death_date": "2020-08-31T05:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-10194",
