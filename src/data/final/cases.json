@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10717",
+    "death_date": "2020-09-19T09:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2020-10707",
+    "death_date": "2020-09-18T23:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-10697",
     "death_date": "2020-09-18T13:35:00.000",
     "race": "White",
@@ -12,6 +26,13 @@
     "race": "White",
     "latino": true,
     "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-10639",
+    "death_date": "2020-09-16T11:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2020-10636",
@@ -1895,6 +1916,13 @@
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2020-08269",
+    "death_date": "2020-06-25T03:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2020-08268",
