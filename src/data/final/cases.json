@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-10764",
+    "death_date": "2020-09-20T22:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-10757",
+    "death_date": "2020-09-20T20:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2020-10750",
+    "death_date": "2020-09-20T17:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-10749",
+    "death_date": "2020-09-20T15:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-10742",
+    "death_date": "2020-09-20T12:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-10730",
+    "death_date": "2020-09-20T06:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
     "casenumber": "ME2020-10717",
     "death_date": "2020-09-19T09:41:00.000",
     "race": "White",
