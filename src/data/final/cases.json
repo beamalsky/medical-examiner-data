@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-10779",
+    "death_date": "2020-09-21T14:10:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2020-10764",
     "death_date": "2020-09-20T22:40:00.000",
     "race": "White",
