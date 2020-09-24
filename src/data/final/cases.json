@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-10853",
+    "death_date": "2020-09-23T23:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-10846",
+    "death_date": "2020-09-23T17:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
     "casenumber": "ME2020-10823",
     "death_date": "2020-09-23T05:18:00.000",
     "race": "Black",
@@ -123,7 +137,7 @@
     "death_date": "2020-09-15T20:10:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2020-10614",
@@ -19124,7 +19138,7 @@
     "death_date": "2020-03-31T15:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AVALON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-01820",
