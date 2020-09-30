@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-10991",
+    "death_date": "2020-09-29T14:51:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10987",
+    "death_date": "2020-09-29T12:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10968",
+    "death_date": "2020-09-28T20:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-10960",
+    "death_date": "2020-09-25T02:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
     "casenumber": "ME2020-10936",
     "death_date": "2020-09-27T13:28:00.000",
     "race": "Other",
@@ -723,6 +751,13 @@
   {
     "casenumber": "ME2020-09896",
     "death_date": "2020-08-18T18:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2020-09872",
+    "death_date": "2020-08-16T16:49:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
