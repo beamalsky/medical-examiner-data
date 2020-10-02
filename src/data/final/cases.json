@@ -7,6 +7,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-11006",
+    "death_date": "2020-09-29T21:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARMOUR SQUARE"
+  },
+  {
     "casenumber": "ME2020-10991",
     "death_date": "2020-09-29T14:51:00.000",
     "race": "White",
@@ -10791,7 +10798,7 @@
     "casenumber": "ME2020-04686",
     "death_date": "2020-05-05T13:38:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
