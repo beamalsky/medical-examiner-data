@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-11055",
+    "death_date": "2020-10-02T03:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11045",
+    "death_date": "2020-10-01T18:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-11039",
+    "death_date": "2020-10-01T16:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-11010",
     "death_date": "2020-09-29T03:02:00.000",
     "race": "White",
@@ -12176,7 +12197,7 @@
     "death_date": "2020-04-30T22:50:00.000",
     "race": "White",
     "latino": true,
-    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+    "community": null
   },
   {
     "casenumber": "ME2020-04205",
@@ -12470,7 +12491,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-04108",
@@ -19271,7 +19292,7 @@
     "death_date": "2020-03-31T15:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AVALON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-01820",
