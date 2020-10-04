@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-11071",
+    "death_date": "2020-10-02T18:10:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-11069",
+    "death_date": "2020-10-02T15:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-11055",
     "death_date": "2020-10-02T03:58:00.000",
     "race": "Black",
@@ -12197,7 +12211,7 @@
     "death_date": "2020-04-30T22:50:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-04205",
@@ -12491,7 +12505,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "AUSTIN"
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2020-04108",
@@ -19292,7 +19306,7 @@
     "death_date": "2020-03-31T15:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AVALON PARK"
   },
   {
     "casenumber": "ME2020-01820",
