@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-11163",
+    "death_date": "2020-10-06T08:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-11147",
+    "death_date": "2020-10-05T17:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2020-11120",
     "death_date": "2020-10-04T18:58:00.000",
     "race": "White",
