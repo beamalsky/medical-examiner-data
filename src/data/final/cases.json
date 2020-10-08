@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-11201",
+    "death_date": "2020-10-03T17:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11191",
+    "death_date": "2020-10-07T05:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2020-11174",
     "death_date": "2020-10-06T14:52:00.000",
     "race": "White",
