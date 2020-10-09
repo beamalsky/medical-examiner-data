@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-11228",
+    "death_date": "2020-10-08T22:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
     "casenumber": "ME2020-11201",
     "death_date": "2020-10-03T17:54:00.000",
     "race": "White",
@@ -75,6 +82,13 @@
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-11065",
+    "death_date": "2020-10-08T08:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-11055",
