@@ -7,6 +7,20 @@
     "community": "ARCHER HEIGHTS"
   },
   {
+    "casenumber": "ME2020-11222",
+    "death_date": "2020-10-08T15:11:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2020-11219",
+    "death_date": "2020-10-08T13:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-11201",
     "death_date": "2020-10-03T17:54:00.000",
     "race": "White",
