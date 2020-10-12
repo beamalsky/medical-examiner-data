@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-11297",
+    "death_date": "2020-10-10T15:41:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11288",
+    "death_date": "2020-10-11T06:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-11287",
+    "death_date": "2020-10-11T00:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-11275",
+    "death_date": "2020-10-10T16:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-11269",
+    "death_date": "2020-10-10T13:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2020-11228",
     "death_date": "2020-10-08T22:53:00.000",
     "race": "White",
