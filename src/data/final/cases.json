@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2020-11322",
+    "death_date": "2020-10-12T10:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-11297",
     "death_date": "2020-10-10T15:41:00.000",
     "race": "Asian",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-11295",
+    "death_date": "2020-10-11T13:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
   },
   {
     "casenumber": "ME2020-11288",
@@ -61,6 +75,13 @@
     "race": "White",
     "latino": true,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11199",
+    "death_date": "2020-10-05T22:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-11191",
