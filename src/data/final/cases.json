@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2020-11377",
+    "death_date": "2020-10-14T08:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-11376",
+    "death_date": "2020-10-14T03:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2020-11351",
+    "death_date": "2020-10-13T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-11349",
+    "death_date": "2020-10-13T05:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2020-11348",
+    "death_date": "2020-10-09T16:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-11344",
+    "death_date": "2020-10-13T03:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-11330",
+    "death_date": "2020-10-12T16:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11328",
+    "death_date": "2020-10-12T15:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2020-11322",
     "death_date": "2020-10-12T10:10:00.000",
     "race": "White",
@@ -47,6 +103,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-11248",
+    "death_date": "2020-10-09T17:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2020-11228",
@@ -15122,6 +15185,13 @@
     "race": "Black",
     "latino": false,
     "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2020-03372",
+    "death_date": "2020-04-21T21:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2020-03368",
