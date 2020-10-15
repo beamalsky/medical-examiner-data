@@ -171,7 +171,7 @@
     "casenumber": "ME2020-11164",
     "death_date": "2020-10-06T01:43:00.000",
     "race": "Asian",
-    "latino": false,
+    "latino": true,
     "community": "AUSTIN"
   },
   {
@@ -201,6 +201,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-11085",
+    "death_date": "2020-10-03T13:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-11071",
