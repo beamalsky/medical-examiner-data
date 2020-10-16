@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-11439",
+    "death_date": "2020-10-15T18:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2020-11428",
+    "death_date": "2020-10-16T01:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-11403",
+    "death_date": "2020-10-15T08:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-11377",
     "death_date": "2020-10-14T08:22:00.000",
     "race": "White",
@@ -206,7 +227,7 @@
     "casenumber": "ME2020-11085",
     "death_date": "2020-10-03T13:50:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
