@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-11468",
+    "death_date": "2020-10-17T06:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11450",
+    "death_date": "2020-10-14T09:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
     "casenumber": "ME2020-11439",
     "death_date": "2020-10-15T18:36:00.000",
     "race": "Black",
