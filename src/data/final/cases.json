@@ -1,5 +1,32 @@
 [
   {
+    "casenumber": "ME2020-11586",
+    "death_date": "2020-10-21T09:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11582",
+    "death_date": "2020-10-21T07:02:00.000",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2020-11577",
+    "death_date": "2020-10-21T03:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-11569",
+    "death_date": "2020-10-20T20:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2020-11551",
     "death_date": "2020-10-20T06:05:00.000",
     "race": "Black",
@@ -26,6 +53,13 @@
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-11470",
+    "death_date": "2020-10-17T09:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-11468",
@@ -1580,6 +1614,13 @@
     "race": "White",
     "latino": true,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-09206",
+    "death_date": "2020-07-23T01:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-09200",
