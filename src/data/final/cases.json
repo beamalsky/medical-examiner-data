@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-11651",
+    "death_date": "2020-10-23T10:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11645",
+    "death_date": "2020-10-23T03:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-11631",
+    "death_date": "2020-10-22T17:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-11611",
+    "death_date": "2020-10-22T03:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11607",
+    "death_date": "2020-10-21T17:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-11591",
+    "death_date": "2020-10-12T17:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
     "casenumber": "ME2020-11586",
     "death_date": "2020-10-21T09:20:00.000",
     "race": "White",
