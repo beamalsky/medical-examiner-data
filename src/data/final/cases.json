@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2020-11677",
+    "death_date": "2020-10-24T08:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-11660",
+    "death_date": "2020-10-21T03:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
     "casenumber": "ME2020-11651",
     "death_date": "2020-10-23T10:00:00.000",
     "race": "White",
@@ -67,6 +81,13 @@
     "race": "White",
     "latino": true,
     "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-11552",
+    "death_date": "2020-10-23T22:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2020-11551",
