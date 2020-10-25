@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-11683",
+    "death_date": "2020-10-24T17:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11682",
+    "death_date": "2020-10-24T13:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-11678",
+    "death_date": "2020-10-24T13:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2020-11677",
     "death_date": "2020-10-24T08:56:00.000",
     "race": "White",
