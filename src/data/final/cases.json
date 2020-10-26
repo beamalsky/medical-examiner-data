@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2020-11738",
+    "death_date": "2020-10-26T11:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2020-11730",
+    "death_date": "2020-10-26T15:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-11719",
+    "death_date": "2020-10-25T18:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-11718",
+    "death_date": "2020-10-25T17:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-11711",
+    "death_date": "2020-10-25T06:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-11695",
+    "death_date": "2020-10-25T07:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-11691",
+    "death_date": "2020-10-25T01:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-11690",
+    "death_date": "2020-10-25T01:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
     "casenumber": "ME2020-11683",
     "death_date": "2020-10-24T17:22:00.000",
     "race": "Black",
@@ -90,6 +146,20 @@
     "community": "NORTH PARK"
   },
   {
+    "casenumber": "ME2020-11581",
+    "death_date": "2020-10-13T12:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-11579",
+    "death_date": "2020-10-21T07:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-11577",
     "death_date": "2020-10-21T03:10:00.000",
     "race": "White",
@@ -130,6 +200,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11524",
+    "death_date": "2020-10-15T14:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2020-11491",
