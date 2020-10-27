@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-11760",
+    "death_date": "2020-10-27T07:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-11757",
+    "death_date": "2020-10-27T05:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-11756",
+    "death_date": "2020-10-27T04:38:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-11751",
+    "death_date": "2020-10-26T21:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-11738",
     "death_date": "2020-10-26T11:05:00.000",
     "race": "White",
@@ -105,6 +133,13 @@
     "community": "HUMBOLDT PARK"
   },
   {
+    "casenumber": "ME2020-11636",
+    "death_date": "2020-10-22T17:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
     "casenumber": "ME2020-11631",
     "death_date": "2020-10-22T17:10:00.000",
     "race": "White",
@@ -167,6 +202,13 @@
     "community": "NEW CITY"
   },
   {
+    "casenumber": "ME2020-11571",
+    "death_date": "2020-10-20T19:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2020-11569",
     "death_date": "2020-10-20T20:35:00.000",
     "race": "White",
@@ -193,6 +235,13 @@
     "race": "White",
     "latino": true,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-11545",
+    "death_date": "2020-10-19T19:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-11533",
@@ -2167,6 +2216,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-08712",
+    "death_date": "2020-05-22T09:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-08710",
