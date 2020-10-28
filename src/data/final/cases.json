@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-11774",
+    "death_date": "2020-10-27T17:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2020-11760",
     "death_date": "2020-10-27T07:40:00.000",
     "race": "White",
@@ -61,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-11707",
+    "death_date": "2020-10-25T11:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
   },
   {
     "casenumber": "ME2020-11695",
@@ -342,6 +356,13 @@
     "community": "DUNNING"
   },
   {
+    "casenumber": "ME2020-11346",
+    "death_date": "2020-10-13T08:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2020-11344",
     "death_date": "2020-10-13T03:03:00.000",
     "race": "Black",
@@ -437,7 +458,7 @@
     "death_date": "2020-10-08T13:04:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2020-11201",
@@ -500,7 +521,7 @@
     "death_date": "2020-10-04T18:58:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-11102",
@@ -563,7 +584,7 @@
     "death_date": "2020-09-29T03:02:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2020-11006",
@@ -577,7 +598,7 @@
     "death_date": "2020-09-29T14:51:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-10988",
@@ -788,6 +809,13 @@
     "race": "White",
     "latino": false,
     "community": "ARMOUR SQUARE"
+  },
+  {
+    "casenumber": "ME2020-10658",
+    "death_date": "2020-10-26T03:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2020-10646",
