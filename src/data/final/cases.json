@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-11844",
+    "death_date": "2020-10-29T16:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2020-11843",
+    "death_date": "2020-10-29T18:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-11835",
+    "death_date": "2020-10-29T12:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2020-11824",
     "death_date": "2020-10-29T08:16:00.000",
     "race": "White",
@@ -95,6 +116,13 @@
     "death_date": "2020-10-26T15:19:00.000",
     "race": "White",
     "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-11729",
+    "death_date": "2020-10-26T06:00:00.000",
+    "race": "White",
+    "latino": false,
     "community": "ASHBURN"
   },
   {
