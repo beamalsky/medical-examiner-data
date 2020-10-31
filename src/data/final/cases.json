@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2020-11891",
+    "death_date": "2020-10-31T08:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-11864",
+    "death_date": "2020-10-30T11:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-11860",
+    "death_date": "2020-10-30T07:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIGHTON PARK"
+  },
+  {
     "casenumber": "ME2020-11844",
     "death_date": "2020-10-29T16:21:00.000",
     "race": "White",
