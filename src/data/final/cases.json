@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2020-11901",
+    "death_date": "2020-10-31T12:35:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2020-11891",
     "death_date": "2020-10-31T08:13:00.000",
     "race": "White",
