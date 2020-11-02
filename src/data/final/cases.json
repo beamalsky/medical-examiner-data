@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2020-11944",
+    "death_date": "2020-11-01T12:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-11935",
+    "death_date": "2020-11-01T04:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-11933",
+    "death_date": "2020-11-01T06:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-11928",
+    "death_date": "2020-11-01T02:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2020-11919",
+    "death_date": "2020-10-31T19:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-11912",
+    "death_date": "2020-10-31T17:01:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-11903",
+    "death_date": "2020-10-31T04:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-11901",
     "death_date": "2020-10-31T12:35:00.000",
     "race": "Other",
