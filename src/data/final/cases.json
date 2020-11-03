@@ -1,5 +1,89 @@
 [
   {
+    "casenumber": "ME2020-12013",
+    "death_date": "2020-11-02T13:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-12011",
+    "death_date": "2020-11-02T03:08:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12010",
+    "death_date": "2020-11-02T15:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-11995",
+    "death_date": "2020-11-01T23:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2020-11992",
+    "death_date": "2020-11-02T11:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-11988",
+    "death_date": "2020-11-02T10:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2020-11984",
+    "death_date": "2020-11-02T07:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-11981",
+    "death_date": "2020-11-02T08:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11975",
+    "death_date": "2020-11-02T06:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-11972",
+    "death_date": "2020-11-02T04:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2020-11969",
+    "death_date": "2020-11-02T02:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-11963",
+    "death_date": "2020-11-01T22:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
     "casenumber": "ME2020-11944",
     "death_date": "2020-11-01T12:12:00.000",
     "race": "Black",
@@ -40,6 +124,13 @@
     "race": "Unknown",
     "latino": false,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-11907",
+    "death_date": "2020-10-31T15:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2020-11903",
@@ -865,6 +956,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-10833",
+    "death_date": "2020-09-18T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
   },
   {
     "casenumber": "ME2020-10823",
