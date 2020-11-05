@@ -1,10 +1,59 @@
 [
   {
+    "casenumber": "ME2020-12103",
+    "death_date": "2020-10-29T04:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-12090",
+    "death_date": "2020-10-25T11:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-12079",
+    "death_date": "2020-11-04T05:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12078",
+    "death_date": "2020-11-04T03:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12075",
+    "death_date": "2020-11-04T02:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12073",
+    "death_date": "2020-11-04T01:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2020-12071",
     "death_date": "2020-11-03T19:26:00.000",
     "race": "White",
     "latino": true,
     "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-12070",
+    "death_date": "2020-11-03T20:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-12065",
@@ -238,6 +287,13 @@
     "community": "LINCOLN SQUARE"
   },
   {
+    "casenumber": "ME2020-11914",
+    "death_date": "2020-10-31T18:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2020-11912",
     "death_date": "2020-10-31T17:01:00.000",
     "race": "Unknown",
@@ -262,6 +318,13 @@
     "casenumber": "ME2020-11901",
     "death_date": "2020-10-31T12:35:00.000",
     "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-11900",
+    "death_date": "2020-10-31T00:32:00.000",
+    "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
   },
