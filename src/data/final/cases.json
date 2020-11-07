@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2020-12178",
+    "death_date": "2020-11-05T14:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-12166",
+    "death_date": "2020-11-06T05:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12160",
+    "death_date": "2020-11-05T23:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-12159",
+    "death_date": "2020-11-05T21:18:00.000",
+    "race": "Am. Indian",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-12136",
+    "death_date": "2020-11-05T14:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2020-12128",
     "death_date": "2020-11-03T12:01:00.000",
     "race": "Black",
@@ -12,6 +47,13 @@
     "race": "Unknown",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-12118",
+    "death_date": "2020-11-04T20:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LOOP"
   },
   {
     "casenumber": "ME2020-12103",
@@ -362,6 +404,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-11863",
+    "death_date": "2020-10-30T11:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-11860",
