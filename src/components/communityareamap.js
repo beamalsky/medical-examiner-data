@@ -54,7 +54,7 @@ export default class CommunityAreaMap extends PureComponent {
         "coordinates": []
       },
       "properties": {
-        "per_capita": 15
+        "per_capita": 8
       }
     }
 

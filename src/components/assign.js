@@ -1,7 +1,6 @@
 module.exports = (typeof Object.assign === 'function') ?
   Object.assign :
   (function (target) {
-    'use strict'
     if (!target) {
       throw new TypeError('Cannot convert undefined or null to object')
     }
