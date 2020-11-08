@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2020-12229",
+    "death_date": "2020-11-04T06:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12207",
+    "death_date": "2020-11-06T19:38:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12206",
+    "death_date": "2020-11-06T19:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12204",
+    "death_date": "2020-11-06T19:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2020-12202",
+    "death_date": "2020-11-06T18:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-12196",
+    "death_date": "2020-11-05T19:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2020-12194",
+    "death_date": "2020-11-06T16:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12191",
+    "death_date": "2020-11-06T13:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-12187",
+    "death_date": "2020-11-06T11:42:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2020-12178",
     "death_date": "2020-11-05T14:25:00.000",
     "race": "Black",
@@ -781,6 +844,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-11498",
+    "death_date": "2020-10-17T23:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-11491",
