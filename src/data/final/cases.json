@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2020-12280",
+    "death_date": "2020-11-08T11:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-12267",
+    "death_date": "2020-11-08T02:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12264",
+    "death_date": "2020-11-08T00:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-12258",
+    "death_date": "2020-11-07T22:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-12255",
+    "death_date": "2020-11-07T20:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12251",
+    "death_date": "2020-11-07T18:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-12246",
+    "death_date": "2020-11-07T16:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12243",
+    "death_date": "2020-11-07T15:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-12239",
+    "death_date": "2020-11-07T14:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2020-12233",
+    "death_date": "2020-11-07T10:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2020-12229",
     "death_date": "2020-11-04T06:09:00.000",
     "race": "White",
