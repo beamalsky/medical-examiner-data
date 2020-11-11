@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2020-12401",
+    "death_date": "2020-11-10T14:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-12399",
+    "death_date": "2020-11-10T13:23:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-12394",
+    "death_date": "2020-11-10T12:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2020-12384",
+    "death_date": "2020-11-09T17:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-12381",
+    "death_date": "2020-11-04T13:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12365",
+    "death_date": "2020-11-09T19:45:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12356",
+    "death_date": "2020-11-09T18:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-12354",
+    "death_date": "2020-11-09T14:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12348",
+    "death_date": "2020-11-09T15:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2020-12326",
+    "death_date": "2020-11-09T07:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-12318",
     "death_date": "2020-11-09T06:14:00.000",
     "race": "White",
@@ -82,6 +152,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12265",
+    "death_date": "2020-11-08T03:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MCKINLEY PARK"
   },
   {
     "casenumber": "ME2020-12264",
@@ -1369,6 +1446,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-10981",
+    "death_date": "2020-09-29T03:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2020-10968",
