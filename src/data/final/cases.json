@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2020-12455",
+    "death_date": "2020-11-10T22:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-12443",
+    "death_date": "2020-11-09T09:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2020-12442",
+    "death_date": "2020-11-11T11:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2020-12433",
+    "death_date": "2020-11-11T04:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-12431",
+    "death_date": "2020-11-10T17:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-12428",
+    "death_date": "2020-11-11T03:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12427",
+    "death_date": "2020-11-10T23:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-12419",
+    "death_date": "2020-11-10T23:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
     "casenumber": "ME2020-12401",
     "death_date": "2020-11-10T14:43:00.000",
     "race": "White",
@@ -614,6 +670,13 @@
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-11938",
+    "death_date": "2020-11-01T03:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2020-11935",
