@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2020-12492",
+    "death_date": "2020-11-12T06:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12491",
+    "death_date": "2020-11-12T08:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2020-12467",
+    "death_date": "2020-11-11T16:53:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12462",
+    "death_date": "2020-11-11T14:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
     "casenumber": "ME2020-12455",
     "death_date": "2020-11-10T22:10:00.000",
     "race": "White",
@@ -56,6 +84,13 @@
     "community": "CLEARING"
   },
   {
+    "casenumber": "ME2020-12414",
+    "death_date": "2020-11-10T20:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2020-12401",
     "death_date": "2020-11-10T14:43:00.000",
     "race": "White",
@@ -75,6 +110,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2020-12392",
+    "death_date": "2020-11-06T10:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-12384",
@@ -180,6 +222,13 @@
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-12292",
+    "death_date": "2020-11-10T21:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-12291",
@@ -1390,13 +1439,6 @@
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
-  },
-  {
-    "casenumber": "ME2020-11164",
-    "death_date": "2020-10-06T01:43:00.000",
-    "race": "Asian",
-    "latino": true,
-    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-11163",
