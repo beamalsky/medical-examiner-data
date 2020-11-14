@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2020-12565",
+    "death_date": "2020-11-12T22:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-12551",
+    "death_date": "2020-11-13T08:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-12545",
+    "death_date": "2020-11-13T06:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-12539",
+    "death_date": "2020-11-12T23:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-12534",
+    "death_date": "2020-11-13T00:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-12532",
+    "death_date": "2020-11-13T23:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12526",
+    "death_date": "2020-11-12T22:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12523",
+    "death_date": "2020-11-12T21:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-12516",
+    "death_date": "2020-11-12T18:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-12512",
+    "death_date": "2020-11-12T13:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-12509",
+    "death_date": "2020-11-10T16:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2020-12506",
+    "death_date": "2020-11-12T14:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-12504",
+    "death_date": "2020-11-12T15:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12501",
+    "death_date": "2020-11-12T14:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2020-12492",
     "death_date": "2020-11-12T06:30:00.000",
     "race": "Black",
@@ -12,6 +110,13 @@
     "race": "Black",
     "latino": false,
     "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2020-12489",
+    "death_date": "2020-11-12T10:45:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2020-12467",
@@ -91,6 +196,13 @@
     "community": "GREATER GRAND CROSSING"
   },
   {
+    "casenumber": "ME2020-12413",
+    "death_date": "2020-11-10T18:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2020-12401",
     "death_date": "2020-11-10T14:43:00.000",
     "race": "White",
@@ -159,6 +271,13 @@
     "race": "White",
     "latino": false,
     "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2020-12347",
+    "death_date": "2020-11-09T14:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2020-12326",
@@ -341,6 +460,20 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-12223",
+    "death_date": "2020-11-07T07:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2020-12217",
+    "death_date": "2020-11-07T04:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2020-12207",
@@ -1362,6 +1495,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-11283",
+    "death_date": "2020-10-10T21:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-11275",
