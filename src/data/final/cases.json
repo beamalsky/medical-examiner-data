@@ -1,10 +1,73 @@
 [
   {
+    "casenumber": "ME2020-12635",
+    "death_date": "2020-11-14T14:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-12618",
+    "death_date": "2020-11-13T22:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-12617",
+    "death_date": "2020-11-14T03:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-12600",
+    "death_date": "2020-11-13T22:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-12587",
+    "death_date": "2020-11-13T18:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-12586",
+    "death_date": "2020-11-13T18:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-12582",
+    "death_date": "2020-11-13T15:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-12572",
+    "death_date": "2020-11-13T13:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
     "casenumber": "ME2020-12565",
     "death_date": "2020-11-12T22:30:00.000",
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-12559",
+    "death_date": "2020-11-13T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
   },
   {
     "casenumber": "ME2020-12551",
