@@ -7,6 +7,13 @@
     "community": "ASHBURN"
   },
   {
+    "casenumber": "ME2020-12632",
+    "death_date": "2020-11-14T11:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2020-12618",
     "death_date": "2020-11-13T22:30:00.000",
     "race": "Black",
