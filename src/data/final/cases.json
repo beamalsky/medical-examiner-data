@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2020-12977",
+    "death_date": "2020-11-19T16:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-12960",
+    "death_date": "2020-11-18T19:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-12944",
+    "death_date": "2020-11-19T10:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-12938",
+    "death_date": "2020-11-18T15:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-12935",
+    "death_date": "2020-11-19T08:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-12915",
+    "death_date": "2020-11-18T22:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2020-12914",
+    "death_date": "2020-11-18T21:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-12907",
+    "death_date": "2020-11-18T21:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2020-12903",
+    "death_date": "2020-11-18T19:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12901",
+    "death_date": "2020-11-18T18:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-12889",
+    "death_date": "2020-11-18T10:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-12884",
+    "death_date": "2020-11-18T15:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-12883",
+    "death_date": "2020-11-18T14:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12880",
+    "death_date": "2020-11-18T14:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2020-12869",
     "death_date": "2020-11-17T23:45:00.000",
     "race": "White",
@@ -384,6 +482,13 @@
     "community": "NORTH LAWNDALE"
   },
   {
+    "casenumber": "ME2020-12672",
+    "death_date": "2020-11-15T03:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2020-12664",
     "death_date": "2020-11-14T21:40:00.000",
     "race": "White",
@@ -606,6 +711,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-12520",
+    "death_date": "2020-11-12T19:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-12516",
