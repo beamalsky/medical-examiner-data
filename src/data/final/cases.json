@@ -1,5 +1,152 @@
 [
   {
+    "casenumber": "ME2020-13086",
+    "death_date": "2020-11-21T12:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13085",
+    "death_date": "2020-11-21T08:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2020-13084",
+    "death_date": "2020-11-21T06:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13076",
+    "death_date": "2020-11-21T04:42:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-13073",
+    "death_date": "2020-11-21T04:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2020-13069",
+    "death_date": "2020-11-21T01:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-13067",
+    "death_date": "2020-11-20T22:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2020-13064",
+    "death_date": "2020-11-20T23:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-13062",
+    "death_date": "2020-11-20T21:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-13059",
+    "death_date": "2020-11-20T21:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-13057",
+    "death_date": "2020-11-20T22:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-13053",
+    "death_date": "2020-11-20T17:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-13052",
+    "death_date": "2020-11-20T15:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-13047",
+    "death_date": "2020-11-20T16:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13042",
+    "death_date": "2020-11-20T16:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-13041",
+    "death_date": "2020-11-20T15:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-13039",
+    "death_date": "2020-11-20T15:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-13035",
+    "death_date": "2020-11-20T14:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-13031",
+    "death_date": "2020-11-20T13:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-13030",
+    "death_date": "2020-11-14T07:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2020-13026",
+    "death_date": "2020-11-20T11:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2020-13018",
     "death_date": "2020-11-20T06:00:00.000",
     "race": "White",
