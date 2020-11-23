@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2020-13164",
+    "death_date": "2020-11-22T17:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2020-13163",
+    "death_date": "2020-11-22T17:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-13159",
+    "death_date": "2020-11-22T14:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-13158",
+    "death_date": "2020-11-22T15:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13148",
+    "death_date": "2020-11-22T12:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-13139",
+    "death_date": "2020-11-22T07:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-13121",
+    "death_date": "2020-11-21T20:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-13114",
+    "death_date": "2020-11-21T18:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2020-13108",
+    "death_date": "2020-11-21T16:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-13098",
+    "death_date": "2020-11-21T00:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-13086",
     "death_date": "2020-11-21T12:52:00.000",
     "race": "Black",
@@ -147,6 +217,13 @@
     "community": "NEAR WEST SIDE"
   },
   {
+    "casenumber": "ME2020-13020",
+    "death_date": "2020-11-20T07:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2020-13018",
     "death_date": "2020-11-20T06:00:00.000",
     "race": "White",
@@ -173,6 +250,20 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-12998",
+    "death_date": "2020-11-20T01:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-12993",
+    "death_date": "2020-11-19T20:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2020-12983",
