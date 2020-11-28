@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2020-13470",
+    "death_date": "2020-11-27T08:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-13467",
+    "death_date": "2020-11-27T07:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13465",
+    "death_date": "2020-11-27T05:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-13451",
+    "death_date": "2020-11-26T23:57:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-13440",
+    "death_date": "2020-11-26T19:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-13430",
+    "death_date": "2020-11-26T12:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-13428",
+    "death_date": "2020-11-26T15:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
     "casenumber": "ME2020-13420",
     "death_date": "2020-11-26T13:41:00.000",
     "race": "White",
@@ -26,6 +75,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-13403",
+    "death_date": "2020-11-26T04:26:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-13402",
@@ -173,6 +229,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-13314",
+    "death_date": "2020-11-24T19:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2020-13307",
@@ -474,6 +537,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-13119",
+    "death_date": "2020-11-21T19:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-13114",
@@ -1215,6 +1285,13 @@
     "race": "White",
     "latino": true,
     "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-12734",
+    "death_date": "2020-11-13T15:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-12733",
