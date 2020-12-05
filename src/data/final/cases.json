@@ -1,5 +1,110 @@
 [
   {
+    "casenumber": "ME2020-14044",
+    "death_date": "2020-12-04T12:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14037",
+    "death_date": "2020-12-04T11:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14036",
+    "death_date": "2020-12-04T08:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14034",
+    "death_date": "2020-12-04T09:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2020-14028",
+    "death_date": "2020-12-04T10:51:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14025",
+    "death_date": "2020-12-04T01:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-14016",
+    "death_date": "2020-12-04T03:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14014",
+    "death_date": "2020-12-04T02:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2020-14013",
+    "death_date": "2020-12-04T02:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2020-14012",
+    "death_date": "2020-12-04T01:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-14010",
+    "death_date": "2020-12-04T00:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2020-14009",
+    "death_date": "2020-12-03T22:15:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-14008",
+    "death_date": "2020-12-04T00:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-14003",
+    "death_date": "2020-12-03T22:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-14002",
+    "death_date": "2020-12-03T21:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-13986",
     "death_date": "2020-12-03T16:04:00.000",
     "race": "White",
@@ -26,6 +131,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-13968",
+    "death_date": "2020-12-03T13:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
   },
   {
     "casenumber": "ME2020-13966",
@@ -238,6 +350,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-13860",
+    "death_date": "2020-12-02T07:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2020-13858",
     "death_date": "2020-12-02T07:35:00.000",
     "race": "Black",
@@ -292,6 +411,13 @@
     "race": "White",
     "latino": true,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-13835",
+    "death_date": "2020-12-01T18:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2020-13831",
@@ -462,6 +588,13 @@
     "community": "NEAR NORTH SIDE"
   },
   {
+    "casenumber": "ME2020-13759",
+    "death_date": "2020-12-01T04:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
     "casenumber": "ME2020-13758",
     "death_date": "2020-12-01T05:14:00.000",
     "race": "Black",
@@ -558,6 +691,12 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-13719",
+    "death_date": "2020-11-30T06:40:00.000",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-13715",
