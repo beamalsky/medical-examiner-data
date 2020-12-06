@@ -1,10 +1,129 @@
 [
   {
+    "casenumber": "ME2020-14120",
+    "death_date": "2020-12-05T10:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-14116",
+    "death_date": "2020-12-05T09:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14113",
+    "death_date": "2020-12-05T08:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14112",
+    "death_date": "2020-12-05T07:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14109",
+    "death_date": "2020-12-05T07:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-14105",
+    "death_date": "2020-12-05T01:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-14094",
+    "death_date": "2020-12-04T20:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14090",
+    "death_date": "2020-12-04T19:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2020-14089",
+    "death_date": "2020-12-04T20:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14084",
+    "death_date": "2020-12-04T18:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-14083",
+    "death_date": "2020-12-04T18:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14079",
+    "death_date": "2020-12-04T16:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14078",
+    "death_date": "2020-12-04T17:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-14076",
+    "death_date": "2020-12-04T13:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14073",
+    "death_date": "2020-12-04T17:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-14067",
+    "death_date": "2020-12-04T16:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2020-14044",
     "death_date": "2020-12-04T12:01:00.000",
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-14039",
+    "death_date": "2020-12-04T12:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2020-14037",
@@ -21,11 +140,25 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-14035",
+    "death_date": "2020-11-23T08:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2020-14034",
     "death_date": "2020-12-04T09:35:00.000",
     "race": "White",
     "latino": true,
     "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2020-14033",
+    "death_date": "2020-12-04T10:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-14028",
@@ -105,6 +238,20 @@
     "community": "MONTCLARE"
   },
   {
+    "casenumber": "ME2020-13989",
+    "death_date": "2020-12-03T17:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-13987",
+    "death_date": "2020-12-03T16:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HEGEWISCH"
+  },
+  {
     "casenumber": "ME2020-13986",
     "death_date": "2020-12-03T16:04:00.000",
     "race": "White",
@@ -129,6 +276,13 @@
     "casenumber": "ME2020-13973",
     "death_date": "2020-12-03T13:23:00.000",
     "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-13970",
+    "death_date": "2020-12-02T14:14:00.000",
+    "race": "Other",
     "latino": false,
     "community": null
   },
