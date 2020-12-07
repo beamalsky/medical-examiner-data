@@ -1,5 +1,117 @@
 [
   {
+    "casenumber": "ME2020-14195",
+    "death_date": "2020-12-06T12:56:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-14192",
+    "death_date": "2020-12-06T10:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-14191",
+    "death_date": "2020-12-06T09:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-14187",
+    "death_date": "2020-12-06T08:53:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-14184",
+    "death_date": "2020-12-06T09:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14181",
+    "death_date": "2020-12-06T06:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14179",
+    "death_date": "2020-12-06T08:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-14177",
+    "death_date": "2020-12-06T07:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2020-14175",
+    "death_date": "2020-12-06T06:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-14164",
+    "death_date": "2020-12-06T02:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-14161",
+    "death_date": "2020-12-06T00:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-14157",
+    "death_date": "2020-12-06T00:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14155",
+    "death_date": "2020-12-06T00:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-14142",
+    "death_date": "2020-12-05T18:06:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2020-14134",
+    "death_date": "2020-12-04T17:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14133",
+    "death_date": "2020-12-05T16:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
     "casenumber": "ME2020-14120",
     "death_date": "2020-12-05T10:01:00.000",
     "race": "White",
