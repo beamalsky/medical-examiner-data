@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Bar } from 'recharts'
-import { Col, Row } from 'react-bootstrap'
+import { Bar } from "recharts"
+import { Col, Row } from "react-bootstrap"
+import { intcomma } from "journalize"
 
 import getRaceData from "../utils/getracedata"
 import getCVDataByDate from "../utils/getcvdatabydate"
@@ -50,7 +51,7 @@ const IndexPage = ({data}) => {
             </h4>
             <h1 style={{color: 'white', fontFamily: 'sans-serif' }}>
               <span style={{backgroundColor: 'black', padding: '7px 10px'}}>
-               {totalCount}
+               {intcomma(totalCount)}
               </span>
             </h1>
             <p><i>Last updated {last_updated}</i></p>
