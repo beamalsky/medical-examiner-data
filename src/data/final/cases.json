@@ -1,5 +1,145 @@
 [
   {
+    "casenumber": "ME2020-14642",
+    "death_date": "2020-12-12T11:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-14641",
+    "death_date": "2020-12-12T11:45:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2020-14640",
+    "death_date": "2020-12-12T11:28:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14639",
+    "death_date": "2020-12-12T10:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-14637",
+    "death_date": "2020-12-12T06:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-14634",
+    "death_date": "2020-12-12T07:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-14631",
+    "death_date": "2020-12-12T05:13:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-14621",
+    "death_date": "2020-12-12T02:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-14613",
+    "death_date": "2020-12-11T23:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14612",
+    "death_date": "2020-12-11T22:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-14607",
+    "death_date": "2020-12-11T22:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-14602",
+    "death_date": "2020-12-11T18:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2020-14600",
+    "death_date": "2020-12-11T20:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14596",
+    "death_date": "2020-12-11T18:46:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-14595",
+    "death_date": "2020-12-11T18:13:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-14594",
+    "death_date": "2020-12-11T17:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14593",
+    "death_date": "2020-12-11T17:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-14592",
+    "death_date": "2020-12-11T17:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2020-14591",
+    "death_date": "2020-12-11T17:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2020-14587",
+    "death_date": "2020-12-11T16:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2020-14578",
     "death_date": "2020-12-11T13:20:00.000",
     "race": "White",
@@ -12,6 +152,13 @@
     "race": "White",
     "latino": true,
     "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-14570",
+    "death_date": "2020-12-06T18:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2020-14568",
@@ -2313,6 +2460,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-13481",
+    "death_date": "2020-12-07T17:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2020-13479",
