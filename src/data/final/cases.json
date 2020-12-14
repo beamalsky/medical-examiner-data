@@ -1,5 +1,89 @@
 [
   {
+    "casenumber": "ME2020-14691",
+    "death_date": "2020-12-13T08:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2020-14684",
+    "death_date": "2020-12-13T03:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-14680",
+    "death_date": "2020-12-13T03:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-14679",
+    "death_date": "2020-12-13T02:04:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
+  },
+  {
+    "casenumber": "ME2020-14674",
+    "death_date": "2020-12-13T00:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-14665",
+    "death_date": "2020-12-12T20:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-14662",
+    "death_date": "2020-12-11T15:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-14658",
+    "death_date": "2020-12-12T18:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-14653",
+    "death_date": "2020-12-12T16:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-14652",
+    "death_date": "2020-12-12T16:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14645",
+    "death_date": "2020-12-12T11:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-14644",
+    "death_date": "2020-12-12T11:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2020-14642",
     "death_date": "2020-12-12T11:45:00.000",
     "race": "White",
