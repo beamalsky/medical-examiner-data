@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2020-14734",
+    "death_date": "2020-12-14T00:25:00.000",
+    "race": "Black",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-14733",
+    "death_date": "2020-12-13T21:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14729",
+    "death_date": "2020-12-13T19:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2020-14725",
+    "death_date": "2020-12-13T18:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14720",
+    "death_date": "2020-12-13T15:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-14709",
+    "death_date": "2020-12-13T14:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2020-14691",
     "death_date": "2020-12-13T08:19:00.000",
     "race": "Black",
