@@ -1,5 +1,152 @@
 [
   {
+    "casenumber": "ME2020-14836",
+    "death_date": "2020-12-15T12:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14828",
+    "death_date": "2020-12-15T09:12:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-14826",
+    "death_date": "2020-12-08T18:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-14825",
+    "death_date": "2020-12-14T15:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-14824",
+    "death_date": "2020-12-14T15:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-14822",
+    "death_date": "2020-12-12T15:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-14821",
+    "death_date": "2020-12-14T22:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-14820",
+    "death_date": "2020-12-15T08:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2020-14814",
+    "death_date": "2020-12-14T10:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-14813",
+    "death_date": "2020-12-15T08:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-14809",
+    "death_date": "2020-12-15T05:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-14804",
+    "death_date": "2020-12-15T02:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-14795",
+    "death_date": "2020-12-14T21:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2020-14787",
+    "death_date": "2020-12-14T19:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2020-14781",
+    "death_date": "2020-12-14T17:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-14780",
+    "death_date": "2020-12-14T16:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2020-14779",
+    "death_date": "2020-12-09T00:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-14775",
+    "death_date": "2020-12-14T08:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2020-14772",
+    "death_date": "2020-12-14T15:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-14770",
+    "death_date": "2020-12-14T08:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-14764",
+    "death_date": "2020-12-07T11:00:00.000",
+    "race": "Asian",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2020-14734",
     "death_date": "2020-12-14T00:25:00.000",
     "race": "Black",
@@ -28,6 +175,20 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-14724",
+    "death_date": "2020-12-13T18:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2020-14722",
+    "death_date": "2020-12-13T16:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2020-14720",
     "death_date": "2020-12-13T15:10:00.000",
     "race": "White",
@@ -40,6 +201,13 @@
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2020-14703",
+    "death_date": "2020-12-13T11:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2020-14691",
@@ -75,6 +243,13 @@
     "race": "White",
     "latino": true,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-14673",
+    "death_date": "2020-12-13T00:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2020-14665",
@@ -410,6 +585,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-14504",
+    "death_date": "2020-12-10T12:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2020-14488",
@@ -1224,6 +1406,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-14144",
+    "death_date": "2020-12-07T12:10:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2020-14142",
     "death_date": "2020-12-05T18:06:00.000",
     "race": "Other",
@@ -1390,6 +1579,13 @@
     "race": "White",
     "latino": true,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-14061",
+    "death_date": "2020-12-08T14:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-14060",
