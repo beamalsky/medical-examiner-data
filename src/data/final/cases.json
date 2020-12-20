@@ -1,10 +1,220 @@
 [
   {
+    "casenumber": "ME2020-15170",
+    "death_date": "2020-12-19T13:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2020-15167",
+    "death_date": "2020-12-19T17:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15166",
+    "death_date": "2020-12-19T14:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2020-15163",
+    "death_date": "2020-12-19T17:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-15159",
+    "death_date": "2020-12-19T17:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-15155",
+    "death_date": "2020-12-19T16:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2020-15153",
+    "death_date": "2020-12-19T15:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2020-15152",
+    "death_date": "2020-12-19T16:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-15142",
+    "death_date": "2020-12-19T14:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-15141",
+    "death_date": "2020-12-19T13:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-15133",
+    "death_date": "2020-12-19T12:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-15122",
+    "death_date": "2020-12-19T08:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-15114",
+    "death_date": "2020-12-19T05:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15112",
+    "death_date": "2020-12-19T05:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-15110",
+    "death_date": "2020-12-19T05:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-15107",
+    "death_date": "2020-12-19T04:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-15103",
+    "death_date": "2020-12-19T02:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-15093",
+    "death_date": "2020-12-18T17:58:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-15092",
+    "death_date": "2020-12-18T18:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-15088",
+    "death_date": "2020-12-18T18:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-15086",
+    "death_date": "2020-12-18T17:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2020-15082",
+    "death_date": "2020-12-18T16:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15081",
+    "death_date": "2020-12-18T17:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2020-15080",
+    "death_date": "2020-12-18T16:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-15078",
+    "death_date": "2020-12-18T12:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2020-15077",
+    "death_date": "2020-12-18T14:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2020-15076",
+    "death_date": "2020-12-18T15:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-15066",
+    "death_date": "2020-12-18T13:51:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2020-15063",
+    "death_date": "2020-12-18T11:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2020-15061",
     "death_date": "2020-12-18T10:23:00.000",
     "race": "Other",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2020-15056",
+    "death_date": "2020-12-18T10:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-15045",
@@ -33,6 +243,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-15010",
+    "death_date": "2020-12-17T18:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-15005",
@@ -355,6 +572,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2020-14841",
+    "death_date": "2020-12-12T04:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-14836",
