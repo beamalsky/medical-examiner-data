@@ -1,5 +1,138 @@
 [
   {
+    "casenumber": "ME2020-15387",
+    "death_date": "2020-12-22T13:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2020-15370",
+    "death_date": "2020-12-21T00:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15364",
+    "death_date": "2020-12-22T07:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2020-15361",
+    "death_date": "2020-12-22T04:30:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2020-15357",
+    "death_date": "2020-12-22T05:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2020-15350",
+    "death_date": "2020-12-22T00:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2020-15348",
+    "death_date": "2020-12-22T02:20:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15342",
+    "death_date": "2020-12-21T22:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2020-15339",
+    "death_date": "2020-12-21T21:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15337",
+    "death_date": "2020-12-21T17:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-15332",
+    "death_date": "2020-12-21T18:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-15329",
+    "death_date": "2020-12-21T17:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15327",
+    "death_date": "2020-12-21T17:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15320",
+    "death_date": "2020-12-21T15:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2020-15316",
+    "death_date": "2020-12-21T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2020-15315",
+    "death_date": "2020-12-21T07:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-15313",
+    "death_date": "2020-12-21T12:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15309",
+    "death_date": "2020-12-21T13:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15306",
+    "death_date": "2020-12-21T12:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2020-15305",
     "death_date": "2020-12-19T17:40:00.000",
     "race": "White",
@@ -35,6 +168,13 @@
     "community": "AUSTIN"
   },
   {
+    "casenumber": "ME2020-15287",
+    "death_date": "2020-12-21T07:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-15281",
     "death_date": "2020-12-21T05:55:00.000",
     "race": "White",
@@ -54,6 +194,13 @@
     "race": "Black",
     "latino": false,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-15272",
+    "death_date": "2020-12-21T03:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2020-15266",
@@ -448,6 +595,13 @@
     "community": "JEFFERSON PARK"
   },
   {
+    "casenumber": "ME2020-15065",
+    "death_date": "2020-12-18T14:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
     "casenumber": "ME2020-15063",
     "death_date": "2020-12-18T11:55:00.000",
     "race": "White",
@@ -483,6 +637,13 @@
     "community": "BRIGHTON PARK"
   },
   {
+    "casenumber": "ME2020-15039",
+    "death_date": "2020-12-18T07:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
     "casenumber": "ME2020-15035",
     "death_date": "2020-12-18T04:35:00.000",
     "race": "White",
@@ -495,6 +656,13 @@
     "race": "Other",
     "latino": false,
     "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2020-15019",
+    "death_date": "2020-12-17T20:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2020-15015",
@@ -651,6 +819,13 @@
     "community": "AUBURN GRESHAM"
   },
   {
+    "casenumber": "ME2020-14928",
+    "death_date": "2020-12-16T20:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-14927",
     "death_date": "2020-12-16T18:06:00.000",
     "race": "Black",
@@ -768,6 +943,13 @@
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-14870",
+    "death_date": "2020-12-16T00:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-14866",
