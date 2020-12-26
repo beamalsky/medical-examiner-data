@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2020-15579",
+    "death_date": "2020-12-25T12:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-15573",
+    "death_date": "2020-12-25T10:14:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-15570",
+    "death_date": "2020-12-25T02:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2020-15562",
+    "death_date": "2020-12-25T00:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-15557",
+    "death_date": "2020-12-25T00:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2020-15553",
+    "death_date": "2020-12-24T22:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-15549",
+    "death_date": "2020-12-24T22:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-15543",
     "death_date": "2020-12-24T20:32:00.000",
     "race": "White",
@@ -19,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-15534",
+    "death_date": "2020-12-24T06:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2020-15530",
@@ -61,6 +117,13 @@
     "race": "Asian",
     "latino": false,
     "community": "ARMOUR SQUARE"
+  },
+  {
+    "casenumber": "ME2020-15502",
+    "death_date": "2020-12-24T05:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-15499",
@@ -224,13 +287,6 @@
     "community": "ALBANY PARK"
   },
   {
-    "casenumber": "ME2020-15397",
-    "death_date": "2020-12-22T15:29:00.000",
-    "race": "White",
-    "latino": true,
-    "community": null
-  },
-  {
     "casenumber": "ME2020-15396",
     "death_date": "2020-12-22T15:40:00.000",
     "race": "Black",
@@ -383,6 +439,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-15311",
+    "death_date": "2020-12-21T12:26:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2020-15309",
@@ -7205,6 +7268,13 @@
     "race": "White",
     "latino": false,
     "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2020-11696",
+    "death_date": "2020-10-25T07:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-11695",
