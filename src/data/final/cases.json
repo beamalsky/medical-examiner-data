@@ -1,5 +1,81 @@
 [
   {
+    "casenumber": "ME2020-16018",
+    "death_date": "2020-12-31T11:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-16015",
+    "death_date": "2020-12-31T06:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2020-16014",
+    "death_date": "2020-12-31T09:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-16008",
+    "death_date": "2020-12-31T11:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-16007",
+    "death_date": "2020-12-31T11:09:00.000",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-16005",
+    "death_date": "2020-12-31T06:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-16004",
+    "death_date": "2020-12-31T10:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-16003",
+    "death_date": "2020-12-31T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2020-15997",
+    "death_date": "2020-12-30T10:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-15993",
+    "death_date": "2020-12-31T05:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2020-15991",
+    "death_date": "2020-12-31T03:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-15975",
     "death_date": "2020-12-30T20:03:00.000",
     "race": "White",
@@ -26,6 +102,20 @@
     "race": "White",
     "latino": true,
     "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-15953",
+    "death_date": "2020-12-30T15:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2020-15951",
+    "death_date": "2020-12-30T12:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15947",
@@ -532,6 +622,13 @@
     "community": "NEAR SOUTH SIDE"
   },
   {
+    "casenumber": "ME2020-15681",
+    "death_date": "2020-12-27T03:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2020-15678",
     "death_date": "2020-12-27T01:35:00.000",
     "race": "Unknown",
@@ -858,6 +955,13 @@
     "race": "White",
     "latino": false,
     "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2020-15506",
+    "death_date": "2020-12-22T05:15:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-15503",
@@ -2426,6 +2530,13 @@
     "race": "Black",
     "latino": false,
     "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2020-14688",
+    "death_date": "2020-12-13T06:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BURNSIDE"
   },
   {
     "casenumber": "ME2020-14684",
