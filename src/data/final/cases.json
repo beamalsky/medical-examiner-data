@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-00406",
+    "death_date": "2021-01-07T10:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2021-00394",
+    "death_date": "2021-01-07T00:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-00351",
+    "death_date": "2021-01-06T07:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-00349",
     "death_date": "2021-01-06T03:50:00.000",
     "race": "Asian",
@@ -35,11 +56,46 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-00327",
+    "death_date": "2021-01-05T22:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00322",
+    "death_date": "2021-01-05T21:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00320",
+    "death_date": "2021-01-05T21:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2021-00303",
     "death_date": "2020-12-23T09:38:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-00302",
+    "death_date": "2020-12-27T03:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-00301",
+    "death_date": "2021-01-05T13:53:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2021-00299",
@@ -54,6 +110,20 @@
     "race": "White",
     "latino": false,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-00287",
+    "death_date": "2021-01-02T06:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-00286",
+    "death_date": "2021-01-05T12:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-00279",
@@ -278,6 +348,13 @@
     "race": "White",
     "latino": false,
     "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-00132",
+    "death_date": "2021-01-03T08:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-00131",
@@ -1848,6 +1925,13 @@
   {
     "casenumber": "ME2020-15386",
     "death_date": "2020-12-01T13:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-15376",
+    "death_date": "2020-12-22T11:17:00.000",
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
