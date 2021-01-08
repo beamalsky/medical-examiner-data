@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-00429",
+    "death_date": "2021-01-07T20:07:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-00424",
+    "death_date": "2021-01-07T17:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-00423",
+    "death_date": "2021-01-07T16:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00421",
+    "death_date": "2021-01-07T15:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-00407",
+    "death_date": "2021-01-05T11:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2021-00406",
     "death_date": "2021-01-07T10:40:00.000",
     "race": "Black",
@@ -7,11 +42,39 @@
     "community": "KENWOOD"
   },
   {
+    "casenumber": "ME2021-00401",
+    "death_date": "2021-01-07T08:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-00394",
     "death_date": "2021-01-07T00:54:00.000",
     "race": "White",
     "latino": false,
     "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-00380",
+    "death_date": "2021-01-06T19:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00379",
+    "death_date": "2021-01-06T18:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00372",
+    "death_date": "2021-01-06T16:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2021-00351",
@@ -1245,6 +1308,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2020-15751",
+    "death_date": "2020-12-28T06:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2020-15750",
     "death_date": "2020-12-28T06:18:00.000",
     "race": "Black",
@@ -1669,6 +1739,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2020-15526",
+    "death_date": "2020-12-25T03:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-15519",
@@ -5595,12 +5672,6 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
-  },
-  {
-    "casenumber": "ME2020-13719",
-    "death_date": "2020-11-30T06:40:00.000",
-    "latino": false,
-    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-13715",
