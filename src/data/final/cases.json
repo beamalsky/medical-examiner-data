@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-00471",
+    "death_date": "2021-01-08T12:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00468",
+    "death_date": "2021-01-08T12:25:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-00463",
+    "death_date": "2021-01-08T11:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00462",
+    "death_date": "2021-01-08T09:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-00450",
+    "death_date": "2021-01-08T03:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00447",
+    "death_date": "2021-01-08T02:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-00446",
+    "death_date": "2021-01-08T01:16:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-00429",
     "death_date": "2021-01-07T20:07:00.000",
     "race": "Asian",
@@ -26,6 +75,13 @@
     "race": "Black",
     "latino": false,
     "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-00417",
+    "death_date": "2021-01-07T10:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2021-00407",
@@ -77,6 +133,20 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-00367",
+    "death_date": "2021-01-06T15:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-00354",
+    "death_date": "2021-01-06T08:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-00351",
     "death_date": "2021-01-06T07:01:00.000",
     "race": "White",
@@ -124,6 +194,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00325",
+    "death_date": "2021-01-05T23:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-00322",
@@ -187,6 +264,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-00282",
+    "death_date": "2020-12-30T08:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2021-00279",
@@ -1187,6 +1271,13 @@
     "race": "White",
     "latino": false,
     "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2020-15819",
+    "death_date": "2020-12-29T00:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2020-15817",
@@ -2201,6 +2292,13 @@
     "race": "Asian",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-15292",
+    "death_date": "2020-12-16T21:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2020-15287",
