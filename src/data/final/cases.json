@@ -1,5 +1,89 @@
 [
   {
+    "casenumber": "ME2021-00528",
+    "death_date": "2021-01-09T13:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00521",
+    "death_date": "2021-01-09T07:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00518",
+    "death_date": "2021-01-09T09:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00515",
+    "death_date": "2021-01-09T09:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-00511",
+    "death_date": "2021-01-09T08:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-00499",
+    "death_date": "2021-01-08T21:18:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-00492",
+    "death_date": "2021-01-08T19:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-00485",
+    "death_date": "2021-01-08T17:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-00483",
+    "death_date": "2021-01-08T16:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-00479",
+    "death_date": "2021-01-08T16:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00473",
+    "death_date": "2021-01-08T13:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-00472",
+    "death_date": "2021-01-03T21:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOOP"
+  },
+  {
     "casenumber": "ME2021-00471",
     "death_date": "2021-01-08T12:59:00.000",
     "race": "White",
@@ -49,6 +133,34 @@
     "community": "ALBANY PARK"
   },
   {
+    "casenumber": "ME2021-00444",
+    "death_date": "2021-01-08T01:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00442",
+    "death_date": "2021-01-08T01:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00438",
+    "death_date": "2021-01-07T22:59:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00435",
+    "death_date": "2021-01-07T18:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-00429",
     "death_date": "2021-01-07T20:07:00.000",
     "race": "Asian",
@@ -82,6 +194,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-00409",
+    "death_date": "2021-01-07T11:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-00407",
@@ -1285,6 +1404,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2020-15811",
+    "death_date": "2020-12-28T19:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-15807",
