@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2021-00626",
+    "death_date": "2021-01-11T09:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00611",
+    "death_date": "2021-01-11T04:49:00.000",
+    "race": "Am. Indian",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00603",
+    "death_date": "2021-01-10T23:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00598",
+    "death_date": "2021-01-10T22:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2021-00595",
+    "death_date": "2021-01-10T19:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-00590",
+    "death_date": "2021-01-10T17:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00586",
+    "death_date": "2021-01-10T13:46:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00576",
+    "death_date": "2021-01-10T11:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00561",
+    "death_date": "2021-01-10T03:50:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00556",
+    "death_date": "2021-01-10T00:28:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00555",
+    "death_date": "2021-01-09T22:45:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-00554",
+    "death_date": "2021-01-09T20:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-00552",
+    "death_date": "2021-01-09T22:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00535",
+    "death_date": "2021-01-09T16:11:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2021-00528",
     "death_date": "2021-01-09T13:04:00.000",
     "race": "White",
@@ -292,6 +390,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-00339",
+    "death_date": "2021-01-06T05:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-00336",
