@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-00738",
+    "death_date": "2021-01-13T11:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-00728",
+    "death_date": "2021-01-13T07:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-00696",
+    "death_date": "2021-01-12T14:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-00683",
     "death_date": "2020-12-31T16:02:00.000",
     "race": "White",
@@ -40,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2021-00643",
+    "death_date": "2021-01-09T18:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-00641",
@@ -96,6 +124,27 @@
     "race": "Am. Indian",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00607",
+    "death_date": "2021-01-11T02:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00606",
+    "death_date": "2021-01-11T00:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-00604",
+    "death_date": "2021-01-11T00:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-00603",
@@ -215,6 +264,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-00522",
+    "death_date": "2021-01-09T10:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
   },
   {
     "casenumber": "ME2021-00521",
@@ -565,13 +621,6 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
-  },
-  {
-    "casenumber": "ME2021-00303",
-    "death_date": "2020-12-23T09:38:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-00302",
@@ -1796,6 +1845,13 @@
     "race": "White",
     "latino": true,
     "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2020-15735",
+    "death_date": "2020-12-27T23:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-15729",
