@@ -1,10 +1,94 @@
 [
   {
+    "casenumber": "ME2021-00779",
+    "death_date": "2021-01-14T08:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00771",
+    "death_date": "2021-01-14T05:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00769",
+    "death_date": "2021-01-14T04:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-00765",
+    "death_date": "2021-01-13T21:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00764",
+    "death_date": "2021-01-13T20:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-00761",
+    "death_date": "2021-01-13T20:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00758",
+    "death_date": "2021-01-13T17:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-00755",
+    "death_date": "2021-01-13T17:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00751",
+    "death_date": "2021-01-13T14:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-00748",
+    "death_date": "2021-01-13T13:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-00738",
     "death_date": "2021-01-13T11:38:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-00735",
+    "death_date": "2021-01-13T09:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-00732",
+    "death_date": "2021-01-13T07:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2021-00728",
@@ -14,10 +98,80 @@
     "community": "WEST RIDGE"
   },
   {
+    "casenumber": "ME2021-00724",
+    "death_date": "2021-01-13T01:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-00719",
+    "death_date": "2021-01-13T01:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-00717",
+    "death_date": "2021-01-13T01:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-00716",
+    "death_date": "2021-01-12T23:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00713",
+    "death_date": "2021-01-13T00:06:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-00706",
+    "death_date": "2021-01-12T20:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-00702",
+    "death_date": "2021-01-12T18:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2021-00697",
+    "death_date": "2021-01-12T15:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-00696",
     "death_date": "2021-01-12T14:20:00.000",
     "race": "White",
     "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00691",
+    "death_date": "2021-01-12T12:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-00689",
+    "death_date": "2021-01-12T07:43:00.000",
+    "race": "Black",
+    "latino": false,
     "community": null
   },
   {
@@ -82,6 +236,13 @@
     "race": "Asian",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-00628",
+    "death_date": "2021-01-11T10:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-00626",
@@ -166,6 +327,13 @@
     "race": "Black",
     "latino": false,
     "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2021-00597",
+    "death_date": "2021-01-10T21:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-00595",
@@ -2838,6 +3006,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2020-15237",
+    "death_date": "2020-12-20T11:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2020-15236",
