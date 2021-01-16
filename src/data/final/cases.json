@@ -1,5 +1,53 @@
 [
   {
+    "casenumber": "ME2021-00852",
+    "death_date": "2021-01-15T16:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-00820",
+    "death_date": "2021-01-14T21:38:00.000",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-00817",
+    "death_date": "2021-01-14T20:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-00811",
+    "death_date": "2021-01-14T18:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-00807",
+    "death_date": "2021-01-14T17:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00806",
+    "death_date": "2021-01-14T17:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00801",
+    "death_date": "2021-01-14T15:36:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
     "casenumber": "ME2021-00796",
     "death_date": "2021-01-14T13:32:00.000",
     "race": "Asian",
@@ -985,6 +1033,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-00206",
+    "death_date": "2021-01-04T08:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2021-00205",
