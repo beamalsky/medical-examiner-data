@@ -1,5 +1,117 @@
 [
   {
+    "casenumber": "ME2021-00923",
+    "death_date": "2021-01-17T10:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00915",
+    "death_date": "2021-01-17T06:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-00914",
+    "death_date": "2021-01-17T08:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-00911",
+    "death_date": "2021-01-16T12:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2021-00893",
+    "death_date": "2021-01-16T17:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-00888",
+    "death_date": "2021-01-16T14:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00886",
+    "death_date": "2021-01-16T13:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00880",
+    "death_date": "2021-01-16T12:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-00876",
+    "death_date": "2021-01-16T10:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-00874",
+    "death_date": "2021-01-16T09:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-00869",
+    "death_date": "2021-01-16T02:25:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00865",
+    "death_date": "2021-01-15T20:18:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-00863",
+    "death_date": "2021-01-15T19:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-00860",
+    "death_date": "2021-01-15T13:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-00855",
+    "death_date": "2021-01-15T17:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-00854",
+    "death_date": "2021-01-15T12:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
     "casenumber": "ME2021-00852",
     "death_date": "2021-01-15T16:06:00.000",
     "race": "Black",
@@ -53,6 +165,13 @@
     "race": "Asian",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-00793",
+    "death_date": "2021-01-15T07:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-00789",
