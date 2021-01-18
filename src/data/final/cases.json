@@ -1,10 +1,87 @@
 [
   {
+    "casenumber": "ME2021-00965",
+    "death_date": "2021-01-18T08:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-00954",
+    "death_date": "2021-01-17T22:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-00953",
+    "death_date": "2021-01-18T00:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-00952",
+    "death_date": "2021-01-17T21:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00947",
+    "death_date": "2021-01-17T20:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-00941",
+    "death_date": "2021-01-17T18:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-00940",
+    "death_date": "2021-01-17T15:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-00939",
+    "death_date": "2021-01-17T15:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-00937",
+    "death_date": "2021-01-17T16:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-00928",
+    "death_date": "2021-01-17T12:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-00923",
     "death_date": "2021-01-17T10:41:00.000",
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-00922",
+    "death_date": "2021-01-17T11:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-00915",
@@ -26,6 +103,13 @@
     "race": "White",
     "latino": false,
     "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2021-00896",
+    "death_date": "2021-01-16T19:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-00893",
@@ -1201,6 +1285,13 @@
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-00185",
+    "death_date": "2021-01-03T22:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-00182",
