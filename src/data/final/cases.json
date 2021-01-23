@@ -1,5 +1,117 @@
 [
   {
+    "casenumber": "ME2021-01225",
+    "death_date": "2021-01-23T09:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-01220",
+    "death_date": "2021-01-23T03:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01218",
+    "death_date": "2021-01-23T02:52:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2021-01215",
+    "death_date": "2021-01-23T01:22:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-01212",
+    "death_date": "2021-01-22T20:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-01210",
+    "death_date": "2021-01-22T19:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-01209",
+    "death_date": "2021-01-22T14:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01208",
+    "death_date": "2021-01-22T05:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01197",
+    "death_date": "2021-01-22T16:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-01192",
+    "death_date": "2021-01-22T15:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01181",
+    "death_date": "2021-01-22T10:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-01175",
+    "death_date": "2021-01-22T08:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-01173",
+    "death_date": "2021-01-21T10:30:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01171",
+    "death_date": "2021-01-22T05:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-01158",
+    "death_date": "2021-01-21T21:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-01153",
+    "death_date": "2021-01-21T18:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
     "casenumber": "ME2021-01147",
     "death_date": "2021-01-21T16:18:00.000",
     "race": "Black",
