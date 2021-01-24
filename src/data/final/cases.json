@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-01262",
+    "death_date": "2021-01-24T01:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-01244",
+    "death_date": "2021-01-23T17:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01243",
+    "death_date": "2021-01-23T14:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01240",
+    "death_date": "2021-01-23T14:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2021-01225",
     "death_date": "2021-01-23T09:12:00.000",
     "race": "White",
@@ -54,6 +82,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01199",
+    "death_date": "2021-01-22T17:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-01197",
