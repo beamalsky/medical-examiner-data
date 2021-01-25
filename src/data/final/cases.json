@@ -1,10 +1,129 @@
 [
   {
+    "casenumber": "ME2021-01332",
+    "death_date": "2021-01-25T09:36:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-01329",
+    "death_date": "2021-01-25T08:29:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01327",
+    "death_date": "2021-01-24T10:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-01325",
+    "death_date": "2021-01-19T17:45:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-01324",
+    "death_date": "2021-01-25T07:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-01320",
+    "death_date": "2021-01-25T05:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-01316",
+    "death_date": "2021-01-24T22:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01311",
+    "death_date": "2021-01-24T22:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01303",
+    "death_date": "2021-01-24T18:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-01295",
+    "death_date": "2021-01-24T14:55:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01285",
+    "death_date": "2021-01-24T12:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01279",
+    "death_date": "2021-01-24T10:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-01278",
+    "death_date": "2021-01-24T09:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01276",
+    "death_date": "2021-01-24T08:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01270",
+    "death_date": "2021-01-24T04:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2021-01262",
     "death_date": "2021-01-24T01:40:00.000",
     "race": "White",
     "latino": false,
     "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-01258",
+    "death_date": "2021-01-24T00:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-01253",
+    "death_date": "2021-01-23T21:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-01244",
@@ -2952,13 +3071,6 @@
   {
     "casenumber": "ME2020-15705",
     "death_date": "2020-12-27T13:00:00.000",
-    "race": "White",
-    "latino": false,
-    "community": null
-  },
-  {
-    "casenumber": "ME2020-15701",
-    "death_date": "2020-12-27T10:46:00.000",
     "race": "White",
     "latino": false,
     "community": null
@@ -7440,6 +7552,13 @@
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2020-13632",
+    "death_date": "2020-11-29T12:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-13631",
