@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-01353",
+    "death_date": "2021-01-25T18:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2021-01337",
+    "death_date": "2021-01-25T12:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2021-01332",
     "death_date": "2021-01-25T09:36:00.000",
     "race": "White",
@@ -465,6 +479,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01031",
+    "death_date": "2021-01-19T11:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
   },
   {
     "casenumber": "ME2021-01030",
@@ -4277,6 +4298,13 @@
     "race": "Black",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2020-15098",
+    "death_date": "2020-12-17T01:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-15093",
