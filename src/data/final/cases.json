@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-01372",
+    "death_date": "2021-01-22T20:32:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01365",
+    "death_date": "2021-01-26T02:47:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01363",
+    "death_date": "2021-01-26T01:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-01359",
+    "death_date": "2021-01-25T22:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-01358",
+    "death_date": "2021-01-25T21:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
     "casenumber": "ME2021-01353",
     "death_date": "2021-01-25T18:15:00.000",
     "race": "White",
@@ -7755,6 +7790,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2020-13533",
+    "death_date": "2020-11-27T22:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2020-13530",
