@@ -1,10 +1,59 @@
 [
   {
+    "casenumber": "ME2021-01428",
+    "death_date": "2021-01-27T13:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-01417",
+    "death_date": "2021-01-27T09:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01415",
+    "death_date": "2021-01-27T07:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-01410",
+    "death_date": "2021-01-27T05:42:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01407",
+    "death_date": "2021-01-27T01:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-01374",
+    "death_date": "2021-01-26T10:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2021-01372",
     "death_date": "2021-01-22T20:32:00.000",
     "race": "Other",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01368",
+    "death_date": "2021-01-26T05:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2021-01365",
@@ -168,6 +217,13 @@
     "community": "ROSELAND"
   },
   {
+    "casenumber": "ME2021-01257",
+    "death_date": "2021-01-23T02:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-01253",
     "death_date": "2021-01-23T21:30:00.000",
     "race": "Black",
@@ -180,13 +236,6 @@
     "race": "Black",
     "latino": false,
     "community": "GARFIELD RIDGE"
-  },
-  {
-    "casenumber": "ME2021-01243",
-    "death_date": "2021-01-23T14:39:00.000",
-    "race": "White",
-    "latino": true,
-    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-01240",
