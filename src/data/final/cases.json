@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2021-01506",
+    "death_date": "2021-01-29T13:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01503",
+    "death_date": "2021-01-29T10:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-01494",
+    "death_date": "2021-01-26T19:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-01493",
+    "death_date": "2021-01-29T03:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01492",
+    "death_date": "2021-01-29T07:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01489",
+    "death_date": "2021-01-29T06:04:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01488",
+    "death_date": "2021-01-28T20:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01485",
+    "death_date": "2021-01-29T01:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-01481",
+    "death_date": "2021-01-28T23:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2021-01479",
     "death_date": "2021-01-27T21:45:00.000",
     "race": "Black",
@@ -126,6 +189,20 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-01391",
+    "death_date": "2021-01-26T16:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-01385",
+    "death_date": "2021-01-26T13:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2021-01374",
     "death_date": "2021-01-26T10:21:00.000",
     "race": "Black",
@@ -180,6 +257,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2021-01348",
+    "death_date": "2021-01-25T16:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-01337",
@@ -306,6 +390,12 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-01266",
+    "death_date": "2021-01-24T02:40:00.000",
+    "latino": false,
+    "community": "KENWOOD"
   },
   {
     "casenumber": "ME2021-01262",
@@ -5905,7 +5995,7 @@
     "casenumber": "ME2020-14425",
     "death_date": "2020-12-09T10:15:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "HERMOSA"
   },
   {
@@ -8158,7 +8248,7 @@
   {
     "casenumber": "ME2020-13403",
     "death_date": "2020-11-26T04:26:00.000",
-    "race": "Unknown",
+    "race": "White",
     "latino": true,
     "community": "AUSTIN"
   },
