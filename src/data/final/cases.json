@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-01556",
+    "death_date": "2021-01-30T11:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01554",
+    "death_date": "2021-01-28T09:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-01548",
+    "death_date": "2021-01-30T09:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01541",
+    "death_date": "2021-01-30T05:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-01531",
+    "death_date": "2021-01-29T23:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01529",
+    "death_date": "2021-01-29T19:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-01525",
+    "death_date": "2021-01-29T18:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01522",
+    "death_date": "2021-01-29T18:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2021-01506",
     "death_date": "2021-01-29T13:07:00.000",
     "race": "Black",
@@ -12,6 +68,13 @@
     "race": "White",
     "latino": false,
     "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-01500",
+    "death_date": "2021-01-29T09:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-01494",
@@ -336,6 +399,13 @@
     "community": "BRIGHTON PARK"
   },
   {
+    "casenumber": "ME2021-01307",
+    "death_date": "2021-01-24T21:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2021-01303",
     "death_date": "2021-01-24T18:23:00.000",
     "race": "White",
@@ -515,6 +585,13 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01187",
+    "death_date": "2021-01-19T06:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2021-01181",
