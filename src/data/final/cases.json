@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-01607",
+    "death_date": "2021-01-31T19:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01605",
+    "death_date": "2021-01-31T09:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01598",
+    "death_date": "2021-01-31T17:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-01596",
+    "death_date": "2021-01-31T15:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-01593",
+    "death_date": "2021-01-31T00:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01586",
+    "death_date": "2021-01-31T14:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
     "casenumber": "ME2021-01556",
     "death_date": "2021-01-30T11:33:00.000",
     "race": "White",
