@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-01617",
+    "death_date": "2021-02-01T06:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01612",
+    "death_date": "2021-02-01T02:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01611",
+    "death_date": "2021-01-31T23:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-01608",
+    "death_date": "2021-01-31T22:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2021-01607",
     "death_date": "2021-01-31T19:13:00.000",
     "race": "White",
@@ -40,6 +68,76 @@
     "race": "White",
     "latino": true,
     "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-01584",
+    "death_date": "2021-01-31T13:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-01580",
+    "death_date": "2021-01-31T09:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01574",
+    "death_date": "2021-01-30T00:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-01573",
+    "death_date": "2021-01-30T22:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-01570",
+    "death_date": "2021-01-30T20:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01569",
+    "death_date": "2021-01-30T20:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01567",
+    "death_date": "2021-01-30T16:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01565",
+    "death_date": "2021-01-30T15:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01564",
+    "death_date": "2021-01-30T14:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-01560",
+    "death_date": "2021-01-30T15:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-01556",
@@ -98,11 +196,25 @@
     "community": "IRVING PARK"
   },
   {
+    "casenumber": "ME2021-01517",
+    "death_date": "2021-01-24T05:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-01506",
     "death_date": "2021-01-29T13:07:00.000",
     "race": "Black",
     "latino": false,
     "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01505",
+    "death_date": "2021-01-28T13:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-01503",
