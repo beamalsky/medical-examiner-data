@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-01672",
+    "death_date": "2021-02-02T13:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-01670",
+    "death_date": "2021-02-02T12:48:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01654",
+    "death_date": "2021-02-01T23:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-01653",
+    "death_date": "2021-02-01T23:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-01648",
+    "death_date": "2021-02-01T16:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-01643",
+    "death_date": "2021-02-01T16:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2021-01617",
     "death_date": "2021-02-01T06:37:00.000",
     "race": "White",
@@ -40,6 +82,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01604",
+    "death_date": "2021-01-31T19:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2021-01598",
@@ -166,6 +215,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-01534",
+    "death_date": "2021-01-29T20:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-01531",
@@ -341,6 +397,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-01438",
+    "death_date": "2021-01-27T17:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-01430",
