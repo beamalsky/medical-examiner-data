@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-01714",
+    "death_date": "2021-02-03T18:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-01711",
+    "death_date": "2021-02-03T16:55:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01708",
+    "death_date": "2021-02-03T14:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-01689",
+    "death_date": "2021-02-02T19:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01679",
+    "death_date": "2021-02-02T14:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-01675",
+    "death_date": "2021-02-02T13:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-01672",
     "death_date": "2021-02-02T13:11:00.000",
     "race": "White",
@@ -134,7 +176,7 @@
   },
   {
     "casenumber": "ME2021-01574",
-    "death_date": "2021-01-30T00:48:00.000",
+    "death_date": "2021-01-31T00:48:00.000",
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
@@ -257,6 +299,13 @@
     "race": "White",
     "latino": true,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-01508",
+    "death_date": "2021-01-29T14:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-01506",
@@ -2136,6 +2185,13 @@
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-00455",
+    "death_date": "2021-01-08T04:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2021-00454",
