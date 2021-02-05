@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-01754",
+    "death_date": "2021-02-04T12:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-01736",
+    "death_date": "2021-02-04T07:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01732",
+    "death_date": "2021-02-04T06:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-01714",
     "death_date": "2021-02-03T18:44:00.000",
     "race": "White",
@@ -70,6 +91,13 @@
     "community": "ALBANY PARK"
   },
   {
+    "casenumber": "ME2021-01650",
+    "death_date": "2021-02-01T19:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2021-01648",
     "death_date": "2021-02-01T16:47:00.000",
     "race": "Black",
@@ -82,6 +110,20 @@
     "race": "White",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-01631",
+    "death_date": "2021-01-31T13:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-01620",
+    "death_date": "2021-01-30T10:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2021-01617",
@@ -166,6 +208,13 @@
     "race": "White",
     "latino": true,
     "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-01583",
+    "death_date": "2021-01-31T12:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-01580",
@@ -334,6 +383,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01496",
+    "death_date": "2021-01-29T09:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2021-01494",
@@ -2948,6 +3004,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-00033",
+    "death_date": "2021-01-01T11:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-00032",
