@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2021-01901",
+    "death_date": "2021-02-08T14:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-01898",
+    "death_date": "2021-02-08T05:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01889",
+    "death_date": "2021-02-08T08:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01881",
+    "death_date": "2021-02-08T06:36:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-01878",
+    "death_date": "2021-02-08T06:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01876",
+    "death_date": "2021-02-08T02:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01867",
+    "death_date": "2021-02-07T15:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-01866",
+    "death_date": "2021-02-07T17:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-01862",
+    "death_date": "2021-02-07T14:57:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01860",
+    "death_date": "2021-02-07T14:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2021-01851",
     "death_date": "2021-02-06T15:35:00.000",
     "race": "White",
@@ -222,6 +292,13 @@
     "race": "White",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-01634",
+    "death_date": "2021-02-01T15:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2021-01631",
