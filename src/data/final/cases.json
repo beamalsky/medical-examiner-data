@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-01980",
+    "death_date": "2021-02-10T13:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-01975",
+    "death_date": "2021-02-10T19:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-01974",
+    "death_date": "2021-02-10T10:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-01973",
+    "death_date": "2021-02-10T08:38:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-01971",
+    "death_date": "2021-02-09T22:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-01968",
+    "death_date": "2021-02-10T03:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-01966",
+    "death_date": "2021-02-10T04:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01955",
+    "death_date": "2021-02-09T19:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
     "casenumber": "ME2021-01950",
     "death_date": "2021-02-05T21:31:00.000",
     "race": "Black",
@@ -299,6 +355,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-01739",
+    "death_date": "2021-02-04T08:38:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-01736",
