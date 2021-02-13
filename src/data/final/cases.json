@@ -1,10 +1,66 @@
 [
   {
+    "casenumber": "ME2021-02034",
+    "death_date": "2021-02-12T05:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-02028",
+    "death_date": "2021-02-12T00:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-02024",
+    "death_date": "2021-02-11T16:46:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02010",
+    "death_date": "2021-02-11T09:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02007",
+    "death_date": "2021-02-11T07:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02004",
+    "death_date": "2021-02-11T05:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-02002",
+    "death_date": "2021-02-11T04:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2021-01988",
     "death_date": "2021-02-10T18:20:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-01981",
+    "death_date": "2021-02-10T19:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-01980",
@@ -880,6 +936,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-01449",
+    "death_date": "2021-01-27T22:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-01439",
@@ -2514,6 +2577,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-00529",
+    "death_date": "2021-01-09T13:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-00528",
@@ -10454,6 +10524,13 @@
     "death_date": "2020-11-16T01:25:00.000",
     "race": "White",
     "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2020-12711",
+    "death_date": "2020-11-15T23:05:00.000",
+    "race": "Black",
+    "latino": false,
     "community": null
   },
   {
