@@ -1,5 +1,82 @@
 [
   {
+    "casenumber": "ME2021-02080",
+    "death_date": "2021-02-11T19:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-02074",
+    "death_date": "2021-02-13T00:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02070",
+    "death_date": "2021-02-12T21:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-02066",
+    "death_date": "2021-02-12T18:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02064",
+    "death_date": "2021-02-12T17:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-02062",
+    "death_date": "2021-02-12T17:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-02061",
+    "death_date": "2021-02-12T17:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02058",
+    "death_date": "2021-02-12T15:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02055",
+    "death_date": "2021-02-10T21:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02046",
+    "death_date": "2021-02-12T10:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-02041",
+    "death_date": "2021-02-12T13:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
     "casenumber": "ME2021-02034",
     "death_date": "2021-02-12T05:10:00.000",
     "race": "White",
@@ -285,6 +362,13 @@
     "race": "White",
     "latino": false,
     "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-01847",
+    "death_date": "2021-02-07T00:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-01838",
