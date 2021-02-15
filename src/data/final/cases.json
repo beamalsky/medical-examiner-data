@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02117",
+    "death_date": "2021-02-14T09:42:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-02111",
+    "death_date": "2021-02-14T02:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-02097",
+    "death_date": "2021-02-13T17:46:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02090",
+    "death_date": "2021-02-13T14:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-02088",
+    "death_date": "2021-02-13T13:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-02080",
     "death_date": "2021-02-11T19:49:00.000",
     "race": "White",
@@ -12,6 +47,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-02072",
+    "death_date": "2021-02-13T00:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
   },
   {
     "casenumber": "ME2021-02070",
