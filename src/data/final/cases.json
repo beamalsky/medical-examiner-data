@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02153",
+    "death_date": "2021-02-15T14:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-02150",
+    "death_date": "2021-02-15T15:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02133",
+    "death_date": "2021-02-15T01:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-02121",
+    "death_date": "2021-02-13T18:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02120",
+    "death_date": "2021-02-14T11:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
     "casenumber": "ME2021-02117",
     "death_date": "2021-02-14T09:42:00.000",
     "race": "Asian",
@@ -33,6 +68,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02083",
+    "death_date": "2021-02-13T12:46:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-02080",
@@ -119,6 +161,13 @@
     "community": "OAKLAND"
   },
   {
+    "casenumber": "ME2021-02035",
+    "death_date": "2021-02-12T06:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2021-02034",
     "death_date": "2021-02-12T05:10:00.000",
     "race": "White",
@@ -145,6 +194,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02009",
+    "death_date": "2021-02-11T04:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HYDE PARK"
   },
   {
     "casenumber": "ME2021-02007",
@@ -229,6 +285,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-01958",
+    "death_date": "2021-02-09T20:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-01955",
