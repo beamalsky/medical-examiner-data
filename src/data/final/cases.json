@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-02177",
+    "death_date": "2021-02-16T12:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-02175",
+    "death_date": "2021-02-15T14:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02173",
+    "death_date": "2021-02-15T19:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02161",
+    "death_date": "2021-02-16T00:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-02153",
     "death_date": "2021-02-15T14:10:00.000",
     "race": "Black",
@@ -175,6 +203,13 @@
     "community": "MOUNT GREENWOOD"
   },
   {
+    "casenumber": "ME2021-02031",
+    "death_date": "2021-02-11T05:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2021-02028",
     "death_date": "2021-02-12T00:15:00.000",
     "race": "White",
@@ -229,6 +264,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-01987",
+    "death_date": "2021-02-10T17:22:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-01981",
