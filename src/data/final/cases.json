@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-02199",
+    "death_date": "2021-02-17T04:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02184",
+    "death_date": "2021-02-16T15:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-02181",
+    "death_date": "2021-02-16T13:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2021-02177",
     "death_date": "2021-02-16T12:30:00.000",
     "race": "Black",
@@ -21,6 +42,20 @@
     "community": "PORTAGE PARK"
   },
   {
+    "casenumber": "ME2021-02168",
+    "death_date": "2021-02-16T08:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-02164",
+    "death_date": "2021-02-14T19:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2021-02161",
     "death_date": "2021-02-16T00:40:00.000",
     "race": "White",
@@ -40,6 +75,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02149",
+    "death_date": "2021-02-12T16:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2021-02133",
@@ -467,6 +509,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-01877",
+    "death_date": "2021-02-08T02:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2021-01876",
@@ -2119,7 +2168,7 @@
   },
   {
     "casenumber": "ME2021-00906",
-    "death_date": "2020-01-17T02:53:00.000",
+    "death_date": "2021-01-17T02:53:00.000",
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
