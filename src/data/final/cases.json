@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02242",
+    "death_date": "2021-02-10T01:00:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02228",
+    "death_date": "2021-02-18T02:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-02212",
+    "death_date": "2021-02-17T13:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-02206",
+    "death_date": "2021-02-17T10:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02204",
+    "death_date": "2021-02-17T12:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2021-02199",
     "death_date": "2021-02-17T04:20:00.000",
     "race": "White",
@@ -5126,7 +5161,7 @@
   },
   {
     "casenumber": "ME2020-15408",
-    "death_date": "2020-12-03T18:24:00.000",
+    "death_date": "2020-12-22T18:24:00.000",
     "race": "Asian",
     "latino": false,
     "community": "LOOP"
