@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02289",
+    "death_date": "2021-02-19T13:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-02274",
+    "death_date": "2021-02-05T02:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-02272",
+    "death_date": "2021-02-17T19:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-02271",
+    "death_date": "2021-02-15T14:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-02268",
+    "death_date": "2021-02-19T02:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "FULLER PARK"
+  },
+  {
     "casenumber": "ME2021-02242",
     "death_date": "2021-02-10T01:00:00.000",
     "race": "Unknown",
@@ -600,6 +635,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-01842",
+    "death_date": "2021-02-06T21:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2021-01838",
