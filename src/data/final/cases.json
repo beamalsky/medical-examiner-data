@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-02316",
+    "death_date": "2021-02-20T01:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02302",
+    "death_date": "2021-02-19T21:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02300",
+    "death_date": "2021-02-19T17:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-02293",
+    "death_date": "2021-02-19T13:36:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MCKINLEY PARK"
+  },
+  {
     "casenumber": "ME2021-02289",
     "death_date": "2021-02-19T13:20:00.000",
     "race": "Black",
