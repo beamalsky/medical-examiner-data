@@ -1,10 +1,80 @@
 [
   {
+    "casenumber": "ME2021-02364",
+    "death_date": "2021-02-21T16:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-02360",
+    "death_date": "2021-02-21T13:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-02349",
+    "death_date": "2021-02-21T07:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02341",
+    "death_date": "2021-02-21T00:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02334",
+    "death_date": "2021-02-20T17:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-02325",
+    "death_date": "2021-02-20T10:20:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LOOP"
+  },
+  {
+    "casenumber": "ME2021-02324",
+    "death_date": "2021-02-20T11:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
     "casenumber": "ME2021-02316",
     "death_date": "2021-02-20T01:20:00.000",
     "race": "White",
     "latino": true,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02311",
+    "death_date": "2021-02-20T04:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-02307",
+    "death_date": "2021-02-14T09:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02305",
+    "death_date": "2021-02-20T00:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-02302",
@@ -61,6 +131,20 @@
     "race": "Black",
     "latino": false,
     "community": "FULLER PARK"
+  },
+  {
+    "casenumber": "ME2021-02261",
+    "death_date": "2021-02-18T23:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-02245",
+    "death_date": "2021-02-18T13:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2021-02242",
@@ -719,6 +803,12 @@
     "race": "Black",
     "latino": false,
     "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-01808",
+    "death_date": "2021-02-05T19:01:00.000",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-01806",
