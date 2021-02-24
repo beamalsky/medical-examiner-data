@@ -1,10 +1,59 @@
 [
   {
-    "casenumber": "ME2021-02387",
-    "death_date": "2021-02-22T12:16:00.000",
+    "casenumber": "ME2021-02419",
+    "death_date": "2021-02-23T09:20:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-02418",
+    "death_date": "2021-02-13T02:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-02414",
+    "death_date": "2021-02-23T00:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-02407",
+    "death_date": "2021-02-23T04:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-02404",
+    "death_date": "2021-02-23T02:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2021-02398",
+    "death_date": "2021-02-22T20:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-02394",
+    "death_date": "2021-02-22T22:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02388",
+    "death_date": "2021-02-22T12:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2021-02385",
@@ -26,6 +75,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-02353",
+    "death_date": "2021-02-21T11:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-02349",
