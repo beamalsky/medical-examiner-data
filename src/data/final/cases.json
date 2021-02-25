@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-02470",
+    "death_date": "2021-02-24T18:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02461",
+    "death_date": "2021-02-23T21:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-02458",
+    "death_date": "2021-02-23T21:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02455",
+    "death_date": "2021-02-24T21:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-02449",
+    "death_date": "2021-02-24T00:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-02441",
+    "death_date": "2021-02-23T19:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-02440",
+    "death_date": "2021-02-23T19:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2021-02419",
     "death_date": "2021-02-23T09:20:00.000",
     "race": "Black",
@@ -19,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-02410",
+    "death_date": "2021-02-23T06:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-02407",
@@ -96,6 +152,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02335",
+    "death_date": "2021-02-20T17:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-02334",
@@ -9055,6 +9118,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2020-13760",
+    "death_date": "2020-12-01T04:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2020-13759",
