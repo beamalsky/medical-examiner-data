@@ -154,6 +154,13 @@
     "community": "PORTAGE PARK"
   },
   {
+    "casenumber": "ME2021-02340",
+    "death_date": "2021-02-21T00:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-02335",
     "death_date": "2021-02-20T17:40:00.000",
     "race": "White",
@@ -194,6 +201,13 @@
     "race": "White",
     "latino": true,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-02310",
+    "death_date": "2021-02-19T23:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-02307",
