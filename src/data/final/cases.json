@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02507",
+    "death_date": "2021-02-26T02:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02500",
+    "death_date": "2021-02-25T23:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-02491",
+    "death_date": "2021-02-25T12:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-02489",
+    "death_date": "2021-02-25T14:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-02481",
+    "death_date": "2021-02-25T10:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-02470",
     "death_date": "2021-02-24T18:09:00.000",
     "race": "White",
@@ -292,6 +327,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-02257",
+    "death_date": "2021-02-18T20:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2021-02245",
