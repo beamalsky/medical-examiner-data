@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-02549",
+    "death_date": "2021-02-27T11:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02534",
+    "death_date": "2021-02-23T11:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02533",
+    "death_date": "2021-02-26T18:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02527",
+    "death_date": "2021-02-26T20:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02520",
+    "death_date": "2021-02-26T13:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02518",
+    "death_date": "2021-02-26T13:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-02512",
+    "death_date": "2021-02-26T08:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-02510",
+    "death_date": "2021-02-25T13:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-02507",
     "death_date": "2021-02-26T02:30:00.000",
     "race": "White",
