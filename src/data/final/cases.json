@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-02623",
+    "death_date": "2021-03-01T23:31:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-02619",
+    "death_date": "2021-03-01T17:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-02618",
+    "death_date": "2021-03-01T16:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02607",
+    "death_date": "2021-02-27T12:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-02596",
+    "death_date": "2021-02-28T20:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2021-02580",
     "death_date": "2021-02-28T05:42:00.000",
     "race": "Black",
@@ -35,6 +70,13 @@
     "community": "AUSTIN"
   },
   {
+    "casenumber": "ME2021-02541",
+    "death_date": "2021-02-27T04:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2021-02534",
     "death_date": "2021-02-23T11:13:00.000",
     "race": "Black",
@@ -54,6 +96,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02526",
+    "death_date": "2021-02-26T08:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-02520",
@@ -93,6 +142,13 @@
   {
     "casenumber": "ME2021-02500",
     "death_date": "2021-02-25T23:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-02497",
+    "death_date": "2021-02-25T19:48:00.000",
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
