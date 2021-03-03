@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-02627",
+    "death_date": "2021-03-02T03:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02625",
+    "death_date": "2021-03-02T03:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-02623",
     "death_date": "2021-03-01T23:31:00.000",
     "race": "Other",
@@ -271,6 +285,13 @@
     "race": "White",
     "latino": false,
     "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-02406",
+    "death_date": "2021-02-23T03:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2021-02404",
