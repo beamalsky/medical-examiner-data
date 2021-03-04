@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-02658",
+    "death_date": "2021-03-03T10:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02651",
+    "death_date": "2021-03-03T06:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02647",
+    "death_date": "2021-03-03T00:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-02642",
+    "death_date": "2021-03-02T16:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-02640",
+    "death_date": "2021-03-02T03:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02637",
+    "death_date": "2021-03-02T12:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
     "casenumber": "ME2021-02627",
     "death_date": "2021-03-02T03:00:00.000",
     "race": "Asian",
@@ -33,6 +75,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-02611",
+    "death_date": "2021-03-01T12:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2021-02607",
@@ -327,6 +376,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02369",
+    "death_date": "2021-02-21T20:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-02364",
@@ -1313,6 +1369,13 @@
     "race": "Black",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-01706",
+    "death_date": "2021-02-03T12:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2021-01699",
@@ -15199,6 +15262,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2020-08572",
+    "death_date": "2020-07-03T18:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2020-08570",
