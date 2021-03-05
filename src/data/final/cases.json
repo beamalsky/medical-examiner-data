@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-02686",
+    "death_date": "2021-03-04T10:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
     "casenumber": "ME2021-02658",
     "death_date": "2021-03-03T10:45:00.000",
     "race": "Black",
@@ -2570,6 +2577,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-01022",
+    "death_date": "2021-03-03T16:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
   },
   {
     "casenumber": "ME2021-01021",
