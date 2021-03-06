@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-02720",
+    "death_date": "2021-03-05T11:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-02708",
+    "death_date": "2021-03-05T04:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02692",
+    "death_date": "2021-03-04T14:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-02686",
     "death_date": "2021-03-04T10:01:00.000",
     "race": "White",
@@ -880,6 +901,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02022",
+    "death_date": "2021-02-11T20:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-02010",
