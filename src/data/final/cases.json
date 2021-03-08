@@ -1,5 +1,25 @@
 [
   {
+    "casenumber": "ME2021-02783",
+    "death_date": "2021-03-07T01:39:00.000",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-02773",
+    "death_date": "2021-03-07T12:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02754",
+    "death_date": "2021-03-06T15:12:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2021-02737",
     "death_date": "2021-03-05T22:49:00.000",
     "race": "Black",
