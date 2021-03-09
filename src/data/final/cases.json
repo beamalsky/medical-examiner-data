@@ -6,11 +6,25 @@
     "community": "WEST ENGLEWOOD"
   },
   {
+    "casenumber": "ME2021-02779",
+    "death_date": "2021-03-07T16:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-02773",
     "death_date": "2021-03-07T12:30:00.000",
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02770",
+    "death_date": "2021-03-06T18:02:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-02754",
