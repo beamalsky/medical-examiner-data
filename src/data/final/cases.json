@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-02863",
+    "death_date": "2021-03-10T00:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2021-02860",
+    "death_date": "2021-03-09T21:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2021-02852",
     "death_date": "2021-03-09T14:33:00.000",
     "race": "Black",
@@ -669,13 +683,6 @@
     "race": "Black",
     "latino": false,
     "community": "ROGERS PARK"
-  },
-  {
-    "casenumber": "ME2021-02276",
-    "death_date": "2021-02-19T06:45:00.000",
-    "race": "White",
-    "latino": true,
-    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-02274",
@@ -4519,7 +4526,7 @@
     "casenumber": "ME2021-00062",
     "death_date": "2021-01-01T20:28:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "LINCOLN SQUARE"
   },
   {
