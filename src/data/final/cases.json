@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-02894",
+    "death_date": "2021-03-10T23:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-02892",
+    "death_date": "2021-03-10T20:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-02886",
+    "death_date": "2021-03-10T15:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-02884",
+    "death_date": "2021-03-10T18:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-02883",
+    "death_date": "2021-03-10T18:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-02881",
+    "death_date": "2021-03-07T05:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02877",
+    "death_date": "2021-03-10T15:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-02875",
+    "death_date": "2021-03-10T14:03:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2021-02863",
     "death_date": "2021-03-10T00:52:00.000",
     "race": "Black",
@@ -14,11 +70,25 @@
     "community": "EDGEWATER"
   },
   {
+    "casenumber": "ME2021-02859",
+    "death_date": "2021-03-09T16:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-02852",
     "death_date": "2021-03-09T14:33:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-02843",
+    "death_date": "2021-03-09T11:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
   },
   {
     "casenumber": "ME2021-02842",
@@ -47,6 +117,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-02805",
+    "death_date": "2021-03-08T14:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-02797",
@@ -739,6 +816,13 @@
     "race": "Unknown",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02236",
+    "death_date": "2021-02-18T10:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2021-02228",
