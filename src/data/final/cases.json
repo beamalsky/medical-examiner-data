@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-02930",
+    "death_date": "2021-03-12T10:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-02923",
+    "death_date": "2021-03-12T00:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2021-02894",
     "death_date": "2021-03-10T23:34:00.000",
     "race": "White",
@@ -1082,6 +1096,13 @@
     "race": "Black",
     "latino": false,
     "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2021-02037",
+    "death_date": "2021-02-12T01:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2021-02035",
