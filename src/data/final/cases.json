@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-02967",
+    "death_date": "2021-03-13T11:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02963",
+    "death_date": "2021-03-13T04:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-02956",
+    "death_date": "2021-03-12T19:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-02953",
+    "death_date": "2021-03-12T15:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02947",
+    "death_date": "2021-03-12T12:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-02945",
+    "death_date": "2021-03-04T20:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-02941",
+    "death_date": "2021-03-03T01:15:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-02935",
+    "death_date": "2021-03-12T11:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-02930",
     "death_date": "2021-03-12T10:05:00.000",
     "race": "White",
@@ -145,6 +201,13 @@
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-02795",
+    "death_date": "2021-03-08T05:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
   },
   {
     "casenumber": "ME2021-02783",
