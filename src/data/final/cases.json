@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-03040",
+    "death_date": "2021-03-16T05:38:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03020",
+    "death_date": "2021-03-14T14:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03018",
+    "death_date": "2021-03-15T11:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03007",
+    "death_date": "2021-03-15T01:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-03004",
     "death_date": "2021-03-14T17:45:00.000",
     "race": "White",
@@ -75,6 +103,13 @@
     "race": "White",
     "latino": true,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-02929",
+    "death_date": "2021-03-12T06:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-02923",
@@ -2416,7 +2451,7 @@
     "casenumber": "ME2021-01324",
     "death_date": "2021-01-25T07:07:00.000",
     "race": "White",
-    "latino": true,
+    "latino": false,
     "community": "HUMBOLDT PARK"
   },
   {
