@@ -1,5 +1,67 @@
 [
   {
+    "casenumber": "ME2021-03089",
+    "death_date": "2021-03-17T21:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-03088",
+    "death_date": "2021-03-17T17:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-03087",
+    "death_date": "2021-03-17T16:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-03086",
+    "death_date": "2021-03-17T17:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-03085",
+    "death_date": "2021-03-17T16:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2021-03084",
+    "death_date": "2021-03-17T16:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-03083",
+    "death_date": "2021-03-17T16:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03077",
+    "death_date": "2021-03-15T08:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-03075",
+    "death_date": "2021-03-17T12:20:00.000",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-03040",
     "death_date": "2021-03-16T05:38:00.000",
     "race": "Other",
@@ -68,6 +130,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02949",
+    "death_date": "2021-03-12T17:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-02947",
@@ -255,7 +324,7 @@
     "casenumber": "ME2021-02795",
     "death_date": "2021-03-08T05:13:00.000",
     "race": "White",
-    "latino": false,
+    "latino": true,
     "community": "LAKE VIEW"
   },
   {
@@ -333,6 +402,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-02697",
+    "death_date": "2020-12-17T07:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
   },
   {
     "casenumber": "ME2021-02692",
@@ -4136,6 +4212,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-00411",
+    "death_date": "2021-01-07T07:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
   },
   {
     "casenumber": "ME2021-00409",
