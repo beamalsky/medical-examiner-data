@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-03109",
+    "death_date": "2021-03-18T16:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-03107",
+    "death_date": "2021-03-18T15:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-03089",
     "death_date": "2021-03-17T21:03:00.000",
     "race": "Black",
@@ -54,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-03076",
+    "death_date": "2021-02-25T21:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
   },
   {
     "casenumber": "ME2021-03075",
@@ -130,6 +151,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02952",
+    "death_date": "2021-03-12T18:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-02949",
@@ -1564,6 +1592,13 @@
     "race": "White",
     "latino": false,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-01884",
+    "death_date": "2021-02-08T09:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
   },
   {
     "casenumber": "ME2021-01881",
