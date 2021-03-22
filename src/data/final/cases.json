@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-03192",
+    "death_date": "2021-03-21T12:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-03182",
+    "death_date": "2021-03-21T08:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03181",
+    "death_date": "2021-03-21T07:17:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-03169",
+    "death_date": "2021-03-20T17:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-03165",
+    "death_date": "2021-03-20T15:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-03161",
+    "death_date": "2021-03-20T11:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2021-03155",
     "death_date": "2021-03-20T12:16:00.000",
     "race": "White",
@@ -116,6 +158,13 @@
     "race": "Other",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03031",
+    "death_date": "2021-03-15T17:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-03020",
