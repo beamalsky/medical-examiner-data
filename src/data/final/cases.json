@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-03209",
+    "death_date": "2021-03-22T09:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-03204",
+    "death_date": "2021-03-14T10:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2021-03192",
     "death_date": "2021-03-21T12:45:00.000",
     "race": "White",
@@ -151,6 +165,13 @@
     "death_date": "2021-03-17T12:20:00.000",
     "latino": true,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03053",
+    "death_date": "2021-03-16T18:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-03040",
