@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2021-03278",
+    "death_date": "2021-03-24T19:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
     "casenumber": "ME2021-03261",
     "death_date": "2021-03-24T01:15:00.000",
     "race": "White",
     "latino": true,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-03260",
+    "death_date": "2021-03-24T06:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2021-03259",
@@ -124,6 +138,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03113",
+    "death_date": "2021-03-18T18:58:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2021-03109",
@@ -3605,6 +3626,13 @@
     "community": "UPTOWN"
   },
   {
+    "casenumber": "ME2021-00813",
+    "death_date": "2021-01-14T19:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HEGEWISCH"
+  },
+  {
     "casenumber": "ME2021-00811",
     "death_date": "2021-01-14T18:37:00.000",
     "race": "Black",
@@ -5863,6 +5891,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-15692",
+    "death_date": "2020-12-27T07:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2020-15683",
@@ -28095,6 +28130,13 @@
     "race": "White",
     "latino": false,
     "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2020-03692",
+    "death_date": "2020-04-25T13:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2020-03691",
