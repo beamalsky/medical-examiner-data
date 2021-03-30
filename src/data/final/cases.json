@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-03422",
+    "death_date": "2021-03-28T04:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-03420",
+    "death_date": "2021-03-27T06:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-03397",
     "death_date": "2021-03-28T15:56:00.000",
     "race": "White",
@@ -33,6 +47,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-03373",
+    "death_date": "2021-03-27T16:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-03372",
