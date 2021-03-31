@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-03472",
+    "death_date": "2021-03-31T05:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-03458",
+    "death_date": "2021-03-30T18:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-03453",
+    "death_date": "2021-03-30T14:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-03442",
+    "death_date": "2021-03-30T12:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2021-03432",
+    "death_date": "2021-03-29T15:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-03429",
+    "death_date": "2021-03-29T15:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
     "casenumber": "ME2021-03422",
     "death_date": "2021-03-28T04:30:00.000",
     "race": "White",
@@ -12,6 +54,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-03415",
+    "death_date": "2021-03-29T06:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-03397",
