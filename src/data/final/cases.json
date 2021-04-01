@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-03512",
+    "death_date": "2021-04-01T08:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-03504",
+    "death_date": "2021-03-31T20:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
     "casenumber": "ME2021-03472",
     "death_date": "2021-03-31T05:20:00.000",
     "race": "Black",
@@ -1178,6 +1192,13 @@
     "death_date": "2021-02-22T22:24:00.000",
     "race": "White",
     "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-02393",
+    "death_date": "2021-03-23T15:52:00.000",
+    "race": "Black",
+    "latino": false,
     "community": null
   },
   {
