@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-03559",
+    "death_date": "2021-04-02T18:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-03512",
     "death_date": "2021-04-01T08:28:00.000",
     "race": "White",
