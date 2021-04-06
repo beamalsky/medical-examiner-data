@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2021-03680",
+    "death_date": "2021-04-06T12:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03657",
+    "death_date": "2021-04-05T17:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-03651",
+    "death_date": "2021-04-05T10:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-03642",
+    "death_date": "2021-04-05T10:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03639",
+    "death_date": "2021-04-03T15:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-03637",
+    "death_date": "2021-04-05T06:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03636",
+    "death_date": "2021-04-05T05:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-03635",
+    "death_date": "2021-04-05T03:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03627",
+    "death_date": "2021-03-04T20:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-03611",
+    "death_date": "2021-04-04T11:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-03601",
     "death_date": "2021-04-04T02:39:00.000",
     "race": "Black",
