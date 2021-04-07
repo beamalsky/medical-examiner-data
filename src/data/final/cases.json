@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-03688",
+    "death_date": "2021-04-06T14:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03687",
+    "death_date": "2021-04-06T13:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2021-03680",
     "death_date": "2021-04-06T12:37:00.000",
     "race": "White",
@@ -84,6 +98,13 @@
     "community": "MONTCLARE"
   },
   {
+    "casenumber": "ME2021-03593",
+    "death_date": "2021-04-03T12:40:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2021-03588",
     "death_date": "2021-04-03T16:49:00.000",
     "race": "Black",
@@ -96,6 +117,20 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-03580",
+    "death_date": "2021-04-03T13:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-03578",
+    "death_date": "2021-04-03T11:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-03575",
