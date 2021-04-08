@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-03718",
+    "death_date": "2021-04-07T15:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-03688",
     "death_date": "2021-04-06T14:01:00.000",
     "race": "White",
@@ -355,6 +362,13 @@
     "race": "White",
     "latino": true,
     "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-03281",
+    "death_date": "2021-03-24T21:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
   },
   {
     "casenumber": "ME2021-03278",
