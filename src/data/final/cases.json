@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2021-03768",
+    "death_date": "2021-04-09T09:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03767",
+    "death_date": "2021-04-09T10:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03750",
+    "death_date": "2021-04-08T15:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-03746",
+    "death_date": "2021-04-08T13:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2021-03718",
     "death_date": "2021-04-07T15:57:00.000",
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-03717",
+    "death_date": "2021-04-07T15:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-03716",
+    "death_date": "2021-04-07T14:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2021-03688",
