@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-03828",
+    "death_date": "2021-04-11T02:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-03823",
+    "death_date": "2021-04-10T20:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-03815",
+    "death_date": "2021-04-10T17:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-03810",
+    "death_date": "2021-04-10T14:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-03809",
+    "death_date": "2021-04-10T17:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-03805",
+    "death_date": "2021-04-10T09:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-03793",
     "death_date": "2021-04-02T21:21:00.000",
     "race": "Black",
