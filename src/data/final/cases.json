@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-03906",
+    "death_date": "2021-04-13T11:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03902",
+    "death_date": "2021-04-13T10:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-03868",
+    "death_date": "2021-04-12T09:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-03859",
+    "death_date": "2021-04-12T03:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-03855",
+    "death_date": "2021-04-11T22:51:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-03850",
+    "death_date": "2021-04-11T18:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2021-03828",
     "death_date": "2021-04-11T02:12:00.000",
     "race": "White",
