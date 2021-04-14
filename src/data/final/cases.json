@@ -14,6 +14,20 @@
     "community": "SOUTH CHICAGO"
   },
   {
+    "casenumber": "ME2021-03884",
+    "death_date": "2021-04-12T17:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-03883",
+    "death_date": "2021-04-12T19:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-03868",
     "death_date": "2021-04-12T09:05:00.000",
     "race": "White",
@@ -329,6 +343,13 @@
     "community": "PORTAGE PARK"
   },
   {
+    "casenumber": "ME2021-03526",
+    "death_date": "2021-04-01T19:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2021-03512",
     "death_date": "2021-04-01T08:28:00.000",
     "race": "White",
@@ -467,6 +488,13 @@
     "race": "White",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-03355",
+    "death_date": "2021-03-26T21:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
   },
   {
     "casenumber": "ME2021-03354",
