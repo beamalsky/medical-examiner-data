@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2021-03977",
+    "death_date": "2021-04-15T08:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03971",
+    "death_date": "2021-04-15T01:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-03967",
+    "death_date": "2021-04-14T21:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-03965",
+    "death_date": "2021-04-14T20:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-03955",
+    "death_date": "2021-04-14T14:55:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-03952",
+    "death_date": "2021-04-14T09:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-03949",
+    "death_date": "2021-04-14T11:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03945",
+    "death_date": "2021-04-14T11:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-03916",
+    "death_date": "2021-04-13T14:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
     "casenumber": "ME2021-03906",
     "death_date": "2021-04-13T11:58:00.000",
     "race": "Black",
@@ -98,6 +161,13 @@
     "community": "AUBURN GRESHAM"
   },
   {
+    "casenumber": "ME2021-03800",
+    "death_date": "2021-04-10T10:25:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2021-03793",
     "death_date": "2021-04-02T21:21:00.000",
     "race": "Black",
@@ -154,6 +224,13 @@
     "community": "WEST RIDGE"
   },
   {
+    "casenumber": "ME2021-03760",
+    "death_date": "2021-04-08T22:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
     "casenumber": "ME2021-03750",
     "death_date": "2021-04-08T15:07:00.000",
     "race": "Black",
@@ -166,6 +243,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-03735",
+    "death_date": "2021-04-08T02:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-03718",
@@ -260,7 +344,7 @@
   },
   {
     "casenumber": "ME2021-03627",
-    "death_date": "2021-03-04T20:00:00.000",
+    "death_date": "2021-04-04T12:59:00.000",
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
