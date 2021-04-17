@@ -1,10 +1,66 @@
 [
   {
+    "casenumber": "ME2021-04053",
+    "death_date": "2021-04-17T02:52:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-04038",
+    "death_date": "2021-04-16T16:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-04014",
+    "death_date": "2020-11-29T09:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-04000",
+    "death_date": "2021-04-15T22:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-03995",
+    "death_date": "2021-04-15T16:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-03992",
+    "death_date": "2021-04-14T01:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-03990",
+    "death_date": "2021-04-15T14:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
     "casenumber": "ME2021-03977",
     "death_date": "2021-04-15T08:54:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03974",
+    "death_date": "2021-04-15T05:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-03971",
@@ -54,6 +110,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03939",
+    "death_date": "2021-04-14T02:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-03916",
@@ -117,6 +180,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-03848",
+    "death_date": "2021-04-11T15:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-03828",
