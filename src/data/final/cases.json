@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-04072",
+    "death_date": "2021-04-17T19:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-04070",
+    "death_date": "2021-04-17T18:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-04069",
+    "death_date": "2021-04-17T15:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04063",
+    "death_date": "2021-04-17T12:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-04053",
     "death_date": "2021-04-17T02:52:00.000",
     "race": "Asian",
@@ -19,6 +47,20 @@
     "race": "White",
     "latino": true,
     "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-04013",
+    "death_date": "2020-11-29T16:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-04012",
+    "death_date": "2021-04-16T07:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-04000",
@@ -119,6 +161,13 @@
     "community": "AUSTIN"
   },
   {
+    "casenumber": "ME2021-03933",
+    "death_date": "2021-04-13T23:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-03916",
     "death_date": "2021-04-13T14:50:00.000",
     "race": "White",
@@ -159,6 +208,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-03865",
+    "death_date": "2021-04-12T08:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-03859",
@@ -362,6 +418,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03663",
+    "death_date": "2021-04-18T06:51:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-03657",
