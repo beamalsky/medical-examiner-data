@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-04103",
+    "death_date": "2021-04-18T22:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-04101",
+    "death_date": "2021-04-18T20:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2021-04093",
+    "death_date": "2021-04-18T12:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-04072",
     "death_date": "2021-04-17T19:22:00.000",
     "race": "Black",
@@ -124,6 +145,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-03957",
+    "death_date": "2021-04-14T14:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2021-03955",
