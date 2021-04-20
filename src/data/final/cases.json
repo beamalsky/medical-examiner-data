@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-04146",
+    "death_date": "2021-04-20T08:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-04136",
+    "death_date": "2021-04-19T18:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-04132",
+    "death_date": "2021-04-19T05:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04131",
+    "death_date": "2021-04-16T16:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04125",
+    "death_date": "2021-04-19T11:13:00.000",
+    "race": "Black",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-04115",
+    "death_date": "2021-04-19T07:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-04103",
     "death_date": "2021-04-18T22:39:00.000",
     "race": "White",
@@ -19,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-04080",
+    "death_date": "2021-04-18T10:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2021-04072",
@@ -61,6 +110,13 @@
     "race": "Black",
     "latino": false,
     "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-04030",
+    "death_date": "2021-04-16T13:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2021-04014",
