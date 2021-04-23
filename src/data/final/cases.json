@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-04259",
+    "death_date": "2021-04-23T11:50:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04257",
+    "death_date": "2021-04-21T20:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-04253",
+    "death_date": "2021-04-23T05:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-04245",
+    "death_date": "2021-04-23T01:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-04234",
+    "death_date": "2021-04-22T01:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-04218",
+    "death_date": "2021-04-22T09:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2021-04198",
     "death_date": "2021-04-21T17:07:00.000",
     "race": "Other",
@@ -16,6 +58,13 @@
   {
     "casenumber": "ME2021-04188",
     "death_date": "2020-05-14T17:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-04177",
+    "death_date": "2021-04-21T02:40:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
@@ -572,6 +621,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-03659",
+    "death_date": "2021-04-05T18:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2021-03657",
