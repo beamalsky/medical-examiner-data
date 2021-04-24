@@ -49,6 +49,13 @@
     "community": "O'HARE"
   },
   {
+    "casenumber": "ME2021-04193",
+    "death_date": "2021-04-21T16:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
     "casenumber": "ME2021-04192",
     "death_date": "2021-04-21T15:34:00.000",
     "race": "White",
