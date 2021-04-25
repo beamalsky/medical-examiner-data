@@ -1,5 +1,95 @@
 [
   {
+    "casenumber": "ME2021-04319",
+    "death_date": "2021-04-24T06:11:00.000",
+    "race": "Unknown",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04318",
+    "death_date": "2021-04-24T23:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-04317",
+    "death_date": "2021-04-25T02:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-04310",
+    "death_date": "2021-04-24T20:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2021-04309",
+    "death_date": "2021-04-24T19:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-04307",
+    "death_date": "2021-04-24T17:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-04296",
+    "death_date": "2021-04-24T11:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-04295",
+    "death_date": "2021-04-24T12:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04287",
+    "death_date": "2021-04-24T06:20:00.000",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-04283",
+    "death_date": "2021-04-24T06:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04278",
+    "death_date": "2021-04-23T22:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-04263",
+    "death_date": "2021-04-16T21:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-04262",
+    "death_date": "2021-04-23T14:15:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2021-04259",
     "death_date": "2021-04-23T11:50:00.000",
     "race": "Asian",
@@ -33,6 +123,13 @@
     "race": "White",
     "latino": false,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-04232",
+    "death_date": "2021-04-21T07:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
   },
   {
     "casenumber": "ME2021-04218",
