@@ -1,5 +1,96 @@
 [
   {
+    "casenumber": "ME2021-04362",
+    "death_date": "2021-04-25T17:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04359",
+    "death_date": "2021-04-26T10:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04353",
+    "death_date": "2021-04-26T06:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04352",
+    "death_date": "2021-04-26T06:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-04351",
+    "death_date": "2021-04-26T05:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-04348",
+    "death_date": "2021-04-25T20:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-04345",
+    "death_date": "2021-04-25T21:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-04344",
+    "death_date": "2021-04-25T23:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-04341",
+    "death_date": "2021-04-25T22:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04335",
+    "death_date": "2021-04-25T16:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04332",
+    "death_date": "2021-04-25T13:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-04327",
+    "death_date": "2021-04-25T12:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04320",
+    "death_date": "2021-04-25T09:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2021-04319",
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
