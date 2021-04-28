@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-04422",
+    "death_date": "2021-04-28T02:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04416",
+    "death_date": "2021-04-27T21:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04415",
+    "death_date": "2021-04-27T14:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04400",
+    "death_date": "2021-04-27T10:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04399",
+    "death_date": "2021-04-27T12:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH DEERING"
+  },
+  {
     "casenumber": "ME2021-04379",
     "death_date": "2021-04-26T19:06:00.000",
     "race": "White",
