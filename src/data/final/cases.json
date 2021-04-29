@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-04448",
+    "death_date": "2021-04-29T00:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-04437",
+    "death_date": "2021-04-28T17:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04431",
+    "death_date": "2021-04-28T13:57:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-04430",
+    "death_date": "2021-04-28T13:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-04422",
     "death_date": "2021-04-28T02:52:00.000",
     "race": "White",
@@ -270,6 +298,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-04244",
+    "death_date": "2021-04-23T01:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2021-04234",
