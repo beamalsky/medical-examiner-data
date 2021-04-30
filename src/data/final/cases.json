@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-04480",
+    "death_date": "2021-04-30T07:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-04473",
+    "death_date": "2021-04-29T23:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04471",
+    "death_date": "2021-04-29T20:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-04461",
+    "death_date": "2021-04-29T10:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-04460",
+    "death_date": "2021-04-26T10:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
     "casenumber": "ME2021-04448",
     "death_date": "2021-04-29T00:57:00.000",
     "race": "Black",
@@ -1243,6 +1278,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03319",
+    "death_date": "2021-03-26T01:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2021-03297",
