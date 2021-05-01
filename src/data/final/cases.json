@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-04495",
+    "death_date": "2021-04-30T15:44:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-04493",
+    "death_date": "2021-04-30T16:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-04492",
+    "death_date": "2021-04-30T16:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04491",
+    "death_date": "2021-04-30T16:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
     "casenumber": "ME2021-04480",
     "death_date": "2021-04-30T07:52:00.000",
     "race": "White",
