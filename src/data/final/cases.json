@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-04547",
+    "death_date": "2021-05-02T10:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-04540",
+    "death_date": "2021-05-02T07:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-04538",
+    "death_date": "2021-05-02T07:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-04536",
+    "death_date": "2021-05-02T06:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04525",
+    "death_date": "2021-05-01T22:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-04521",
+    "death_date": "2021-05-01T16:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-04511",
+    "death_date": "2021-05-01T05:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
     "casenumber": "ME2021-04495",
     "death_date": "2021-04-30T15:44:00.000",
     "race": "White",
