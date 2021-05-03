@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-04564",
+    "death_date": "2021-05-02T16:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2021-04560",
+    "death_date": "2021-05-02T11:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04552",
+    "death_date": "2021-05-02T10:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-04551",
+    "death_date": "2021-05-02T09:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-04548",
+    "death_date": "2021-05-02T11:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-04547",
     "death_date": "2021-05-02T10:23:00.000",
     "race": "White",
@@ -110,6 +145,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-04457",
+    "death_date": "2021-04-29T14:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
   },
   {
     "casenumber": "ME2021-04448",
@@ -784,7 +826,7 @@
   },
   {
     "casenumber": "ME2021-03902",
-    "death_date": "2021-04-13T10:32:00.000",
+    "death_date": "2021-04-09T11:45:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH CHICAGO"
