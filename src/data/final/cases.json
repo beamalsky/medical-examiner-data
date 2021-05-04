@@ -1,10 +1,59 @@
 [
   {
+    "casenumber": "ME2021-04597",
+    "death_date": "2021-05-03T18:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-04592",
+    "death_date": "2021-05-03T12:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2021-04589",
+    "death_date": "2021-05-02T21:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-04585",
+    "death_date": "2021-05-03T14:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-04581",
+    "death_date": "2021-05-03T10:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-04567",
+    "death_date": "2021-05-02T23:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
     "casenumber": "ME2021-04564",
     "death_date": "2021-05-02T16:44:00.000",
     "race": "Black",
     "latino": false,
     "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2021-04561",
+    "death_date": "2021-05-02T15:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-04560",
