@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-04609",
+    "death_date": "2021-05-04T03:15:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04608",
+    "death_date": "2021-05-04T01:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-04597",
     "death_date": "2021-05-03T18:39:00.000",
     "race": "White",
@@ -166,6 +180,20 @@
     "race": "White",
     "latino": true,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-04479",
+    "death_date": "2021-04-30T09:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-04478",
+    "death_date": "2021-04-30T09:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04473",
@@ -2228,6 +2256,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-02568",
+    "death_date": "2021-02-27T23:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2021-02566",
