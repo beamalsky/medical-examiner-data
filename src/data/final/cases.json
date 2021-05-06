@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-04639",
+    "death_date": "2021-05-04T21:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-04632",
+    "death_date": "2021-04-21T23:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04630",
+    "death_date": "2021-05-04T05:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04629",
+    "death_date": "2021-05-04T15:03:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2021-04609",
     "death_date": "2021-05-04T03:15:00.000",
     "race": "Other",
@@ -14,6 +42,13 @@
     "community": "GREATER GRAND CROSSING"
   },
   {
+    "casenumber": "ME2021-04602",
+    "death_date": "2021-05-03T20:02:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-04597",
     "death_date": "2021-05-03T18:39:00.000",
     "race": "White",
@@ -23,7 +58,7 @@
   {
     "casenumber": "ME2021-04592",
     "death_date": "2021-05-03T12:27:00.000",
-    "race": "White",
+    "race": "Black",
     "latino": false,
     "community": "KENWOOD"
   },
@@ -145,6 +180,13 @@
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04500",
+    "death_date": "2021-04-30T20:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-04495",
