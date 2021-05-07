@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2021-04732",
+    "death_date": "2021-05-07T04:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2021-04726",
+    "death_date": "2021-05-07T03:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-04718",
+    "death_date": "2021-05-06T23:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04703",
+    "death_date": "2021-05-06T15:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-04698",
+    "death_date": "2021-05-06T11:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04693",
+    "death_date": "2021-05-06T11:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-04688",
+    "death_date": "2021-05-06T05:58:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-04685",
+    "death_date": "2021-05-06T01:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04684",
+    "death_date": "2021-05-06T00:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-04679",
+    "death_date": "2021-05-05T19:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04669",
+    "death_date": "2021-05-05T16:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04666",
+    "death_date": "2021-05-05T13:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-04658",
+    "death_date": "2021-05-02T16:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-04641",
+    "death_date": "2021-05-04T23:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-04639",
     "death_date": "2021-05-04T21:25:00.000",
     "race": "Black",
@@ -180,6 +278,13 @@
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04510",
+    "death_date": "2021-05-01T06:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-04500",
