@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-04812",
+    "death_date": "2021-05-09T20:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-04808",
+    "death_date": "2021-05-09T15:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-04805",
+    "death_date": "2021-05-09T12:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-04802",
+    "death_date": "2021-05-09T10:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-04797",
+    "death_date": "2021-05-09T07:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04796",
+    "death_date": "2021-05-08T10:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-04795",
     "death_date": "2021-05-09T04:53:00.000",
     "race": "White",
@@ -19,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-04776",
+    "death_date": "2021-05-08T15:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-04775",
