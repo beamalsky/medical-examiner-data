@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-04925",
+    "death_date": "2021-05-13T10:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-04924",
+    "death_date": "2021-05-13T08:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04923",
+    "death_date": "2021-05-13T09:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-04916",
+    "death_date": "2021-05-13T04:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-04912",
+    "death_date": "2021-05-12T20:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-04904",
+    "death_date": "2021-05-09T07:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04903",
+    "death_date": "2021-05-12T22:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04897",
+    "death_date": "2021-05-11T11:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-04890",
     "death_date": "2021-05-11T18:50:00.000",
     "race": "White",
@@ -166,6 +222,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-04749",
+    "death_date": "2021-05-07T18:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-04748",
@@ -33799,6 +33862,13 @@
     "race": "Black",
     "latino": false,
     "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2020-02461",
+    "death_date": "2020-04-10T19:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-02459",
