@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-04952",
+    "death_date": "2021-05-14T03:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-04951",
+    "death_date": "2021-05-14T02:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-04944",
+    "death_date": "2021-05-13T21:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-04941",
+    "death_date": "2021-05-13T16:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04931",
+    "death_date": "2021-05-13T11:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-04925",
     "death_date": "2021-05-13T10:21:00.000",
     "race": "White",
@@ -33,6 +68,20 @@
     "race": "White",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-04910",
+    "death_date": "2021-05-12T19:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04907",
+    "death_date": "2021-05-12T17:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2021-04904",
@@ -224,6 +273,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-04753",
+    "death_date": "2021-05-07T19:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
     "casenumber": "ME2021-04749",
     "death_date": "2021-05-07T18:17:00.000",
     "race": "White",
@@ -299,6 +355,13 @@
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-04716",
+    "death_date": "2021-05-06T20:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2021-04703",
