@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-04974",
+    "death_date": "2021-05-14T19:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-04970",
+    "death_date": "2021-05-14T16:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2021-04968",
+    "death_date": "2021-05-12T14:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-04964",
+    "death_date": "2021-05-13T14:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-04955",
+    "death_date": "2021-05-14T10:07:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-04952",
     "death_date": "2021-05-14T03:54:00.000",
     "race": "White",
@@ -418,6 +453,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04668",
+    "death_date": "2021-05-05T16:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-04666",
@@ -3369,6 +3411,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-02146",
+    "death_date": "2021-02-15T13:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2021-02133",
