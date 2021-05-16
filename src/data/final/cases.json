@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-05029",
+    "death_date": "2021-05-16T09:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-05020",
+    "death_date": "2021-05-16T05:26:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-05013",
+    "death_date": "2021-05-15T22:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05008",
+    "death_date": "2021-05-15T17:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-05002",
+    "death_date": "2021-05-15T13:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-05000",
+    "death_date": "2021-05-15T14:18:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-04974",
     "death_date": "2021-05-14T19:25:00.000",
     "race": "White",
