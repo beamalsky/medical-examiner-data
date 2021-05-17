@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-05051",
+    "death_date": "2021-05-16T21:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-05045",
+    "death_date": "2021-05-16T18:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-05037",
+    "death_date": "2021-05-16T14:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-05035",
+    "death_date": "2021-05-16T13:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LAKE VIEW"
+  },
+  {
     "casenumber": "ME2021-05029",
     "death_date": "2021-05-16T09:57:00.000",
     "race": "White",
@@ -26404,6 +26432,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2020-04913",
+    "death_date": "2020-05-08T02:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-04911",
