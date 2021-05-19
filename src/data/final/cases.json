@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-05125",
+    "death_date": "2021-05-18T16:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-05120",
+    "death_date": "2021-05-18T13:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-05103",
+    "death_date": "2021-05-18T08:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
     "casenumber": "ME2021-05085",
     "death_date": "2021-05-17T20:45:00.000",
     "race": "Black",
