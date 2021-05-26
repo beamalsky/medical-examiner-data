@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-05367",
+    "death_date": "2021-05-26T05:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05366",
+    "death_date": "2021-05-26T05:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-05364",
+    "death_date": "2021-05-26T04:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05354",
+    "death_date": "2021-05-25T15:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
     "casenumber": "ME2021-05331",
     "death_date": "2021-05-25T02:01:00.000",
     "race": "Black",
@@ -40,6 +68,13 @@
     "race": "White",
     "latino": true,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-05294",
+    "death_date": "2021-05-24T00:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "FULLER PARK"
   },
   {
     "casenumber": "ME2021-05285",
@@ -572,6 +607,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-04815",
+    "death_date": "2021-05-10T01:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2021-04812",
