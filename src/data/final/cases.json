@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2021-05462",
+    "death_date": "2021-05-29T09:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-05445",
+    "death_date": "2021-05-20T20:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-05443",
+    "death_date": "2021-05-28T14:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
     "casenumber": "ME2021-05435",
     "death_date": "2021-05-28T07:38:00.000",
     "race": "White",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-05415",
+    "death_date": "2021-05-27T14:21:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2021-05402",
@@ -208,6 +236,13 @@
     "race": "White",
     "latino": true,
     "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-05199",
+    "death_date": "2021-05-21T04:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2021-05179",
