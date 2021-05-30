@@ -7,6 +7,13 @@
     "community": "WEST PULLMAN"
   },
   {
+    "casenumber": "ME2021-05458",
+    "death_date": "2021-05-29T05:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-05445",
     "death_date": "2021-05-20T20:25:00.000",
     "race": "Black",
