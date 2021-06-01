@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-05540",
+    "death_date": "2021-05-31T14:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-05534",
+    "death_date": "2021-06-01T02:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-05523",
+    "death_date": "2021-05-31T13:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2021-05520",
     "death_date": "2021-05-30T07:02:00.000",
     "race": "Black",
@@ -453,6 +474,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-05055",
+    "death_date": "2021-05-17T03:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-05051",
@@ -1300,6 +1328,13 @@
     "race": "White",
     "latino": false,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-04474",
+    "death_date": "2021-04-29T22:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
   },
   {
     "casenumber": "ME2021-04473",
