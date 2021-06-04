@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-05625",
+    "death_date": "2021-06-03T18:56:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-05616",
+    "death_date": "2021-06-03T15:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-05615",
+    "death_date": "2021-06-03T14:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05614",
+    "death_date": "2021-06-03T14:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-05610",
+    "death_date": "2021-06-03T10:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-05598",
     "death_date": "2021-06-02T20:04:00.000",
     "race": "Asian",
