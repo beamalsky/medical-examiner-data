@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2021-05712",
+    "death_date": "2021-06-06T07:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-05708",
+    "death_date": "2021-06-06T05:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-05705",
+    "death_date": "2021-06-06T03:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-05701",
+    "death_date": "2021-06-05T18:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-05685",
+    "death_date": "2021-06-05T10:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-05684",
+    "death_date": "2021-06-05T09:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-05682",
+    "death_date": "2021-06-04T18:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-05676",
+    "death_date": "2021-06-05T01:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-05668",
+    "death_date": "2021-06-05T23:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
     "casenumber": "ME2021-05662",
     "death_date": "2021-06-04T18:34:00.000",
     "race": "White",
@@ -263,6 +326,13 @@
     "race": "White",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-05400",
+    "death_date": "2021-05-27T02:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-05398",
@@ -963,6 +1033,13 @@
     "race": "White",
     "latino": false,
     "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-04799",
+    "death_date": "2021-05-09T07:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2021-04797",
