@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-05730",
+    "death_date": "2021-06-07T04:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-05729",
+    "death_date": "2021-06-07T00:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05723",
+    "death_date": "2021-06-06T15:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2021-05712",
     "death_date": "2021-06-06T07:41:00.000",
     "race": "White",
@@ -158,6 +179,13 @@
     "death_date": "2021-06-02T04:25:00.000",
     "latino": false,
     "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-05573",
+    "death_date": "2021-05-24T10:40:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-05568",
