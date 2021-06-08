@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-05759",
+    "death_date": "2021-06-07T23:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-05758",
+    "death_date": "2021-06-07T18:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-05746",
+    "death_date": "2021-06-07T15:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-05736",
+    "death_date": "2021-06-07T11:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-05732",
+    "death_date": "2021-06-06T18:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
     "casenumber": "ME2021-05730",
     "death_date": "2021-06-07T04:41:00.000",
     "race": "White",
@@ -19,6 +54,13 @@
     "race": "Black",
     "latino": false,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-05716",
+    "death_date": "2021-06-07T10:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-05712",
