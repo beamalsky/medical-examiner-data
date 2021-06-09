@@ -1,5 +1,32 @@
 [
   {
+    "casenumber": "ME2021-05784",
+    "death_date": "2021-06-08T17:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-05779",
+    "death_date": "2021-06-08T13:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-05777",
+    "death_date": "2021-06-06T11:14:00.000",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-05771",
+    "death_date": "2021-06-08T10:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2021-05759",
     "death_date": "2021-06-07T23:12:00.000",
     "race": "Black",
@@ -131,6 +158,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-05658",
+    "death_date": "2021-06-04T17:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-05640",
@@ -847,7 +881,7 @@
   },
   {
     "casenumber": "ME2021-04968",
-    "death_date": "2021-05-12T14:22:00.000",
+    "death_date": "2021-05-13T14:22:00.000",
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
