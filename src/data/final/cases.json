@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-05825",
+    "death_date": "2021-06-10T07:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-05815",
+    "death_date": "2021-06-09T18:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-05809",
+    "death_date": "2021-06-09T15:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-05807",
+    "death_date": "2021-06-09T14:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-05784",
     "death_date": "2021-06-08T17:40:00.000",
     "race": "Black",
@@ -116,6 +144,13 @@
     "race": "White",
     "latino": true,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-05694",
+    "death_date": "2021-06-05T15:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
   },
   {
     "casenumber": "ME2021-05685",
