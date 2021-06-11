@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-05834",
+    "death_date": "2021-06-10T13:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-05825",
     "death_date": "2021-06-10T07:06:00.000",
     "race": "White",
@@ -67,6 +74,13 @@
     "race": "White",
     "latino": true,
     "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-05756",
+    "death_date": "2021-06-07T21:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2021-05746",
@@ -388,6 +402,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-05480",
+    "death_date": "2021-05-29T19:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2021-05478",
