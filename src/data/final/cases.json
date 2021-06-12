@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-05865",
+    "death_date": "2021-06-08T15:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-05863",
+    "death_date": "2021-06-11T15:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-05834",
     "death_date": "2021-06-10T13:11:00.000",
     "race": "White",
@@ -125,6 +139,13 @@
     "community": "ASHBURN"
   },
   {
+    "casenumber": "ME2021-05720",
+    "death_date": "2021-06-06T12:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
     "casenumber": "ME2021-05716",
     "death_date": "2021-06-07T10:33:00.000",
     "race": "Black",
@@ -186,6 +207,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-05681",
+    "death_date": "2021-06-05T06:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-05676",
