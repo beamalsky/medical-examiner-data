@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-05953",
+    "death_date": "2021-06-14T13:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2021-05951",
+    "death_date": "2021-06-14T12:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-05932",
     "death_date": "2021-06-13T22:07:00.000",
     "race": "White",
