@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-05988",
+    "death_date": "2021-06-15T13:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-05986",
+    "death_date": "2021-06-15T12:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-05953",
     "death_date": "2021-06-14T13:47:00.000",
     "race": "Black",
@@ -899,6 +913,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-05092",
+    "death_date": "2021-05-18T01:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-05085",
