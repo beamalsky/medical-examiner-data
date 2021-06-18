@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-06011",
+    "death_date": "2021-06-16T14:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-05988",
     "death_date": "2021-06-15T13:42:00.000",
     "race": "Black",
@@ -2452,6 +2459,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-03975",
+    "death_date": "2021-04-15T06:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
   },
   {
     "casenumber": "ME2021-03974",
