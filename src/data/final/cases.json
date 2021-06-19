@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2021-06061",
+    "death_date": "2021-06-18T17:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-06046",
+    "death_date": "2021-06-17T20:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-06040",
+    "death_date": "2021-06-17T16:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-06036",
+    "death_date": "2021-06-17T15:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-06026",
+    "death_date": "2021-06-17T07:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-06011",
     "death_date": "2021-06-16T14:00:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-06004",
+    "death_date": "2021-03-28T00:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-05988",
