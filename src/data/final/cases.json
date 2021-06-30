@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-06323",
+    "death_date": "2021-06-20T22:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2021-06282",
     "death_date": "2021-06-28T01:13:00.000",
     "race": "White",
@@ -12,6 +19,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-06239",
+    "death_date": "2021-06-25T22:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-06225",
