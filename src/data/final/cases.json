@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-06358",
+    "death_date": "2021-06-29T12:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-06323",
     "death_date": "2021-06-20T22:28:00.000",
     "race": "White",
