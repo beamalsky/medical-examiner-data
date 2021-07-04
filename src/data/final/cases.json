@@ -573,6 +573,13 @@
     "community": "BELMONT CRAGIN"
   },
   {
+    "casenumber": "ME2021-05613",
+    "death_date": "2021-06-02T21:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-05610",
     "death_date": "2021-06-03T10:07:00.000",
     "race": "Black",
