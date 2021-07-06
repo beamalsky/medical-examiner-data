@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-06518",
+    "death_date": "2021-07-05T13:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2021-06493",
     "death_date": "2021-07-04T15:47:00.000",
     "race": "Black",
