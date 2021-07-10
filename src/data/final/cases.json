@@ -7,6 +7,13 @@
     "community": "WEST RIDGE"
   },
   {
+    "casenumber": "ME2021-06566",
+    "death_date": "2021-07-07T05:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2021-06558",
     "death_date": "2021-07-07T00:25:00.000",
     "race": "White",
