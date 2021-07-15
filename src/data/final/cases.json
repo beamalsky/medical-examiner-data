@@ -14,6 +14,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-06663",
+    "death_date": "2021-07-11T10:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-06570",
     "death_date": "2021-06-09T21:08:00.000",
     "race": "Black",
