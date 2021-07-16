@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-06738",
+    "death_date": "2021-07-14T10:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-06729",
+    "death_date": "2021-07-14T09:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-06711",
     "death_date": "2021-07-13T15:37:00.000",
     "race": "Black",
@@ -103,6 +117,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-06341",
+    "death_date": "2021-06-29T17:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-06323",
@@ -1305,6 +1326,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-05012",
+    "death_date": "2021-05-16T23:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-05008",
