@@ -1,10 +1,24 @@
 [
   {
+    "casenumber": "ME2021-06890",
+    "death_date": "2021-07-20T08:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2021-06738",
     "death_date": "2021-07-14T10:30:00.000",
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-06731",
+    "death_date": "2021-04-10T10:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2021-06729",
