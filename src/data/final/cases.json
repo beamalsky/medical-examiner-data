@@ -1,5 +1,25 @@
 [
   {
+    "casenumber": "ME2021-06988",
+    "death_date": "2020-04-20T13:13:00.000",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-06980",
+    "death_date": "2021-07-23T16:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-06973",
+    "death_date": "2021-07-23T09:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2021-06890",
     "death_date": "2021-07-20T08:46:00.000",
     "race": "Black",
