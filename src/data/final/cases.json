@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07064",
+    "death_date": "2021-07-26T20:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07053",
+    "death_date": "2021-07-20T02:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-07047",
     "death_date": "2021-07-19T12:36:00.000",
     "race": "White",
