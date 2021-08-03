@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07227",
+    "death_date": "2021-05-17T18:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-07224",
+    "death_date": "2021-08-02T11:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-07208",
     "death_date": "2021-08-01T14:13:00.000",
     "race": "White",
@@ -54,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-07138",
+    "death_date": "2021-07-29T20:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-07102",
