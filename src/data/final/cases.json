@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07247",
+    "death_date": "2021-08-03T03:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-07243",
+    "death_date": "2021-08-02T22:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-07227",
     "death_date": "2021-05-17T18:21:00.000",
     "race": "White",
