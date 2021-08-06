@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-07319",
+    "death_date": "2021-08-05T17:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2021-07289",
     "death_date": "2021-08-04T16:47:00.000",
     "race": "Black",
