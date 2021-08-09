@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-07410",
+    "death_date": "2021-08-08T05:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-07395",
+    "death_date": "2021-08-08T06:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-07388",
+    "death_date": "2021-08-07T21:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-07367",
     "death_date": "2021-08-06T23:08:00.000",
     "race": "White",
