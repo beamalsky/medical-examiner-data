@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-07514",
+    "death_date": "2021-08-12T23:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2021-07496",
     "death_date": "2021-08-12T03:04:00.000",
     "race": "White",
@@ -30179,7 +30186,7 @@
     "death_date": "2020-05-04T00:27:00.000",
     "race": "White",
     "latino": true,
-    "community": "UPTOWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04257",
