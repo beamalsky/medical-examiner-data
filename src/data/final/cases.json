@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-07542",
+    "death_date": "2021-08-14T07:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-07531",
+    "death_date": "2021-08-13T18:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-07530",
+    "death_date": "2021-08-13T16:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-07529",
+    "death_date": "2021-08-13T17:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
     "casenumber": "ME2021-07514",
     "death_date": "2021-08-12T23:55:00.000",
     "race": "White",
@@ -30186,7 +30214,7 @@
     "death_date": "2020-05-04T00:27:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-04257",
