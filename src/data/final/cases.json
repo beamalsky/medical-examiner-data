@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07565",
+    "death_date": "2021-08-14T14:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-07547",
+    "death_date": "2021-08-14T10:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
     "casenumber": "ME2021-07542",
     "death_date": "2021-08-14T07:55:00.000",
     "race": "Black",
@@ -47,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-07470",
+    "death_date": "2021-08-11T04:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-07464",
