@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-07600",
+    "death_date": "2021-08-15T20:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-07598",
+    "death_date": "2021-08-15T19:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-07586",
+    "death_date": "2021-08-15T16:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-07565",
     "death_date": "2021-08-14T14:30:00.000",
     "race": "Black",
@@ -348,6 +369,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-07031",
+    "death_date": "2021-07-25T15:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2021-07027",
