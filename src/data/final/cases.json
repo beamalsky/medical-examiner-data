@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-07633",
+    "death_date": "2021-08-16T18:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07614",
+    "death_date": "2021-08-16T09:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BURNSIDE"
+  },
+  {
+    "casenumber": "ME2021-07608",
+    "death_date": "2021-08-14T14:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2021-07600",
     "death_date": "2021-08-15T20:15:00.000",
     "race": "Black",
@@ -112,6 +133,13 @@
     "community": "ROSELAND"
   },
   {
+    "casenumber": "ME2021-07448",
+    "death_date": "2021-08-09T22:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
     "casenumber": "ME2021-07444",
     "death_date": "2021-08-09T18:55:00.000",
     "race": "White",
@@ -222,13 +250,6 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
-  },
-  {
-    "casenumber": "ME2021-07227",
-    "death_date": "2021-05-17T18:21:00.000",
-    "race": "White",
-    "latino": true,
-    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2021-07224",
