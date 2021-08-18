@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2021-07676",
+    "death_date": "2021-08-17T19:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-07671",
+    "death_date": "2021-08-18T23:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-07640",
+    "death_date": "2021-08-17T04:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
     "casenumber": "ME2021-07633",
     "death_date": "2021-08-16T18:16:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-07625",
+    "death_date": "2021-08-16T17:53:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-07614",
@@ -54,6 +82,13 @@
     "race": "Black",
     "latino": false,
     "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-07546",
+    "death_date": "2021-08-14T10:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2021-07542",
