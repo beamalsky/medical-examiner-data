@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-07719",
+    "death_date": "2021-08-19T09:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07709",
+    "death_date": "2021-08-19T09:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07698",
+    "death_date": "2021-08-18T22:05:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-07690",
+    "death_date": "2021-08-18T14:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-07685",
+    "death_date": "2020-05-25T13:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2021-07676",
     "death_date": "2021-08-17T19:35:00.000",
     "race": "Black",
