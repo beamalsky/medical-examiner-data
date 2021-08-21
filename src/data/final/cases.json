@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-07764",
+    "death_date": "2021-08-20T17:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-07762",
+    "death_date": "2021-08-20T16:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-07760",
+    "death_date": "2021-08-20T06:29:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07758",
+    "death_date": "2021-08-20T11:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-07736",
+    "death_date": "2021-08-19T22:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-07735",
+    "death_date": "2021-08-19T21:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-07719",
     "death_date": "2021-08-19T09:10:00.000",
     "race": "Black",
