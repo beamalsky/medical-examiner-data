@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07805",
+    "death_date": "2021-08-22T03:30:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-07797",
+    "death_date": "2021-08-21T19:13:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2021-07764",
     "death_date": "2021-08-20T17:33:00.000",
     "race": "Black",
@@ -362,6 +376,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-07227",
+    "death_date": "2021-08-17T11:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2021-07224",
