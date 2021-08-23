@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-07830",
+    "death_date": "2021-08-22T14:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2021-07816",
+    "death_date": "2021-08-22T09:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-07805",
     "death_date": "2021-08-22T03:30:00.000",
     "race": "Asian",
