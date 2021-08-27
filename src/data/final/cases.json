@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-07952",
+    "death_date": "2021-08-26T09:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-07947",
+    "death_date": "2021-08-26T13:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-07945",
+    "death_date": "2021-08-26T13:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-07931",
+    "death_date": "2021-08-25T18:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-07929",
+    "death_date": "2021-08-25T17:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-07905",
     "death_date": "2021-08-25T02:05:00.000",
     "race": "Other",
