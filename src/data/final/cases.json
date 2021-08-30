@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-08043",
+    "death_date": "2021-08-29T10:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-08029",
     "death_date": "2021-08-28T22:54:00.000",
     "race": "White",
@@ -5326,6 +5333,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-02377",
+    "death_date": "2021-02-21T20:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
   },
   {
     "casenumber": "ME2021-02369",
