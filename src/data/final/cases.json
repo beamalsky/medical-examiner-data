@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-08104",
+    "death_date": "2021-08-30T21:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-08094",
+    "death_date": "2021-08-30T08:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-08078",
+    "death_date": "2021-08-30T08:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-08071",
+    "death_date": "2021-08-30T07:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-08043",
     "death_date": "2021-08-29T10:31:00.000",
     "race": "Black",
