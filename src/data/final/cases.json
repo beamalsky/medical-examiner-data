@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-08131",
+    "death_date": "2021-08-31T15:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-08130",
+    "death_date": "2021-08-31T14:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08123",
+    "death_date": "2021-08-31T06:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2021-08112",
+    "death_date": "2021-08-31T08:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
     "casenumber": "ME2021-08104",
     "death_date": "2021-08-30T21:30:00.000",
     "race": "White",
@@ -54,6 +82,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2021-07998",
+    "death_date": "2021-08-27T18:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-07991",
@@ -2501,6 +2536,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-04773",
+    "death_date": "2021-05-08T13:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04761",
