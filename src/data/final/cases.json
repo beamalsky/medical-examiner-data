@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-08280",
+    "death_date": "2021-09-04T17:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-08277",
+    "death_date": "2021-09-04T15:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-08269",
+    "death_date": "2021-09-04T08:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
     "casenumber": "ME2021-08248",
     "death_date": "2021-09-03T23:46:00.000",
     "race": "Black",
