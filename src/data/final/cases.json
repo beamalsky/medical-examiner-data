@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-08316",
+    "death_date": "2021-09-05T15:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-08309",
+    "death_date": "2021-09-05T13:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-08307",
+    "death_date": "2021-09-05T08:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-08298",
+    "death_date": "2021-09-03T17:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-08289",
+    "death_date": "2021-09-04T22:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08287",
+    "death_date": "2021-09-04T17:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-08284",
+    "death_date": "2021-09-04T19:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-08280",
     "death_date": "2021-09-04T17:05:00.000",
     "race": "White",
@@ -306,6 +355,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-07879",
+    "death_date": "2021-05-15T16:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-07868",
