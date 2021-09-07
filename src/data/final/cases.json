@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-08336",
+    "death_date": "2021-09-06T12:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08325",
+    "death_date": "2021-09-06T03:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-08318",
+    "death_date": "2021-09-05T21:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2021-08316",
     "death_date": "2021-09-05T15:59:00.000",
     "race": "White",
