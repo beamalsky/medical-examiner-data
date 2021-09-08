@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-08398",
+    "death_date": "2021-08-25T21:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-08384",
+    "death_date": "2021-09-07T19:27:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-08369",
+    "death_date": "2021-08-26T14:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08359",
+    "death_date": "2021-09-06T15:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-08341",
+    "death_date": "2021-09-03T17:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-08340",
+    "death_date": "2021-09-06T02:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-08336",
     "death_date": "2021-09-06T12:04:00.000",
     "race": "Black",
