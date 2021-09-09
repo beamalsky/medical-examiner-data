@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-08425",
+    "death_date": "2021-09-08T18:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-08419",
+    "death_date": "2021-09-08T16:02:00.000",
+    "race": "Black",
+    "latino": true,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-08404",
+    "death_date": "2021-09-08T08:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2021-08398",
     "death_date": "2021-08-25T21:03:00.000",
     "race": "Black",
@@ -12,6 +33,13 @@
     "race": "Other",
     "latino": true,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-08371",
+    "death_date": "2021-09-07T03:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-08369",
