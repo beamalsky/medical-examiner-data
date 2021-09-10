@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-08469",
+    "death_date": "2021-09-10T10:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-08454",
+    "death_date": "2021-09-09T21:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-08433",
+    "death_date": "2021-09-09T00:19:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
     "casenumber": "ME2021-08425",
     "death_date": "2021-09-08T18:10:00.000",
     "race": "White",
@@ -12,6 +33,27 @@
     "race": "Black",
     "latino": true,
     "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-08414",
+    "death_date": "2021-09-08T14:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-08412",
+    "death_date": "2021-09-03T11:57:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08409",
+    "death_date": "2021-09-08T08:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-08404",
