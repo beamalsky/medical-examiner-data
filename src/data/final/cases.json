@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-08490",
+    "death_date": "2021-09-08T09:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08472",
+    "death_date": "2021-09-08T11:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
     "casenumber": "ME2021-08469",
     "death_date": "2021-09-10T10:28:00.000",
     "race": "Black",
@@ -7,11 +21,39 @@
     "community": "DOUGLAS"
   },
   {
+    "casenumber": "ME2021-08467",
+    "death_date": "2021-09-10T08:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-08463",
+    "death_date": "2021-09-10T07:38:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08462",
+    "death_date": "2021-09-10T05:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2021-08454",
     "death_date": "2021-09-09T21:26:00.000",
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-08448",
+    "death_date": "2021-09-09T12:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-08433",
