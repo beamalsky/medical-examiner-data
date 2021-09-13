@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-08556",
+    "death_date": "2021-09-11T09:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-08553",
+    "death_date": "2021-09-13T00:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-08545",
+    "death_date": "2021-09-12T20:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-08538",
+    "death_date": "2021-09-12T14:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-08526",
+    "death_date": "2021-09-12T06:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08519",
+    "death_date": "2021-09-11T23:01:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-08511",
+    "death_date": "2021-09-11T19:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-08490",
     "death_date": "2021-09-08T09:16:00.000",
     "race": "Black",
@@ -19,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2021-08468",
+    "death_date": "2021-09-10T10:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-08467",
