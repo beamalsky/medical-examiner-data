@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2021-08608",
+    "death_date": "2021-09-14T08:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2021-08597",
+    "death_date": "2021-09-13T20:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-08587",
+    "death_date": "2021-09-13T18:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2021-08573",
+    "death_date": "2021-09-13T14:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-08568",
+    "death_date": "2021-09-13T11:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-08556",
     "death_date": "2021-09-11T09:20:00.000",
     "race": "White",
     "latino": true,
     "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-08555",
+    "death_date": "2021-09-13T05:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2021-08553",
@@ -280,6 +322,13 @@
     "community": "GREATER GRAND CROSSING"
   },
   {
+    "casenumber": "ME2021-08283",
+    "death_date": "2021-09-04T19:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-08280",
     "death_date": "2021-09-04T17:05:00.000",
     "race": "White",
@@ -313,6 +362,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-08233",
+    "death_date": "2020-06-16T22:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-08230",
