@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-08640",
+    "death_date": "2021-09-15T07:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-08636",
+    "death_date": "2021-09-15T05:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-08631",
+    "death_date": "2021-09-14T20:05:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-08628",
+    "death_date": "2021-09-14T18:52:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-08625",
+    "death_date": "2021-09-14T17:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-08613",
+    "death_date": "2021-09-14T10:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2021-08608",
     "death_date": "2021-09-14T08:11:00.000",
     "race": "Black",
@@ -19,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "BEVERLY"
+  },
+  {
+    "casenumber": "ME2021-08579",
+    "death_date": "2021-09-13T17:10:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-08573",
@@ -54,6 +103,13 @@
     "race": "White",
     "latino": false,
     "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-08550",
+    "death_date": "2021-09-12T22:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
   },
   {
     "casenumber": "ME2021-08545",
