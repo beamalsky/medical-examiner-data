@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-08655",
+    "death_date": "2021-09-15T14:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-08644",
+    "death_date": "2021-09-15T13:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-08640",
     "death_date": "2021-09-15T07:52:00.000",
     "race": "Black",
@@ -38772,5 +38786,12 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2020-01332",
+    "death_date": "2020-03-10T15:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LOOP"
   }
 ]
