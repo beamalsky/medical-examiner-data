@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-08681",
+    "death_date": "2021-09-16T18:28:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08680",
+    "death_date": "2021-09-16T16:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-08678",
+    "death_date": "2021-09-16T13:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-08672",
+    "death_date": "2021-09-15T20:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08668",
+    "death_date": "2021-09-16T10:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-08655",
     "death_date": "2021-09-15T14:15:00.000",
     "race": "Black",
