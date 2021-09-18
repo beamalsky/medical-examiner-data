@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-08719",
+    "death_date": "2021-09-17T21:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-08716",
+    "death_date": "2021-09-17T18:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-08711",
+    "death_date": "2021-09-17T14:38:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08709",
+    "death_date": "2021-09-17T09:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-08704",
+    "death_date": "2021-09-16T16:40:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2021-08681",
     "death_date": "2021-09-16T18:28:00.000",
     "race": "Unknown",
