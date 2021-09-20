@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2021-08797",
+    "death_date": "2021-09-20T05:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-08795",
+    "death_date": "2021-09-20T04:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08784",
+    "death_date": "2021-09-19T15:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-08758",
     "death_date": "2021-09-18T21:13:00.000",
     "race": "White",
     "latino": false,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-08726",
+    "death_date": "2021-09-17T19:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2021-08719",
@@ -4691,6 +4719,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-03598",
+    "death_date": "2021-04-04T00:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-03595",
