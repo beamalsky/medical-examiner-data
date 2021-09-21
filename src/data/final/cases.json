@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-08835",
+    "death_date": "2021-09-21T03:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-08827",
+    "death_date": "2021-09-20T06:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-08817",
+    "death_date": "2021-09-20T14:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2021-08797",
     "death_date": "2021-09-20T05:04:00.000",
     "race": "White",
