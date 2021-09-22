@@ -1,10 +1,31 @@
 [
   {
+    "casenumber": "ME2021-08853",
+    "death_date": "2021-09-21T16:14:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08849",
+    "death_date": "2021-09-21T15:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
     "casenumber": "ME2021-08835",
     "death_date": "2021-09-21T03:51:00.000",
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-08834",
+    "death_date": "2021-09-21T03:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2021-08827",
@@ -684,6 +705,13 @@
     "race": "Black",
     "latino": false,
     "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-08110",
+    "death_date": "2021-08-30T23:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-08109",
@@ -4292,6 +4320,13 @@
     "race": "Black",
     "latino": false,
     "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-03993",
+    "death_date": "2021-04-15T16:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "FULLER PARK"
   },
   {
     "casenumber": "ME2021-03992",
