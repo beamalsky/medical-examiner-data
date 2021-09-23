@@ -1,10 +1,59 @@
 [
   {
+    "casenumber": "ME2021-08890",
+    "death_date": "2021-09-22T21:35:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08869",
+    "death_date": "2021-09-22T05:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08868",
+    "death_date": "2021-09-22T06:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-08867",
+    "death_date": "2021-09-22T03:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-08865",
+    "death_date": "2021-09-22T05:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-08856",
+    "death_date": "2021-09-21T18:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-08853",
     "death_date": "2021-09-21T16:14:00.000",
     "race": "Other",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08851",
+    "death_date": "2021-09-18T20:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2021-08849",
