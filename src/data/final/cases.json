@@ -1,10 +1,87 @@
 [
   {
+    "casenumber": "ME2021-08961",
+    "death_date": "2021-09-24T21:51:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-08956",
+    "death_date": "2021-09-24T16:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-08955",
+    "death_date": "2021-09-24T18:44:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
+  },
+  {
+    "casenumber": "ME2021-08945",
+    "death_date": "2021-09-24T14:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-08940",
+    "death_date": "2021-09-14T19:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-08939",
+    "death_date": "2021-09-24T11:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-08933",
+    "death_date": "2021-09-24T07:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-08932",
+    "death_date": "2021-09-23T01:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-08914",
+    "death_date": "2021-09-23T15:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-08899",
+    "death_date": "2021-09-23T08:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2021-08890",
     "death_date": "2021-09-22T21:35:00.000",
     "race": "Other",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-08872",
+    "death_date": "2021-09-22T22:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-08869",
