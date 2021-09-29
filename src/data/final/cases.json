@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-09113",
+    "death_date": "2021-09-28T18:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-09107",
+    "death_date": "2021-09-28T12:52:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09106",
+    "death_date": "2021-04-26T18:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-09100",
+    "death_date": "2021-09-27T17:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
     "casenumber": "ME2021-09086",
     "death_date": "2021-09-27T21:14:00.000",
     "race": "White",
@@ -1869,7 +1897,7 @@
   },
   {
     "casenumber": "ME2021-06416",
-    "death_date": "2021-07-02T20:35:00.000",
+    "death_date": "2021-07-01T20:35:00.000",
     "race": "Black",
     "latino": false,
     "community": "NORTH LAWNDALE"
