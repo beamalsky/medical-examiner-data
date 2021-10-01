@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-09172",
+    "death_date": "2021-10-01T05:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-09161",
+    "death_date": "2021-09-30T16:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-09149",
+    "death_date": "2021-09-30T09:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
     "casenumber": "ME2021-09145",
     "death_date": "2021-09-30T07:32:00.000",
     "race": "Black",
@@ -82,6 +103,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-09046",
+    "death_date": "2021-09-27T08:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2021-09034",
@@ -2167,6 +2195,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-05927",
+    "death_date": "2021-06-13T18:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-05926",
