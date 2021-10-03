@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2021-09220",
+    "death_date": "2021-10-02T07:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-09218",
+    "death_date": "2021-10-02T03:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-09215",
+    "death_date": "2021-10-02T02:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-09210",
     "death_date": "2021-10-01T20:45:00.000",
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-09202",
+    "death_date": "2021-10-01T17:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-09198",
@@ -42,11 +70,18 @@
     "community": "AUSTIN"
   },
   {
-    "casenumber": "ME2021-09149",
-    "death_date": "2021-09-30T09:30:00.000",
+    "casenumber": "ME2021-09155",
+    "death_date": "2021-09-30T04:31:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-09147",
+    "death_date": "2021-05-03T02:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09145",
