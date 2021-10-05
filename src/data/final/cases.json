@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-09279",
+    "death_date": "2021-10-04T04:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2021-09277",
     "death_date": "2021-10-04T04:01:00.000",
     "race": "White",
@@ -19,6 +26,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-09267",
+    "death_date": "2021-10-03T18:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
   },
   {
     "casenumber": "ME2021-09256",
