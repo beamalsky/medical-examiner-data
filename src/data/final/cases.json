@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-09386",
+    "death_date": "2021-10-07T00:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-09382",
+    "death_date": "2021-10-06T21:48:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-09380",
+    "death_date": "2021-10-06T17:34:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-09376",
+    "death_date": "2021-10-06T18:32:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-09371",
+    "death_date": "2021-10-06T12:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-09353",
+    "death_date": "2021-10-05T22:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-09341",
+    "death_date": "2021-10-05T17:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-09326",
     "death_date": "2021-10-05T11:44:00.000",
     "race": "White",
