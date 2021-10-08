@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-09420",
+    "death_date": "2021-10-08T07:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09411",
+    "death_date": "2021-10-07T17:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09407",
+    "death_date": "2021-10-07T21:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09398",
+    "death_date": "2021-10-07T15:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-09396",
+    "death_date": "2021-10-07T11:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-09386",
     "death_date": "2021-10-07T00:04:00.000",
     "race": "Black",
