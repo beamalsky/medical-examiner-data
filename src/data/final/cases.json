@@ -1,10 +1,59 @@
 [
   {
+    "casenumber": "ME2021-09446",
+    "death_date": "2021-10-08T20:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09437",
+    "death_date": "2021-10-08T16:10:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-09432",
+    "death_date": "2021-10-02T08:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-09431",
+    "death_date": "2021-10-08T12:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-09425",
+    "death_date": "2021-02-28T09:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-09420",
     "death_date": "2021-10-08T07:48:00.000",
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-09417",
+    "death_date": "2021-10-08T07:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BURNSIDE"
+  },
+  {
+    "casenumber": "ME2021-09414",
+    "death_date": "2021-10-08T04:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
   },
   {
     "casenumber": "ME2021-09411",
