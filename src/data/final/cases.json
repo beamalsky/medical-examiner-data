@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-09471",
+    "death_date": "2021-10-10T01:23:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-09466",
+    "death_date": "2021-10-09T20:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-09458",
+    "death_date": "2021-10-09T12:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
     "casenumber": "ME2021-09446",
     "death_date": "2021-10-08T20:20:00.000",
     "race": "Black",
