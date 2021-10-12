@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-09552",
+    "death_date": "2021-10-09T08:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-09542",
+    "death_date": "2021-09-29T21:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-09527",
+    "death_date": "2021-10-11T11:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-09521",
+    "death_date": "2021-10-11T08:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09503",
+    "death_date": "2021-10-10T02:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
     "casenumber": "ME2021-09471",
     "death_date": "2021-10-10T01:23:00.000",
     "race": "Other",
@@ -26,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09439",
+    "death_date": "2021-09-26T22:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
   },
   {
     "casenumber": "ME2021-09437",
