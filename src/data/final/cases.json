@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-09577",
+    "death_date": "2021-10-12T21:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-09576",
+    "death_date": "2021-10-12T21:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-09570",
+    "death_date": "2021-10-12T18:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-09566",
+    "death_date": "2021-10-12T14:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2021-09563",
+    "death_date": "2021-10-12T14:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-09552",
     "death_date": "2021-10-09T08:54:00.000",
     "race": "Black",
