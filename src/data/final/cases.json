@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-09616",
+    "death_date": "2021-10-14T02:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-09608",
+    "death_date": "2021-10-13T17:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09601",
+    "death_date": "2021-10-13T15:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2021-09577",
     "death_date": "2021-10-12T21:23:00.000",
     "race": "Black",
