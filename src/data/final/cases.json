@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-09647",
+    "death_date": "2021-10-15T02:02:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-09633",
+    "death_date": "2021-10-12T00:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-09629",
+    "death_date": "2021-10-10T09:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-09616",
     "death_date": "2021-10-14T02:30:00.000",
     "race": "Black",
@@ -9,6 +30,13 @@
   {
     "casenumber": "ME2021-09608",
     "death_date": "2021-10-13T17:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09606",
+    "death_date": "2021-10-13T14:03:00.000",
     "race": "Black",
     "latino": false,
     "community": null
@@ -70,6 +98,13 @@
     "community": "PULLMAN"
   },
   {
+    "casenumber": "ME2021-09530",
+    "death_date": "2021-10-11T12:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
     "casenumber": "ME2021-09527",
     "death_date": "2021-10-11T11:28:00.000",
     "race": "Black",
@@ -82,6 +117,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-09504",
+    "death_date": "2021-10-10T16:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2021-09503",
