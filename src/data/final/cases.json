@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-09655",
+    "death_date": "2021-10-13T17:30:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2021-09653",
+    "death_date": "2021-09-23T01:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2021-09647",
     "death_date": "2021-10-15T02:02:00.000",
     "race": "Other",
