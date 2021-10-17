@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-09687",
+    "death_date": "2021-10-16T12:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-09684",
+    "death_date": "2021-10-16T13:19:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-09655",
     "death_date": "2021-10-13T17:30:00.000",
     "race": "Other",
