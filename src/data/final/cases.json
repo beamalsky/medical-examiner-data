@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-09737",
+    "death_date": "2021-10-17T22:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-09718",
+    "death_date": "2021-10-17T15:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-09712",
+    "death_date": "2021-10-17T11:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-09710",
+    "death_date": "2021-10-17T05:23:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-09706",
+    "death_date": "2021-10-17T10:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-09705",
+    "death_date": "2021-10-17T06:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-09696",
+    "death_date": "2021-10-16T22:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-09687",
     "death_date": "2021-10-16T12:13:00.000",
     "race": "Black",
