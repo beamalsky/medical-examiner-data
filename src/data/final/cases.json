@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-09748",
+    "death_date": "2021-10-09T01:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2021-09737",
     "death_date": "2021-10-17T22:30:00.000",
     "race": "Black",
@@ -40,6 +47,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-09702",
+    "death_date": "2021-10-17T02:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-09696",
@@ -145,6 +159,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-09567",
+    "death_date": "2021-10-12T15:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-09566",
@@ -530,6 +551,13 @@
     "race": "White",
     "latino": true,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-09127",
+    "death_date": "2021-09-29T08:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-09116",
