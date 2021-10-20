@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-09806",
+    "death_date": "2021-10-20T10:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-09801",
+    "death_date": "2021-10-19T10:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-09748",
     "death_date": "2021-10-09T01:51:00.000",
     "race": "Black",
@@ -61,6 +75,13 @@
     "race": "White",
     "latino": true,
     "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-09695",
+    "death_date": "2021-10-16T22:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-09687",
