@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-09835",
+    "death_date": "2021-10-21T04:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-09829",
+    "death_date": "2021-10-20T20:23:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-09824",
+    "death_date": "2021-10-20T19:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-09806",
     "death_date": "2021-10-20T10:12:00.000",
     "race": "White",
@@ -250,6 +271,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-09494",
+    "death_date": "2021-10-10T15:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
   },
   {
     "casenumber": "ME2021-09471",
@@ -1958,6 +1986,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-07584",
+    "death_date": "2021-08-15T14:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-07565",
