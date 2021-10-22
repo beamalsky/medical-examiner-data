@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-09872",
+    "death_date": "2021-10-22T05:11:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09870",
+    "death_date": "2021-10-22T03:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-09862",
+    "death_date": "2021-10-21T14:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09856",
+    "death_date": "2021-10-21T12:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09853",
+    "death_date": "2021-10-20T07:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-09852",
+    "death_date": "2021-10-21T15:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-09835",
     "death_date": "2021-10-21T04:03:00.000",
     "race": "Black",
