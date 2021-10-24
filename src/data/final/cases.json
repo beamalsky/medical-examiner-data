@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-09928",
+    "death_date": "2021-10-24T06:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09919",
+    "death_date": "2021-10-24T00:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-09918",
+    "death_date": "2021-10-24T00:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09917",
+    "death_date": "2021-10-23T19:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-09899",
+    "death_date": "2021-10-23T05:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2021-09891",
     "death_date": "2021-10-22T21:50:00.000",
     "race": "White",
