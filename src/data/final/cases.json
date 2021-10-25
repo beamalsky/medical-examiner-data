@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-09939",
+    "death_date": "2021-10-24T15:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-09928",
     "death_date": "2021-10-24T06:11:00.000",
     "race": "White",
@@ -3481,6 +3488,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-05381",
+    "death_date": "2021-05-26T14:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-05375",
