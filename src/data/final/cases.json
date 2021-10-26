@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-09967",
+    "death_date": "2021-10-26T02:45:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-09965",
+    "death_date": "2021-10-25T22:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-09958",
+    "death_date": "2021-10-17T17:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-09952",
+    "death_date": "2021-10-25T09:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-09939",
     "death_date": "2021-10-24T15:02:00.000",
     "race": "Black",
@@ -523,6 +551,13 @@
     "race": "Other",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-09372",
+    "death_date": "2021-09-11T04:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-09371",
@@ -1416,13 +1451,6 @@
   {
     "casenumber": "ME2021-08369",
     "death_date": "2021-08-26T14:05:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": null
-  },
-  {
-    "casenumber": "ME2021-08365",
-    "death_date": "2021-08-25T21:03:00.000",
     "race": "Black",
     "latino": false,
     "community": null
