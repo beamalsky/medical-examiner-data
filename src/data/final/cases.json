@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-10023",
+    "death_date": "2021-10-27T16:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
     "casenumber": "ME2021-10007",
     "death_date": "2021-10-27T02:54:00.000",
     "race": "White",
@@ -12,6 +19,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-09988",
+    "death_date": "2021-10-22T14:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-09967",
@@ -1971,6 +1985,13 @@
     "death_date": "2021-08-22T09:06:00.000",
     "race": "Black",
     "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-07815",
+    "death_date": "2021-08-22T05:39:00.000",
+    "race": "White",
+    "latino": true,
     "community": "AUSTIN"
   },
   {
