@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-10118",
+    "death_date": "2021-10-30T10:36:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-10089",
+    "death_date": "2021-10-28T12:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-10088",
+    "death_date": "2021-10-29T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-10082",
+    "death_date": "2021-10-28T20:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH CHICAGO"
+  },
+  {
     "casenumber": "ME2021-10071",
     "death_date": "2021-10-28T23:04:00.000",
     "race": "White",
