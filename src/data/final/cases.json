@@ -35,6 +35,13 @@
     "community": "JEFFERSON PARK"
   },
   {
+    "casenumber": "ME2021-10061",
+    "death_date": "2021-10-28T17:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2021-10053",
     "death_date": "2021-10-28T13:39:00.000",
     "race": "White",
@@ -1153,6 +1160,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-08730",
+    "death_date": "2021-09-18T01:16:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
   },
   {
     "casenumber": "ME2021-08726",
