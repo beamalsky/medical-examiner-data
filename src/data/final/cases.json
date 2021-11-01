@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-10122",
+    "death_date": "2021-10-30T15:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-10118",
     "death_date": "2021-10-30T10:36:00.000",
     "race": "White",
@@ -33,6 +40,13 @@
     "race": "White",
     "latino": false,
     "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-10069",
+    "death_date": "2021-10-28T21:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
   },
   {
     "casenumber": "ME2021-10061",
@@ -264,6 +278,13 @@
     "race": "Black",
     "latino": false,
     "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-09746",
+    "death_date": "2021-10-18T11:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2021-09737",
