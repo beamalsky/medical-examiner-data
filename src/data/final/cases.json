@@ -1,5 +1,25 @@
 [
   {
+    "casenumber": "ME2021-10243",
+    "death_date": "2021-11-03T00:52:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-10217",
+    "death_date": "2021-11-02T05:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-10215",
+    "death_date": "2021-11-02T07:41:00.000",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
     "casenumber": "ME2021-10197",
     "death_date": "2021-11-01T15:54:00.000",
     "race": "White",
@@ -558,6 +578,13 @@
     "race": "White",
     "latino": true,
     "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-09497",
+    "death_date": "2021-10-10T16:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BURNSIDE"
   },
   {
     "casenumber": "ME2021-09494",
