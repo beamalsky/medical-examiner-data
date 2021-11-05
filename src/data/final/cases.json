@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-10300",
+    "death_date": "2021-11-04T16:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-10252",
     "death_date": "2021-11-03T09:04:00.000",
     "race": "Black",
