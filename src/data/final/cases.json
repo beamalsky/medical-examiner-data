@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10348",
+    "death_date": "2021-11-06T03:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-10319",
+    "death_date": "2021-11-05T13:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2021-10316",
+    "death_date": "2021-10-28T20:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2021-10300",
     "death_date": "2021-11-04T16:20:00.000",
     "race": "White",
@@ -26,6 +47,13 @@
     "race": "Asian",
     "latino": false,
     "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-10233",
+    "death_date": "2021-11-02T16:59:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-10217",
@@ -417,6 +445,13 @@
     "race": "Black",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-09701",
+    "death_date": "2021-10-17T02:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
   },
   {
     "casenumber": "ME2021-09696",
@@ -5555,6 +5590,13 @@
   {
     "casenumber": "ME2021-04012",
     "death_date": "2021-04-16T07:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-04004",
+    "death_date": "2021-04-15T23:41:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
