@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-10363",
+    "death_date": "2021-11-06T14:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-10348",
     "death_date": "2021-11-06T03:48:00.000",
     "race": "Black",
