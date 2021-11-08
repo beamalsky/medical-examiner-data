@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-10386",
+    "death_date": "2021-11-07T13:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2021-10383",
+    "death_date": "2021-11-07T10:03:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-10377",
+    "death_date": "2021-11-07T06:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-10369",
+    "death_date": "2021-11-06T20:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-10363",
     "death_date": "2021-11-06T14:28:00.000",
     "race": "Black",
