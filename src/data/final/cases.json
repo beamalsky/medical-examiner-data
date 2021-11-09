@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10410",
+    "death_date": "2021-11-08T09:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-10408",
+    "death_date": "2021-11-08T07:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-10407",
+    "death_date": "2021-11-07T21:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2021-10386",
     "death_date": "2021-11-07T13:32:00.000",
     "race": "White",
@@ -151,6 +172,13 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-10102",
+    "death_date": "2021-10-29T17:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARMOUR SQUARE"
   },
   {
     "casenumber": "ME2021-10089",
