@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10450",
+    "death_date": "2021-11-09T12:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-10446",
+    "death_date": "2021-11-09T12:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-10434",
+    "death_date": "2021-11-08T21:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2021-10410",
     "death_date": "2021-11-08T09:50:00.000",
     "race": "Black",
