@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-10457",
+    "death_date": "2021-11-06T13:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-10456",
+    "death_date": "2021-11-09T15:12:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
     "casenumber": "ME2021-10450",
     "death_date": "2021-11-09T12:04:00.000",
     "race": "White",
@@ -19,6 +33,13 @@
     "race": "White",
     "latino": false,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2021-10413",
+    "death_date": "2021-11-10T09:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-10410",
