@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10498",
+    "death_date": "2021-11-11T13:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-10483",
+    "death_date": "2021-11-10T21:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-10478",
+    "death_date": "2021-11-10T14:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
+  },
+  {
     "casenumber": "ME2021-10457",
     "death_date": "2021-11-06T13:20:00.000",
     "race": "Black",
