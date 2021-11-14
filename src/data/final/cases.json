@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10553",
+    "death_date": "2021-11-13T06:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-10551",
+    "death_date": "2021-11-13T05:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-10548",
+    "death_date": "2021-11-12T22:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2021-10531",
     "death_date": "2021-11-12T02:01:00.000",
     "race": "Black",
