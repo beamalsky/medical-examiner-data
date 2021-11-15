@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-10599",
+    "death_date": "2021-11-13T15:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-10593",
+    "death_date": "2021-11-14T06:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-10577",
+    "death_date": "2021-11-13T18:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-10561",
+    "death_date": "2021-11-13T09:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
     "casenumber": "ME2021-10553",
     "death_date": "2021-11-13T06:29:00.000",
     "race": "Black",
