@@ -1,5 +1,54 @@
 [
   {
+    "casenumber": "ME2021-10644",
+    "death_date": "2021-11-15T21:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-10643",
+    "death_date": "2021-11-13T09:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-10640",
+    "death_date": "2021-11-15T17:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-10638",
+    "death_date": "2021-11-15T16:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-10634",
+    "death_date": "2021-11-15T14:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-10629",
+    "death_date": "2021-11-13T07:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-10606",
+    "death_date": "2021-11-14T20:25:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2021-10605",
     "death_date": "2021-11-14T21:34:00.000",
     "race": "Black",
@@ -82,6 +131,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-10504",
+    "death_date": "2021-11-11T16:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-10498",
@@ -194,6 +250,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-10366",
+    "death_date": "2021-01-04T01:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-10363",
