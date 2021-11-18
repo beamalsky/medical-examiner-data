@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-10672",
+    "death_date": "2021-11-17T02:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-10666",
+    "death_date": "2021-11-12T17:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-10665",
+    "death_date": "2021-11-16T19:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-10662",
+    "death_date": "2021-11-16T14:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-10655",
+    "death_date": "2021-11-16T10:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-10652",
+    "death_date": "2021-11-16T06:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2021-10644",
     "death_date": "2021-11-15T21:49:00.000",
     "race": "White",
@@ -161,6 +203,13 @@
     "community": "WEST ELSDON"
   },
   {
+    "casenumber": "ME2021-10463",
+    "death_date": "2021-11-09T18:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
     "casenumber": "ME2021-10457",
     "death_date": "2021-11-06T13:20:00.000",
     "race": "Black",
@@ -292,6 +341,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-10253",
+    "death_date": "2021-11-03T12:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-10252",
