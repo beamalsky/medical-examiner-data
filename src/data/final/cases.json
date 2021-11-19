@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-10691",
+    "death_date": "2021-11-18T00:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-10687",
+    "death_date": "2021-11-17T21:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2021-10672",
     "death_date": "2021-11-17T02:36:00.000",
     "race": "Black",
