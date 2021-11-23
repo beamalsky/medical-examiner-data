@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10815",
+    "death_date": "2021-11-22T02:28:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-10812",
+    "death_date": "2021-11-22T00:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-10810",
+    "death_date": "2021-11-21T21:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-10777",
     "death_date": "2021-11-20T18:32:00.000",
     "race": "Other",
