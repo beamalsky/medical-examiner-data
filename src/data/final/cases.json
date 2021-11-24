@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-10858",
+    "death_date": "2021-11-18T18:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-10847",
+    "death_date": "2021-11-23T03:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-10815",
     "death_date": "2021-11-22T02:28:00.000",
     "race": "White",
@@ -1135,6 +1149,13 @@
   {
     "casenumber": "ME2021-09425",
     "death_date": "2021-02-28T09:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-09424",
+    "death_date": "2021-10-08T11:24:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
