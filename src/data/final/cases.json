@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-10894",
+    "death_date": "2021-11-24T15:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-10893",
+    "death_date": "2021-11-24T12:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-10892",
+    "death_date": "2021-11-24T15:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-10858",
     "death_date": "2021-11-18T18:08:00.000",
     "race": "Black",
@@ -7,11 +28,32 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-10850",
+    "death_date": "2021-11-23T05:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-10848",
+    "death_date": "2021-11-23T05:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2021-10847",
     "death_date": "2021-11-23T03:00:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-10829",
+    "death_date": "2021-11-22T12:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-10815",
@@ -35,6 +77,13 @@
     "community": "NORWOOD PARK"
   },
   {
+    "casenumber": "ME2021-10798",
+    "death_date": "2021-11-21T11:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2021-10777",
     "death_date": "2021-11-20T18:32:00.000",
     "race": "Other",
@@ -47,6 +96,13 @@
     "race": "White",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-10767",
+    "death_date": "2021-11-20T15:55:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2021-10761",
