@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-10926",
+    "death_date": "2021-11-25T18:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-10915",
+    "death_date": "2021-11-25T02:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-10906",
+    "death_date": "2021-11-24T21:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-10901",
+    "death_date": "2021-11-23T21:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-10894",
     "death_date": "2021-11-24T15:34:00.000",
     "race": "White",
@@ -19,6 +47,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-10879",
+    "death_date": "2021-11-24T06:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-10858",
