@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-11015",
+    "death_date": "2021-11-28T07:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11009",
+    "death_date": "2021-11-28T00:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-10992",
+    "death_date": "2021-11-27T09:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-10988",
+    "death_date": "2021-11-27T05:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-10983",
     "death_date": "2021-11-27T02:21:00.000",
     "race": "White",
