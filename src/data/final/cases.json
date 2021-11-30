@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2021-11049",
+    "death_date": "2021-11-29T07:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11033",
+    "death_date": "2021-11-28T16:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2021-11015",
     "death_date": "2021-11-28T07:05:00.000",
     "race": "White",
