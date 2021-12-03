@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-11181",
+    "death_date": "2021-12-02T13:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-11163",
+    "death_date": "2021-12-02T07:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-11162",
+    "death_date": "2021-12-02T07:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-11120",
+    "death_date": "2021-12-01T00:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-11112",
+    "death_date": "2021-12-01T00:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-11106",
     "death_date": "2021-11-27T23:36:00.000",
     "race": "White",
@@ -502,6 +537,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-10584",
+    "death_date": "2021-11-14T01:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2021-10577",
