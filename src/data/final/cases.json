@@ -1,7 +1,77 @@
 [
   {
+    "casenumber": "ME2021-11237",
+    "death_date": "2021-12-03T23:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2021-11227",
+    "death_date": "2021-12-03T16:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11221",
+    "death_date": "2021-12-03T15:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-11214",
+    "death_date": "2021-12-03T09:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-11200",
+    "death_date": "2021-12-02T21:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-11198",
+    "death_date": "2021-12-02T21:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-11192",
+    "death_date": "2021-12-02T18:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11190",
+    "death_date": "2021-12-02T17:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-11186",
+    "death_date": "2021-12-02T16:24:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2021-11181",
     "death_date": "2021-12-02T13:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-11175",
+    "death_date": "2021-11-24T07:20:00.000",
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
