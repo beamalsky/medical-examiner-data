@@ -126,6 +126,13 @@
     "community": "ARMOUR SQUARE"
   },
   {
+    "casenumber": "ME2021-11077",
+    "death_date": "2021-11-29T18:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2021-11076",
     "death_date": "2021-11-29T21:48:00.000",
     "race": "Black",
