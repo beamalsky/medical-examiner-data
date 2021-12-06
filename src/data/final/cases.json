@@ -1,5 +1,82 @@
 [
   {
+    "casenumber": "ME2021-11296",
+    "death_date": "2021-12-05T11:02:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11293",
+    "death_date": "2021-12-05T10:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-11291",
+    "death_date": "2021-12-05T10:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11287",
+    "death_date": "2021-12-05T08:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11281",
+    "death_date": "2021-12-05T03:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-11277",
+    "death_date": "2021-12-04T21:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-11274",
+    "death_date": "2021-12-04T17:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-11273",
+    "death_date": "2021-12-04T19:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-11271",
+    "death_date": "2021-12-01T21:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-11270",
+    "death_date": "2021-12-04T16:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11258",
+    "death_date": "2021-12-04T10:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2021-11237",
     "death_date": "2021-12-03T23:48:00.000",
     "race": "White",
@@ -26,6 +103,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-11207",
+    "death_date": "2021-12-03T08:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-11200",
@@ -278,6 +362,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-10945",
+    "death_date": "2021-11-26T09:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-10931",
