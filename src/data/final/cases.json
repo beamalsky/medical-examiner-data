@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2021-11326",
+    "death_date": "2021-11-17T21:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-11319",
+    "death_date": "2021-12-06T07:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11312",
+    "death_date": "2021-12-05T21:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11311",
+    "death_date": "2021-12-05T22:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11302",
+    "death_date": "2021-12-05T13:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-11296",
     "death_date": "2021-12-05T11:02:00.000",
     "race": "Asian",
@@ -2468,6 +2503,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-08528",
+    "death_date": "2021-09-12T09:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-08526",
