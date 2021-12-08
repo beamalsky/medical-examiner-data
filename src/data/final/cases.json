@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2021-11356",
+    "death_date": "2021-12-07T03:09:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11352",
+    "death_date": "2021-12-07T00:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-11343",
+    "death_date": "2021-12-06T19:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-11331",
+    "death_date": "2021-12-06T06:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11326",
     "death_date": "2021-11-17T21:30:00.000",
     "race": "Black",
@@ -215,6 +243,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-11119",
+    "death_date": "2021-12-01T02:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2021-11112",
