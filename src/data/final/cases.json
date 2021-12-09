@@ -1,5 +1,96 @@
 [
   {
+    "casenumber": "ME2021-11427",
+    "death_date": "2021-12-08T14:55:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11426",
+    "death_date": "2021-12-08T16:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-11409",
+    "death_date": "2021-12-08T11:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11405",
+    "death_date": "2020-07-13T21:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-11404",
+    "death_date": "2021-12-08T08:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-11403",
+    "death_date": "2021-12-08T07:28:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11401",
+    "death_date": "2021-12-08T06:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-11400",
+    "death_date": "2021-12-08T02:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-11398",
+    "death_date": "2021-12-08T01:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11396",
+    "death_date": "2021-12-07T11:41:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-11392",
+    "death_date": "2021-12-07T20:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11387",
+    "death_date": "2021-12-07T17:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-11371",
+    "death_date": "2021-12-07T10:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11356",
     "death_date": "2021-12-07T03:09:00.000",
     "race": "Asian",
