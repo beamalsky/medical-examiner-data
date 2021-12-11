@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2021-11513",
+    "death_date": "2021-12-10T11:39:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-11510",
+    "death_date": "2021-12-08T16:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-11506",
+    "death_date": "2021-12-10T10:38:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11503",
+    "death_date": "2021-12-10T12:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-11493",
+    "death_date": "2021-12-08T12:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-11480",
+    "death_date": "2021-12-10T02:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-11478",
+    "death_date": "2021-12-10T01:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVALON PARK"
+  },
+  {
+    "casenumber": "ME2021-11477",
+    "death_date": "2021-12-09T23:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-11468",
+    "death_date": "2021-12-09T15:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11461",
     "death_date": "2021-12-09T16:42:00.000",
     "race": "Black",
@@ -210,6 +273,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-11289",
+    "death_date": "2021-12-05T08:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11287",
     "death_date": "2021-12-05T08:10:00.000",
     "race": "White",
@@ -362,6 +432,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-11140",
+    "death_date": "2021-12-01T15:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2021-11120",
