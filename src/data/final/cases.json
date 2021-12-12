@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2021-11548",
+    "death_date": "2021-12-11T00:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-11545",
+    "death_date": "2021-12-11T11:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11541",
+    "death_date": "2021-12-11T08:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-11538",
+    "death_date": "2021-12-11T04:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-11537",
+    "death_date": "2021-12-11T05:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-11533",
+    "death_date": "2021-12-11T03:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11529",
+    "death_date": "2021-12-11T03:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-11527",
+    "death_date": "2021-12-11T00:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2021-11521",
+    "death_date": "2021-12-10T18:30:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11520",
+    "death_date": "2021-12-10T18:25:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2021-11513",
     "death_date": "2021-12-10T11:39:00.000",
     "race": "Other",
@@ -26,6 +96,20 @@
     "race": "White",
     "latino": false,
     "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-11502",
+    "death_date": "2021-12-10T11:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-11497",
+    "death_date": "2021-12-10T08:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2021-11493",
