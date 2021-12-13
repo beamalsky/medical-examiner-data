@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-11580",
+    "death_date": "2021-12-12T07:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-11573",
+    "death_date": "2021-12-12T03:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-11564",
+    "death_date": "2021-12-11T16:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11548",
     "death_date": "2021-12-11T00:14:00.000",
     "race": "White",
@@ -40,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-11530",
+    "death_date": "2021-12-11T03:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-11529",
@@ -110,6 +138,13 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-11496",
+    "death_date": "2021-12-10T10:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2021-11493",
