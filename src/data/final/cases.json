@@ -1,5 +1,75 @@
 [
   {
+    "casenumber": "ME2021-11633",
+    "death_date": "2021-12-13T12:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-11628",
+    "death_date": "2021-12-13T11:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-11621",
+    "death_date": "2021-12-12T16:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-11615",
+    "death_date": "2021-12-13T02:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-11612",
+    "death_date": "2021-12-12T21:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11611",
+    "death_date": "2021-12-12T21:55:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-11608",
+    "death_date": "2021-12-12T20:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11605",
+    "death_date": "2021-12-12T19:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-11601",
+    "death_date": "2021-12-12T17:33:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-11596",
+    "death_date": "2021-12-12T14:33:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11580",
     "death_date": "2021-12-12T07:59:00.000",
     "race": "Black",
@@ -98,6 +168,13 @@
     "community": "NEW CITY"
   },
   {
+    "casenumber": "ME2021-11518",
+    "death_date": "2021-12-10T19:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2021-11513",
     "death_date": "2021-12-10T11:39:00.000",
     "race": "Other",
@@ -117,6 +194,13 @@
     "race": "Other",
     "latino": true,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11505",
+    "death_date": "2021-12-10T12:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-11503",
@@ -175,6 +259,13 @@
     "community": "NEW CITY"
   },
   {
+    "casenumber": "ME2021-11473",
+    "death_date": "2021-12-09T20:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2021-11468",
     "death_date": "2021-12-09T15:51:00.000",
     "race": "Black",
@@ -194,6 +285,13 @@
     "race": "White",
     "latino": false,
     "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-11444",
+    "death_date": "2021-12-13T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-11440",
