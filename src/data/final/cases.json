@@ -1,5 +1,82 @@
 [
   {
+    "casenumber": "ME2021-11745",
+    "death_date": "2021-12-14T01:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2021-11742",
+    "death_date": "2021-12-13T06:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-11737",
+    "death_date": "2021-12-12T08:09:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-11725",
+    "death_date": "2021-12-15T05:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11723",
+    "death_date": "2021-12-14T20:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11721",
+    "death_date": "2021-12-15T00:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-11717",
+    "death_date": "2021-12-14T21:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-11713",
+    "death_date": "2021-12-14T20:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11711",
+    "death_date": "2021-12-14T17:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11708",
+    "death_date": "2021-12-14T20:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11664",
+    "death_date": "2021-12-14T04:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
     "casenumber": "ME2021-11633",
     "death_date": "2021-12-13T12:35:00.000",
     "race": "Black",
@@ -19,6 +96,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-11618",
+    "death_date": "2021-12-13T03:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2021-11615",
@@ -47,6 +131,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-11607",
+    "death_date": "2021-12-13T14:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-11605",
