@@ -1,5 +1,82 @@
 [
   {
+    "casenumber": "ME2021-11795",
+    "death_date": "2021-12-16T09:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-11794",
+    "death_date": "2021-12-09T13:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-11793",
+    "death_date": "2021-12-11T00:23:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-11788",
+    "death_date": "2021-12-16T13:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-11787",
+    "death_date": "2021-12-13T14:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2021-11780",
+    "death_date": "2021-12-16T11:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-11779",
+    "death_date": "2021-12-16T10:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-11768",
+    "death_date": "2021-12-16T03:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-11766",
+    "death_date": "2021-12-16T01:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-11764",
+    "death_date": "2021-12-15T21:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-11762",
+    "death_date": "2021-12-15T22:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
     "casenumber": "ME2021-11745",
     "death_date": "2021-12-14T01:56:00.000",
     "race": "Black",
@@ -19,6 +96,13 @@
     "race": "Unknown",
     "latino": false,
     "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2021-11729",
+    "death_date": "2021-12-15T16:14:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2021-11725",
@@ -68,6 +152,62 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11702",
+    "death_date": "2021-12-14T15:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11701",
+    "death_date": "2021-12-13T19:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11696",
+    "death_date": "2021-12-14T06:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-11695",
+    "death_date": "2021-12-14T14:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11693",
+    "death_date": "2021-12-12T13:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-11691",
+    "death_date": "2021-12-14T13:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-11679",
+    "death_date": "2021-12-09T12:09:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2021-11677",
+    "death_date": "2021-12-14T07:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-11664",
@@ -229,6 +369,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-11531",
+    "death_date": "2021-12-11T03:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2021-11530",
