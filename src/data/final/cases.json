@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2021-11875",
+    "death_date": "2021-12-18T16:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11874",
+    "death_date": "2021-12-18T13:29:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
+  },
+  {
+    "casenumber": "ME2021-11856",
+    "death_date": "2021-12-18T05:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
     "casenumber": "ME2021-11842",
     "death_date": "2021-12-17T16:13:00.000",
     "race": "Black",
@@ -586,6 +607,13 @@
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-11491",
+    "death_date": "2021-12-10T10:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2021-11480",
