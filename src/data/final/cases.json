@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2021-11932",
+    "death_date": "2021-12-19T18:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-11929",
+    "death_date": "2021-12-19T19:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-11927",
+    "death_date": "2021-12-19T16:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-11924",
+    "death_date": "2021-12-19T17:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-11912",
+    "death_date": "2021-12-19T12:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2021-11910",
+    "death_date": "2021-12-19T11:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11907",
+    "death_date": "2021-12-19T10:48:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
+    "casenumber": "ME2021-11906",
+    "death_date": "2021-12-19T11:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-11899",
+    "death_date": "2021-12-19T07:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-11893",
+    "death_date": "2021-12-19T02:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11889",
+    "death_date": "2021-12-18T20:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-11886",
+    "death_date": "2021-12-18T20:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2021-11885",
+    "death_date": "2021-12-18T19:14:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-11878",
+    "death_date": "2021-12-18T17:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-11875",
     "death_date": "2021-12-18T16:55:00.000",
     "race": "Black",
@@ -21,6 +119,13 @@
     "community": "EAST SIDE"
   },
   {
+    "casenumber": "ME2021-11846",
+    "death_date": "2021-12-17T19:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
     "casenumber": "ME2021-11842",
     "death_date": "2021-12-17T16:13:00.000",
     "race": "Black",
@@ -40,6 +145,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2021-11837",
+    "death_date": "2021-12-15T18:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2021-11826",
