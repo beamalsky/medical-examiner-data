@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2021-11981",
+    "death_date": "2021-12-20T14:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11979",
+    "death_date": "2021-12-20T16:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-11977",
+    "death_date": "2021-12-20T12:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2021-11971",
+    "death_date": "2021-12-16T15:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-11949",
+    "death_date": "2021-12-20T06:29:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-11936",
+    "death_date": "2021-12-19T22:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
     "casenumber": "ME2021-11932",
     "death_date": "2021-12-19T18:52:00.000",
     "race": "Black",
@@ -635,6 +677,13 @@
     "race": "Black",
     "latino": false,
     "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-11523",
+    "death_date": "2021-12-10T23:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-11521",
