@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2021-12036",
+    "death_date": "2021-12-21T15:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-11981",
     "death_date": "2021-12-20T14:37:00.000",
     "race": "White",
@@ -306,6 +313,13 @@
     "race": "White",
     "latino": true,
     "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2021-11750",
+    "death_date": "2021-12-15T16:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2021-11745",
@@ -11537,6 +11551,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-01089",
+    "death_date": "2021-01-20T11:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-01084",
