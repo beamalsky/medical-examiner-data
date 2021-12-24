@@ -1,5 +1,152 @@
 [
   {
+    "casenumber": "ME2021-12156",
+    "death_date": "2021-12-23T19:04:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-12155",
+    "death_date": "2021-12-23T18:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-12153",
+    "death_date": "2021-12-20T09:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12152",
+    "death_date": "2021-12-23T13:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12146",
+    "death_date": "2021-12-23T15:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12145",
+    "death_date": "2021-12-22T15:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12144",
+    "death_date": "2021-12-23T10:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12142",
+    "death_date": "2021-12-23T14:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-12141",
+    "death_date": "2021-12-23T13:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-12140",
+    "death_date": "2021-12-23T12:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12138",
+    "death_date": "2021-12-15T06:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-12137",
+    "death_date": "2021-12-22T15:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-12125",
+    "death_date": "2021-12-23T07:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-12124",
+    "death_date": "2021-12-23T05:58:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12122",
+    "death_date": "2021-12-23T05:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-12121",
+    "death_date": "2021-12-23T02:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-12119",
+    "death_date": "2021-12-23T04:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-12118",
+    "death_date": "2021-12-23T01:57:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2021-12116",
+    "death_date": "2021-12-23T02:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2021-12112",
+    "death_date": "2021-12-22T22:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-12102",
+    "death_date": "2021-12-22T18:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2021-12098",
     "death_date": "2021-12-22T18:45:00.000",
     "race": "White",
@@ -70,6 +217,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-12056",
+    "death_date": "2021-12-22T05:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
     "casenumber": "ME2021-12055",
     "death_date": "2021-12-21T22:07:00.000",
     "race": "Black",
@@ -133,6 +287,20 @@
     "community": "SOUTH SHORE"
   },
   {
+    "casenumber": "ME2021-12002",
+    "death_date": "2021-12-03T03:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-11998",
+    "death_date": "2021-12-21T04:31:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2021-11981",
     "death_date": "2021-12-20T14:37:00.000",
     "race": "White",
@@ -154,11 +322,25 @@
     "community": "HYDE PARK"
   },
   {
+    "casenumber": "ME2021-11976",
+    "death_date": "2021-12-20T15:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
+  },
+  {
     "casenumber": "ME2021-11971",
     "death_date": "2021-12-16T15:15:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-11952",
+    "death_date": "2021-12-20T01:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
   },
   {
     "casenumber": "ME2021-11951",
@@ -173,6 +355,13 @@
     "race": "Other",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-11940",
+    "death_date": "2021-12-20T03:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-11936",
@@ -796,6 +985,13 @@
     "race": "White",
     "latino": false,
     "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-11534",
+    "death_date": "2021-12-11T04:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2021-11533",
@@ -19001,7 +19197,7 @@
     "death_date": "2020-11-29T09:47:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "EAST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-13609",
@@ -28000,7 +28196,7 @@
     "death_date": "2020-05-27T17:45:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-06637",
