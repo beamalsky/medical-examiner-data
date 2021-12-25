@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-12194",
+    "death_date": "2021-12-24T16:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-12193",
+    "death_date": "2021-12-24T15:48:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12183",
+    "death_date": "2021-12-24T07:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-12182",
+    "death_date": "2021-12-24T12:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12177",
+    "death_date": "2021-12-24T09:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-12175",
+    "death_date": "2021-12-24T06:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-12174",
+    "death_date": "2021-12-24T04:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-12167",
+    "death_date": "2021-12-24T01:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2021-12156",
     "death_date": "2021-12-23T19:04:00.000",
     "race": "White",
@@ -68,6 +124,13 @@
     "race": "White",
     "latino": true,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12139",
+    "death_date": "2021-12-22T04:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-12138",
