@@ -1,5 +1,82 @@
 [
   {
+    "casenumber": "ME2021-12250",
+    "death_date": "2021-12-25T17:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-12245",
+    "death_date": "2021-12-25T15:57:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-12244",
+    "death_date": "2021-12-25T16:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12243",
+    "death_date": "2021-12-25T15:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2021-12241",
+    "death_date": "2021-12-25T15:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
+  },
+  {
+    "casenumber": "ME2021-12240",
+    "death_date": "2021-12-25T16:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12223",
+    "death_date": "2021-12-25T08:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12222",
+    "death_date": "2021-12-25T08:53:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-12217",
+    "death_date": "2021-12-25T03:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-12214",
+    "death_date": "2021-12-24T19:12:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
+    "casenumber": "ME2021-12213",
+    "death_date": "2021-12-25T00:42:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-12194",
     "death_date": "2021-12-24T16:00:00.000",
     "race": "White",
