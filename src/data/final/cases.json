@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2021-12358",
+    "death_date": "2021-12-27T15:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-12352",
+    "death_date": "2021-12-27T12:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-12330",
+    "death_date": "2021-12-23T18:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-12320",
+    "death_date": "2021-12-27T02:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-12317",
+    "death_date": "2021-12-27T00:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2021-12316",
+    "death_date": "2021-12-26T20:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-12296",
+    "death_date": "2021-12-26T10:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12293",
+    "death_date": "2021-12-26T13:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
     "casenumber": "ME2021-12290",
     "death_date": "2021-12-26T12:26:00.000",
     "race": "Black",
@@ -138,6 +194,13 @@
     "race": "Other",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12192",
+    "death_date": "2021-12-24T14:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
   },
   {
     "casenumber": "ME2021-12184",
