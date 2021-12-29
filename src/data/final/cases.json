@@ -1,5 +1,68 @@
 [
   {
+    "casenumber": "ME2021-12426",
+    "death_date": "2021-12-25T15:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12425",
+    "death_date": "2021-12-28T17:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12418",
+    "death_date": "2021-12-28T14:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-12416",
+    "death_date": "2021-12-21T11:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12403",
+    "death_date": "2021-12-28T10:46:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NORWOOD PARK"
+  },
+  {
+    "casenumber": "ME2021-12392",
+    "death_date": "2021-12-27T23:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12390",
+    "death_date": "2021-12-27T21:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2021-12383",
+    "death_date": "2021-12-27T22:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12381",
+    "death_date": "2021-12-28T00:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-12358",
     "death_date": "2021-12-27T15:09:00.000",
     "race": "White",
@@ -12,6 +75,27 @@
     "race": "Black",
     "latino": false,
     "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2021-12345",
+    "death_date": "2021-12-27T11:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-12335",
+    "death_date": "2021-12-27T09:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2021-12334",
+    "death_date": "2021-12-27T07:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2021-12330",
@@ -40,6 +124,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-12297",
+    "death_date": "2021-12-27T09:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-12296",
@@ -245,6 +336,13 @@
     "community": "SOUTH SHORE"
   },
   {
+    "casenumber": "ME2021-12173",
+    "death_date": "2021-12-24T07:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2021-12169",
     "death_date": "2021-12-24T03:30:00.000",
     "race": "White",
@@ -348,6 +446,13 @@
     "race": "White",
     "latino": false,
     "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-12134",
+    "death_date": "2021-12-23T11:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-12125",
@@ -483,6 +588,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-12059",
+    "death_date": "2021-12-22T06:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2021-12056",
     "death_date": "2021-12-22T05:30:00.000",
     "race": "Black",
@@ -614,6 +726,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST ELSDON"
+  },
+  {
+    "casenumber": "ME2021-11950",
+    "death_date": "2021-12-20T07:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-11949",
