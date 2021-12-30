@@ -1,10 +1,87 @@
 [
   {
-    "casenumber": "ME2021-12426",
-    "death_date": "2021-12-25T15:05:00.000",
-    "race": "Black",
+    "casenumber": "ME2021-12478",
+    "death_date": "2021-12-29T17:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12477",
+    "death_date": "2021-12-29T17:18:00.000",
+    "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-12469",
+    "death_date": "2021-12-29T14:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-12466",
+    "death_date": "2021-12-29T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-12461",
+    "death_date": "2021-12-29T11:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12453",
+    "death_date": "2021-12-28T19:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12445",
+    "death_date": "2021-12-29T03:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2021-12443",
+    "death_date": "2021-12-29T03:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-12437",
+    "death_date": "2021-12-28T22:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2021-12435",
+    "death_date": "2021-12-28T21:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2021-12433",
+    "death_date": "2021-12-28T22:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2021-12428",
+    "death_date": "2021-12-28T19:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST ELSDON"
   },
   {
     "casenumber": "ME2021-12425",
@@ -26,6 +103,34 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-12414",
+    "death_date": "2021-12-28T12:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2021-12409",
+    "death_date": "2021-12-28T11:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2021-12408",
+    "death_date": "2021-12-28T10:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2021-12407",
+    "death_date": "2021-12-22T13:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-12403",
@@ -63,6 +168,34 @@
     "community": null
   },
   {
+    "casenumber": "ME2021-12380",
+    "death_date": "2021-12-27T20:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-12373",
+    "death_date": "2021-12-27T21:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2021-12369",
+    "death_date": "2021-12-27T19:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-12362",
+    "death_date": "2021-12-27T16:24:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
     "casenumber": "ME2021-12358",
     "death_date": "2021-12-27T15:09:00.000",
     "race": "White",
@@ -82,6 +215,13 @@
     "race": "White",
     "latino": false,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2021-12339",
+    "death_date": "2021-12-27T08:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2021-12335",
@@ -145,6 +285,13 @@
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12291",
+    "death_date": "2021-12-26T00:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-12290",
@@ -712,6 +859,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-11966",
+    "death_date": "2021-12-17T19:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST ELSDON"
   },
   {
     "casenumber": "ME2021-11952",
