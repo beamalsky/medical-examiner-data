@@ -1,5 +1,117 @@
 [
   {
+    "casenumber": "ME2021-12542",
+    "death_date": "2021-12-30T21:16:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2021-12541",
+    "death_date": "2021-12-30T18:12:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2021-12539",
+    "death_date": "2021-12-30T16:16:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-12538",
+    "death_date": "2021-12-30T18:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12527",
+    "death_date": "2021-12-30T15:21:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12524",
+    "death_date": "2021-12-30T14:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2021-12523",
+    "death_date": "2021-12-30T14:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-12520",
+    "death_date": "2021-12-30T14:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12519",
+    "death_date": "2021-12-30T12:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2021-12508",
+    "death_date": "2021-12-30T05:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2021-12495",
+    "death_date": "2021-12-30T07:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-12494",
+    "death_date": "2021-12-29T13:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2021-12489",
+    "death_date": "2021-12-30T02:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-12488",
+    "death_date": "2021-12-28T13:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2021-12486",
+    "death_date": "2021-12-29T23:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-12484",
+    "death_date": "2021-12-29T21:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2021-12478",
     "death_date": "2021-12-29T17:27:00.000",
     "race": "White",
@@ -33,6 +145,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12458",
+    "death_date": "2021-11-30T11:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BEVERLY"
   },
   {
     "casenumber": "ME2021-12453",
@@ -299,6 +418,13 @@
     "race": "Black",
     "latino": false,
     "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-12288",
+    "death_date": "2021-12-26T10:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-12281",
@@ -691,6 +817,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-12081",
+    "death_date": "2021-12-25T07:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2021-12079",
@@ -1841,6 +1974,13 @@
     "community": "ENGLEWOOD"
   },
   {
+    "casenumber": "ME2021-11386",
+    "death_date": "2021-12-07T18:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2021-11371",
     "death_date": "2021-12-07T10:07:00.000",
     "race": "White",
@@ -2294,6 +2434,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-10944",
+    "death_date": "2021-11-26T09:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2021-10931",
