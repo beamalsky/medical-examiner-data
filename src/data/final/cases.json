@@ -1,5 +1,124 @@
 [
   {
+    "casenumber": "ME2022-00071",
+    "death_date": "2022-01-01T18:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-00070",
+    "death_date": "2022-01-01T12:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-00068",
+    "death_date": "2022-01-01T19:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2022-00064",
+    "death_date": "2022-01-01T18:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00061",
+    "death_date": "2022-01-01T15:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-00056",
+    "death_date": "2022-01-01T15:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2022-00052",
+    "death_date": "2022-01-01T13:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-00029",
+    "death_date": "2022-01-01T08:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00025",
+    "death_date": "2022-01-01T06:40:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2022-00012",
+    "death_date": "2022-01-01T01:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
+  },
+  {
+    "casenumber": "ME2022-00011",
+    "death_date": "2022-01-01T02:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00008",
+    "death_date": "2022-01-01T03:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2022-00006",
+    "death_date": "2022-01-01T01:34:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "MCKINLEY PARK"
+  },
+  {
+    "casenumber": "ME2022-00001",
+    "death_date": "2021-12-31T23:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2021-12618",
+    "death_date": "2021-12-31T21:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2021-12617",
+    "death_date": "2021-12-31T21:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2021-12615",
+    "death_date": "2021-12-31T18:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-12610",
     "death_date": "2021-12-31T15:26:00.000",
     "race": "White",
@@ -12,6 +131,20 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-12605",
+    "death_date": "2021-12-31T14:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2021-12603",
+    "death_date": "2021-12-31T14:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-12590",
@@ -894,6 +1027,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-12095",
+    "death_date": "2021-12-22T18:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-12093",
