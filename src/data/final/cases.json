@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2022-00215",
+    "death_date": "2022-01-03T18:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00197",
+    "death_date": "2022-01-03T16:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-00189",
+    "death_date": "2022-01-03T13:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2022-00187",
+    "death_date": "2022-01-02T17:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00181",
+    "death_date": "2022-01-03T11:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-00175",
+    "death_date": "2022-01-03T12:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2022-00164",
+    "death_date": "2022-01-01T03:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-00159",
+    "death_date": "2022-01-03T08:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-00151",
+    "death_date": "2022-01-03T05:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2022-00146",
+    "death_date": "2022-01-03T02:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00136",
+    "death_date": "2022-01-02T23:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00132",
+    "death_date": "2022-01-03T01:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2022-00129",
+    "death_date": "2022-01-02T18:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00127",
+    "death_date": "2022-01-02T16:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
     "casenumber": "ME2022-00118",
     "death_date": "2022-01-02T12:49:00.000",
     "race": "Black",
@@ -19,6 +117,13 @@
     "race": "Black",
     "latino": false,
     "community": "BURNSIDE"
+  },
+  {
+    "casenumber": "ME2022-00105",
+    "death_date": "2022-01-02T10:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-00097",
@@ -154,6 +259,13 @@
     "community": "MCKINLEY PARK"
   },
   {
+    "casenumber": "ME2022-00002",
+    "death_date": "2022-01-01T00:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2022-00001",
     "death_date": "2021-12-31T23:47:00.000",
     "race": "Black",
@@ -210,11 +322,25 @@
     "community": "SOUTH SHORE"
   },
   {
+    "casenumber": "ME2021-12591",
+    "death_date": "2021-12-31T12:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2021-12590",
     "death_date": "2021-12-31T11:35:00.000",
     "race": "White",
     "latino": false,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12585",
+    "death_date": "2021-12-31T07:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2021-12584",
@@ -467,6 +593,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2021-12441",
+    "death_date": "2021-12-28T23:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-12437",
