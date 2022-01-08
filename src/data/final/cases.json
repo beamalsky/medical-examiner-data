@@ -1,10 +1,164 @@
 [
   {
+    "casenumber": "ME2022-00593",
+    "death_date": "2022-01-07T18:53:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2022-00588",
+    "death_date": "2022-01-06T20:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2022-00581",
+    "death_date": "2022-01-07T18:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00578",
+    "death_date": "2022-01-07T16:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-00576",
+    "death_date": "2022-01-07T18:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2022-00571",
+    "death_date": "2022-01-07T14:59:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-00567",
+    "death_date": "2022-01-07T17:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2022-00566",
+    "death_date": "2022-01-07T16:49:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00565",
+    "death_date": "2022-01-07T16:17:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2022-00557",
+    "death_date": "2022-01-07T14:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-00551",
+    "death_date": "2022-01-07T12:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2022-00550",
+    "death_date": "2022-01-07T14:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2022-00514",
+    "death_date": "2022-01-07T04:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00512",
+    "death_date": "2022-01-07T05:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-00505",
+    "death_date": "2022-01-07T02:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00504",
+    "death_date": "2022-01-07T01:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2022-00500",
+    "death_date": "2022-01-06T22:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-00499",
+    "death_date": "2022-01-06T20:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00497",
+    "death_date": "2022-01-06T20:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2022-00495",
+    "death_date": "2022-01-04T23:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-00493",
+    "death_date": "2022-01-06T21:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
     "casenumber": "ME2022-00489",
     "death_date": "2022-01-06T07:09:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-00488",
+    "death_date": "2022-01-06T19:42:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
   },
   {
     "casenumber": "ME2022-00486",
@@ -63,6 +217,13 @@
     "community": "ASHBURN"
   },
   {
+    "casenumber": "ME2022-00458",
+    "death_date": "2022-01-06T13:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
     "casenumber": "ME2022-00456",
     "death_date": "2022-01-06T11:42:00.000",
     "race": "White",
@@ -89,6 +250,13 @@
     "race": "Black",
     "latino": false,
     "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2022-00444",
+    "death_date": "2022-01-06T10:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-00439",
@@ -1888,6 +2056,13 @@
     "race": "White",
     "latino": false,
     "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2021-12105",
+    "death_date": "2021-12-22T22:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-12102",
@@ -7240,7 +7415,7 @@
     "death_date": "2021-06-17T16:32:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEW CITY"
+    "community": null
   },
   {
     "casenumber": "ME2021-06036",
@@ -8169,7 +8344,7 @@
     "death_date": "2021-05-19T05:47:00.000",
     "race": "White",
     "latino": false,
-    "community": "HYDE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-05136",
@@ -15909,7 +16084,7 @@
     "death_date": "2020-12-30T19:08:00.000",
     "race": "White",
     "latino": true,
-    "community": "CLEARING"
+    "community": null
   },
   {
     "casenumber": "ME2020-15971",
@@ -22500,7 +22675,7 @@
     "death_date": "2020-11-17T04:44:00.000",
     "race": "White",
     "latino": true,
-    "community": "LOGAN SQUARE"
+    "community": null
   },
   {
     "casenumber": "ME2020-12782",
@@ -36646,7 +36821,7 @@
     "death_date": "2020-04-30T15:27:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2020-04355",
@@ -36870,7 +37045,7 @@
     "death_date": "2020-05-04T00:27:00.000",
     "race": "White",
     "latino": true,
-    "community": "UPTOWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04257",
@@ -44125,7 +44300,7 @@
     "death_date": "2020-03-31T15:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AVALON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-01820",
