@@ -1,5 +1,124 @@
 [
   {
+    "casenumber": "ME2022-00675",
+    "death_date": "2022-01-08T20:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00666",
+    "death_date": "2022-01-08T17:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2022-00664",
+    "death_date": "2022-01-08T01:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2022-00658",
+    "death_date": "2022-01-08T17:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-00657",
+    "death_date": "2022-01-08T13:38:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2022-00650",
+    "death_date": "2022-01-08T14:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-00640",
+    "death_date": "2022-01-08T02:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-00638",
+    "death_date": "2022-01-07T07:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00628",
+    "death_date": "2022-01-08T10:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00618",
+    "death_date": "2022-01-08T03:46:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
+    "casenumber": "ME2022-00613",
+    "death_date": "2022-01-08T05:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00608",
+    "death_date": "2022-01-08T02:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-00602",
+    "death_date": "2022-01-08T00:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2022-00601",
+    "death_date": "2022-01-07T23:52:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-00598",
+    "death_date": "2022-01-07T23:08:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2022-00597",
+    "death_date": "2022-01-07T20:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2022-00596",
+    "death_date": "2022-01-07T22:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2022-00593",
     "death_date": "2022-01-07T18:53:00.000",
     "race": "Unknown",
@@ -7,8 +126,36 @@
     "community": "EAST SIDE"
   },
   {
+    "casenumber": "ME2022-00589",
+    "death_date": "2022-01-07T20:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
     "casenumber": "ME2022-00588",
     "death_date": "2022-01-06T20:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2022-00584",
+    "death_date": "2022-01-07T20:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-00583",
+    "death_date": "2022-01-07T18:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-00582",
+    "death_date": "2022-01-07T17:02:00.000",
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
@@ -33,6 +180,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2022-00575",
+    "death_date": "2022-01-07T15:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2022-00571",
@@ -63,6 +217,13 @@
     "community": "CLEARING"
   },
   {
+    "casenumber": "ME2022-00564",
+    "death_date": "2022-01-07T17:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
     "casenumber": "ME2022-00557",
     "death_date": "2022-01-07T14:46:00.000",
     "race": "Black",
@@ -84,6 +245,48 @@
     "community": "WEST GARFIELD PARK"
   },
   {
+    "casenumber": "ME2022-00542",
+    "death_date": "2021-12-24T01:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-00533",
+    "death_date": "2022-01-07T08:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2022-00532",
+    "death_date": "2021-12-17T19:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
+  },
+  {
+    "casenumber": "ME2022-00529",
+    "death_date": "2022-01-07T10:38:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2022-00516",
+    "death_date": "2022-01-07T00:29:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-00515",
+    "death_date": "2022-01-07T05:32:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2022-00514",
     "death_date": "2022-01-07T04:26:00.000",
     "race": "Black",
@@ -96,6 +299,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-00507",
+    "death_date": "2022-01-07T03:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
   },
   {
     "casenumber": "ME2022-00505",
@@ -138,6 +348,13 @@
     "race": "Black",
     "latino": false,
     "community": "PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-00494",
+    "death_date": "2022-01-06T17:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2022-00493",
@@ -187,6 +404,13 @@
     "race": "White",
     "latino": true,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2022-00474",
+    "death_date": "2022-01-06T16:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2022-00473",
@@ -294,6 +518,13 @@
     "community": "NORWOOD PARK"
   },
   {
+    "casenumber": "ME2022-00424",
+    "death_date": "2022-01-06T01:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2022-00423",
     "death_date": "2022-01-06T01:52:00.000",
     "race": "Black",
@@ -327,6 +558,20 @@
     "race": "Black",
     "latino": false,
     "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2022-00412",
+    "death_date": "2022-01-05T22:55:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2022-00410",
+    "death_date": "2022-01-05T21:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "RIVERDALE"
   },
   {
     "casenumber": "ME2022-00407",
@@ -453,6 +698,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-00355",
+    "death_date": "2022-01-05T05:38:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2022-00350",
@@ -686,6 +938,13 @@
     "community": "MONTCLARE"
   },
   {
+    "casenumber": "ME2022-00229",
+    "death_date": "2022-01-03T23:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
     "casenumber": "ME2022-00228",
     "death_date": "2022-01-03T23:53:00.000",
     "race": "White",
@@ -719,6 +978,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-00216",
+    "death_date": "2022-01-03T19:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2022-00215",
@@ -810,6 +1076,13 @@
     "race": "Black",
     "latino": false,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2022-00150",
+    "death_date": "2022-01-03T04:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-00146",
@@ -7415,7 +7688,7 @@
     "death_date": "2021-06-17T16:32:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-06036",
@@ -8344,7 +8617,7 @@
     "death_date": "2021-05-19T05:47:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "HYDE PARK"
   },
   {
     "casenumber": "ME2021-05136",
@@ -16084,7 +16357,7 @@
     "death_date": "2020-12-30T19:08:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "CLEARING"
   },
   {
     "casenumber": "ME2020-15971",
@@ -22675,7 +22948,7 @@
     "death_date": "2020-11-17T04:44:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-12782",
@@ -36821,7 +37094,7 @@
     "death_date": "2020-04-30T15:27:00.000",
     "race": "Black",
     "latino": false,
-    "community": "CHICAGO LAWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04355",
@@ -37045,7 +37318,7 @@
     "death_date": "2020-05-04T00:27:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-04257",
@@ -44300,7 +44573,7 @@
     "death_date": "2020-03-31T15:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AVALON PARK"
   },
   {
     "casenumber": "ME2020-01820",
