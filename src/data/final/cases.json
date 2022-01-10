@@ -1,10 +1,94 @@
 [
   {
+    "casenumber": "ME2022-00724",
+    "death_date": "2022-01-09T07:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2022-00702",
+    "death_date": "2022-01-09T05:55:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00700",
+    "death_date": "2022-01-09T06:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2022-00696",
+    "death_date": "2022-01-09T04:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-00695",
+    "death_date": "2022-01-09T02:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-00691",
+    "death_date": "2022-01-08T17:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2022-00687",
+    "death_date": "2022-01-09T00:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-00686",
+    "death_date": "2022-01-09T00:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2022-00684",
+    "death_date": "2022-01-09T00:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-00679",
+    "death_date": "2022-01-08T22:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2022-00675",
     "death_date": "2022-01-08T20:21:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00669",
+    "death_date": "2022-01-08T02:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
+  },
+  {
+    "casenumber": "ME2022-00668",
+    "death_date": "2022-01-06T05:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2022-00666",
@@ -19,6 +103,20 @@
     "race": "Black",
     "latino": false,
     "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2022-00661",
+    "death_date": "2022-01-08T17:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-00660",
+    "death_date": "2022-01-08T17:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2022-00658",
@@ -973,6 +1071,13 @@
     "community": "PORTAGE PARK"
   },
   {
+    "casenumber": "ME2022-00220",
+    "death_date": "2022-01-03T19:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-00219",
     "death_date": "2022-01-03T19:52:00.000",
     "race": "White",
@@ -1433,6 +1538,13 @@
     "race": "White",
     "latino": false,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2021-12578",
+    "death_date": "2021-12-31T10:00:00.000",
+    "race": "Black",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2021-12576",
