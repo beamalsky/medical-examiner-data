@@ -1,10 +1,136 @@
 [
   {
+    "casenumber": "ME2022-00813",
+    "death_date": "2022-01-10T14:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2022-00812",
+    "death_date": "2022-01-09T05:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-00807",
+    "death_date": "2022-01-09T08:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00793",
+    "death_date": "2022-01-01T06:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00792",
+    "death_date": "2022-01-01T14:56:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00783",
+    "death_date": "2022-01-10T10:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-00771",
+    "death_date": "2022-01-08T17:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2022-00755",
+    "death_date": "2022-01-09T17:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-00748",
+    "death_date": "2022-01-09T17:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2022-00743",
+    "death_date": "2022-01-09T15:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-00736",
+    "death_date": "2022-01-09T15:37:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00735",
+    "death_date": "2022-01-09T14:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-00734",
+    "death_date": "2022-01-09T15:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-00733",
+    "death_date": "2022-01-09T12:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-00732",
+    "death_date": "2022-01-08T13:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-00724",
     "death_date": "2022-01-09T07:30:00.000",
     "race": "White",
     "latino": true,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2022-00709",
+    "death_date": "2022-01-09T09:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-00706",
+    "death_date": "2022-01-09T07:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00704",
+    "death_date": "2022-01-08T19:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-00702",
@@ -19,6 +145,13 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2022-00697",
+    "death_date": "2022-01-09T06:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2022-00696",
@@ -138,6 +271,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-00649",
+    "death_date": "2022-01-08T14:37:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "JEFFERSON PARK"
   },
   {
     "casenumber": "ME2022-00640",
@@ -868,6 +1008,13 @@
     "community": "CHATHAM"
   },
   {
+    "casenumber": "ME2022-00309",
+    "death_date": "2022-01-04T14:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2022-00308",
     "death_date": "2022-01-04T18:44:00.000",
     "race": "White",
@@ -894,6 +1041,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-00298",
+    "death_date": "2022-01-04T17:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2022-00296",
@@ -978,6 +1132,13 @@
     "race": "White",
     "latino": true,
     "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2022-00263",
+    "death_date": "2022-01-04T11:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-00250",
@@ -2462,6 +2623,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2021-12096",
+    "death_date": "2021-12-22T19:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2021-12095",
