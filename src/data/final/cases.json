@@ -1,5 +1,103 @@
 [
   {
+    "casenumber": "ME2022-00913",
+    "death_date": "2021-12-16T10:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00893",
+    "death_date": "2022-01-10T09:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00891",
+    "death_date": "2022-01-11T11:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CLEARING"
+  },
+  {
+    "casenumber": "ME2022-00883",
+    "death_date": "2022-01-10T13:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-00880",
+    "death_date": "2022-01-11T09:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00874",
+    "death_date": "2022-01-11T08:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00870",
+    "death_date": "2022-01-06T10:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00864",
+    "death_date": "2022-01-10T14:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-00854",
+    "death_date": "2022-01-11T01:33:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00852",
+    "death_date": "2022-01-10T23:00:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2022-00849",
+    "death_date": "2022-01-10T19:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2022-00838",
+    "death_date": "2022-01-10T14:59:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2022-00833",
+    "death_date": "2022-01-10T19:22:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-00830",
+    "death_date": "2022-01-10T16:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
     "casenumber": "ME2022-00813",
     "death_date": "2022-01-10T14:17:00.000",
     "race": "White",
@@ -19,6 +117,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00799",
+    "death_date": "2022-01-10T13:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2022-00793",
@@ -719,6 +824,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-00443",
+    "death_date": "2022-01-06T09:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-00439",
