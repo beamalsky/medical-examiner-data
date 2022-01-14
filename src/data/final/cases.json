@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2022-01082",
+    "death_date": "2022-01-13T13:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2022-01068",
+    "death_date": "2022-01-13T08:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2022-01056",
+    "death_date": "2022-01-13T04:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2022-01045",
+    "death_date": "2022-01-13T00:17:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-01034",
     "death_date": "2022-01-12T21:15:00.000",
     "race": "Unknown",
@@ -119,11 +147,81 @@
     "community": "NORWOOD PARK"
   },
   {
+    "casenumber": "ME2022-00949",
+    "death_date": "2022-01-11T22:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00946",
+    "death_date": "2022-01-12T01:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2022-00941",
+    "death_date": "2022-01-11T19:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2022-00936",
+    "death_date": "2022-01-11T20:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-00931",
+    "death_date": "2022-01-11T23:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2022-00924",
+    "death_date": "2022-01-11T21:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-00923",
+    "death_date": "2022-01-11T20:23:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00919",
+    "death_date": "2022-01-11T19:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2022-00913",
     "death_date": "2021-12-16T10:24:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-00909",
+    "death_date": "2022-01-03T18:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-00908",
+    "death_date": "2022-01-08T05:31:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-00903",
@@ -330,7 +428,7 @@
   },
   {
     "casenumber": "ME2022-00796",
-    "death_date": "2022-12-25T12:19:00.000",
+    "death_date": "2021-12-25T12:19:00.000",
     "race": "White",
     "latino": false,
     "community": "AUSTIN"
@@ -2182,6 +2280,13 @@
     "race": "White",
     "latino": false,
     "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2021-12521",
+    "death_date": "2021-12-30T14:09:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2021-12520",
