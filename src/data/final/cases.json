@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2022-01514",
+    "death_date": "2022-01-18T12:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-01511",
+    "death_date": "2022-01-16T18:46:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
+    "casenumber": "ME2022-01501",
+    "death_date": "2022-01-18T09:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-01500",
+    "death_date": "2022-01-04T16:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2022-01491",
     "death_date": "2022-01-18T05:23:00.000",
     "race": "White",
@@ -19,6 +47,13 @@
     "race": "White",
     "latino": false,
     "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-01484",
+    "death_date": "2022-01-18T00:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2022-01476",
@@ -49,6 +84,13 @@
     "community": "DUNNING"
   },
   {
+    "casenumber": "ME2022-01469",
+    "death_date": "2022-01-17T09:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
     "casenumber": "ME2022-01465",
     "death_date": "2022-01-17T18:05:00.000",
     "race": "White",
@@ -75,6 +117,13 @@
     "race": "White",
     "latino": false,
     "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2022-01451",
+    "death_date": "2022-01-17T11:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
   },
   {
     "casenumber": "ME2022-01444",
@@ -264,6 +313,20 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-01365",
+    "death_date": "2022-01-16T15:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-01364",
+    "death_date": "2022-01-16T16:43:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2022-01361",
@@ -2392,6 +2455,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-00397",
+    "death_date": "2022-01-05T18:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2022-00387",
