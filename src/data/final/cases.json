@@ -1,10 +1,199 @@
 [
   {
+    "casenumber": "ME2022-01716",
+    "death_date": "2022-01-20T15:51:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-01713",
+    "death_date": "2022-01-20T15:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-01711",
+    "death_date": "2022-01-20T14:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-01707",
+    "death_date": "2022-01-20T13:32:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-01706",
+    "death_date": "2022-01-20T13:11:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-01699",
+    "death_date": "2022-01-20T07:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2022-01696",
+    "death_date": "2022-01-20T12:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2022-01693",
+    "death_date": "2022-01-18T03:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-01690",
+    "death_date": "2022-01-20T11:13:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-01670",
+    "death_date": "2022-01-20T04:07:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-01668",
+    "death_date": "2022-01-20T06:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
+    "casenumber": "ME2022-01662",
+    "death_date": "2022-01-20T04:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2022-01661",
+    "death_date": "2022-01-20T03:47:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-01660",
+    "death_date": "2022-01-19T23:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-01657",
+    "death_date": "2022-01-20T03:34:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2022-01654",
+    "death_date": "2022-01-20T00:51:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2022-01653",
+    "death_date": "2022-01-20T01:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "BURNSIDE"
+  },
+  {
+    "casenumber": "ME2022-01645",
+    "death_date": "2022-01-19T20:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-01636",
+    "death_date": "2022-01-19T18:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-01634",
+    "death_date": "2022-01-19T16:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-01628",
+    "death_date": "2022-01-19T16:20:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-01626",
+    "death_date": "2022-01-08T15:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-01622",
+    "death_date": "2022-01-19T13:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2022-01620",
+    "death_date": "2022-01-19T13:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
+    "casenumber": "ME2022-01618",
+    "death_date": "2022-01-19T13:58:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-01616",
+    "death_date": "2022-01-07T22:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2022-01607",
     "death_date": "2022-01-19T01:18:00.000",
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-01606",
+    "death_date": "2022-01-19T12:04:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-01603",
@@ -88,6 +277,41 @@
     "race": "White",
     "latino": true,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-01540",
+    "death_date": "2022-01-13T16:45:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-01537",
+    "death_date": "2022-01-18T06:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2022-01536",
+    "death_date": "2022-01-18T15:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2022-01533",
+    "death_date": "2022-01-18T13:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2022-01531",
+    "death_date": "2022-01-18T15:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2022-01518",
@@ -1089,6 +1313,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2022-01047",
+    "death_date": "2022-01-13T00:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-01045",
