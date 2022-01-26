@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2022-02072",
+    "death_date": "2022-01-25T13:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-02069",
+    "death_date": "2022-01-25T11:41:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-02067",
+    "death_date": "2021-12-31T15:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2022-02037",
     "death_date": "2022-01-25T02:13:00.000",
     "race": "Black",
@@ -991,6 +1012,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-01519",
+    "death_date": "2022-01-18T13:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2022-01518",
@@ -3406,6 +3434,13 @@
     "race": "Unknown",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-00452",
+    "death_date": "2022-01-06T10:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-00450",
