@@ -21,6 +21,34 @@
     "community": "WEST ENGLEWOOD"
   },
   {
+    "casenumber": "ME2022-02065",
+    "death_date": "2022-01-25T11:35:00.000",
+    "race": "Asian",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-02057",
+    "death_date": "2021-12-24T10:35:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-02046",
+    "death_date": "2022-01-25T07:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-02043",
+    "death_date": "2022-01-25T05:06:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2022-02037",
     "death_date": "2022-01-25T02:13:00.000",
     "race": "Black",
@@ -462,6 +490,13 @@
     "community": "JEFFERSON PARK"
   },
   {
+    "casenumber": "ME2022-01793",
+    "death_date": "2022-01-21T16:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2022-01782",
     "death_date": "2022-01-21T13:18:00.000",
     "race": "Black",
@@ -474,6 +509,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2022-01778",
+    "death_date": "2022-01-13T13:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
   },
   {
     "casenumber": "ME2022-01775",
@@ -3037,6 +3079,13 @@
     "community": "AUBURN GRESHAM"
   },
   {
+    "casenumber": "ME2022-00624",
+    "death_date": "2022-01-08T09:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2022-00618",
     "death_date": "2022-01-08T03:46:00.000",
     "race": "Other",
@@ -3205,6 +3254,13 @@
     "community": "EDGEWATER"
   },
   {
+    "casenumber": "ME2022-00554",
+    "death_date": "2022-01-07T15:17:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
     "casenumber": "ME2022-00551",
     "death_date": "2022-01-07T12:30:00.000",
     "race": "White",
@@ -3280,6 +3336,13 @@
     "race": "Black",
     "latino": false,
     "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2022-00506",
+    "death_date": "2022-01-07T03:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2022-00505",
@@ -3714,6 +3777,13 @@
     "race": "Asian",
     "latino": false,
     "community": "IRVING PARK"
+  },
+  {
+    "casenumber": "ME2022-00353",
+    "death_date": "2022-01-05T08:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-00351",
@@ -6017,6 +6087,13 @@
     "race": "White",
     "latino": true,
     "community": "HEGEWISCH"
+  },
+  {
+    "casenumber": "ME2021-11753",
+    "death_date": "2021-12-15T18:42:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2021-11750",
@@ -28637,7 +28714,7 @@
     "death_date": "2020-09-15T20:10:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2020-10614",
