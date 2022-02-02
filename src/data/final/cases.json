@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2022-02492",
+    "death_date": "2022-01-31T21:39:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2022-02486",
+    "death_date": "2022-01-31T19:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
+    "casenumber": "ME2022-02479",
+    "death_date": "2022-01-30T16:11:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-02476",
+    "death_date": "2022-01-31T15:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2022-02472",
+    "death_date": "2022-01-29T14:05:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-02453",
+    "death_date": "2022-01-31T09:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-02437",
+    "death_date": "2022-01-30T20:07:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2022-02436",
+    "death_date": "2022-01-30T19:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-02428",
     "death_date": "2022-01-30T17:00:00.000",
     "race": "Black",
