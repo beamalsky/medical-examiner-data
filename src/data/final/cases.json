@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2022-02525",
+    "death_date": "2022-02-01T10:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
+    "casenumber": "ME2022-02520",
+    "death_date": "2022-02-01T04:12:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2022-02500",
+    "death_date": "2022-01-31T22:52:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
+    "casenumber": "ME2022-02494",
+    "death_date": "2022-01-31T22:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2022-02492",
     "death_date": "2022-01-31T21:39:00.000",
     "race": "White",
@@ -40,6 +68,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-02438",
+    "death_date": "2022-01-30T20:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
   },
   {
     "casenumber": "ME2022-02437",
@@ -445,6 +480,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-02218",
+    "death_date": "2022-01-27T13:22:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2022-02214",
@@ -942,6 +984,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-01977",
+    "death_date": "2022-01-23T14:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2022-01975",
@@ -2614,6 +2663,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-01228",
+    "death_date": "2022-01-15T05:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-01226",
