@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2022-02788",
+    "death_date": "2022-02-06T02:53:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-02786",
+    "death_date": "2022-02-06T01:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BRIGHTON PARK"
+  },
+  {
+    "casenumber": "ME2022-02782",
+    "death_date": "2022-02-05T23:54:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ARMOUR SQUARE"
+  },
+  {
+    "casenumber": "ME2022-02780",
+    "death_date": "2022-02-05T21:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2022-02775",
+    "death_date": "2022-02-05T17:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
     "casenumber": "ME2022-02769",
     "death_date": "2022-02-05T13:00:00.000",
     "race": "White",
@@ -61,6 +96,13 @@
     "race": "White",
     "latino": true,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-02742",
+    "death_date": "2022-02-05T09:06:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "HYDE PARK"
   },
   {
     "casenumber": "ME2022-02737",
@@ -385,6 +427,13 @@
     "community": "ALBANY PARK"
   },
   {
+    "casenumber": "ME2022-02533",
+    "death_date": "2022-02-01T11:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-02531",
     "death_date": "2022-02-01T11:30:00.000",
     "race": "White",
@@ -523,6 +572,13 @@
     "race": "Black",
     "latino": false,
     "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-02452",
+    "death_date": "2022-01-31T08:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2022-02447",
