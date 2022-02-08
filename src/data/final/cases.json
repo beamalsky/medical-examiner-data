@@ -1,5 +1,145 @@
 [
   {
+    "casenumber": "ME2022-02848",
+    "death_date": "2022-02-07T07:45:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "OAKLAND"
+  },
+  {
+    "casenumber": "ME2022-02847",
+    "death_date": "2022-02-07T07:43:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-02846",
+    "death_date": "2022-02-06T08:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
+    "casenumber": "ME2022-02844",
+    "death_date": "2022-02-07T04:15:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2022-02843",
+    "death_date": "2022-02-07T04:04:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-02836",
+    "death_date": "2022-02-06T23:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-02831",
+    "death_date": "2022-02-06T22:47:00.000",
+    "race": "Other",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-02829",
+    "death_date": "2022-02-06T21:35:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-02828",
+    "death_date": "2022-02-06T16:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-02824",
+    "death_date": "2022-02-06T18:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-02822",
+    "death_date": "2022-02-06T17:22:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH CHICAGO"
+  },
+  {
+    "casenumber": "ME2022-02816",
+    "death_date": "2022-02-06T15:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2022-02812",
+    "death_date": "2022-02-06T14:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2022-02809",
+    "death_date": "2022-02-06T13:45:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-02805",
+    "death_date": "2022-02-06T12:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-02800",
+    "death_date": "2022-02-06T12:12:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-02797",
+    "death_date": "2022-02-06T10:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDISON PARK"
+  },
+  {
+    "casenumber": "ME2022-02796",
+    "death_date": "2022-02-05T14:54:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-02795",
+    "death_date": "2022-02-06T09:30:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-02793",
+    "death_date": "2022-02-06T06:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "BELMONT CRAGIN"
+  },
+  {
     "casenumber": "ME2022-02788",
     "death_date": "2022-02-06T02:53:00.000",
     "race": "White",
@@ -96,6 +236,13 @@
     "race": "White",
     "latino": true,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-02747",
+    "death_date": "2022-02-04T03:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
   },
   {
     "casenumber": "ME2022-02742",
@@ -411,6 +558,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-02545",
+    "death_date": "2022-01-29T16:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2022-02543",
@@ -872,6 +1026,13 @@
     "race": "White",
     "latino": true,
     "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2022-02284",
+    "death_date": "2022-01-26T14:00:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2022-02281",
