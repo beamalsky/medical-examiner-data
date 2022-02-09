@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2022-02917",
+    "death_date": "2022-01-28T08:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-02882",
+    "death_date": "2022-02-07T23:16:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-02869",
+    "death_date": "2022-02-03T19:09:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LOWER WEST SIDE (PILSEN)"
+  },
+  {
+    "casenumber": "ME2022-02867",
+    "death_date": "2022-02-07T13:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-02856",
+    "death_date": "2022-01-30T10:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-02855",
+    "death_date": "2022-02-07T11:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-02851",
+    "death_date": "2022-02-07T10:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
+  },
+  {
+    "casenumber": "ME2022-02850",
+    "death_date": "2022-02-06T18:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ASHBURN"
+  },
+  {
     "casenumber": "ME2022-02848",
     "death_date": "2022-02-07T07:45:00.000",
     "race": "White",
@@ -4252,13 +4308,6 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
-  },
-  {
-    "casenumber": "ME2022-00859",
-    "death_date": "2022-01-11T02:06:00.000",
-    "race": "Asian",
-    "latino": false,
-    "community": null
   },
   {
     "casenumber": "ME2022-00854",
