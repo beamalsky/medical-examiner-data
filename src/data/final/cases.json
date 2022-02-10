@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2022-02963",
+    "death_date": "2022-02-09T11:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LOGAN SQUARE"
+  },
+  {
+    "casenumber": "ME2022-02947",
+    "death_date": "2022-02-09T01:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MONTCLARE"
+  },
+  {
     "casenumber": "ME2022-02917",
     "death_date": "2022-01-28T08:10:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-02904",
+    "death_date": "2022-02-08T12:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2022-02891",
+    "death_date": "2022-02-08T08:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2022-02882",
@@ -1062,6 +1090,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-02294",
+    "death_date": "2022-01-28T14:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2022-02292",
