@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2022-03128",
+    "death_date": "2022-02-13T13:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-03119",
+    "death_date": "2022-02-13T07:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-03109",
+    "death_date": "2022-02-13T00:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-03108",
+    "death_date": "2022-02-12T22:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-03106",
+    "death_date": "2022-02-12T22:01:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-03105",
+    "death_date": "2022-02-12T20:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
+    "casenumber": "ME2022-03093",
+    "death_date": "2022-02-12T15:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03074",
+    "death_date": "2022-02-12T03:17:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-03070",
     "death_date": "2022-02-11T23:40:00.000",
     "race": "White",
@@ -75,6 +131,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-02993",
+    "death_date": "2022-02-10T08:03:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2022-02986",
@@ -2048,6 +2111,13 @@
     "race": "White",
     "latino": true,
     "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2022-01947",
+    "death_date": "2022-01-23T19:00:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-01945",
@@ -5904,6 +5974,13 @@
     "race": "Black",
     "latino": false,
     "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-00294",
+    "death_date": "2022-01-04T16:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
   },
   {
     "casenumber": "ME2022-00291",
