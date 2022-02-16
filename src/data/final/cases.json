@@ -1,5 +1,47 @@
 [
   {
+    "casenumber": "ME2022-03190",
+    "death_date": "2022-02-14T21:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-03185",
+    "death_date": "2022-02-14T17:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-03179",
+    "death_date": "2022-02-14T13:38:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-03151",
+    "death_date": "2022-02-14T03:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03147",
+    "death_date": "2022-02-14T00:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03142",
+    "death_date": "2022-02-13T20:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2022-03128",
     "death_date": "2022-02-13T13:50:00.000",
     "race": "Black",
@@ -831,6 +873,13 @@
     "race": "Black",
     "latino": false,
     "community": "DOUGLAS"
+  },
+  {
+    "casenumber": "ME2022-02606",
+    "death_date": "2022-02-01T08:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
   },
   {
     "casenumber": "ME2022-02598",
