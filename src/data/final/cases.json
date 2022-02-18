@@ -1,10 +1,52 @@
 [
   {
+    "casenumber": "ME2022-03293",
+    "death_date": "2022-02-17T13:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-03291",
+    "death_date": "2022-02-14T10:18:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2022-03289",
+    "death_date": "2022-02-17T12:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03279",
+    "death_date": "2022-02-17T04:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2022-03262",
     "death_date": "2022-02-07T10:18:00.000",
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03257",
+    "death_date": "2022-02-16T09:54:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "PULLMAN"
+  },
+  {
+    "casenumber": "ME2022-03252",
+    "death_date": "2022-02-16T06:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-03243",
@@ -19,6 +61,27 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-03209",
+    "death_date": "2022-02-15T08:46:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-03202",
+    "death_date": "2022-02-15T06:20:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03193",
+    "death_date": "2022-02-14T23:56:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2022-03190",
@@ -460,6 +523,13 @@
     "race": "White",
     "latino": true,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-02853",
+    "death_date": "2022-02-07T11:05:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2022-02851",
@@ -2960,6 +3030,13 @@
     "community": "BURNSIDE"
   },
   {
+    "casenumber": "ME2022-01648",
+    "death_date": "2022-01-20T00:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2022-01645",
     "death_date": "2022-01-19T20:01:00.000",
     "race": "Black",
@@ -5323,6 +5400,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-00610",
+    "death_date": "2022-01-08T04:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "MCKINLEY PARK"
   },
   {
     "casenumber": "ME2022-00608",
