@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2022-03332",
+    "death_date": "2022-02-18T15:15:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2022-03328",
+    "death_date": "2022-02-18T11:52:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03296",
+    "death_date": "2022-02-09T05:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-03293",
     "death_date": "2022-02-17T13:08:00.000",
     "race": "Black",
@@ -497,6 +518,13 @@
     "community": "NEW CITY"
   },
   {
+    "casenumber": "ME2022-02865",
+    "death_date": "2022-02-06T12:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CLEARING"
+  },
+  {
     "casenumber": "ME2022-02861",
     "death_date": "2021-12-17T11:44:00.000",
     "race": "Black",
@@ -684,6 +712,13 @@
     "race": "White",
     "latino": true,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-02792",
+    "death_date": "2022-02-18T18:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2022-02788",
@@ -2958,6 +2993,13 @@
     "race": "Black",
     "latino": false,
     "community": "MORGAN PARK"
+  },
+  {
+    "casenumber": "ME2022-01674",
+    "death_date": "2022-01-20T09:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2022-01670",
