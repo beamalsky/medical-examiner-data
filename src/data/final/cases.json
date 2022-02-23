@@ -1,5 +1,26 @@
 [
   {
+    "casenumber": "ME2022-03455",
+    "death_date": "2022-02-21T07:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-03423",
+    "death_date": "2022-02-21T15:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-03421",
+    "death_date": "2022-02-21T15:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2022-03416",
     "death_date": "2022-02-21T14:36:00.000",
     "race": "White",
@@ -2233,7 +2254,7 @@
   },
   {
     "casenumber": "ME2022-02059",
-    "death_date": "2022-01-25T12:40:00.000",
+    "death_date": "2022-01-25T00:40:00.000",
     "race": "White",
     "latino": false,
     "community": "NORWOOD PARK"
@@ -7094,6 +7115,13 @@
     "race": "Black",
     "latino": false,
     "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2021-12555",
+    "death_date": "2021-12-31T01:21:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-12542",
