@@ -1,10 +1,45 @@
 [
   {
+    "casenumber": "ME2022-03460",
+    "death_date": "2022-02-21T18:34:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
     "casenumber": "ME2022-03455",
     "death_date": "2022-02-21T07:15:00.000",
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-03441",
+    "death_date": "2022-02-22T06:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03438",
+    "death_date": "2022-02-05T06:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03432",
+    "death_date": "2022-02-21T22:49:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2022-03429",
+    "death_date": "2022-02-21T20:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
   },
   {
     "casenumber": "ME2022-03423",
@@ -105,6 +140,20 @@
     "community": null
   },
   {
+    "casenumber": "ME2022-03327",
+    "death_date": "2022-02-15T17:15:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-03312",
+    "death_date": "2022-02-17T23:28:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2022-03296",
     "death_date": "2022-02-09T05:53:00.000",
     "race": "Black",
@@ -145,6 +194,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03260",
+    "death_date": "2022-02-09T15:25:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
   },
   {
     "casenumber": "ME2022-03257",
@@ -434,6 +490,13 @@
     "community": "ASHBURN"
   },
   {
+    "casenumber": "ME2022-03009",
+    "death_date": "2022-01-25T09:15:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2022-03004",
     "death_date": "2022-02-10T13:10:00.000",
     "race": "Other",
@@ -579,6 +642,13 @@
     "race": "White",
     "latino": true,
     "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2022-02896",
+    "death_date": "2022-02-08T09:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-02891",
