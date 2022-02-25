@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2022-03517",
+    "death_date": "2022-02-24T15:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-03501",
+    "death_date": "2022-02-23T22:01:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
+    "casenumber": "ME2022-03478",
+    "death_date": "2022-02-23T04:50:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "BRIDGEPORT"
+  },
+  {
+    "casenumber": "ME2022-03475",
+    "death_date": "2022-02-23T04:06:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-03466",
+    "death_date": "2022-02-22T16:05:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "DOUGLAS"
+  },
+  {
     "casenumber": "ME2022-03460",
     "death_date": "2022-02-21T18:34:00.000",
     "race": "White",
@@ -26,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-03437",
+    "death_date": "2022-01-11T08:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2022-03432",
@@ -229,6 +271,13 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-03219",
+    "death_date": "2022-02-15T09:12:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-03209",
