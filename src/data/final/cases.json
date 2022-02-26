@@ -1,5 +1,33 @@
 [
   {
+    "casenumber": "ME2022-03543",
+    "death_date": "2022-02-25T10:58:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-03539",
+    "death_date": "2022-02-24T09:47:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2022-03528",
+    "death_date": "2022-02-25T03:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
+  },
+  {
+    "casenumber": "ME2022-03527",
+    "death_date": "2022-02-25T02:50:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2022-03517",
     "death_date": "2022-02-24T15:56:00.000",
     "race": "White",
@@ -14,6 +42,13 @@
     "community": "WEST TOWN"
   },
   {
+    "casenumber": "ME2022-03498",
+    "death_date": "2022-02-23T18:33:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2022-03478",
     "death_date": "2022-02-23T04:50:00.000",
     "race": "Asian",
@@ -26,6 +61,13 @@
     "race": "White",
     "latino": false,
     "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-03471",
+    "death_date": "2022-02-22T20:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2022-03466",
@@ -322,11 +364,25 @@
     "community": "WEST ENGLEWOOD"
   },
   {
+    "casenumber": "ME2022-03171",
+    "death_date": "2022-02-14T12:39:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-03169",
     "death_date": "2022-02-14T11:45:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-03167",
+    "death_date": "2022-02-14T13:20:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2022-03164",
