@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2022-03601",
+    "death_date": "2022-02-27T18:58:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2022-03597",
+    "death_date": "2022-02-27T14:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-03593",
+    "death_date": "2022-02-27T09:25:00.000",
+    "race": "Asian",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-03591",
+    "death_date": "2022-02-27T05:50:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-03571",
+    "death_date": "2022-02-26T07:43:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2022-03570",
+    "death_date": "2022-02-26T04:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-03549",
+    "death_date": "2022-02-25T16:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-03547",
+    "death_date": "2022-02-25T15:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORTH CENTER"
+  },
+  {
     "casenumber": "ME2022-03543",
     "death_date": "2022-02-25T10:58:00.000",
     "race": "White",
@@ -152,6 +208,13 @@
     "race": "White",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-03399",
+    "death_date": "2022-02-21T20:56:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2022-03396",
@@ -1449,6 +1512,13 @@
     "community": "UPTOWN"
   },
   {
+    "casenumber": "ME2022-02541",
+    "death_date": "2022-02-01T12:40:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "HERMOSA"
+  },
+  {
     "casenumber": "ME2022-02540",
     "death_date": "2022-02-01T12:57:00.000",
     "race": "White",
@@ -1580,6 +1650,13 @@
     "race": "White",
     "latino": false,
     "community": "NEAR NORTH SIDE"
+  },
+  {
+    "casenumber": "ME2022-02464",
+    "death_date": "2022-01-31T05:57:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2022-02462",
@@ -1971,6 +2048,13 @@
     "race": "Black",
     "latino": false,
     "community": "HYDE PARK"
+  },
+  {
+    "casenumber": "ME2022-02263",
+    "death_date": "2022-01-28T04:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WASHINGTON PARK"
   },
   {
     "casenumber": "ME2022-02259",
@@ -10461,6 +10545,13 @@
     "race": "Black",
     "latino": false,
     "community": "WEST ENGLEWOOD"
+  },
+  {
+    "casenumber": "ME2021-10336",
+    "death_date": "2021-11-05T20:48:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2021-10319",
