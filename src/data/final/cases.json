@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2022-03639",
+    "death_date": "2022-03-01T00:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2022-03609",
+    "death_date": "2022-02-27T23:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2022-03601",
     "death_date": "2022-02-27T18:58:00.000",
     "race": "Black",
@@ -49,6 +63,13 @@
     "community": "ALBANY PARK"
   },
   {
+    "casenumber": "ME2022-03548",
+    "death_date": "2022-01-14T17:34:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "MORGAN PARK"
+  },
+  {
     "casenumber": "ME2022-03547",
     "death_date": "2022-02-25T15:10:00.000",
     "race": "White",
@@ -89,6 +110,13 @@
     "race": "White",
     "latino": false,
     "community": "NEW CITY"
+  },
+  {
+    "casenumber": "ME2022-03512",
+    "death_date": "2022-02-24T13:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2022-03501",
@@ -334,6 +362,13 @@
     "race": "White",
     "latino": false,
     "community": "ROGERS PARK"
+  },
+  {
+    "casenumber": "ME2022-03278",
+    "death_date": "2022-02-17T03:51:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2022-03262",
@@ -3636,6 +3671,13 @@
     "race": "White",
     "latino": false,
     "community": "HUMBOLDT PARK"
+  },
+  {
+    "casenumber": "ME2022-01545",
+    "death_date": "2022-01-18T17:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2022-01544",
