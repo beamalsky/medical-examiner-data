@@ -1,5 +1,61 @@
 [
   {
+    "casenumber": "ME2022-03719",
+    "death_date": "2022-03-01T18:18:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "GARFIELD RIDGE"
+  },
+  {
+    "casenumber": "ME2022-03718",
+    "death_date": "2022-02-04T10:37:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "EDGEWATER"
+  },
+  {
+    "casenumber": "ME2022-03715",
+    "death_date": "2022-03-03T10:27:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "O'HARE"
+  },
+  {
+    "casenumber": "ME2022-03714",
+    "death_date": "2022-03-02T15:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03712",
+    "death_date": "2022-03-01T21:10:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "EAST SIDE"
+  },
+  {
+    "casenumber": "ME2022-03706",
+    "death_date": "2022-01-09T11:02:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-03704",
+    "death_date": "2022-03-03T03:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
+    "casenumber": "ME2022-03689",
+    "death_date": "2022-03-02T17:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2022-03670",
     "death_date": "2022-03-01T22:25:00.000",
     "race": "Black",
@@ -110,6 +166,13 @@
     "race": "White",
     "latino": true,
     "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-03542",
+    "death_date": "2022-02-25T09:14:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-03539",
@@ -4625,13 +4688,6 @@
     "community": null
   },
   {
-    "casenumber": "ME2022-01187",
-    "death_date": "2022-01-08T14:24:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "WEST RIDGE"
-  },
-  {
     "casenumber": "ME2022-01186",
     "death_date": "2022-01-14T16:34:00.000",
     "race": "White",
@@ -7332,13 +7388,6 @@
     "race": "White",
     "latino": true,
     "community": "IRVING PARK"
-  },
-  {
-    "casenumber": "ME2022-00001",
-    "death_date": "2021-12-31T23:47:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2021-12618",
@@ -19119,6 +19168,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2021-01743",
+    "death_date": "2021-01-15T23:35:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2021-01739",
