@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-03739",
+    "death_date": "2022-02-24T11:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WEST ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2022-03719",
     "death_date": "2022-03-01T18:18:00.000",
     "race": "White",
