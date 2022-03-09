@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-03827",
+    "death_date": "2022-03-07T01:08:00.000",
+    "race": "Unknown",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
     "casenumber": "ME2022-03818",
     "death_date": "2022-03-04T06:52:00.000",
     "race": "White",
