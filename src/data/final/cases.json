@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-03840",
+    "death_date": "2022-03-07T23:30:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "WOODLAWN"
+  },
+  {
     "casenumber": "ME2022-03827",
     "death_date": "2022-03-07T01:08:00.000",
     "race": "Unknown",
@@ -4161,6 +4168,13 @@
     "race": "Other",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-01442",
+    "death_date": "2022-01-17T13:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "EAST SIDE"
   },
   {
     "casenumber": "ME2022-01441",
