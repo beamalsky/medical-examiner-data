@@ -1,5 +1,40 @@
 [
   {
+    "casenumber": "ME2022-03886",
+    "death_date": "2022-03-09T21:25:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-03884",
+    "death_date": "2022-03-09T16:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "BELMONT CRAGIN"
+  },
+  {
+    "casenumber": "ME2022-03882",
+    "death_date": "2022-03-09T18:30:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
+    "casenumber": "ME2022-03857",
+    "death_date": "2022-03-08T20:24:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
+  },
+  {
+    "casenumber": "ME2022-03853",
+    "death_date": "2022-03-08T16:48:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2022-03840",
     "death_date": "2022-03-07T23:30:00.000",
     "race": "Black",
@@ -6824,7 +6859,7 @@
   },
   {
     "casenumber": "ME2022-00312",
-    "death_date": "2022-01-01T02:51:00.000",
+    "death_date": "2022-01-02T02:50:00.000",
     "race": "Black",
     "latino": false,
     "community": "CHATHAM"
