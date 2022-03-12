@@ -546,13 +546,6 @@
     "community": "NEAR NORTH SIDE"
   },
   {
-    "casenumber": "ME2022-03291",
-    "death_date": "2022-02-14T10:18:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "LAKE VIEW"
-  },
-  {
     "casenumber": "ME2022-03289",
     "death_date": "2022-02-17T12:08:00.000",
     "race": "White",
@@ -7314,7 +7307,7 @@
   },
   {
     "casenumber": "ME2022-00114",
-    "death_date": "2021-01-02T14:54:00.000",
+    "death_date": "2022-01-02T12:37:00.000",
     "race": "Black",
     "latino": false,
     "community": "BURNSIDE"
