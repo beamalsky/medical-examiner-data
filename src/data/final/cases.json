@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-03925",
+    "death_date": "2022-03-11T05:49:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "PORTAGE PARK"
+  },
+  {
     "casenumber": "ME2022-03886",
     "death_date": "2022-03-09T21:25:00.000",
     "race": "Black",
@@ -161,6 +168,13 @@
     "community": "EDGEWATER"
   },
   {
+    "casenumber": "ME2022-03661",
+    "death_date": "2022-03-01T16:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
+  },
+  {
     "casenumber": "ME2022-03659",
     "death_date": "2022-03-01T15:12:00.000",
     "race": "Black",
@@ -320,6 +334,13 @@
     "race": "White",
     "latino": false,
     "community": "FOREST GLEN"
+  },
+  {
+    "casenumber": "ME2022-03489",
+    "death_date": "2022-02-21T12:10:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-03488",
@@ -3869,6 +3890,13 @@
     "community": "BELMONT CRAGIN"
   },
   {
+    "casenumber": "ME2022-01566",
+    "death_date": "2022-01-18T23:19:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2022-01564",
     "death_date": "2022-01-18T22:46:00.000",
     "race": "White",
@@ -5785,6 +5813,13 @@
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-00764",
+    "death_date": "2022-01-10T01:31:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2022-00757",
