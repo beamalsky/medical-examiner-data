@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-03969",
+    "death_date": "2022-03-13T18:02:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-03925",
     "death_date": "2022-03-11T05:49:00.000",
     "race": "White",
@@ -2014,6 +2021,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH SHORE"
+  },
+  {
+    "casenumber": "ME2022-02408",
+    "death_date": "2022-01-30T07:53:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-02405",
@@ -9103,6 +9117,13 @@
     "race": "Black",
     "latino": false,
     "community": "AUBURN GRESHAM"
+  },
+  {
+    "casenumber": "ME2021-11770",
+    "death_date": "2021-12-16T05:26:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-11768",
