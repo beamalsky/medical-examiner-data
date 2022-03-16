@@ -7275,7 +7275,7 @@
     "death_date": "2022-01-03T12:09:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "HEGEWISCH"
   },
   {
     "casenumber": "ME2022-00164",
@@ -8318,7 +8318,7 @@
     "death_date": "2021-12-25T08:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2021-12222",
@@ -15930,7 +15930,7 @@
     "death_date": "2021-04-30T16:35:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2021-04491",
@@ -16189,7 +16189,7 @@
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04318",
@@ -21081,7 +21081,7 @@
     "death_date": "2021-01-14T11:57:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2021-00785",
@@ -29065,7 +29065,7 @@
     "death_date": "2020-11-19T08:43:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-12935",
@@ -29792,7 +29792,7 @@
     "death_date": "2020-11-13T06:35:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-12539",
@@ -31849,7 +31849,7 @@
     "death_date": "2020-09-15T20:10:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-10614",
@@ -36811,7 +36811,7 @@
     "death_date": "2020-05-27T17:45:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-06637",
