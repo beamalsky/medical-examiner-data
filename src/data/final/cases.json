@@ -9203,6 +9203,13 @@
     "community": "EAST SIDE"
   },
   {
+    "casenumber": "ME2021-11749",
+    "death_date": "2021-12-15T16:35:00.000",
+    "race": "Other",
+    "latino": true,
+    "community": "WEST LAWN"
+  },
+  {
     "casenumber": "ME2021-11745",
     "death_date": "2021-12-14T01:56:00.000",
     "race": "Black",
@@ -10076,6 +10083,13 @@
     "race": "Black",
     "latino": false,
     "community": "LINCOLN PARK"
+  },
+  {
+    "casenumber": "ME2021-11195",
+    "death_date": "2021-11-11T13:44:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ROGERS PARK"
   },
   {
     "casenumber": "ME2021-11192",
