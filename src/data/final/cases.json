@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04046",
+    "death_date": "2022-03-16T15:25:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2022-04010",
     "death_date": "2022-01-17T00:45:00.000",
     "race": "Black",
@@ -14225,6 +14232,13 @@
     "race": "White",
     "latino": true,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2021-05816",
+    "death_date": "2021-06-09T17:24:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2021-05815",
