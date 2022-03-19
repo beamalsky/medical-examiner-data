@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04084",
+    "death_date": "2022-03-18T00:38:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
     "casenumber": "ME2022-04046",
     "death_date": "2022-03-16T15:25:00.000",
     "race": "White",
@@ -12,6 +19,13 @@
     "race": "Black",
     "latino": false,
     "community": "EAST GARFIELD PARK"
+  },
+  {
+    "casenumber": "ME2022-04008",
+    "death_date": "2022-03-14T05:03:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
   },
   {
     "casenumber": "ME2022-03989",
@@ -257,6 +271,13 @@
     "race": "Black",
     "latino": false,
     "community": "CHICAGO LAWN"
+  },
+  {
+    "casenumber": "ME2022-03596",
+    "death_date": "2022-02-27T12:46:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-03593",
@@ -670,13 +691,6 @@
     "race": "White",
     "latino": false,
     "community": "BELMONT CRAGIN"
-  },
-  {
-    "casenumber": "ME2022-03219",
-    "death_date": "2022-02-15T09:12:00.000",
-    "race": "Black",
-    "latino": false,
-    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-03209",
