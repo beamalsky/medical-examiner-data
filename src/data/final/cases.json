@@ -70,6 +70,13 @@
     "community": "PORTAGE PARK"
   },
   {
+    "casenumber": "ME2022-03910",
+    "death_date": "2022-03-10T13:41:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GRAND BOULEVARD"
+  },
+  {
     "casenumber": "ME2022-03886",
     "death_date": "2022-03-09T21:25:00.000",
     "race": "Black",
