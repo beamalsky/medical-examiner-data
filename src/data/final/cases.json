@@ -2988,6 +2988,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2022-01997",
+    "death_date": "2022-01-24T12:26:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST TOWN"
+  },
+  {
     "casenumber": "ME2022-01994",
     "death_date": "2022-01-24T11:41:00.000",
     "race": "White",
