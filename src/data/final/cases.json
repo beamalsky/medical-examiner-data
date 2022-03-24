@@ -1,10 +1,38 @@
 [
   {
+    "casenumber": "ME2022-04229",
+    "death_date": "2022-03-23T19:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
+  },
+  {
+    "casenumber": "ME2022-04216",
+    "death_date": "2022-03-16T22:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
+    "casenumber": "ME2022-04215",
+    "death_date": "2022-03-22T19:13:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-04099",
     "death_date": "2022-03-18T14:32:00.000",
     "race": "Black",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2022-04096",
+    "death_date": "2022-03-18T12:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "WEST RIDGE"
   },
   {
     "casenumber": "ME2022-04084",
@@ -33,6 +61,13 @@
     "race": "Black",
     "latino": false,
     "community": "GREATER GRAND CROSSING"
+  },
+  {
+    "casenumber": "ME2022-03999",
+    "death_date": "2022-03-12T13:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-03989",
@@ -2030,6 +2065,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2022-02449",
+    "death_date": "2022-01-31T07:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-02447",
     "death_date": "2022-01-31T03:00:00.000",
     "race": "White",
@@ -2342,6 +2384,13 @@
     "race": "White",
     "latino": true,
     "community": "NORTH CENTER"
+  },
+  {
+    "casenumber": "ME2022-02285",
+    "death_date": "2022-01-28T13:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": null
   },
   {
     "casenumber": "ME2022-02284",
@@ -5197,6 +5246,13 @@
     "race": "White",
     "latino": false,
     "community": "NORTH PARK"
+  },
+  {
+    "casenumber": "ME2022-01050",
+    "death_date": "2022-01-12T19:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2022-01047",
