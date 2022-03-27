@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04297",
+    "death_date": "2022-03-27T01:26:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2022-04229",
     "death_date": "2022-03-23T19:13:00.000",
     "race": "White",
