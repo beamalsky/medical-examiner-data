@@ -7978,6 +7978,13 @@
     "community": "ROGERS PARK"
   },
   {
+    "casenumber": "ME2021-12485",
+    "death_date": "2021-12-29T21:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR SOUTH SIDE"
+  },
+  {
     "casenumber": "ME2021-12484",
     "death_date": "2021-12-29T21:07:00.000",
     "race": "Black",
