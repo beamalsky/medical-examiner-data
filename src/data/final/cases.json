@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04329",
+    "death_date": "2022-02-04T15:06:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2022-04297",
     "death_date": "2022-03-27T01:26:00.000",
     "race": "White",
@@ -5771,6 +5778,13 @@
     "race": "White",
     "latino": false,
     "community": "AVONDALE"
+  },
+  {
+    "casenumber": "ME2022-00845",
+    "death_date": "2022-02-13T20:39:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
   },
   {
     "casenumber": "ME2022-00841",
