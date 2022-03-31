@@ -35,6 +35,13 @@
     "community": null
   },
   {
+    "casenumber": "ME2022-04183",
+    "death_date": "2022-03-21T19:47:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2022-04099",
     "death_date": "2022-03-18T14:32:00.000",
     "race": "Black",
@@ -110,6 +117,13 @@
     "race": "White",
     "latino": true,
     "community": "AUSTIN"
+  },
+  {
+    "casenumber": "ME2022-03932",
+    "death_date": "2022-03-11T20:27:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2022-03925",
