@@ -77,6 +77,13 @@
     "community": "NORWOOD PARK"
   },
   {
+    "casenumber": "ME2022-04034",
+    "death_date": "2022-03-13T15:27:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "LINCOLN SQUARE"
+  },
+  {
     "casenumber": "ME2022-04010",
     "death_date": "2022-01-17T00:45:00.000",
     "race": "Black",
@@ -859,6 +866,13 @@
     "race": "White",
     "latino": false,
     "community": "ALBANY PARK"
+  },
+  {
+    "casenumber": "ME2022-03159",
+    "death_date": "2022-02-14T08:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "LAKE VIEW"
   },
   {
     "casenumber": "ME2022-03157",
