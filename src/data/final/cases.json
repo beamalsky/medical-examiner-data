@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04481",
+    "death_date": "2022-03-23T21:23:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
     "casenumber": "ME2022-04361",
     "death_date": "2022-03-30T15:04:00.000",
     "race": "Asian",
