@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-04547",
+    "death_date": "2022-03-26T13:00:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
     "casenumber": "ME2022-04481",
     "death_date": "2022-03-23T21:23:00.000",
     "race": "White",
@@ -5084,7 +5091,7 @@
     "death_date": "2022-01-14T03:20:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-01135",
@@ -8613,6 +8620,13 @@
     "race": "Black",
     "latino": false,
     "community": "SOUTH DEERING"
+  },
+  {
+    "casenumber": "ME2021-12176",
+    "death_date": "2021-12-24T09:20:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2021-12175",
