@@ -1831,7 +1831,7 @@
     "death_date": "2022-02-02T17:50:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2022-02608",
@@ -9928,7 +9928,7 @@
     "death_date": "2021-12-09T20:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2021-11468",
@@ -11859,14 +11859,14 @@
     "death_date": "2021-10-02T08:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-09431",
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-09425",
@@ -13294,7 +13294,7 @@
     "death_date": "2021-08-25T17:53:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-07905",
@@ -15020,7 +15020,7 @@
     "death_date": "2021-05-22T10:49:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-05305",
@@ -26251,7 +26251,7 @@
     "death_date": "2020-12-08T18:34:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-14387",
@@ -35558,7 +35558,7 @@
     "death_date": "2020-06-06T10:47:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-07417",
@@ -37042,7 +37042,7 @@
     "death_date": "2020-05-27T17:45:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-06637",
@@ -38969,7 +38969,7 @@
     "death_date": "2020-05-18T07:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-05869",
