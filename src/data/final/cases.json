@@ -2065,6 +2065,13 @@
     "community": "GRAND BOULEVARD"
   },
   {
+    "casenumber": "ME2022-02485",
+    "death_date": "2022-01-31T17:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-02481",
     "death_date": "2022-01-31T17:27:00.000",
     "race": "Asian",
