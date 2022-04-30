@@ -14,6 +14,13 @@
     "community": "GREATER GRAND CROSSING"
   },
   {
+    "casenumber": "ME2022-04598",
+    "death_date": "2022-04-10T17:42:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+  },
+  {
     "casenumber": "ME2022-04547",
     "death_date": "2022-03-26T13:00:00.000",
     "race": "Black",
@@ -8262,7 +8269,7 @@
     "death_date": "2021-12-28T11:40:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2021-12408",
@@ -12762,7 +12769,7 @@
     "death_date": "2021-09-11T23:01:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2021-08511",
@@ -28085,7 +28092,7 @@
     "death_date": "2020-11-29T09:47:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "EAST GARFIELD PARK"
   },
   {
     "casenumber": "ME2020-13609",
@@ -34173,7 +34180,7 @@
     "death_date": "2020-06-22T14:10:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-08171",
@@ -37084,7 +37091,7 @@
     "death_date": "2020-05-27T17:45:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-06637",
@@ -43959,7 +43966,7 @@
     "death_date": "2020-05-04T00:27:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-04257",
@@ -46322,7 +46329,7 @@
     "death_date": "2020-04-22T08:31:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-03540",
