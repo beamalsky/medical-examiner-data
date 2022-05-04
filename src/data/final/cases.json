@@ -1281,6 +1281,13 @@
     "community": "WEST PULLMAN"
   },
   {
+    "casenumber": "ME2022-02884",
+    "death_date": "2022-02-08T01:10:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-02882",
     "death_date": "2022-02-07T23:16:00.000",
     "race": "Asian",
