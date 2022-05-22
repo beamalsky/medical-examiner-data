@@ -7,6 +7,13 @@
     "community": "NEAR NORTH SIDE"
   },
   {
+    "casenumber": "ME2022-05332",
+    "death_date": "2022-05-15T22:40:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
+  },
+  {
     "casenumber": "ME2022-05144",
     "death_date": "2022-03-24T23:10:00.000",
     "race": "White",
@@ -13896,7 +13903,7 @@
     "death_date": "2021-08-17T11:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "PORTAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-07224",
@@ -23537,7 +23544,7 @@
     "death_date": "2020-12-28T03:28:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-15737",
@@ -41783,7 +41790,7 @@
     "death_date": "2020-05-08T12:42:00.000",
     "race": "White",
     "latino": false,
-    "community": "HUMBOLDT PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-04973",
@@ -42707,7 +42714,7 @@
     "death_date": "2020-05-05T11:00:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WEST PULLMAN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04697",
@@ -47533,7 +47540,7 @@
     "death_date": "2020-04-19T16:34:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-03157",
@@ -51103,7 +51110,7 @@
     "death_date": "2020-04-02T10:04:00.000",
     "race": "White",
     "latino": false,
-    "community": "ROGERS PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-01888",
