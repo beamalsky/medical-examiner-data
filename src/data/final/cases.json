@@ -21,6 +21,13 @@
     "community": "ROSELAND"
   },
   {
+    "casenumber": "ME2022-05011",
+    "death_date": "2022-04-30T15:13:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NEAR NORTH SIDE"
+  },
+  {
     "casenumber": "ME2022-04706",
     "death_date": "2022-04-15T19:11:00.000",
     "race": "White",
@@ -760,7 +767,7 @@
     "death_date": "2022-02-15T17:15:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2022-03312",
@@ -6253,7 +6260,7 @@
     "death_date": "2022-01-08T19:31:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ENGLEWOOD"
   },
   {
     "casenumber": "ME2022-00702",
@@ -6316,7 +6323,7 @@
     "death_date": "2022-01-09T00:18:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2022-00679",
@@ -6828,6 +6835,13 @@
     "race": "Black",
     "latino": false,
     "community": "NEAR WEST SIDE"
+  },
+  {
+    "casenumber": "ME2022-00466",
+    "death_date": "2022-01-06T15:36:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2022-00459",
@@ -11957,7 +11971,7 @@
     "death_date": "2021-10-02T08:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-09431",
@@ -14378,7 +14392,7 @@
     "death_date": "2021-06-17T16:32:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-06036",
@@ -15125,7 +15139,7 @@
     "death_date": "2021-05-22T10:49:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-05305",
@@ -16622,7 +16636,7 @@
     "death_date": "2021-04-21T20:33:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-04253",
@@ -18028,7 +18042,7 @@
     "death_date": "2021-03-12T11:06:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2021-02930",
@@ -18517,7 +18531,7 @@
     "death_date": "2021-02-25T13:25:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2021-02507",
@@ -18727,7 +18741,7 @@
     "death_date": "2021-02-21T20:24:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-02364",
@@ -19042,7 +19056,7 @@
     "death_date": "2021-02-15T13:07:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST GARFIELD PARK"
   },
   {
     "casenumber": "ME2021-02133",
@@ -20580,7 +20594,7 @@
     "death_date": "2021-01-23T17:02:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2021-01240",
@@ -25083,7 +25097,7 @@
     "death_date": "2020-12-17T08:53:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "DUNNING"
   },
   {
     "casenumber": "ME2020-14967",
@@ -25776,7 +25790,7 @@
     "death_date": "2020-12-12T06:31:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2020-14634",
@@ -26615,7 +26629,7 @@
     "death_date": "2020-12-07T14:32:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-14280",
@@ -29191,7 +29205,7 @@
     "death_date": "2020-11-20T16:15:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-13041",
@@ -29394,7 +29408,7 @@
     "death_date": "2020-11-18T15:10:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "GAGE PARK"
   },
   {
     "casenumber": "ME2020-12936",
@@ -29652,7 +29666,7 @@
     "death_date": "2020-11-17T04:44:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-12782",
@@ -30604,7 +30618,7 @@
     "death_date": "2020-11-07T20:02:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2020-12251",
@@ -31478,7 +31492,7 @@
     "casenumber": "ME2020-11582",
     "death_date": "2020-10-21T07:02:00.000",
     "latino": false,
-    "community": null
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2020-11581",
@@ -46056,7 +46070,7 @@
     "death_date": "2020-04-22T13:18:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2020-03639",
@@ -46756,7 +46770,7 @@
     "death_date": "2020-04-21T16:44:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2020-03427",
@@ -51124,7 +51138,7 @@
     "death_date": "2020-04-02T02:09:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHATHAM"
   },
   {
     "casenumber": "ME2020-01879",
@@ -51305,7 +51319,7 @@
     "death_date": "2020-03-29T11:15:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-01804",
@@ -51347,7 +51361,7 @@
     "death_date": "2020-03-30T20:59:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LAKE VIEW"
   },
   {
     "casenumber": "ME2020-01783",
