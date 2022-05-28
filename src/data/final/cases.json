@@ -2915,7 +2915,7 @@
     "death_date": "2022-01-26T09:54:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2022-02132",
@@ -10040,7 +10040,7 @@
     "death_date": "2021-12-09T20:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WEST PULLMAN"
+    "community": null
   },
   {
     "casenumber": "ME2021-11468",
@@ -11978,7 +11978,7 @@
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09425",
@@ -17077,7 +17077,7 @@
     "death_date": "2021-04-12T09:05:00.000",
     "race": "White",
     "latino": false,
-    "community": "WEST LAWN"
+    "community": null
   },
   {
     "casenumber": "ME2021-03859",
@@ -17196,7 +17196,7 @@
     "death_date": "2021-04-09T12:50:00.000",
     "race": "White",
     "latino": false,
-    "community": "EDISON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-03771",
@@ -18531,7 +18531,7 @@
     "death_date": "2021-02-25T13:25:00.000",
     "race": "White",
     "latino": false,
-    "community": "NORWOOD PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02507",
@@ -23523,7 +23523,7 @@
     "death_date": "2020-12-28T09:06:00.000",
     "race": "White",
     "latino": true,
-    "community": "GARFIELD RIDGE"
+    "community": null
   },
   {
     "casenumber": "ME2020-15758",
@@ -27910,7 +27910,7 @@
     "death_date": "2020-12-01T00:27:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WASHINGTON HEIGHTS"
+    "community": null
   },
   {
     "casenumber": "ME2020-13740",
@@ -31492,7 +31492,7 @@
     "casenumber": "ME2020-11582",
     "death_date": "2020-10-21T07:02:00.000",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-11581",
@@ -44462,7 +44462,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-04108",
@@ -45692,7 +45692,7 @@
     "death_date": "2020-04-26T07:13:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03748",
@@ -46070,7 +46070,7 @@
     "death_date": "2020-04-22T13:18:00.000",
     "race": "Black",
     "latino": false,
-    "community": "SOUTH SHORE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03639",
@@ -47232,7 +47232,7 @@
     "death_date": "2020-04-20T21:14:00.000",
     "race": "White",
     "latino": false,
-    "community": "MOUNT GREENWOOD"
+    "community": null
   },
   {
     "casenumber": "ME2020-03277",
