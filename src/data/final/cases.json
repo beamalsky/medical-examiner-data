@@ -7,6 +7,13 @@
     "community": "GRAND BOULEVARD"
   },
   {
+    "casenumber": "ME2022-05456",
+    "death_date": "2022-05-21T04:59:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "CHATHAM"
+  },
+  {
     "casenumber": "ME2022-05395",
     "death_date": "2022-05-18T00:55:00.000",
     "race": "Black",
