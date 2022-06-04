@@ -16301,7 +16301,7 @@
     "death_date": "2021-04-30T16:35:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2021-04491",
@@ -33725,7 +33725,7 @@
     "death_date": "2020-07-03T18:20:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WEST ENGLEWOOD"
+    "community": null
   },
   {
     "casenumber": "ME2020-08570",
@@ -35698,7 +35698,7 @@
     "death_date": "2020-06-06T10:47:00.000",
     "race": "White",
     "latino": false,
-    "community": "BELMONT CRAGIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-07417",
@@ -46448,7 +46448,7 @@
     "death_date": "2020-04-23T10:18:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03526",
