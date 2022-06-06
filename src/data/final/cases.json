@@ -1915,7 +1915,7 @@
     "death_date": "2022-02-02T17:50:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST TOWN"
   },
   {
     "casenumber": "ME2022-02608",
@@ -5252,7 +5252,7 @@
     "death_date": "2022-01-13T19:17:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2022-01116",
@@ -13630,7 +13630,7 @@
     "death_date": "2020-05-25T13:57:00.000",
     "race": "Black",
     "latino": false,
-    "community": "ROSELAND"
+    "community": null
   },
   {
     "casenumber": "ME2021-07676",
@@ -13728,7 +13728,7 @@
     "death_date": "2021-08-14T10:05:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2021-07542",
@@ -13938,7 +13938,7 @@
     "death_date": "2021-08-17T11:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "PORTAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-07224",
@@ -15160,7 +15160,7 @@
     "death_date": "2021-05-22T10:49:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEW CITY"
+    "community": null
   },
   {
     "casenumber": "ME2021-05305",
@@ -17217,7 +17217,7 @@
     "death_date": "2021-04-09T12:50:00.000",
     "race": "White",
     "latino": false,
-    "community": "EDISON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-03771",
@@ -18552,7 +18552,7 @@
     "death_date": "2021-02-25T13:25:00.000",
     "race": "White",
     "latino": false,
-    "community": "NORWOOD PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02507",
@@ -19692,7 +19692,7 @@
     "death_date": "2021-02-05T08:42:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2021-01771",
@@ -21452,7 +21452,7 @@
     "death_date": "2021-01-14T11:57:00.000",
     "race": "White",
     "latino": true,
-    "community": "WEST RIDGE"
+    "community": null
   },
   {
     "casenumber": "ME2021-00785",
@@ -21620,7 +21620,7 @@
     "death_date": "2021-01-13T00:06:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "GRAND BOULEVARD"
   },
   {
     "casenumber": "ME2021-00706",
@@ -22313,7 +22313,7 @@
     "death_date": "2021-01-06T00:12:00.000",
     "race": "White",
     "latino": false,
-    "community": "EDGEWATER"
+    "community": null
   },
   {
     "casenumber": "ME2021-00327",
@@ -23096,7 +23096,7 @@
     "death_date": "2020-12-30T19:08:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "CLEARING"
   },
   {
     "casenumber": "ME2020-15971",
@@ -23544,7 +23544,7 @@
     "death_date": "2020-12-28T09:06:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2020-15758",
@@ -23579,7 +23579,7 @@
     "death_date": "2020-12-28T03:28:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15737",
@@ -24012,7 +24012,7 @@
     "death_date": "2020-12-24T09:58:00.000",
     "race": "White",
     "latino": true,
-    "community": "LOGAN SQUARE"
+    "community": null
   },
   {
     "casenumber": "ME2020-15517",
@@ -24285,7 +24285,7 @@
     "death_date": "2020-12-22T11:17:00.000",
     "race": "Black",
     "latino": false,
-    "community": "ROSELAND"
+    "community": null
   },
   {
     "casenumber": "ME2020-15370",
@@ -27273,7 +27273,7 @@
     "death_date": "2020-12-04T00:21:00.000",
     "race": "White",
     "latino": true,
-    "community": "LINCOLN PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-14009",
@@ -27490,7 +27490,7 @@
     "death_date": "2020-12-02T09:23:00.000",
     "race": "White",
     "latino": true,
-    "community": "WEST TOWN"
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-13894",
@@ -29687,7 +29687,7 @@
     "death_date": "2020-11-17T04:44:00.000",
     "race": "White",
     "latino": true,
-    "community": "LOGAN SQUARE"
+    "community": null
   },
   {
     "casenumber": "ME2020-12782",
@@ -29750,7 +29750,7 @@
     "death_date": "2020-11-16T18:56:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-12761",
@@ -30639,7 +30639,7 @@
     "death_date": "2020-11-07T20:02:00.000",
     "race": "White",
     "latino": false,
-    "community": "CHICAGO LAWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-12251",
@@ -30758,7 +30758,7 @@
     "death_date": "2020-11-06T13:20:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-12190",
@@ -31513,7 +31513,7 @@
     "casenumber": "ME2020-11582",
     "death_date": "2020-10-21T07:02:00.000",
     "latino": false,
-    "community": null
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2020-11581",
@@ -33851,7 +33851,7 @@
     "death_date": "2020-06-30T17:00:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "FULLER PARK"
   },
   {
     "casenumber": "ME2020-08444",
@@ -47498,7 +47498,7 @@
     "death_date": "2020-04-19T20:29:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2020-03184",
@@ -49003,7 +49003,7 @@
     "death_date": "2020-04-13T12:53:00.000",
     "race": "White",
     "latino": true,
-    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+    "community": null
   },
   {
     "casenumber": "ME2020-02660",
@@ -49409,7 +49409,7 @@
     "death_date": "2020-04-12T02:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "GARFIELD RIDGE"
   },
   {
     "casenumber": "ME2020-02553",
@@ -49913,7 +49913,7 @@
     "death_date": "2020-04-06T10:04:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2020-02366",
