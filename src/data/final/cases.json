@@ -2929,7 +2929,7 @@
     "death_date": "2022-01-26T09:54:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2022-02132",
@@ -3692,7 +3692,7 @@
     "death_date": "2022-01-21T10:43:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUBURN GRESHAM"
+    "community": null
   },
   {
     "casenumber": "ME2022-01769",
@@ -13938,7 +13938,7 @@
     "death_date": "2021-08-17T11:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "PORTAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-07224",
@@ -15160,7 +15160,7 @@
     "death_date": "2021-05-22T10:49:00.000",
     "race": "White",
     "latino": true,
-    "community": "NEW CITY"
+    "community": null
   },
   {
     "casenumber": "ME2021-05305",
@@ -18552,7 +18552,7 @@
     "death_date": "2021-02-25T13:25:00.000",
     "race": "White",
     "latino": false,
-    "community": "NORWOOD PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02507",
@@ -18762,7 +18762,7 @@
     "death_date": "2021-02-21T20:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "ALBANY PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02364",
@@ -29687,7 +29687,7 @@
     "death_date": "2020-11-17T04:44:00.000",
     "race": "White",
     "latino": true,
-    "community": "LOGAN SQUARE"
+    "community": null
   },
   {
     "casenumber": "ME2020-12782",
@@ -29750,7 +29750,7 @@
     "death_date": "2020-11-16T18:56:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-12761",
@@ -33851,7 +33851,7 @@
     "death_date": "2020-06-30T17:00:00.000",
     "race": "Black",
     "latino": false,
-    "community": "FULLER PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-08444",
@@ -39543,7 +39543,7 @@
     "death_date": "2020-05-16T08:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-05730",
@@ -42805,7 +42805,7 @@
     "death_date": "2020-04-22T02:14:00.000",
     "race": "Black",
     "latino": false,
-    "community": "CHICAGO LAWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04686",
