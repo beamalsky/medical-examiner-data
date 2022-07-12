@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-06552",
+    "death_date": "2022-07-06T18:15:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "ARCHER HEIGHTS"
+  },
+  {
     "casenumber": "ME2022-05656",
     "death_date": "2022-05-30T18:29:00.000",
     "race": "Black",
@@ -33362,6 +33369,13 @@
     "race": "Other",
     "latino": false,
     "community": null
+  },
+  {
+    "casenumber": "ME2020-08999",
+    "death_date": "2020-07-16T13:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "KENWOOD"
   },
   {
     "casenumber": "ME2020-08987",
