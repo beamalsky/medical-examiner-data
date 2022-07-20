@@ -2950,7 +2950,7 @@
     "death_date": "2022-01-26T09:54:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-02132",
@@ -5273,7 +5273,7 @@
     "death_date": "2022-01-13T19:17:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2022-01116",
@@ -6155,7 +6155,7 @@
     "death_date": "2022-01-10T09:55:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2022-00776",
@@ -12020,7 +12020,7 @@
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2021-09425",
@@ -16581,7 +16581,7 @@
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04318",
@@ -20713,7 +20713,7 @@
     "death_date": "2021-01-22T16:47:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2021-01192",
@@ -27294,7 +27294,7 @@
     "death_date": "2020-12-04T00:21:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2020-14009",
@@ -27952,7 +27952,7 @@
     "death_date": "2020-12-01T00:27:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WASHINGTON HEIGHTS"
   },
   {
     "casenumber": "ME2020-13740",
@@ -30779,7 +30779,7 @@
     "death_date": "2020-11-06T13:20:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-12190",
@@ -38357,7 +38357,7 @@
     "death_date": "2020-05-21T00:59:00.000",
     "race": "Other",
     "latino": true,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-06149",
