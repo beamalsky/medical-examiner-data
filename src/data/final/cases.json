@@ -7,6 +7,13 @@
     "community": "ARCHER HEIGHTS"
   },
   {
+    "casenumber": "ME2022-06549",
+    "death_date": "2022-07-11T11:50:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "NEAR WEST SIDE"
+  },
+  {
     "casenumber": "ME2022-05656",
     "death_date": "2022-05-30T18:29:00.000",
     "race": "Black",
@@ -6155,7 +6162,7 @@
     "death_date": "2022-01-10T09:55:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-00776",
