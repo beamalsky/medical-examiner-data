@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-06789",
+    "death_date": "2022-07-22T11:08:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "UPTOWN"
+  },
+  {
     "casenumber": "ME2022-06552",
     "death_date": "2022-07-06T18:15:00.000",
     "race": "White",
