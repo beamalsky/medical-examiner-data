@@ -1,5 +1,19 @@
 [
   {
+    "casenumber": "ME2022-07358",
+    "death_date": "2022-03-14T13:16:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": null
+  },
+  {
+    "casenumber": "ME2022-07335",
+    "death_date": "2022-08-14T21:18:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "NEW CITY"
+  },
+  {
     "casenumber": "ME2022-06891",
     "death_date": "2022-07-25T18:40:00.000",
     "race": "Black",
