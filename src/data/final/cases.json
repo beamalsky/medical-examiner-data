@@ -7,6 +7,13 @@
     "community": "SOUTH SHORE"
   },
   {
+    "casenumber": "ME2022-07507",
+    "death_date": "2022-08-23T20:54:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "MOUNT GREENWOOD"
+  },
+  {
     "casenumber": "ME2022-07358",
     "death_date": "2022-03-14T13:16:00.000",
     "race": "Black",
@@ -13700,7 +13707,7 @@
     "death_date": "2020-05-25T13:57:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-07676",
@@ -16727,7 +16734,7 @@
     "death_date": "2021-04-21T20:33:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-04253",
@@ -29820,7 +29827,7 @@
     "death_date": "2020-11-16T18:56:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "NORTH PARK"
   },
   {
     "casenumber": "ME2020-12761",
@@ -30233,7 +30240,7 @@
     "death_date": "2020-11-13T06:35:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-12539",
@@ -34348,7 +34355,7 @@
     "death_date": "2020-06-22T14:10:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "UPTOWN"
   },
   {
     "casenumber": "ME2020-08171",
@@ -35775,7 +35782,7 @@
     "death_date": "2020-06-06T10:47:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-07417",
@@ -41643,7 +41650,7 @@
     "death_date": "2020-05-09T13:15:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-05067",
@@ -41902,7 +41909,7 @@
     "death_date": "2020-05-08T12:42:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-04973",
@@ -42882,7 +42889,7 @@
     "death_date": "2020-04-22T02:14:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2020-04686",
