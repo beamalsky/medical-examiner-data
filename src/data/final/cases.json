@@ -5811,7 +5811,7 @@
     "casenumber": "ME2022-00957",
     "death_date": "2022-01-12T05:25:00.000",
     "race": "Black",
-    "latino": false,
+    "latino": true,
     "community": "ROSELAND"
   },
   {
