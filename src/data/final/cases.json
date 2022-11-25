@@ -7737,7 +7737,7 @@
     "death_date": "2022-01-03T12:09:00.000",
     "race": "White",
     "latino": false,
-    "community": "HEGEWISCH"
+    "community": null
   },
   {
     "casenumber": "ME2022-00164",
@@ -12153,7 +12153,7 @@
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09425",
@@ -13784,7 +13784,7 @@
     "death_date": "2020-05-25T13:57:00.000",
     "race": "Black",
     "latino": false,
-    "community": "ROSELAND"
+    "community": null
   },
   {
     "casenumber": "ME2021-07676",
@@ -17371,7 +17371,7 @@
     "death_date": "2021-04-09T12:50:00.000",
     "race": "White",
     "latino": false,
-    "community": "EDISON PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-03771",
@@ -17553,7 +17553,7 @@
     "death_date": "2021-04-04T02:39:00.000",
     "race": "Black",
     "latino": false,
-    "community": "ROSELAND"
+    "community": null
   },
   {
     "casenumber": "ME2021-03598",
@@ -18706,7 +18706,7 @@
     "death_date": "2021-02-25T13:25:00.000",
     "race": "White",
     "latino": false,
-    "community": "NORWOOD PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02507",
@@ -18811,7 +18811,7 @@
     "death_date": "2021-02-23T19:02:00.000",
     "race": "White",
     "latino": true,
-    "community": "HERMOSA"
+    "community": null
   },
   {
     "casenumber": "ME2021-02434",
@@ -23733,7 +23733,7 @@
     "death_date": "2020-12-28T03:28:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-15737",
@@ -25965,7 +25965,7 @@
     "death_date": "2020-12-12T06:31:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-14634",
@@ -34432,7 +34432,7 @@
     "death_date": "2020-06-22T14:10:00.000",
     "race": "White",
     "latino": false,
-    "community": "UPTOWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-08171",
@@ -34691,7 +34691,7 @@
     "death_date": "2020-06-19T09:28:00.000",
     "race": "White",
     "latino": true,
-    "community": "ALBANY PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-08008",
@@ -45217,7 +45217,7 @@
     "death_date": "2020-04-28T10:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-03950",
@@ -45433,7 +45433,7 @@
     "casenumber": "ME2020-03881",
     "death_date": "2020-04-22T07:59:00.000",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-03880",
@@ -46252,7 +46252,7 @@
     "death_date": "2020-04-22T13:18:00.000",
     "race": "Black",
     "latino": false,
-    "community": "SOUTH SHORE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03639",
@@ -46609,7 +46609,7 @@
     "death_date": "2020-04-23T10:18:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03526",
