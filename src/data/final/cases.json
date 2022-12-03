@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-09704",
+    "death_date": "2022-11-30T06:28:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "ENGLEWOOD"
+  },
+  {
     "casenumber": "ME2022-09173",
     "death_date": "2022-11-09T08:08:00.000",
     "race": "Black",
@@ -6281,7 +6288,7 @@
     "death_date": "2022-01-10T09:55:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "NEAR NORTH SIDE"
   },
   {
     "casenumber": "ME2022-00776",
