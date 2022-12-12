@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-09919",
+    "death_date": "2022-12-10T01:50:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-09704",
     "death_date": "2022-12-01T06:28:00.000",
     "race": "Black",
