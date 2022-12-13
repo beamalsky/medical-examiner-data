@@ -6368,6 +6368,13 @@
     "community": "WEST RIDGE"
   },
   {
+    "casenumber": "ME2022-00737",
+    "death_date": "2022-01-09T15:44:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "AUSTIN"
+  },
+  {
     "casenumber": "ME2022-00736",
     "death_date": "2022-01-09T15:37:00.000",
     "race": "White",
