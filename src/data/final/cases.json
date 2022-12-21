@@ -5574,7 +5574,7 @@
     "death_date": "2022-01-13T04:09:00.000",
     "race": "White",
     "latino": false,
-    "community": "LINCOLN PARK"
+    "community": null
   },
   {
     "casenumber": "ME2022-01051",
@@ -10236,7 +10236,7 @@
     "death_date": "2021-12-09T20:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": "WEST PULLMAN"
+    "community": null
   },
   {
     "casenumber": "ME2021-11468",
@@ -22488,7 +22488,7 @@
     "death_date": "2021-01-06T00:12:00.000",
     "race": "White",
     "latino": false,
-    "community": "EDGEWATER"
+    "community": null
   },
   {
     "casenumber": "ME2021-00327",
@@ -29604,14 +29604,14 @@
     "death_date": "2020-11-18T15:10:00.000",
     "race": "White",
     "latino": true,
-    "community": "GAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-12936",
     "death_date": "2020-11-19T08:43:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORWOOD PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-12935",
@@ -30814,7 +30814,7 @@
     "death_date": "2020-11-07T20:02:00.000",
     "race": "White",
     "latino": false,
-    "community": "CHICAGO LAWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-12251",
@@ -38511,7 +38511,7 @@
     "death_date": "2020-05-21T00:59:00.000",
     "race": "Other",
     "latino": true,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-06149",
@@ -44665,7 +44665,7 @@
     "death_date": "2020-04-29T22:50:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "NORTH PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-04108",
@@ -45454,7 +45454,7 @@
     "casenumber": "ME2020-03881",
     "death_date": "2020-04-22T07:59:00.000",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-03880",
@@ -45895,7 +45895,7 @@
     "death_date": "2020-04-26T07:13:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR WEST SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2020-03748",
