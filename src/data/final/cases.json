@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2022-10210",
+    "death_date": "2022-12-23T04:19:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "CALUMET HEIGHTS"
+  },
+  {
     "casenumber": "ME2022-09919",
     "death_date": "2022-12-10T01:50:00.000",
     "race": "White",
