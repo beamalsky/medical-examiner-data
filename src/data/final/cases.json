@@ -5581,7 +5581,7 @@
     "death_date": "2022-01-13T04:09:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "LINCOLN PARK"
   },
   {
     "casenumber": "ME2022-01051",
@@ -13616,7 +13616,7 @@
     "death_date": "2021-08-25T17:53:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH SHORE"
   },
   {
     "casenumber": "ME2021-07905",
@@ -16742,7 +16742,7 @@
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04318",
@@ -19084,7 +19084,7 @@
     "death_date": "2021-02-05T02:37:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-02272",
@@ -24656,7 +24656,7 @@
     "death_date": "2020-12-21T04:46:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15292",
@@ -29408,7 +29408,7 @@
     "death_date": "2020-11-20T16:15:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LINCOLN SQUARE"
   },
   {
     "casenumber": "ME2020-13041",
@@ -29618,7 +29618,7 @@
     "death_date": "2020-11-19T08:43:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-12935",
@@ -30345,7 +30345,7 @@
     "death_date": "2020-11-13T06:35:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "ALBANY PARK"
   },
   {
     "casenumber": "ME2020-12539",
@@ -32402,7 +32402,7 @@
     "death_date": "2020-09-15T20:10:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "NORTH LAWNDALE"
   },
   {
     "casenumber": "ME2020-10614",
@@ -45461,7 +45461,7 @@
     "casenumber": "ME2020-03881",
     "death_date": "2020-04-22T07:59:00.000",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-03880",
@@ -46077,7 +46077,7 @@
     "death_date": "2020-04-25T14:17:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "HUMBOLDT PARK"
   },
   {
     "casenumber": "ME2020-03700",
@@ -46609,7 +46609,7 @@
     "death_date": "2020-04-22T08:31:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-03540",
