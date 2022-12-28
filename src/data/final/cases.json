@@ -24796,7 +24796,7 @@
     "death_date": "2020-12-20T17:23:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15235",
@@ -29618,7 +29618,7 @@
     "death_date": "2020-11-19T08:43:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "NORWOOD PARK"
   },
   {
     "casenumber": "ME2020-12935",
@@ -33914,7 +33914,7 @@
     "death_date": "2020-07-03T18:20:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST ENGLEWOOD"
   },
   {
     "casenumber": "ME2020-08570",
@@ -39732,7 +39732,7 @@
     "death_date": "2020-05-16T08:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-05730",
@@ -47687,7 +47687,7 @@
     "death_date": "2020-04-19T20:29:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "PORTAGE PARK"
   },
   {
     "casenumber": "ME2020-03184",
@@ -50102,7 +50102,7 @@
     "death_date": "2020-04-06T10:04:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2020-02366",
