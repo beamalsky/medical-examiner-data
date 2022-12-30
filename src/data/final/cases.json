@@ -21,6 +21,13 @@
     "community": "ENGLEWOOD"
   },
   {
+    "casenumber": "ME2022-09512",
+    "death_date": "2022-11-24T03:08:00.000",
+    "race": "Black",
+    "latino": false,
+    "community": "GREATER GRAND CROSSING"
+  },
+  {
     "casenumber": "ME2022-09173",
     "death_date": "2022-11-09T08:08:00.000",
     "race": "Black",
