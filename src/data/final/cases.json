@@ -7,6 +7,13 @@
     "community": "LINCOLN PARK"
   },
   {
+    "casenumber": "ME2022-10212",
+    "death_date": "2022-12-22T08:32:00.000",
+    "race": "White",
+    "latino": true,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2022-10210",
     "death_date": "2022-12-23T04:19:00.000",
     "race": "White",
