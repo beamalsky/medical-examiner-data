@@ -7,6 +7,13 @@
     "community": "LINCOLN PARK"
   },
   {
+    "casenumber": "ME2022-10384",
+    "death_date": "2022-12-29T15:14:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "NORWOOD PARK"
+  },
+  {
     "casenumber": "ME2022-10212",
     "death_date": "2022-12-22T08:32:00.000",
     "race": "White",
@@ -3881,7 +3888,7 @@
     "death_date": "2022-01-21T10:43:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUBURN GRESHAM"
   },
   {
     "casenumber": "ME2022-01769",
@@ -3895,7 +3902,7 @@
     "death_date": "2022-01-21T09:54:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2022-01764",
@@ -10264,7 +10271,7 @@
     "death_date": "2021-12-09T20:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2021-11468",
@@ -16763,7 +16770,7 @@
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04318",
@@ -16860,7 +16867,7 @@
     "death_date": "2021-04-21T20:33:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "SOUTH CHICAGO"
   },
   {
     "casenumber": "ME2021-04253",
@@ -17301,7 +17308,7 @@
     "death_date": "2021-04-12T09:05:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2021-03859",
@@ -17420,7 +17427,7 @@
     "death_date": "2021-04-09T12:50:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "EDISON PARK"
   },
   {
     "casenumber": "ME2021-03771",
@@ -17602,7 +17609,7 @@
     "death_date": "2021-04-04T02:39:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "ROSELAND"
   },
   {
     "casenumber": "ME2021-03598",
@@ -22516,7 +22523,7 @@
     "death_date": "2021-01-06T00:12:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "EDGEWATER"
   },
   {
     "casenumber": "ME2021-00327",
@@ -26594,7 +26601,7 @@
     "death_date": "2020-12-08T18:34:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
   },
   {
     "casenumber": "ME2020-14387",
@@ -41776,7 +41783,7 @@
     "death_date": "2020-05-09T13:15:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-05067",
@@ -42959,7 +42966,7 @@
     "death_date": "2020-05-05T11:00:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "WEST PULLMAN"
   },
   {
     "casenumber": "ME2020-04697",
