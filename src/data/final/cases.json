@@ -3888,7 +3888,7 @@
     "death_date": "2022-01-21T10:43:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUBURN GRESHAM"
+    "community": null
   },
   {
     "casenumber": "ME2022-01769",
@@ -5399,7 +5399,7 @@
     "death_date": "2022-01-14T03:20:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2022-01135",
@@ -7604,7 +7604,7 @@
     "death_date": "2022-01-04T09:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": "HYDE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2022-00250",
@@ -12209,7 +12209,7 @@
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09425",
@@ -14148,7 +14148,7 @@
     "death_date": "2021-08-17T11:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "PORTAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-07224",
@@ -16511,7 +16511,7 @@
     "death_date": "2021-04-30T16:35:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2021-04491",
@@ -18273,7 +18273,7 @@
     "death_date": "2021-03-12T11:06:00.000",
     "race": "Black",
     "latino": false,
-    "community": "CHATHAM"
+    "community": null
   },
   {
     "casenumber": "ME2021-02930",
@@ -18867,7 +18867,7 @@
     "death_date": "2021-02-23T19:02:00.000",
     "race": "White",
     "latino": true,
-    "community": "HERMOSA"
+    "community": null
   },
   {
     "casenumber": "ME2021-02434",
@@ -18972,7 +18972,7 @@
     "death_date": "2021-02-21T20:24:00.000",
     "race": "White",
     "latino": false,
-    "community": "ALBANY PARK"
+    "community": null
   },
   {
     "casenumber": "ME2021-02364",
@@ -21662,7 +21662,7 @@
     "death_date": "2021-01-14T11:57:00.000",
     "race": "White",
     "latino": true,
-    "community": "WEST RIDGE"
+    "community": null
   },
   {
     "casenumber": "ME2021-00785",
@@ -29436,7 +29436,7 @@
     "death_date": "2020-11-20T16:15:00.000",
     "race": "White",
     "latino": true,
-    "community": "LINCOLN SQUARE"
+    "community": null
   },
   {
     "casenumber": "ME2020-13041",
@@ -42042,7 +42042,7 @@
     "death_date": "2020-05-08T12:42:00.000",
     "race": "White",
     "latino": false,
-    "community": "HUMBOLDT PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-04973",
@@ -44029,7 +44029,7 @@
     "death_date": "2020-05-02T12:47:00.000",
     "race": "White",
     "latino": true,
-    "community": "WEST TOWN"
+    "community": null
   },
   {
     "casenumber": "ME2020-04361",
@@ -49220,7 +49220,7 @@
     "death_date": "2020-04-13T12:53:00.000",
     "race": "White",
     "latino": true,
-    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+    "community": null
   },
   {
     "casenumber": "ME2020-02660",
