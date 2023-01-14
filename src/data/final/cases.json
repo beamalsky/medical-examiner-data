@@ -1,5 +1,12 @@
 [
   {
+    "casenumber": "ME2023-00263",
+    "death_date": "2023-01-11T19:36:00.000",
+    "race": "White",
+    "latino": false,
+    "community": "IRVING PARK"
+  },
+  {
     "casenumber": "ME2023-00050",
     "death_date": "2023-01-02T16:55:00.000",
     "race": "White",
