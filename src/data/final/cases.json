@@ -7618,7 +7618,7 @@
     "death_date": "2022-01-04T09:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "HYDE PARK"
   },
   {
     "casenumber": "ME2022-00250",
@@ -14637,7 +14637,7 @@
     "death_date": "2021-06-17T16:32:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-06036",
@@ -16784,7 +16784,7 @@
     "death_date": "2021-04-24T06:11:00.000",
     "race": "Unknown",
     "latino": true,
-    "community": null
+    "community": "NEW CITY"
   },
   {
     "casenumber": "ME2021-04318",
@@ -18168,7 +18168,7 @@
     "death_date": "2021-03-16T18:41:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "CHICAGO LAWN"
   },
   {
     "casenumber": "ME2021-03040",
@@ -24236,7 +24236,7 @@
     "death_date": "2020-12-24T09:58:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "LOGAN SQUARE"
   },
   {
     "casenumber": "ME2020-15517",
@@ -24698,7 +24698,7 @@
     "death_date": "2020-12-21T04:46:00.000",
     "race": "Asian",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15292",
@@ -24838,7 +24838,7 @@
     "death_date": "2020-12-20T17:23:00.000",
     "race": "White",
     "latino": true,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-15235",
@@ -35929,7 +35929,7 @@
     "death_date": "2020-06-06T10:47:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "BELMONT CRAGIN"
   },
   {
     "casenumber": "ME2020-07417",
@@ -38560,7 +38560,7 @@
     "death_date": "2020-05-21T00:59:00.000",
     "race": "Other",
     "latino": true,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-06149",
@@ -39340,7 +39340,7 @@
     "death_date": "2020-05-18T07:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-05869",
@@ -39774,7 +39774,7 @@
     "death_date": "2020-05-16T08:08:00.000",
     "race": "Black",
     "latino": false,
-    "community": null
+    "community": "AUSTIN"
   },
   {
     "casenumber": "ME2020-05730",
@@ -41797,7 +41797,7 @@
     "death_date": "2020-05-09T13:15:00.000",
     "race": "White",
     "latino": false,
-    "community": null
+    "community": "WEST LAWN"
   },
   {
     "casenumber": "ME2020-05067",
