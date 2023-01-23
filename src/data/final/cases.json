@@ -12216,14 +12216,14 @@
     "death_date": "2021-10-02T08:45:00.000",
     "race": "Black",
     "latino": false,
-    "community": "SOUTH SHORE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09431",
     "death_date": "2021-10-08T12:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": "NORTH LAWNDALE"
+    "community": null
   },
   {
     "casenumber": "ME2021-09425",
@@ -23320,7 +23320,7 @@
     "death_date": "2020-12-30T19:08:00.000",
     "race": "White",
     "latino": true,
-    "community": "CLEARING"
+    "community": null
   },
   {
     "casenumber": "ME2020-15971",
@@ -24698,7 +24698,7 @@
     "death_date": "2020-12-21T04:46:00.000",
     "race": "Asian",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-15292",
@@ -24838,7 +24838,7 @@
     "death_date": "2020-12-20T17:23:00.000",
     "race": "White",
     "latino": true,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-15235",
@@ -33515,7 +33515,7 @@
     "death_date": "2020-07-19T06:53:00.000",
     "race": "White",
     "latino": true,
-    "community": "SOUTH LAWNDALE (LITTLE VILLAGE)"
+    "community": null
   },
   {
     "casenumber": "ME2020-09070",
@@ -34887,7 +34887,7 @@
     "death_date": "2020-06-18T04:21:00.000",
     "race": "White",
     "latino": false,
-    "community": "HUMBOLDT PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-07944",
@@ -38560,7 +38560,7 @@
     "death_date": "2020-05-21T00:59:00.000",
     "race": "Other",
     "latino": true,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-06149",
@@ -39340,7 +39340,7 @@
     "death_date": "2020-05-18T07:36:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-05869",
@@ -47729,7 +47729,7 @@
     "death_date": "2020-04-19T20:29:00.000",
     "race": "White",
     "latino": true,
-    "community": "PORTAGE PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-03184",
@@ -47806,7 +47806,7 @@
     "death_date": "2020-04-19T16:34:00.000",
     "race": "Black",
     "latino": false,
-    "community": "AUSTIN"
+    "community": null
   },
   {
     "casenumber": "ME2020-03157",
@@ -49640,7 +49640,7 @@
     "death_date": "2020-04-12T02:25:00.000",
     "race": "Black",
     "latino": false,
-    "community": "GARFIELD RIDGE"
+    "community": null
   },
   {
     "casenumber": "ME2020-02553",
@@ -50144,7 +50144,7 @@
     "death_date": "2020-04-06T10:04:00.000",
     "race": "Black",
     "latino": false,
-    "community": "SOUTH CHICAGO"
+    "community": null
   },
   {
     "casenumber": "ME2020-02366",
