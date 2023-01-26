@@ -6344,7 +6344,7 @@
     "death_date": "2022-01-10T09:55:00.000",
     "race": "White",
     "latino": false,
-    "community": "NEAR NORTH SIDE"
+    "community": null
   },
   {
     "casenumber": "ME2022-00776",
@@ -49045,7 +49045,7 @@
     "death_date": "2020-04-14T09:20:00.000",
     "race": "White",
     "latino": false,
-    "community": "MORGAN PARK"
+    "community": null
   },
   {
     "casenumber": "ME2020-02728",
